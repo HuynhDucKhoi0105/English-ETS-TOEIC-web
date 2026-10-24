@@ -1,0 +1,2003 @@
+{
+ "p1": [
+  {
+   "scene": "Một người phụ nữ đứng trước máy photocopy trong văn phòng, đang đặt một tờ giấy úp xuống mặt kính của máy. Bên cạnh máy có một chồng giấy nằm trên bàn; cô không cầm chồng giấy đó. Không có tủ hồ sơ nào đang mở.",
+   "o": [
+    "She's placing a document on a copier.",
+    "She's repairing a machine.",
+    "She's carrying a stack of paper.",
+    "She's filing some folders in a cabinet."
+   ],
+   "a": 0,
+   "e": "(A) đúng: cô ấy đang đặt tài liệu lên máy photocopy (placing a document on a copier). (B) sai hành động: cô không sửa máy (repairing). (C) sai: chồng giấy nằm trên bàn, cô không bê (carrying) nó. (D) sai: không có ai cất hồ sơ vào tủ — bẫy dùng từ liên quan văn phòng nhưng không có trong ảnh.",
+   "tr": [
+    "Cô ấy đang đặt một tài liệu lên máy photocopy.",
+    "Cô ấy đang sửa một cái máy.",
+    "Cô ấy đang bê một chồng giấy.",
+    "Cô ấy đang cất các bìa hồ sơ vào tủ."
+   ]
+  },
+  {
+   "scene": "Một bàn ăn trong nhà hàng không có người. Các ly thủy tinh đã được đặt sẵn trên bàn, khăn ăn được gấp gọn cạnh mỗi đĩa, ghế đã được đẩy sát vào bàn. Không có nhân viên phục vụ nào trong ảnh.",
+   "o": [
+    "Some chairs are being arranged around a table.",
+    "Some glasses have been set on a table.",
+    "A waiter is folding napkins.",
+    "Some tables are being cleared."
+   ],
+   "a": 1,
+   "e": "(B) đúng: ảnh không người, ly đã được đặt sẵn trên bàn → dùng 'have been set' (trạng thái đã hoàn tất). (A) và (D) sai vì 'are being + V3' diễn tả hành động đang được ai đó thực hiện, trong khi ảnh không có người. (C) sai: không có người phục vụ nào đang gấp khăn — khăn đã được gấp sẵn.",
+   "tr": [
+    "Những chiếc ghế đang được xếp quanh bàn.",
+    "Những chiếc ly đã được bày lên bàn.",
+    "Một người phục vụ đang gấp khăn ăn.",
+    "Những chiếc bàn đang được dọn dẹp."
+   ]
+  },
+  {
+   "scene": "Hai người đàn ông mặc vest đang bắt tay nhau trước lối vào của một tòa nhà văn phòng. Một người cầm chiếc cặp tài liệu ở tay còn lại. Cửa kính phía sau họ đang đóng; họ đứng trên mặt đất bằng phẳng, không có cầu thang.",
+   "o": [
+    "They're opening a door.",
+    "One of the men is putting a briefcase on the ground.",
+    "The men are shaking hands near an entrance.",
+    "The men are walking up some stairs."
+   ],
+   "a": 2,
+   "e": "(C) đúng: hai người đang bắt tay gần lối vào (shaking hands near an entrance). (A) sai: cửa đang đóng, không ai mở cửa. (B) sai hành động: người đàn ông vẫn cầm cặp, không đặt xuống đất. (D) sai: không có cầu thang và họ đang đứng yên, không đi lên.",
+   "tr": [
+    "Họ đang mở một cánh cửa.",
+    "Một trong hai người đàn ông đang đặt chiếc cặp xuống đất.",
+    "Hai người đàn ông đang bắt tay gần lối vào.",
+    "Hai người đàn ông đang đi lên cầu thang."
+   ]
+  },
+  {
+   "scene": "Bên trong một nhà kho không có người. Nhiều thùng các-tông được xếp chồng ngay ngắn trên các kệ cao, kệ nào cũng đầy hàng. Một chiếc xe nâng đang đỗ yên ở lối đi giữa các kệ. Không thấy xe tải nào.",
+   "o": [
+    "A forklift is being driven down an aisle.",
+    "Some boxes are being loaded onto a truck.",
+    "Some shelves are empty.",
+    "Some boxes have been stacked on shelves."
+   ],
+   "a": 3,
+   "e": "(D) đúng: các thùng đã được xếp chồng lên kệ → 'have been stacked' mô tả trạng thái. (A) sai: xe nâng đang đỗ, không ai lái — 'is being driven' cần có người thực hiện. (B) sai: không có xe tải và không có người chất hàng. (C) sai: các kệ đều đầy hàng, không trống.",
+   "tr": [
+    "Một chiếc xe nâng đang được lái dọc lối đi.",
+    "Những chiếc thùng đang được chất lên xe tải.",
+    "Một vài kệ đang trống.",
+    "Những chiếc thùng đã được xếp chồng lên kệ."
+   ]
+  },
+  {
+   "scene": "Một người đàn ông đang quỳ trên vỉa hè, dùng cờ lê vặn bánh sau của một chiếc xe đạp đang dựng ngược. Một hộp dụng cụ mở nắp đặt trên mặt đất bên cạnh anh. Không có giá để xe đạp gần đó.",
+   "o": [
+    "He's riding a bicycle along a path.",
+    "He's working on a bicycle.",
+    "He's putting some tools in a box.",
+    "He's locking a bike to a rack."
+   ],
+   "a": 1,
+   "e": "(B) đúng: 'work on' = sửa chữa, xử lý; anh ấy đang sửa xe đạp. (A) sai hành động: anh không đạp xe (riding). (C) sai: anh đang dùng cờ lê, không cất dụng cụ vào hộp. (D) sai: không có giá để xe (rack) và anh không khóa xe — bẫy dùng từ liên quan đến xe đạp.",
+   "tr": [
+    "Anh ấy đang đạp xe dọc một con đường.",
+    "Anh ấy đang sửa một chiếc xe đạp.",
+    "Anh ấy đang cất dụng cụ vào hộp.",
+    "Anh ấy đang khóa xe đạp vào giá để xe."
+   ]
+  },
+  {
+   "scene": "Cảnh bến cảng nhỏ không có người: nhiều thuyền buồm đang neo đậu sát cầu tàu bằng gỗ, buồm đều đã được hạ và cuộn lại. Mặt nước yên lặng; không có ai đứng câu cá trên cầu tàu.",
+   "o": [
+    "Some boats are sailing in open water.",
+    "Some people are fishing from a pier.",
+    "Some sails are being raised.",
+    "Some boats are docked along a pier."
+   ],
+   "a": 3,
+   "e": "(D) đúng: các thuyền đang neo dọc cầu tàu (docked along a pier). (A) sai: thuyền đang đậu, không chạy ra biển khơi. (B) sai: không có người nào câu cá. (C) sai: buồm đã hạ và cuộn lại, và 'are being raised' cần có người đang kéo buồm lên — ảnh không có người.",
+   "tr": [
+    "Một vài chiếc thuyền đang đi trên vùng biển rộng.",
+    "Vài người đang câu cá trên cầu tàu.",
+    "Những cánh buồm đang được kéo lên.",
+    "Một vài chiếc thuyền đang neo đậu dọc cầu tàu."
+   ]
+  },
+  {
+   "scene": "Ba người ngồi quanh bàn họp. Một người phụ nữ giơ tay chỉ vào biểu đồ đang hiển thị trên màn hình chiếu; hai người đàn ông ngồi đối diện đang ghi chép vào sổ. Máy chiếu đã được lắp sẵn trên trần; không ai cầm tài liệu đưa cho người khác.",
+   "o": [
+    "A woman is pointing at a screen.",
+    "Some people are setting up a projector.",
+    "A man is handing out documents.",
+    "Some people are leaving a meeting room."
+   ],
+   "a": 0,
+   "e": "(A) đúng: người phụ nữ đang chỉ vào màn hình. (B) sai: máy chiếu đã gắn sẵn trên trần, không ai đang lắp đặt (setting up). (C) sai: hai người đàn ông đang ghi chép, không phát tài liệu. (D) sai: mọi người đang ngồi họp, không rời phòng.",
+   "tr": [
+    "Một người phụ nữ đang chỉ vào màn hình.",
+    "Vài người đang lắp đặt máy chiếu.",
+    "Một người đàn ông đang phát tài liệu.",
+    "Vài người đang rời khỏi phòng họp."
+   ]
+  },
+  {
+   "scene": "Một phòng khách sạn không có người. Giường đã được dọn phẳng phiu, đèn bàn cạnh giường đang sáng, rèm cửa sổ được kéo mở sang hai bên. Một chiếc vali đặt ở góc phòng, cạnh tủ quần áo.",
+   "o": [
+    "A bed is being made.",
+    "Some curtains have been closed.",
+    "A suitcase has been placed in a corner.",
+    "A lamp is being turned on."
+   ],
+   "a": 2,
+   "e": "(C) đúng: chiếc vali đã được đặt ở góc phòng ('has been placed' — trạng thái). (A) và (D) sai vì 'is being + V3' cần có người đang làm (dọn giường, bật đèn) — ảnh không có người; đèn chỉ đang sáng sẵn. (B) sai: rèm đang được kéo mở, không phải đã đóng.",
+   "tr": [
+    "Chiếc giường đang được dọn.",
+    "Những tấm rèm đã được kéo đóng lại.",
+    "Một chiếc vali đã được đặt ở góc phòng.",
+    "Một chiếc đèn đang được bật lên."
+   ]
+  },
+  {
+   "scene": "Tại quầy thanh toán siêu thị, một người phụ nữ đang lấy các món hàng từ giỏ xách tay ra đặt lên băng chuyền. Nhân viên thu ngân đứng sau quầy, đang nhìn vào màn hình máy tính tiền. Không có xe đẩy hàng; không ai đang bỏ hàng vào túi.",
+   "o": [
+    "A woman is pushing a shopping cart.",
+    "A cashier is bagging some groceries.",
+    "A woman is stocking shelves with products.",
+    "A woman is unloading items from a basket."
+   ],
+   "a": 3,
+   "e": "(D) đúng: người phụ nữ đang lấy hàng ra khỏi giỏ (unloading items from a basket). (A) sai đồ vật: cô dùng giỏ xách tay, không đẩy xe đẩy (cart). (B) sai: thu ngân đang nhìn màn hình, không bỏ hàng vào túi. (C) sai hành động và địa điểm: cô không xếp hàng lên kệ.",
+   "tr": [
+    "Một người phụ nữ đang đẩy xe mua hàng.",
+    "Một nhân viên thu ngân đang cho hàng vào túi.",
+    "Một người phụ nữ đang xếp sản phẩm lên kệ.",
+    "Một người phụ nữ đang lấy hàng ra khỏi giỏ."
+   ]
+  },
+  {
+   "scene": "Một công viên vắng người. Một dãy ghế băng trống nằm dọc theo lối đi lát gạch; những tán cây lớn đổ bóng lên lối đi. Lá khô rụng rải rác trên mặt đất, không ai đang quét dọn.",
+   "o": [
+    "Some benches line a walkway.",
+    "Some leaves are being swept from a path.",
+    "Some trees are being planted.",
+    "People are relaxing on benches."
+   ],
+   "a": 0,
+   "e": "(A) đúng: 'line' (động từ) = xếp thành hàng dọc theo; các ghế băng nằm dọc lối đi. (B) và (C) sai vì 'are being + V3' cần có người đang quét lá / trồng cây — ảnh không có người, lá vẫn nằm trên đất. (D) sai: ghế đều trống, không ai ngồi nghỉ.",
+   "tr": [
+    "Một dãy ghế băng nằm dọc theo lối đi.",
+    "Lá cây đang được quét khỏi lối đi.",
+    "Cây đang được trồng.",
+    "Mọi người đang thư giãn trên ghế băng."
+   ]
+  },
+  {
+   "scene": "Hai công nhân đội mũ bảo hộ đứng trên giàn giáo, mỗi người cầm một cây lăn sơn, đang sơn bức tường bên ngoài của một tòa nhà. Không có thang trong ảnh; họ không chỉ tay vào đâu cả.",
+   "o": [
+    "They're climbing down a ladder.",
+    "They're removing their helmets.",
+    "They're painting the side of a building.",
+    "They're pointing at a window."
+   ],
+   "a": 2,
+   "e": "(C) đúng: họ đang sơn mặt ngoài tòa nhà (painting the side of a building). (A) sai: không có thang và họ không leo xuống. (B) sai hành động: họ vẫn đội mũ bảo hộ, không tháo ra. (D) bẫy âm gần giống: 'pointing' nghe giống 'painting', nhưng họ không chỉ vào cửa sổ.",
+   "tr": [
+    "Họ đang leo xuống một cái thang.",
+    "Họ đang tháo mũ bảo hộ.",
+    "Họ đang sơn mặt bên của một tòa nhà.",
+    "Họ đang chỉ vào một cửa sổ."
+   ]
+  },
+  {
+   "scene": "Quầy lễ tân trong sảnh khách sạn không có người. Trên mặt quầy có một chiếc chuông bấm, một lọ hoa tươi và một chồng tờ rơi giới thiệu du lịch. Phía sau quầy là bảng treo chìa khóa phòng; sàn nhà sạch, không có vật gì.",
+   "o": [
+    "A receptionist is greeting guests.",
+    "Some brochures have been left on a counter.",
+    "Flowers are being arranged in a vase.",
+    "Some keys are lying on the floor."
+   ],
+   "a": 1,
+   "e": "(B) đúng: các tờ rơi đã được để trên quầy ('have been left' — trạng thái). (A) sai: quầy không có lễ tân hay khách. (C) sai: hoa đã cắm sẵn, 'are being arranged' cần có người đang cắm. (D) sai vị trí: chìa khóa treo trên bảng phía sau quầy, không nằm trên sàn.",
+   "tr": [
+    "Một nhân viên lễ tân đang chào khách.",
+    "Vài tờ rơi đã được để trên quầy.",
+    "Hoa đang được cắm vào bình.",
+    "Vài chiếc chìa khóa đang nằm trên sàn."
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "q": "Where should I put these boxes of brochures?",
+   "o": [
+    "About two hundred copies.",
+    "In the storage room next to the elevator.",
+    "Yes, they were printed yesterday."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Where → cần địa điểm. (B) đúng: trong phòng kho cạnh thang máy. (A) sai: trả lời số lượng (How many). (C) sai: câu hỏi WH không trả lời bằng Yes/No; 'printed' liên tưởng tới brochures.",
+   "tr": "Tôi nên để mấy thùng tờ quảng cáo này ở đâu?"
+  },
+  {
+   "q": "When is the new branch manager starting?",
+   "o": [
+    "At the Oak Street branch.",
+    "He's managing it well.",
+    "The announcement hasn't been made yet."
+   ],
+   "a": 2,
+   "e": "Câu hỏi When. (C) đúng — trả lời gián tiếp: chưa có thông báo nên chưa biết ngày. (A) sai: trả lời địa điểm (Where) và lặp từ 'branch'. (B) sai: bẫy từ cùng gốc 'manager' – 'managing'.",
+   "tr": "Khi nào giám đốc chi nhánh mới bắt đầu làm việc?"
+  },
+  {
+   "q": "Who's in charge of ordering office supplies this month?",
+   "o": [
+    "Daniel took over from Rachel.",
+    "Mostly paper and ink cartridges.",
+    "It was charged to my card."
+   ],
+   "a": 0,
+   "e": "Câu hỏi Who → cần người. (A) đúng: Daniel đã tiếp quản việc này từ Rachel. (B) sai: trả lời 'đặt cái gì' (What). (C) sai: bẫy âm giống 'charge' (in charge of ≠ charged to my card).",
+   "tr": "Ai phụ trách đặt văn phòng phẩm trong tháng này?"
+  },
+  {
+   "q": "Have you sent the contract to the client?",
+   "o": [
+    "A signed copy.",
+    "I'm waiting for the legal team to approve it.",
+    "Yes, she's a new client."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Yes/No. (B) đúng — trả lời gián tiếp: chưa gửi vì đang chờ bộ phận pháp lý duyệt. (A) sai: chỉ là cụm danh từ, không trả lời câu hỏi. (C) sai: có 'Yes' nhưng nội dung nói về khách hàng, lặp từ 'client'.",
+   "tr": "Anh đã gửi hợp đồng cho khách hàng chưa?"
+  },
+  {
+   "q": "Would you prefer a window seat or an aisle seat?",
+   "o": [
+    "Either is fine with me.",
+    "I saw it through the window.",
+    "For a two-hour flight."
+   ],
+   "a": 0,
+   "e": "Câu hỏi lựa chọn (A or B). (A) đúng: chỗ nào cũng được — cách trả lời 'không chọn' rất hay gặp. (B) sai: lặp từ 'window'. (C) sai: nói thời lượng chuyến bay, không chọn chỗ ngồi.",
+   "tr": "Anh muốn ngồi ghế cạnh cửa sổ hay ghế cạnh lối đi?"
+  },
+  {
+   "q": "Why don't we hold the training session in the main conference room?",
+   "o": [
+    "Because the trainer was late.",
+    "Several new employees.",
+    "It's being renovated until next month."
+   ],
+   "a": 2,
+   "e": "'Why don't we...?' là lời đề nghị, không phải hỏi lý do. (C) đúng — từ chối gián tiếp: phòng đang sửa đến tháng sau nên không dùng được. (A) sai: bẫy 'Why' → 'Because' và lặp gốc từ 'training/trainer'. (B) sai: trả lời ai tham dự.",
+   "tr": "Sao chúng ta không tổ chức buổi đào tạo ở phòng hội nghị chính nhỉ?"
+  },
+  {
+   "q": "Could you help me move this display case after lunch?",
+   "o": [
+    "Sure, just let me know when you're ready.",
+    "I already had lunch.",
+    "It's in the display window."
+   ],
+   "a": 0,
+   "e": "Lời nhờ vả (Could you...?). (A) đúng: đồng ý và bảo báo khi sẵn sàng. (B) sai: lặp từ 'lunch'. (C) sai: lặp từ 'display', nói vị trí, không phản hồi lời nhờ.",
+   "tr": "Anh có thể giúp tôi chuyển cái tủ trưng bày này sau bữa trưa không?"
+  },
+  {
+   "q": "The printer on the third floor is out of toner again.",
+   "o": [
+    "I'll print it out for you.",
+    "There's a spare cartridge in the supply closet.",
+    "On the third of May."
+   ],
+   "a": 1,
+   "e": "Câu trần thuật nêu vấn đề → cần giải pháp/phản hồi. (B) đúng: có hộp mực dự phòng trong tủ đồ. (A) sai: bẫy từ cùng gốc 'printer' – 'print'. (C) sai: lặp 'third', trả lời ngày tháng.",
+   "tr": "Máy in ở tầng ba lại hết mực nữa rồi."
+  },
+  {
+   "q": "You've met our new marketing director, haven't you?",
+   "o": [
+    "The meeting was rescheduled.",
+    "Directions to the market.",
+    "Only briefly at the reception last week."
+   ],
+   "a": 2,
+   "e": "Câu hỏi đuôi xác nhận đã gặp chưa. (C) đúng: chỉ gặp qua ở buổi tiệc chiêu đãi tuần trước (ngầm hiểu là có). (A) sai: bẫy âm 'met' – 'meeting'. (B) sai: bẫy âm 'director' – 'directions', 'marketing' – 'market'.",
+   "tr": "Anh đã gặp giám đốc marketing mới của chúng ta rồi, phải không?"
+  },
+  {
+   "q": "Isn't the quarterly report due tomorrow?",
+   "o": [
+    "A four-page report.",
+    "It was a quarter past ten.",
+    "The deadline was pushed back to Friday."
+   ],
+   "a": 2,
+   "e": "Câu hỏi phủ định — trả lời như câu Yes/No thường. (C) đúng — gián tiếp: hạn chót đã được lùi tới thứ Sáu (tức là không phải ngày mai). (A) sai: lặp từ 'report'. (B) sai: bẫy âm 'quarterly' – 'quarter'.",
+   "tr": "Chẳng phải báo cáo quý phải nộp vào ngày mai sao?"
+  },
+  {
+   "q": "How did the product launch go yesterday?",
+   "o": [
+    "Better than we expected.",
+    "By express mail.",
+    "It launches at noon."
+   ],
+   "a": 0,
+   "e": "'How did ... go?' hỏi kết quả, diễn biến. (A) đúng: tốt hơn mong đợi. (B) sai: trả lời phương thức (How = bằng cách nào) — sai loại câu hỏi How. (C) sai: lặp 'launch' và sai thì (hiện tại/tương lai trong khi hỏi về hôm qua).",
+   "tr": "Buổi ra mắt sản phẩm hôm qua diễn ra thế nào?"
+  },
+  {
+   "q": "Why was the shipment from Busan delayed?",
+   "o": [
+    "Around three hundred units.",
+    "There was a problem at customs.",
+    "No, it's shipped by sea."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Why → cần lý do. (B) đúng: có vấn đề ở khâu hải quan. (A) sai: trả lời số lượng. (C) sai: câu hỏi WH không trả lời bằng No; lặp gốc 'ship'.",
+   "tr": "Tại sao lô hàng từ Busan bị chậm trễ?"
+  },
+  {
+   "q": "What time does the shuttle to the airport leave?",
+   "o": [
+    "About forty-five minutes.",
+    "Check the schedule at the front desk.",
+    "At Terminal Two."
+   ],
+   "a": 1,
+   "e": "Câu hỏi What time. (B) đúng — gián tiếp: hãy xem lịch ở quầy lễ tân. (A) sai: trả lời khoảng thời gian (How long). (C) sai: trả lời địa điểm, liên tưởng tới 'airport'.",
+   "tr": "Xe đưa đón ra sân bay khởi hành lúc mấy giờ?"
+  },
+  {
+   "q": "Is there a pharmacy near the hotel?",
+   "o": [
+    "I'd like a double room, please.",
+    "Mostly prescription medicine.",
+    "There's one right across the street."
+   ],
+   "a": 2,
+   "e": "Câu hỏi Yes/No về sự tồn tại. (C) đúng: có một hiệu thuốc ngay bên kia đường. (A) sai: liên tưởng tới 'hotel'. (B) sai: liên tưởng tới 'pharmacy' (thuốc kê đơn) nhưng không trả lời có/không.",
+   "tr": "Gần khách sạn có hiệu thuốc nào không?"
+  },
+  {
+   "q": "I can't find the receipt for the client dinner.",
+   "o": [
+    "Did you check your e-mail? The restaurant sent one.",
+    "A table for six people.",
+    "Yes, I received it."
+   ],
+   "a": 0,
+   "e": "Câu trần thuật nêu vấn đề. (A) đúng — trả lời bằng câu hỏi gợi ý giải pháp: nhà hàng đã gửi hóa đơn qua e-mail. (B) sai: liên tưởng tới 'dinner'. (C) sai: bẫy âm 'receipt' – 'received'.",
+   "tr": "Tôi không tìm thấy hóa đơn của bữa tối với khách hàng."
+  },
+  {
+   "q": "Should we ship the samples today or wait until the final design is approved?",
+   "o": [
+    "Let's wait—we don't want to send them twice.",
+    "The design team on the fifth floor.",
+    "Yes, they were shipped."
+   ],
+   "a": 0,
+   "e": "Câu hỏi lựa chọn. (A) đúng: chọn phương án chờ, kèm lý do. (B) sai: lặp từ 'design'. (C) sai: câu hỏi lựa chọn không trả lời bằng Yes; lặp 'ship'.",
+   "tr": "Chúng ta nên gửi hàng mẫu hôm nay hay chờ đến khi thiết kế cuối cùng được duyệt?"
+  },
+  {
+   "q": "Would you mind reviewing my presentation slides before the meeting?",
+   "o": [
+    "He presented it yesterday.",
+    "A slide projector.",
+    "I'm afraid I'm leaving for the airport in ten minutes."
+   ],
+   "a": 2,
+   "e": "Lời nhờ (Would you mind...?). (C) đúng — từ chối gián tiếp: mười phút nữa tôi ra sân bay rồi. (A) sai: bẫy từ cùng gốc 'presentation' – 'presented'. (B) sai: lặp 'slide'.",
+   "tr": "Anh có phiền xem giúp tôi các slide thuyết trình trước cuộc họp không?"
+  },
+  {
+   "q": "Where can I get my parking ticket validated?",
+   "o": [
+    "It's valid for one year.",
+    "The receptionist can do that for you.",
+    "In about ten minutes."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Where. (B) đúng: lễ tân có thể làm việc đó (người thay cho địa điểm — kiểu trả lời rất phổ biến). (A) sai: bẫy âm 'validated' – 'valid'. (C) sai: trả lời thời gian.",
+   "tr": "Tôi có thể xác nhận vé gửi xe ở đâu?"
+  },
+  {
+   "q": "Who's going to pick up the clients from the train station?",
+   "o": [
+    "At the station on Fifth Avenue.",
+    "The ten fifteen train.",
+    "I thought they were taking a taxi."
+   ],
+   "a": 2,
+   "e": "Câu hỏi Who. (C) đúng — gián tiếp: tôi tưởng họ đi taxi (nên không ai đón). (A) sai: trả lời địa điểm, lặp 'station'. (B) sai: lặp 'train', trả lời giờ tàu.",
+   "tr": "Ai sẽ đi đón khách hàng ở ga tàu?"
+  },
+  {
+   "q": "Let's order lunch for everyone attending the workshop.",
+   "o": [
+    "How many people have signed up?",
+    "Yes, it's in order.",
+    "The workshop was very useful."
+   ],
+   "a": 0,
+   "e": "Lời đề nghị. (A) đúng — đáp bằng câu hỏi lại để chuẩn bị: có bao nhiêu người đã đăng ký? (B) sai: bẫy từ 'order' (đặt hàng) ≠ 'in order' (ngăn nắp/hợp lệ). (C) sai: lặp 'workshop' và sai thì (buổi workshop chưa diễn ra).",
+   "tr": "Chúng ta hãy đặt bữa trưa cho tất cả những người tham dự buổi hội thảo nhé."
+  },
+  {
+   "q": "Didn't Mr. Kim already approve the budget?",
+   "o": [
+    "A budget hotel downtown.",
+    "He wants to see the revised figures first.",
+    "Kim's office is on the left."
+   ],
+   "a": 1,
+   "e": "Câu hỏi phủ định. (B) đúng — gián tiếp: ông ấy muốn xem số liệu đã chỉnh sửa trước (tức là chưa duyệt). (A) sai: lặp 'budget' với nghĩa khác (giá rẻ). (C) sai: lặp tên 'Kim', trả lời vị trí.",
+   "tr": "Chẳng phải ông Kim đã duyệt ngân sách rồi sao?"
+  },
+  {
+   "q": "How many tickets should I reserve for the trade fair?",
+   "o": [
+    "In the exhibition hall.",
+    "Let's wait until everyone confirms.",
+    "It was a fair price."
+   ],
+   "a": 1,
+   "e": "Câu hỏi How many. (B) đúng — gián tiếp: hãy chờ mọi người xác nhận đã (chưa biết số lượng). (A) sai: trả lời địa điểm, liên tưởng 'trade fair'. (C) sai: bẫy từ đồng âm 'fair' (hội chợ) – 'fair' (hợp lý).",
+   "tr": "Tôi nên đặt trước bao nhiêu vé cho hội chợ thương mại?"
+  },
+  {
+   "q": "The air conditioning in the lobby isn't working.",
+   "o": [
+    "I'll call the maintenance office right away.",
+    "He's working in the lobby.",
+    "It's on the condition that we pay."
+   ],
+   "a": 0,
+   "e": "Câu trần thuật báo sự cố. (A) đúng: tôi sẽ gọi phòng bảo trì ngay. (B) sai: lặp 'working' và 'lobby'. (C) sai: bẫy âm 'conditioning' – 'condition'.",
+   "tr": "Máy điều hòa ở sảnh không hoạt động."
+  },
+  {
+   "q": "The museum is open on Mondays, isn't it?",
+   "o": [
+    "A new exhibit on ancient pottery.",
+    "I opened it for you.",
+    "Not during the winter season."
+   ],
+   "a": 2,
+   "e": "Câu hỏi đuôi. (C) đúng: không mở vào mùa đông (trả lời có điều kiện). (A) sai: liên tưởng 'museum' – 'exhibit'. (B) sai: bẫy từ cùng gốc 'open' – 'opened'.",
+   "tr": "Bảo tàng mở cửa vào thứ Hai, phải không?"
+  },
+  {
+   "q": "When did you last update the employee directory?",
+   "o": [
+    "The director's office.",
+    "Every employee has one.",
+    "Sophie handles that now."
+   ],
+   "a": 2,
+   "e": "Câu hỏi When. (C) đúng — gián tiếp: giờ Sophie phụ trách việc đó (nên tôi không phải người cập nhật). (A) sai: bẫy âm 'directory' – 'director'. (B) sai: lặp 'employee'.",
+   "tr": "Lần gần nhất anh cập nhật danh bạ nhân viên là khi nào?"
+  },
+  {
+   "q": "Do you know if the new furniture has arrived?",
+   "o": [
+    "The delivery truck just pulled in.",
+    "Yes, I know him well.",
+    "No, I prefer the old one."
+   ],
+   "a": 0,
+   "e": "Câu hỏi gián tiếp (Do you know if...). (A) đúng — gián tiếp: xe giao hàng vừa đến (có thể đồ đã tới). (B) sai: lặp 'know', đại từ 'him' không khớp. (C) sai: đối lập 'new – old' nhưng không trả lời.",
+   "tr": "Anh có biết đồ nội thất mới đã đến chưa?"
+  },
+  {
+   "q": "Are you taking the train to the conference or driving?",
+   "o": [
+    "The conference starts at nine.",
+    "My colleague is giving me a ride.",
+    "Yes, I trained them."
+   ],
+   "a": 1,
+   "e": "Câu hỏi lựa chọn. (B) đúng: đồng nghiệp chở tôi đi (tức là đi xe hơi — chọn phương án 'driving' một cách gián tiếp). (A) sai: lặp 'conference'. (C) sai: không trả lời Yes cho câu lựa chọn; bẫy âm 'train' – 'trained'.",
+   "tr": "Anh đi hội nghị bằng tàu hay tự lái xe?"
+  },
+  {
+   "q": "Why is the café on the corner closed today?",
+   "o": [
+    "I think they're redecorating.",
+    "It's closer than the other one.",
+    "A coffee and a muffin, please."
+   ],
+   "a": 0,
+   "e": "Câu hỏi Why. (A) đúng: chắc họ đang trang trí lại quán. (B) sai: bẫy âm 'closed' – 'closer'. (C) sai: liên tưởng 'café' nhưng là câu gọi món.",
+   "tr": "Sao hôm nay quán cà phê ở góc đường đóng cửa vậy?"
+  },
+  {
+   "q": "Can you send me the updated price list?",
+   "o": [
+    "The list was quite long.",
+    "On the top shelf.",
+    "Didn't you get it this morning?"
+   ],
+   "a": 2,
+   "e": "Lời yêu cầu. (C) đúng — đáp bằng câu hỏi: sáng nay anh chưa nhận được sao? (ngụ ý đã gửi rồi). (A) sai: lặp 'list'. (B) sai: trả lời vị trí, không liên quan việc gửi.",
+   "tr": "Anh có thể gửi cho tôi bảng giá đã cập nhật không?"
+  },
+  {
+   "q": "What did the clients think of the new packaging design?",
+   "o": [
+    "I think so, too.",
+    "They asked for a few changes to the color.",
+    "Packing tape is in the drawer."
+   ],
+   "a": 1,
+   "e": "Câu hỏi What ... think of → hỏi ý kiến. (B) đúng: họ yêu cầu chỉnh sửa màu sắc một chút. (A) sai: lặp 'think'. (C) sai: bẫy âm 'packaging' – 'packing'.",
+   "tr": "Khách hàng nghĩ gì về thiết kế bao bì mới?"
+  },
+  {
+   "q": "We're running low on printer paper.",
+   "o": [
+    "He's running the marathon.",
+    "The paper was published yesterday.",
+    "I placed an order on Tuesday."
+   ],
+   "a": 2,
+   "e": "Câu trần thuật. (C) đúng: tôi đã đặt hàng hôm thứ Ba rồi. (A) sai: lặp 'running' với nghĩa khác (chạy). (B) sai: 'paper' nghĩa khác (bài báo).",
+   "tr": "Chúng ta sắp hết giấy in rồi."
+  },
+  {
+   "q": "Aren't you attending the awards banquet tonight?",
+   "o": [
+    "I have to finish the budget proposal.",
+    "Yes, he won an award.",
+    "The bank is closed."
+   ],
+   "a": 0,
+   "e": "Câu hỏi phủ định. (A) đúng — gián tiếp: tôi phải hoàn thành đề xuất ngân sách (nên không đi được). (B) sai: lặp 'award', đại từ 'he' không phù hợp. (C) sai: bẫy âm 'banquet' – 'bank'.",
+   "tr": "Tối nay anh không dự tiệc trao giải sao?"
+  },
+  {
+   "q": "How long will the renovation of the lobby take?",
+   "o": [
+    "About thirty workers.",
+    "The contractor hasn't given us an estimate yet.",
+    "It's a long hallway."
+   ],
+   "a": 1,
+   "e": "Câu hỏi How long. (B) đúng — gián tiếp: nhà thầu chưa đưa ra ước tính. (A) sai: trả lời số lượng người. (C) sai: lặp 'long' với nghĩa chiều dài.",
+   "tr": "Việc cải tạo sảnh sẽ mất bao lâu?"
+  },
+  {
+   "q": "Why don't you ask Ms. Ortiz to lead the client presentation?",
+   "o": [
+    "Because she was out of the office.",
+    "The client is in Madrid.",
+    "That's a good idea—she knows the account best."
+   ],
+   "a": 2,
+   "e": "'Why don't you...?' là gợi ý. (C) đúng: đồng ý — cô ấy hiểu khách hàng này nhất. (A) sai: bẫy Why → Because. (B) sai: lặp 'client'.",
+   "tr": "Sao anh không nhờ cô Ortiz dẫn dắt buổi thuyết trình với khách hàng?"
+  },
+  {
+   "q": "Where's the nearest place to exchange currency?",
+   "o": [
+    "There's a bank on the second floor of this mall.",
+    "The exchange rate is good today.",
+    "About two hundred dollars."
+   ],
+   "a": 0,
+   "e": "Câu hỏi Where. (A) đúng: có ngân hàng ở tầng hai trung tâm thương mại này. (B) sai: lặp 'exchange'. (C) sai: trả lời số tiền, liên tưởng 'currency'.",
+   "tr": "Chỗ đổi ngoại tệ gần nhất ở đâu?"
+  },
+  {
+   "q": "Has the hiring committee chosen a candidate for the position?",
+   "o": [
+    "A higher position.",
+    "They're interviewing two more people on Thursday.",
+    "Yes, I'll choose the blue one."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Yes/No. (B) đúng — gián tiếp: họ còn phỏng vấn thêm hai người vào thứ Năm (tức là chưa chọn). (A) sai: bẫy âm 'hiring' – 'higher', lặp 'position'. (C) sai: bẫy từ cùng gốc 'chosen' – 'choose'.",
+   "tr": "Hội đồng tuyển dụng đã chọn được ứng viên cho vị trí đó chưa?"
+  },
+  {
+   "q": "I'd like to reschedule my dental appointment for next week.",
+   "o": [
+    "The dentist graduated last year.",
+    "It was scheduled weekly.",
+    "Which day works best for you?"
+   ],
+   "a": 2,
+   "e": "Câu trần thuật nêu yêu cầu. (C) đúng: hỏi lại ngày nào thuận tiện — phản hồi tự nhiên của lễ tân. (A) sai: liên tưởng 'dental' – 'dentist'. (B) sai: bẫy từ cùng gốc 'reschedule' – 'scheduled', 'week' – 'weekly'.",
+   "tr": "Tôi muốn dời lịch hẹn nha khoa sang tuần sau."
+  },
+  {
+   "q": "You'll be able to finish the inventory count by Friday, won't you?",
+   "o": [
+    "If Ken helps me with the stockroom.",
+    "Twenty-four boxes.",
+    "No, I counted on him."
+   ],
+   "a": 0,
+   "e": "Câu hỏi đuôi. (A) đúng — trả lời có điều kiện: được, nếu Ken giúp tôi ở kho. (B) sai: trả lời số lượng, liên tưởng 'inventory'. (C) sai: bẫy từ 'count' – 'counted on' (trông cậy vào).",
+   "tr": "Anh sẽ kiểm kê hàng xong trước thứ Sáu, phải không?"
+  },
+  {
+   "q": "Who should I talk to about getting a new employee ID badge?",
+   "o": [
+    "Yes, I'll talk to her.",
+    "Security handles that on the first floor.",
+    "It was a bad idea."
+   ],
+   "a": 1,
+   "e": "Câu hỏi Who. (B) đúng: bộ phận an ninh ở tầng một lo việc đó (bộ phận thay cho người). (A) sai: không trả lời Yes cho câu WH; lặp 'talk'. (C) sai: bẫy âm 'badge' – 'bad', lặp 'ID'/'idea'.",
+   "tr": "Tôi nên nói chuyện với ai về việc làm thẻ nhân viên mới?"
+  },
+  {
+   "q": "Should I book the hotel now, or do you want to compare prices first?",
+   "o": [
+    "A double room.",
+    "Yes, it's a good book.",
+    "Go ahead—the rates are only going to rise."
+   ],
+   "a": 2,
+   "e": "Câu hỏi lựa chọn. (C) đúng: cứ đặt đi — giá sẽ chỉ tăng thôi (chọn phương án đặt ngay). (A) sai: liên tưởng 'hotel'. (B) sai: 'book' nghĩa khác (cuốn sách) và trả lời Yes cho câu lựa chọn.",
+   "tr": "Tôi nên đặt khách sạn ngay bây giờ hay anh muốn so sánh giá trước?"
+  }
+ ],
+ "p3": [
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Hi, I'm calling from Brightwell Consulting. We'd like to book a meeting room at your hotel for a client workshop on March twelfth."
+    },
+    {
+     "s": "W",
+     "t": "Certainly. How many people are you expecting?"
+    },
+    {
+     "s": "M",
+     "t": "About forty. We'll also need a projector and a microphone, and if possible, we'd like lunch served in the room."
+    },
+    {
+     "s": "W",
+     "t": "Our Garden Room seats fifty and comes with audiovisual equipment. For catering, though, I'll need to put you in touch with our events coordinator. She handles all the menus."
+    },
+    {
+     "s": "M",
+     "t": "That's fine. Could she call me this afternoon? I'd like to confirm everything before I leave on a business trip tomorrow."
+    },
+    {
+     "s": "W",
+     "t": "Of course. I'll pass along your number right away."
+    }
+   ],
+   "qs": [
+    {
+     "q": "Why is the man calling?",
+     "o": [
+      "To reserve a space for an event",
+      "To change a lunch order",
+      "To complain about some equipment",
+      "To ask about room rates for guests"
+     ],
+     "a": 0,
+     "e": "Người đàn ông nói muốn đặt phòng họp ở khách sạn cho buổi hội thảo với khách hàng → 'book a meeting room' = 'reserve a space for an event'. (B) sai: chưa có đơn đặt bữa trưa nào để thay đổi. (C) sai: không phàn nàn về thiết bị. (D) sai: không hỏi giá phòng nghỉ.",
+     "ev": "We'd like to book a meeting room at your hotel for a client workshop on March twelfth."
+    },
+    {
+     "q": "What does the woman say about the events coordinator?",
+     "o": [
+      "She is currently on vacation.",
+      "She designed the Garden Room.",
+      "She is responsible for food arrangements.",
+      "She will meet the man at the airport."
+     ],
+     "a": 2,
+     "e": "Người phụ nữ nói về việc ăn uống (catering) thì phải liên hệ điều phối viên sự kiện vì cô ấy lo toàn bộ thực đơn → 'handles all the menus' = 'responsible for food arrangements'. Các phương án khác không được nhắc tới; (D) lấy ý 'business trip' để gây nhiễu.",
+     "ev": "For catering, though, I'll need to put you in touch with our events coordinator. She handles all the menus."
+    },
+    {
+     "q": "What will the woman most likely do next?",
+     "o": [
+      "Send a price estimate",
+      "Share the man's contact information",
+      "Check a projector",
+      "Print a menu"
+     ],
+     "a": 1,
+     "e": "Câu cuối: 'I'll pass along your number right away' → cô sẽ chuyển số điện thoại của người đàn ông cho điều phối viên = chia sẻ thông tin liên lạc. (A), (C), (D) không được nhắc đến như hành động tiếp theo.",
+     "ev": "I'll pass along your number right away."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "Raj, Lena, thanks for staying a few minutes. Head office wants the summer clothing display moved to the front of the store by Saturday."
+    },
+    {
+     "s": "M",
+     "t": "By Saturday? We just finished setting up the spring display last week."
+    },
+    {
+     "s": "W2",
+     "t": "I know, but the summer collection sold out quickly at the downtown location, so they want to promote it early here too."
+    },
+    {
+     "s": "W",
+     "t": "Exactly. Raj, could you take down the spring items tomorrow morning before we open?"
+    },
+    {
+     "s": "M",
+     "t": "Sure. But we'll need more mannequins. We only have four in the stockroom."
+    },
+    {
+     "s": "W2",
+     "t": "The Riverside branch is closing its outlet section next week. I'll call them and see if they can lend us a few."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What are the speakers mainly discussing?",
+     "o": [
+      "Hiring seasonal staff",
+      "Reducing prices on spring items",
+      "Opening a new store location",
+      "Changing a store display"
+     ],
+     "a": 3,
+     "e": "Ngay câu đầu: trụ sở muốn chuyển khu trưng bày đồ mùa hè ra phía trước cửa hàng trước thứ Bảy → chủ đề là thay đổi cách trưng bày. (B) sai: không giảm giá đồ mùa xuân. (A), (C) không được đề cập.",
+     "ev": "Head office wants the summer clothing display moved to the front of the store by Saturday."
+    },
+    {
+     "q": "Why does the head office want to promote the summer collection early?",
+     "o": [
+      "A competitor is offering discounts.",
+      "The collection has been popular at another store.",
+      "Some spring items were damaged.",
+      "A fashion show is being held."
+     ],
+     "a": 1,
+     "e": "Người phụ nữ thứ hai nói bộ sưu tập hè đã bán hết nhanh ở chi nhánh trung tâm → 'sold out quickly at the downtown location' = 'popular at another store'. Các phương án còn lại không có trong hội thoại.",
+     "ev": "the summer collection sold out quickly at the downtown location"
+    },
+    {
+     "q": "What does one of the women say she will do?",
+     "o": [
+      "Contact another branch",
+      "Order new mannequins",
+      "Work on Saturday",
+      "Revise a work schedule"
+     ],
+     "a": 0,
+     "e": "Người phụ nữ thứ hai nói sẽ gọi cho chi nhánh Riverside để mượn thêm ma-nơ-canh → liên hệ một chi nhánh khác. (B) sai: không đặt mua mới mà đi mượn. (C), (D) không được nhắc tới.",
+     "ev": "I'll call them and see if they can lend us a few."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Excuse me, I'm trying to get to Harbor Point. The board says the ten fifteen bus is canceled."
+    },
+    {
+     "s": "W",
+     "t": "Yes, I'm sorry. One of our drivers called in sick this morning, so that departure isn't running."
+    },
+    {
+     "s": "M",
+     "t": "Oh no. I have a meeting with a client in Harbor Point at noon. Is there any other way to get there?"
+    },
+    {
+     "s": "W",
+     "t": "The next bus to Harbor Point leaves at eleven twenty. It's a direct route, so it should get you there in about thirty minutes."
+    },
+    {
+     "s": "M",
+     "t": "That should still work. Do I need to exchange my ticket?"
+    },
+    {
+     "s": "W",
+     "t": "No, your ticket is valid for any departure today. Just show it to the driver."
+    }
+   ],
+   "g": {
+    "title": "Airport Express — Departures",
+    "head": [
+     "Time",
+     "Destination",
+     "Gate"
+    ],
+    "rows": [
+     [
+      "9:40",
+      "Central Station",
+      "3"
+     ],
+     [
+      "10:15",
+      "Harbor Point",
+      "5"
+     ],
+     [
+      "10:50",
+      "Central Station",
+      "7"
+     ],
+     [
+      "11:20",
+      "Harbor Point",
+      "2"
+     ]
+    ]
+   },
+   "qs": [
+    {
+     "q": "What problem does the man mention?",
+     "o": [
+      "He has lost his ticket.",
+      "He missed his flight.",
+      "His bus is not running.",
+      "His meeting was canceled."
+     ],
+     "a": 2,
+     "e": "Người đàn ông nói bảng thông báo ghi chuyến xe buýt 10:15 đã bị hủy → xe của anh không chạy. (D) là bẫy: từ 'canceled' xuất hiện nhưng là chuyến xe bị hủy, không phải cuộc họp. (A), (B) không đúng.",
+     "ev": "The board says the ten fifteen bus is canceled."
+    },
+    {
+     "q": "Look at the graphic. Which gate will the man most likely go to?",
+     "o": [
+      "Gate 2",
+      "Gate 3",
+      "Gate 5",
+      "Gate 7"
+     ],
+     "a": 0,
+     "e": "Người phụ nữ nói chuyến tiếp theo đi Harbor Point khởi hành lúc 11:20. Nhìn bảng: chuyến 11:20 đi Harbor Point ở cổng 2. (C) Gate 5 là bẫy — đó là cổng của chuyến 10:15 đã bị hủy. (B), (D) là các chuyến đi Central Station.",
+     "ev": "The next bus to Harbor Point leaves at eleven twenty."
+    },
+    {
+     "q": "What does the woman say about the man's ticket?",
+     "o": [
+      "It must be exchanged at a counter.",
+      "It includes a meal.",
+      "It was issued for the wrong date.",
+      "It can be used for a later bus."
+     ],
+     "a": 3,
+     "e": "Người phụ nữ nói vé có giá trị cho bất kỳ chuyến nào trong ngày hôm nay → có thể dùng cho chuyến sau. (A) sai: cô nói không cần đổi vé. (B), (C) không được nhắc tới.",
+     "ev": "your ticket is valid for any departure today"
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "Hi, Marcus. Have you submitted your expense report for the Chicago trip yet? Accounting needs everything by Thursday."
+    },
+    {
+     "s": "M",
+     "t": "Not yet. I tried to use the new online form yesterday, but I couldn't figure out where to attach the receipts."
+    },
+    {
+     "s": "W",
+     "t": "There's a button at the bottom of the page. It's pretty small, though. I almost missed it myself."
+    },
+    {
+     "s": "M",
+     "t": "Ah, that explains it. By the way, the hotel charged me twice for one night. Should I include both charges?"
+    },
+    {
+     "s": "W",
+     "t": "Only include the correct amount. Then contact the hotel and ask them to refund the extra charge."
+    },
+    {
+     "s": "M",
+     "t": "Well, I've got a meeting in five minutes."
+    },
+    {
+     "s": "W",
+     "t": "Don't worry. I'll send you the number for the hotel's billing department so you can call later."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What are the speakers mainly discussing?",
+     "o": [
+      "A travel itinerary",
+      "An expense report",
+      "A hotel reservation",
+      "A training session"
+     ],
+     "a": 1,
+     "e": "Người phụ nữ mở đầu bằng việc hỏi về báo cáo chi phí cho chuyến đi Chicago, và cả hội thoại xoay quanh cách nộp báo cáo đó. (A), (C) chỉ là chi tiết liên quan (chuyến đi, khách sạn) chứ không phải chủ đề chính. (D) không được nhắc.",
+     "ev": "Have you submitted your expense report for the Chicago trip yet?"
+    },
+    {
+     "q": "Why does the man say, \"I've got a meeting in five minutes\"?",
+     "o": [
+      "To request that a meeting be postponed",
+      "To invite the woman to join him",
+      "To explain why he was late",
+      "To indicate that he cannot make a call now"
+     ],
+     "a": 3,
+     "e": "Người phụ nữ bảo anh liên hệ khách sạn để đòi hoàn tiền; anh đáp 'năm phút nữa tôi có cuộc họp' → ngụ ý bây giờ không gọi được. Cô đáp lại 'để anh có thể gọi sau' xác nhận cách hiểu này. (A), (B), (C) không phù hợp ngữ cảnh.",
+     "ev": "Well, I've got a meeting in five minutes."
+    },
+    {
+     "q": "What will the woman send the man?",
+     "o": [
+      "A revised form",
+      "A meeting agenda",
+      "A phone number",
+      "A receipt"
+     ],
+     "a": 2,
+     "e": "Câu cuối: cô sẽ gửi cho anh số điện thoại của bộ phận thanh toán của khách sạn. (A) sai: biểu mẫu không cần sửa. (B), (D) không được nhắc tới như thứ cô sẽ gửi.",
+     "ev": "I'll send you the number for the hotel's billing department so you can call later."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Hello, Ms. Alvarez. This is Tom from Kessler Packaging. I'm calling about your order of cardboard shipping boxes."
+    },
+    {
+     "s": "W",
+     "t": "Hi, Tom. They're supposed to arrive on Monday, right? We have a big shipment going out to our retailers next week."
+    },
+    {
+     "s": "M",
+     "t": "That's the problem. One of our cutting machines broke down, so we can only deliver half the order on Monday. The rest will arrive on Wednesday."
+    },
+    {
+     "s": "W",
+     "t": "Hmm, that's cutting it close. Our trucks leave on Wednesday afternoon."
+    },
+    {
+     "s": "M",
+     "t": "I understand. To make up for it, we'll cover the delivery fee for both shipments."
+    },
+    {
+     "s": "W",
+     "t": "I appreciate that. Could you e-mail me the updated delivery times so I can share them with our warehouse team?"
+    }
+   ],
+   "qs": [
+    {
+     "q": "Who most likely is the man?",
+     "o": [
+      "A supplier",
+      "A truck driver",
+      "A warehouse manager",
+      "A retail buyer"
+     ],
+     "a": 0,
+     "e": "Người đàn ông giới thiệu là Tom của công ty bao bì Kessler, gọi về đơn hàng thùng các-tông mà người phụ nữ đã đặt → anh là nhà cung cấp. (B), (C) là những đối tượng được nhắc tới (xe tải, đội kho) nhưng thuộc phía người phụ nữ. (D) sai.",
+     "ev": "This is Tom from Kessler Packaging. I'm calling about your order of cardboard shipping boxes."
+    },
+    {
+     "q": "What does the man offer to do?",
+     "o": [
+      "Send a technician",
+      "Waive a delivery charge",
+      "Provide a discount on a future order",
+      "Use a different shipping company"
+     ],
+     "a": 1,
+     "e": "Để bù đắp, anh nói công ty sẽ chịu phí giao hàng cho cả hai đợt → 'cover the delivery fee' = 'waive a delivery charge' (miễn phí giao hàng). (C) sai: không giảm giá cho đơn sau. (A), (D) không được nhắc tới.",
+     "ev": "we'll cover the delivery fee for both shipments"
+    },
+    {
+     "q": "What does the woman ask the man to do?",
+     "o": [
+      "Speed up some repairs",
+      "Call her warehouse team",
+      "Deliver the full order on Monday",
+      "Send some information by e-mail"
+     ],
+     "a": 3,
+     "e": "Người phụ nữ nhờ anh gửi e-mail thời gian giao hàng cập nhật. (B) là bẫy: cô sẽ tự chia sẻ với đội kho, không nhờ anh gọi. (A), (C) không được yêu cầu.",
+     "ev": "Could you e-mail me the updated delivery times so I can share them with our warehouse team?"
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "So this is the two-bedroom unit I mentioned. As you can see, the kitchen was completely remodeled last spring."
+    },
+    {
+     "s": "M",
+     "t": "It's very nice. And the living room gets a lot of sunlight. How far is the nearest subway station?"
+    },
+    {
+     "s": "W",
+     "t": "It's about a ten-minute walk, but there's a bus stop right in front of the building."
+    },
+    {
+     "s": "M",
+     "t": "That's convenient. The listing said the rent is eighteen hundred dollars a month. Does that include utilities?"
+    },
+    {
+     "s": "W",
+     "t": "Water and heating are included. Electricity is separate."
+    },
+    {
+     "s": "M",
+     "t": "I see. Well, the place on Elm Street is two hundred dollars cheaper."
+    },
+    {
+     "s": "W",
+     "t": "True, but that one doesn't have a parking space. This unit comes with one in the underground garage."
+    }
+   ],
+   "qs": [
+    {
+     "q": "Where most likely are the speakers?",
+     "o": [
+      "At a subway station",
+      "At a furniture store",
+      "At a construction site",
+      "In an apartment"
+     ],
+     "a": 3,
+     "e": "Người phụ nữ nói 'đây là căn hai phòng ngủ tôi đã nhắc đến', rồi giới thiệu bếp, phòng khách, tiền thuê → họ đang xem một căn hộ. (A) sai: ga tàu điện chỉ được hỏi về khoảng cách. (B), (C) không phù hợp.",
+     "ev": "So this is the two-bedroom unit I mentioned."
+    },
+    {
+     "q": "Why does the man say, \"the place on Elm Street is two hundred dollars cheaper\"?",
+     "o": [
+      "To recommend a location to the woman",
+      "To correct an error in a listing",
+      "To express a concern about the price",
+      "To explain why he is moving"
+     ],
+     "a": 2,
+     "e": "Ngay sau khi biết tiền điện không bao gồm, anh so sánh với căn ở phố Elm rẻ hơn 200 đô → ngụ ý lo ngại giá căn này cao. Người phụ nữ đáp lại bằng cách nêu ưu điểm (chỗ đậu xe) để thuyết phục, khẳng định cách hiểu này.",
+     "ev": "Well, the place on Elm Street is two hundred dollars cheaper."
+    },
+    {
+     "q": "What advantage of the unit does the woman point out?",
+     "o": [
+      "It includes a parking space.",
+      "It is close to a subway station.",
+      "It has a new heating system.",
+      "It allows pets."
+     ],
+     "a": 0,
+     "e": "Cô nói căn này có một chỗ đậu xe trong hầm để xe. (B) sai: ga tàu điện cách mười phút đi bộ, cô không nêu như ưu điểm. (C) sai: được nâng cấp là nhà bếp, còn sưởi chỉ là đã bao gồm trong giá. (D) không được nhắc.",
+     "ev": "This unit comes with one in the underground garage."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Hi, I'd like to order a banner for our company's booth at the regional food expo next weekend."
+    },
+    {
+     "s": "W",
+     "t": "Sure. Do you know what size you need?"
+    },
+    {
+     "s": "M",
+     "t": "We have a corner booth this year. I was thinking of the medium size, but the organizers just told us that banners can be up to eight feet wide."
+    },
+    {
+     "s": "W",
+     "t": "Then you could go one size bigger than medium. The large one is exactly eight feet wide."
+    },
+    {
+     "s": "M",
+     "t": "Perfect, let's do that. Can it be ready by Thursday? We're setting up on Friday morning."
+    },
+    {
+     "s": "W",
+     "t": "Thursday's fine. I'll just need your logo file. You can upload it on our website tonight."
+    }
+   ],
+   "g": {
+    "title": "Riverside Print Shop — Banner Prices",
+    "head": [
+     "Size",
+     "Dimensions",
+     "Price"
+    ],
+    "rows": [
+     [
+      "Small",
+      "2 × 4 feet",
+      "$45"
+     ],
+     [
+      "Medium",
+      "3 × 6 feet",
+      "$70"
+     ],
+     [
+      "Large",
+      "4 × 8 feet",
+      "$95"
+     ],
+     [
+      "Extra Large",
+      "5 × 10 feet",
+      "$130"
+     ]
+    ]
+   },
+   "qs": [
+    {
+     "q": "What event is the man preparing for?",
+     "o": [
+      "A store opening",
+      "A sports competition",
+      "A trade exhibition",
+      "A company picnic"
+     ],
+     "a": 2,
+     "e": "Anh đặt băng rôn cho gian hàng của công ty tại 'regional food expo' (triển lãm thực phẩm khu vực) → 'expo' = 'trade exhibition'. Các phương án khác không được nhắc tới.",
+     "ev": "for our company's booth at the regional food expo next weekend"
+    },
+    {
+     "q": "Look at the graphic. How much will the man most likely pay for the banner?",
+     "o": [
+      "$45",
+      "$70",
+      "$130",
+      "$95"
+     ],
+     "a": 3,
+     "e": "Người phụ nữ gợi ý lấy cỡ lớn hơn cỡ trung một bậc — cỡ Large rộng đúng 8 feet, và người đàn ông đồng ý. Theo bảng giá, cỡ Large giá $95. (B) $70 là bẫy: cỡ trung anh định chọn ban đầu. (C) $130 là cỡ vượt quá 8 feet.",
+     "ev": "The large one is exactly eight feet wide."
+    },
+    {
+     "q": "What does the woman ask the man to do?",
+     "o": [
+      "Pay a deposit",
+      "Submit a design file online",
+      "Come back on Friday",
+      "Measure his booth"
+     ],
+     "a": 1,
+     "e": "Cô cần file logo và bảo anh tải lên trang web tối nay → 'upload it on our website' = 'submit a design file online'. (C) sai: thứ Sáu là ngày anh dựng gian hàng. (A), (D) không được nhắc.",
+     "ev": "You can upload it on our website tonight."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Jessica, Paul, do you have a minute? I wanted to check on plans for the office move next month."
+    },
+    {
+     "s": "W",
+     "t": "Sure. The moving company confirmed they'll pack everything on Friday the twentieth, after we close."
+    },
+    {
+     "s": "M2",
+     "t": "And the internet and phone lines in the new building will be installed the day before, so we should be up and running by Monday."
+    },
+    {
+     "s": "M",
+     "t": "Great. What about furniture? Are we bringing our old desks?"
+    },
+    {
+     "s": "W",
+     "t": "Most of them, but the new conference room needs a bigger table. I've found a few options online."
+    },
+    {
+     "s": "M2",
+     "t": "Actually, my brother-in-law runs a furniture store downtown. He might give us a good deal."
+    },
+    {
+     "s": "M",
+     "t": "Paul, why don't you stop by his store this week and get a quote?"
+    }
+   ],
+   "qs": [
+    {
+     "q": "What are the speakers mainly discussing?",
+     "o": [
+      "A building renovation",
+      "An office relocation",
+      "A furniture sale",
+      "A new phone system"
+     ],
+     "a": 1,
+     "e": "Người đàn ông thứ nhất muốn kiểm tra kế hoạch chuyển văn phòng tháng sau → 'office move' = 'office relocation'. (C), (D) chỉ là chi tiết trong kế hoạch chuyển. (A) không được nhắc.",
+     "ev": "I wanted to check on plans for the office move next month."
+    },
+    {
+     "q": "What does the woman say the conference room needs?",
+     "o": [
+      "A larger table",
+      "New chairs",
+      "A projector screen",
+      "Better lighting"
+     ],
+     "a": 0,
+     "e": "Người phụ nữ nói phòng hội nghị mới cần một cái bàn lớn hơn → 'bigger table' = 'larger table'. Các phương án khác không được nhắc tới.",
+     "ev": "the new conference room needs a bigger table"
+    },
+    {
+     "q": "What is Paul asked to do?",
+     "o": [
+      "Contact a moving company",
+      "Install some phone lines",
+      "Get a price estimate",
+      "Measure a room"
+     ],
+     "a": 2,
+     "e": "Paul là người có anh rể mở cửa hàng nội thất; anh được đề nghị ghé cửa hàng đó và lấy báo giá → 'get a quote' = 'get a price estimate'. (A), (B) là việc của công ty chuyển nhà và bên lắp đặt, không phải của Paul.",
+     "ev": "Paul, why don't you stop by his store this week and get a quote?"
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "Good morning, Lakeside Dental Clinic. How can I help you?"
+    },
+    {
+     "s": "M",
+     "t": "Hi, this is Kevin Brooks. I have a cleaning scheduled for Thursday at two thirty, but something came up at work. Is there anything available on Friday?"
+    },
+    {
+     "s": "W",
+     "t": "Let me check. Dr. Huang is fully booked on Friday, but Dr. Sato has an opening at nine in the morning."
+    },
+    {
+     "s": "M",
+     "t": "Nine works. I haven't seen Dr. Sato before, though. Is that a problem?"
+    },
+    {
+     "s": "W",
+     "t": "Not at all. All of our dentists can access your records. Just remember that we've moved to the third floor of the same building."
+    },
+    {
+     "s": "M",
+     "t": "Oh, good to know. Thanks for reminding me."
+    }
+   ],
+   "qs": [
+    {
+     "q": "Why is the man calling?",
+     "o": [
+      "To change an appointment",
+      "To request his medical records",
+      "To ask for directions",
+      "To pay a bill"
+     ],
+     "a": 0,
+     "e": "Anh có lịch hẹn lấy cao răng thứ Năm nhưng có việc đột xuất, nên hỏi lịch trống thứ Sáu → mục đích là đổi lịch hẹn. (B) là bẫy: 'records' được nhắc nhưng do người phụ nữ nói. (C), (D) sai.",
+     "ev": "I have a cleaning scheduled for Thursday at two thirty, but something came up at work."
+    },
+    {
+     "q": "What does the woman say about Dr. Sato?",
+     "o": [
+      "The dentist is fully booked on Friday.",
+      "The dentist joined the clinic recently.",
+      "The dentist specializes in children's care.",
+      "The dentist is available on Friday morning."
+     ],
+     "a": 3,
+     "e": "Cô nói bác sĩ Sato có lịch trống lúc 9 giờ sáng (thứ Sáu). (A) là bẫy: người kín lịch thứ Sáu là bác sĩ Huang. (B), (C) không được nhắc.",
+     "ev": "Dr. Sato has an opening at nine in the morning"
+    },
+    {
+     "q": "What does the woman remind the man about?",
+     "o": [
+      "Bringing an insurance card",
+      "A change in the clinic's location",
+      "Arriving fifteen minutes early",
+      "A new payment policy"
+     ],
+     "a": 1,
+     "e": "Cô nhắc phòng khám đã chuyển lên tầng ba của cùng tòa nhà → thay đổi vị trí phòng khám. Các phương án khác không được nhắc tới.",
+     "ev": "we've moved to the third floor of the same building"
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "M",
+     "t": "Hi, Grace. Did you get a chance to look at the survey results from our coffee tasting event?"
+    },
+    {
+     "s": "W",
+     "t": "I did. Customers loved the new dark roast, but a lot of them said the price was too high."
+    },
+    {
+     "s": "M",
+     "t": "That's what I was afraid of. We set it at fourteen dollars a bag because the beans are imported."
+    },
+    {
+     "s": "W",
+     "t": "Well, the Morning Blend sells for nine."
+    },
+    {
+     "s": "M",
+     "t": "I know, but our costs are much higher for this one. Maybe we could offer a smaller bag at a lower price."
+    },
+    {
+     "s": "W",
+     "t": "That's worth considering. Let's bring it up at the product meeting tomorrow. I'll put together a few slides with the survey data."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What are the speakers discussing?",
+     "o": [
+      "A coffee shop's new location",
+      "A supplier's late delivery",
+      "Customer feedback on a product",
+      "Plans for a tasting event"
+     ],
+     "a": 2,
+     "e": "Hai người bàn về kết quả khảo sát từ sự kiện nếm cà phê — khách thích loại rang đậm mới nhưng chê giá cao → phản hồi của khách hàng về sản phẩm. (D) sai: sự kiện đã diễn ra, không phải đang lên kế hoạch. (A), (B) không được nhắc.",
+     "ev": "Did you get a chance to look at the survey results from our coffee tasting event?"
+    },
+    {
+     "q": "What does the woman imply when she says, \"the Morning Blend sells for nine\"?",
+     "o": [
+      "The Morning Blend should be discontinued.",
+      "The new product may be priced too high.",
+      "She prefers the taste of the Morning Blend.",
+      "A price on a label is incorrect."
+     ],
+     "a": 1,
+     "e": "Sau khi người đàn ông giải thích giá 14 đô, cô so sánh với loại Morning Blend chỉ 9 đô → ngụ ý giá sản phẩm mới quá cao. Anh đáp 'I know, but our costs are much higher' — xác nhận cô đang nói về giá. Các phương án khác không có căn cứ.",
+     "ev": "Well, the Morning Blend sells for nine."
+    },
+    {
+     "q": "What does the woman say she will do?",
+     "o": [
+      "Contact an importer",
+      "Reduce the size of a bag",
+      "Conduct another survey",
+      "Prepare a presentation"
+     ],
+     "a": 3,
+     "e": "Cô nói sẽ chuẩn bị vài slide với dữ liệu khảo sát cho cuộc họp ngày mai → chuẩn bị bài thuyết trình. (B) là ý tưởng của người đàn ông, chưa được quyết định. (A), (C) không được nhắc.",
+     "ev": "I'll put together a few slides with the survey data."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "Hi, Ahmed. How's the search for a new accountant going? Our department really needs someone before the end of the fiscal year."
+    },
+    {
+     "s": "M",
+     "t": "We've narrowed it down to three candidates. The final interviews are scheduled for next Tuesday."
+    },
+    {
+     "s": "W",
+     "t": "That's good news. Would it be possible for me to sit in on the interviews? I'll be working closely with whoever we hire."
+    },
+    {
+     "s": "M",
+     "t": "Of course. In fact, it would be helpful to have someone from your team there. I'll send you the candidates' résumés this afternoon."
+    },
+    {
+     "s": "W",
+     "t": "Thanks. I'll review them tonight and prepare a few questions about tax reporting."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "A tax deadline",
+      "A training program",
+      "A budget review",
+      "A hiring process"
+     ],
+     "a": 3,
+     "e": "Người phụ nữ hỏi việc tìm kế toán mới tiến triển thế nào; cả hội thoại nói về ứng viên và phỏng vấn → quy trình tuyển dụng. (A) là bẫy từ 'fiscal year', 'tax reporting'. (B), (C) không được nhắc.",
+     "ev": "How's the search for a new accountant going?"
+    },
+    {
+     "q": "What does the woman ask to do?",
+     "o": [
+      "Participate in some interviews",
+      "Postpone a meeting",
+      "Hire an additional assistant",
+      "Review a financial report"
+     ],
+     "a": 0,
+     "e": "'Sit in on the interviews' = dự/tham gia buổi phỏng vấn → 'participate in some interviews'. (D) sai: cô sẽ xem hồ sơ ứng viên, không phải báo cáo tài chính. (B), (C) không được nhắc.",
+     "ev": "Would it be possible for me to sit in on the interviews?"
+    },
+    {
+     "q": "What will the man send the woman?",
+     "o": [
+      "A list of interview questions",
+      "A tax form",
+      "Some application documents",
+      "An interview schedule"
+     ],
+     "a": 2,
+     "e": "Anh sẽ gửi hồ sơ (résumés) của các ứng viên chiều nay → 'application documents'. (A) là bẫy: chính người phụ nữ sẽ tự soạn câu hỏi. (B), (D) không được nhắc.",
+     "ev": "I'll send you the candidates' résumés this afternoon."
+    }
+   ]
+  },
+  {
+   "lines": [
+    {
+     "s": "W",
+     "t": "Hello, this is Mina Cho from Halvorsen Engineering. We ordered lunch from your company for our staff appreciation party this Friday."
+    },
+    {
+     "s": "M",
+     "t": "Yes, Ms. Cho. I have your order right here. Sandwich platters and fruit trays for sixty people."
+    },
+    {
+     "s": "W",
+     "t": "Right. Well, we just found out that twenty more employees from our branch office will be joining us. Is it too late to increase the order?"
+    },
+    {
+     "s": "M",
+     "t": "Not at all, as long as we know by Wednesday. I'll update it to eighty people. Would you also like to add some vegetarian options? Several of our clients have requested them recently."
+    },
+    {
+     "s": "W",
+     "t": "Good idea. Please add two vegetarian platters. And could you send me a revised invoice?"
+    },
+    {
+     "s": "M",
+     "t": "Sure. You'll have it within the hour."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What event is the woman preparing for?",
+     "o": [
+      "A product launch",
+      "A staff celebration",
+      "A client meeting",
+      "A branch opening"
+     ],
+     "a": 1,
+     "e": "Cô đặt bữa trưa cho 'staff appreciation party' (tiệc tri ân nhân viên) → 'staff celebration'. (D) là bẫy từ 'branch office'. (C) bẫy từ 'clients' (khách của bên cung cấp suất ăn).",
+     "ev": "for our staff appreciation party this Friday"
+    },
+    {
+     "q": "Why does the woman want to change her order?",
+     "o": [
+      "Some food items are unavailable.",
+      "The date of the party has changed.",
+      "More people will attend the event.",
+      "Some employees have dietary restrictions."
+     ],
+     "a": 2,
+     "e": "Cô vừa biết có thêm 20 nhân viên từ chi nhánh tham dự, nên muốn tăng số suất → có thêm người tham dự. (D) là bẫy: món chay do người đàn ông gợi ý, không phải lý do ban đầu. (A), (B) không được nhắc.",
+     "ev": "twenty more employees from our branch office will be joining us"
+    },
+    {
+     "q": "What does the woman request?",
+     "o": [
+      "An updated bill",
+      "A delivery time",
+      "A discount",
+      "A menu sample"
+     ],
+     "a": 0,
+     "e": "Cô nhờ gửi 'revised invoice' (hóa đơn đã điều chỉnh) → 'an updated bill'. Các phương án khác không được yêu cầu.",
+     "ev": "could you send me a revised invoice?"
+    }
+   ]
+  }
+ ],
+ "p4": [
+  {
+   "type": "Telephone message",
+   "s": "W",
+   "talk": "Hi, Mr. Delgado, this is Sandra Lee from Westfield Auto Repair. I'm calling about your car, which you dropped off this morning for a brake inspection. Our mechanic found that the front brake pads are quite worn, so we recommend replacing them right away. The cost would be about one hundred eighty dollars, including labor. However, we don't have the right parts in stock at the moment. We can order them from our supplier, and they should arrive by tomorrow at noon. That means your car would be ready by around four tomorrow afternoon. If you'd like us to go ahead with the repair, please call me back at this number before five today. Otherwise, you're welcome to pick up the car anytime before we close at six.",
+   "qs": [
+    {
+     "q": "Where does the speaker work?",
+     "o": [
+      "At a car rental agency",
+      "At an auto repair shop",
+      "At a parts manufacturer",
+      "At a driving school"
+     ],
+     "a": 1,
+     "e": "Người nói tự giới thiệu là Sandra Lee từ Westfield Auto Repair (xưởng sửa ô tô). (C) là bẫy: nhà cung cấp phụ tùng (supplier) được nhắc tới nhưng không phải nơi cô làm. (A), (D) không phù hợp.",
+     "ev": "this is Sandra Lee from Westfield Auto Repair"
+    },
+    {
+     "q": "What problem does the speaker mention?",
+     "o": [
+      "A bill was calculated incorrectly.",
+      "A mechanic is unavailable.",
+      "A car was damaged during an inspection.",
+      "Some parts must be ordered."
+     ],
+     "a": 3,
+     "e": "Xưởng hiện không có sẵn phụ tùng phù hợp, phải đặt từ nhà cung cấp → phụ tùng cần được đặt hàng. (A), (B), (C) không được đề cập; má phanh mòn là do sử dụng, không phải bị hỏng khi kiểm tra.",
+     "ev": "we don't have the right parts in stock at the moment"
+    },
+    {
+     "q": "What is the listener asked to do by five o'clock today?",
+     "o": [
+      "Approve some work",
+      "Pick up his vehicle",
+      "Make a payment",
+      "Schedule an inspection"
+     ],
+     "a": 0,
+     "e": "Nếu muốn xưởng tiến hành sửa, ông Delgado cần gọi lại trước 5 giờ → tức là đồng ý/phê duyệt công việc sửa chữa. (B) là bẫy: lấy xe là lựa chọn khác, hạn là trước 6 giờ. (C), (D) không được yêu cầu.",
+     "ev": "If you'd like us to go ahead with the repair, please call me back at this number before five today."
+    }
+   ]
+  },
+  {
+   "type": "Announcement",
+   "s": "W",
+   "talk": "Attention, Hartley's shoppers. We're pleased to announce that our annual anniversary sale begins today and runs through Sunday. All items in our kitchenware department are thirty percent off, and for the first time, we're also offering free delivery on any purchase over two hundred dollars. In addition, at two o'clock this afternoon, celebrity chef Marco Bellini will be giving a cooking demonstration in the kitchenware department, and he'll be signing copies of his new cookbook afterward. Seating is limited, so we encourage you to arrive a few minutes early. Also, don't forget to sign up for our rewards program at any register. Members receive a coupon for an additional ten percent off their next visit.",
+   "g": {
+    "title": "Hartley's Store Directory",
+    "head": [
+     "Floor",
+     "Department"
+    ],
+    "rows": [
+     [
+      "1",
+      "Cosmetics and Accessories"
+     ],
+     [
+      "2",
+      "Women's Clothing"
+     ],
+     [
+      "3",
+      "Men's Clothing"
+     ],
+     [
+      "4",
+      "Kitchenware and Home Goods"
+     ],
+     [
+      "5",
+      "Electronics"
+     ]
+    ]
+   },
+   "qs": [
+    {
+     "q": "What is being announced?",
+     "o": [
+      "A store's grand opening",
+      "A change in store hours",
+      "A sales event",
+      "A cooking contest"
+     ],
+     "a": 2,
+     "e": "Thông báo đợt giảm giá kỷ niệm thường niên bắt đầu từ hôm nay đến Chủ nhật → 'anniversary sale' = 'sales event'. (D) sai: có buổi trình diễn nấu ăn, không phải cuộc thi. (A), (B) không được nhắc.",
+     "ev": "our annual anniversary sale begins today and runs through Sunday"
+    },
+    {
+     "q": "Look at the graphic. On which floor will the demonstration take place?",
+     "o": [
+      "The fourth floor",
+      "The first floor",
+      "The second floor",
+      "The fifth floor"
+     ],
+     "a": 0,
+     "e": "Buổi trình diễn nấu ăn diễn ra ở khu đồ dùng nhà bếp (kitchenware department). Theo bảng chỉ dẫn, Kitchenware and Home Goods ở tầng 4. Các tầng khác là mỹ phẩm, quần áo, đồ điện tử.",
+     "ev": "will be giving a cooking demonstration in the kitchenware department"
+    },
+    {
+     "q": "How can listeners receive a coupon?",
+     "o": [
+      "By attending a demonstration",
+      "By buying a cookbook",
+      "By spending over two hundred dollars",
+      "By joining a rewards program"
+     ],
+     "a": 3,
+     "e": "Thành viên chương trình khách hàng thân thiết sẽ nhận phiếu giảm thêm 10% cho lần mua sau → đăng ký chương trình. (C) là bẫy: mua trên 200 đô được miễn phí giao hàng, không phải nhận phiếu. (A), (B) gắn với đầu bếp, không có phiếu giảm giá.",
+     "ev": "Members receive a coupon for an additional ten percent off their next visit."
+    }
+   ]
+  },
+  {
+   "type": "Radio broadcast",
+   "s": "M",
+   "talk": "Good afternoon, and welcome to the local business report on WKRB Radio. The city council voted last night to approve a plan to turn the old Fulton textile factory into a community arts center. The building, which has been empty for over ten years, will include studio space for local artists, a small theater, and a café. Construction is expected to begin in March and take about eighteen months. Council member Rita Owens said the project will be funded mainly by a grant from the state, with additional support from local businesses. Not everyone is pleased, however. Some residents have expressed concern about increased traffic in the neighborhood. A public meeting to discuss parking options will be held next Thursday at the city library. Up next, we'll hear from a bakery owner who just opened her third location.",
+   "qs": [
+    {
+     "q": "What is the broadcast mainly about?",
+     "o": [
+      "A factory closing",
+      "A new theater production",
+      "A city election",
+      "A building renovation project"
+     ],
+     "a": 3,
+     "e": "Hội đồng thành phố phê duyệt kế hoạch biến nhà máy dệt cũ thành trung tâm nghệ thuật cộng đồng → dự án cải tạo tòa nhà. (A) sai: nhà máy đã bỏ trống hơn mười năm, không phải tin đóng cửa. (B) bẫy từ 'theater'. (C) sai: là cuộc bỏ phiếu của hội đồng, không phải bầu cử.",
+     "ev": "turn the old Fulton textile factory into a community arts center"
+    },
+    {
+     "q": "According to the speaker, how will the project mainly be paid for?",
+     "o": [
+      "Through ticket sales",
+      "With a government grant",
+      "By increasing local taxes",
+      "Through donations from artists"
+     ],
+     "a": 1,
+     "e": "Dự án được tài trợ chủ yếu bằng khoản trợ cấp của bang → 'a grant from the state' = 'a government grant'. Doanh nghiệp địa phương chỉ hỗ trợ thêm; (A), (C), (D) không được nhắc.",
+     "ev": "funded mainly by a grant from the state"
+    },
+    {
+     "q": "What will happen next Thursday?",
+     "o": [
+      "Construction will begin.",
+      "A café will open.",
+      "A public discussion will take place.",
+      "A council vote will be held."
+     ],
+     "a": 2,
+     "e": "Thứ Năm tới sẽ có cuộc họp công khai tại thư viện thành phố để bàn về chỗ đậu xe → 'public meeting' = 'public discussion'. (A) sai: thi công bắt đầu tháng Ba. (D) sai: hội đồng đã bỏ phiếu tối qua.",
+     "ev": "A public meeting to discuss parking options will be held next Thursday at the city library."
+    }
+   ]
+  },
+  {
+   "type": "Meeting excerpt",
+   "s": "W",
+   "talk": "Before we wrap up today's meeting, I want to talk about our customer service numbers. As you know, we started using a new call-routing system in our service center two months ago. Since then, the average time customers spend on hold has dropped from eight minutes to just under three. That's a huge improvement. However, our latest survey shows that customer satisfaction scores haven't changed much. Many customers said the representatives they spoke with couldn't answer their questions about billing. So, faster isn't always better. Starting next week, all representatives will attend a two-day training on our billing procedures. Jason from the finance department has agreed to lead the sessions. I'll e-mail everyone the training schedule this afternoon.",
+   "qs": [
+    {
+     "q": "Which department do the listeners most likely work in?",
+     "o": [
+      "Customer service",
+      "Marketing",
+      "Finance",
+      "Human resources"
+     ],
+     "a": 0,
+     "e": "Người nói bàn về số liệu dịch vụ khách hàng, trung tâm dịch vụ và việc các nhân viên tư vấn (representatives) phải đi đào tạo → người nghe làm ở bộ phận dịch vụ khách hàng. (C) là bẫy: Jason đến từ phòng tài chính, nhưng anh chỉ là người dẫn khóa đào tạo.",
+     "ev": "I want to talk about our customer service numbers"
+    },
+    {
+     "q": "What does the speaker imply when she says, \"faster isn't always better\"?",
+     "o": [
+      "The new system should be replaced.",
+      "Employees are working too many hours.",
+      "Shorter wait times have not satisfied customers.",
+      "Customers prefer to contact the company by e-mail."
+     ],
+     "a": 2,
+     "e": "Thời gian chờ đã giảm mạnh nhưng điểm hài lòng gần như không đổi vì nhân viên không trả lời được câu hỏi về hóa đơn → ngụ ý: chờ ít hơn chưa đủ làm khách hài lòng. (A) sai: cô khen hệ thống mới là cải thiện lớn. (B), (D) không có căn cứ.",
+     "ev": "So, faster isn't always better."
+    },
+    {
+     "q": "What will the listeners do next week?",
+     "o": [
+      "Complete a customer survey",
+      "Attend a training program",
+      "Meet with the finance director",
+      "Test a new phone system"
+     ],
+     "a": 1,
+     "e": "Từ tuần tới, tất cả nhân viên tư vấn sẽ tham gia khóa đào tạo hai ngày về quy trình thanh toán. (A) bẫy từ 'survey'. (C) sai: Jason chỉ là người của phòng tài chính, không nói là giám đốc. (D) sai: hệ thống đã dùng từ hai tháng trước.",
+     "ev": "Starting next week, all representatives will attend a two-day training on our billing procedures."
+    }
+   ]
+  },
+  {
+   "type": "Advertisement",
+   "s": "M",
+   "talk": "Are you tired of spending your weekends cleaning? Let Sparkle Home Services do the work for you! For over fifteen years, our professional teams have been keeping homes and offices across the Greenfield area spotless. Unlike other cleaning services, we use only environmentally friendly products that are safe for children and pets. And because we know your schedule is busy, you can book an appointment online in less than two minutes, even for the same day. This month only, new customers will get their first cleaning at half price. To take advantage of this offer, simply enter the code FRESH when you make your booking on our website. Sparkle Home Services. We'll make your home shine, so you can enjoy your free time.",
+   "qs": [
+    {
+     "q": "What is being advertised?",
+     "o": [
+      "A home furniture store",
+      "A cleaning service",
+      "A pet care center",
+      "A real estate agency"
+     ],
+     "a": 1,
+     "e": "Quảng cáo cho Sparkle Home Services, đội vệ sinh nhà cửa và văn phòng → dịch vụ dọn dẹp. (C) bẫy từ 'pets'. (A), (D) liên tưởng tới 'homes' nhưng sai.",
+     "ev": "Let Sparkle Home Services do the work for you!"
+    },
+    {
+     "q": "According to the speaker, what makes the business different from its competitors?",
+     "o": [
+      "It uses eco-friendly products.",
+      "It has been in business the longest.",
+      "It operates twenty-four hours a day.",
+      "It offers a satisfaction guarantee."
+     ],
+     "a": 0,
+     "e": "'Unlike other cleaning services' (khác với các dịch vụ khác) — công ty chỉ dùng sản phẩm thân thiện với môi trường → 'environmentally friendly' = 'eco-friendly'. (B) sai: chỉ nói hơn 15 năm, không nói lâu nhất. (C), (D) không được nhắc.",
+     "ev": "Unlike other cleaning services, we use only environmentally friendly products"
+    },
+    {
+     "q": "How can new customers receive a discount?",
+     "o": [
+      "By referring a friend",
+      "By booking on a weekday",
+      "By signing a yearly contract",
+      "By entering a code online"
+     ],
+     "a": 3,
+     "e": "Khách mới được giảm nửa giá lần đầu nếu nhập mã FRESH khi đặt lịch trên website → nhập mã trực tuyến. Các phương án khác không được nhắc tới.",
+     "ev": "simply enter the code FRESH when you make your booking on our website"
+    }
+   ]
+  },
+  {
+   "type": "Tour",
+   "s": "W",
+   "talk": "Welcome to Brennan Chocolate Factory, everyone. My name is Olivia, and I'll be your guide this morning. Our tour will last about an hour. We'll start in the roasting room, where cocoa beans are roasted at precise temperatures, and then move on to the production line, where our famous truffles are made. Please note that photography is not allowed on the production floor, to protect our recipes. Now, I know you're all hoping for samples. Well, you won't leave disappointed. At the end of the tour, we'll stop by our tasting room, where you can try five different chocolates. And before you go, be sure to visit the gift shop. Show your tour ticket at the register, and you'll receive fifteen percent off any purchase. All right, please put on the hairnets I'm handing out now, and let's get started.",
+   "qs": [
+    {
+     "q": "Where is the tour taking place?",
+     "o": [
+      "At a bakery",
+      "At a farm",
+      "At a factory",
+      "At a restaurant"
+     ],
+     "a": 2,
+     "e": "Câu chào đầu tiên: 'Chào mừng đến Nhà máy Sô-cô-la Brennan' → chuyến tham quan ở một nhà máy. (B) bẫy liên tưởng hạt ca cao. (A), (D) liên tưởng đồ ăn nhưng sai.",
+     "ev": "Welcome to Brennan Chocolate Factory, everyone."
+    },
+    {
+     "q": "Why does the speaker say, \"you won't leave disappointed\"?",
+     "o": [
+      "To promise that the tour will end on time",
+      "To recommend a product in the gift shop",
+      "To explain a photography rule",
+      "To indicate that samples will be provided"
+     ],
+     "a": 3,
+     "e": "Ngay trước đó cô nói 'tôi biết mọi người đang mong được nếm thử', và ngay sau là 'cuối buổi sẽ ghé phòng nếm thử 5 loại sô-cô-la' → câu này ngụ ý sẽ có đồ ăn thử. (B) bẫy: cửa hàng quà tặng được nhắc sau đó nhưng là ý khác.",
+     "ev": "Well, you won't leave disappointed."
+    },
+    {
+     "q": "What are the listeners asked to do now?",
+     "o": [
+      "Wear some head coverings",
+      "Show their tickets",
+      "Turn off their phones",
+      "Store their bags in lockers"
+     ],
+     "a": 0,
+     "e": "Câu cuối: hãy đội lưới trùm tóc mà cô đang phát → 'hairnets' = 'head coverings'. (B) sai: xuất trình vé là ở quầy cửa hàng quà tặng cuối buổi. (C), (D) không được nhắc.",
+     "ev": "please put on the hairnets I'm handing out now"
+    }
+   ]
+  },
+  {
+   "type": "Announcement",
+   "s": "M",
+   "talk": "Good afternoon, everyone, and thank you for attending the regional sales conference. I have a quick update about this afternoon's sessions. Unfortunately, our speaker for the negotiation skills workshop, Amanda Reyes, has been delayed because her flight was canceled. She's now expected to arrive later this afternoon, so we've decided to switch her session with the last one of the day. In other words, her workshop will now begin at four o'clock, and the sales forecasting session will move to her original time slot. The rooms will stay the same as printed in your program. Also, a reminder that lunch is being served in the main hall until one o'clock. If you haven't picked up your name badge yet, please do so at the registration desk, since you'll need it to enter each session.",
+   "g": {
+    "title": "Regional Sales Conference — Afternoon Sessions",
+    "head": [
+     "Time",
+     "Session",
+     "Room"
+    ],
+    "rows": [
+     [
+      "1:00",
+      "Building Client Relationships",
+      "Room A"
+     ],
+     [
+      "2:00",
+      "Social Media Marketing",
+      "Room B"
+     ],
+     [
+      "3:00",
+      "Negotiation Skills",
+      "Room C"
+     ],
+     [
+      "4:00",
+      "Sales Forecasting",
+      "Room D"
+     ]
+    ]
+   },
+   "qs": [
+    {
+     "q": "What is the purpose of the announcement?",
+     "o": [
+      "To introduce a keynote speaker",
+      "To explain a registration process",
+      "To announce a new conference venue",
+      "To report a schedule change"
+     ],
+     "a": 3,
+     "e": "Người nói có cập nhật về các phiên buổi chiều: phiên của Amanda Reyes được đổi chỗ với phiên cuối ngày → thông báo thay đổi lịch. (A) sai: không giới thiệu diễn giả. (B) chỉ là lời nhắc phụ. (C) sai: phòng giữ nguyên.",
+     "ev": "I have a quick update about this afternoon's sessions."
+    },
+    {
+     "q": "Look at the graphic. What time will the Sales Forecasting session begin?",
+     "o": [
+      "At 1:00",
+      "At 2:00",
+      "At 3:00",
+      "At 4:00"
+     ],
+     "a": 2,
+     "e": "Phiên Sales Forecasting chuyển sang khung giờ ban đầu của phiên Negotiation Skills. Theo lịch, Negotiation Skills vốn bắt đầu lúc 3:00 → Sales Forecasting sẽ bắt đầu lúc 3:00. (D) 4:00 là bẫy: giờ in sẵn trong lịch, nay là giờ của phiên Negotiation Skills.",
+     "ev": "the sales forecasting session will move to her original time slot"
+    },
+    {
+     "q": "What does the speaker remind listeners to do?",
+     "o": [
+      "Return their programs",
+      "Pick up name badges",
+      "Arrive early for lunch",
+      "Complete a survey"
+     ],
+     "a": 1,
+     "e": "Người nói nhắc ai chưa nhận thẻ tên thì đến quầy đăng ký nhận, vì cần thẻ để vào từng phiên. (C) sai: chỉ nhắc bữa trưa phục vụ đến 1 giờ, không bảo đến sớm. (A), (D) không được nhắc.",
+     "ev": "If you haven't picked up your name badge yet, please do so at the registration desk"
+    }
+   ]
+  },
+  {
+   "type": "News report",
+   "s": "W",
+   "talk": "In business news today, Norvale Airlines announced that it will begin offering direct flights between Denver and Lisbon starting in June. Until now, travelers had to change planes in New York or London. The airline says the new route will cut total travel time by about four hours. To celebrate the launch, Norvale is offering a special fare of three hundred ninety-nine dollars for one-way tickets purchased before the end of the month. The company also plans to install new seats with extra legroom on all of its long-distance aircraft by next year. Analysts expect the new route to be popular with both tourists and business travelers, as trade between the two regions has grown steadily. Tickets can be purchased on Norvale's website or through its mobile app.",
+   "qs": [
+    {
+     "q": "What is the news report mainly about?",
+     "o": [
+      "A new flight route",
+      "An airline merger",
+      "A delay at an airport",
+      "A change in baggage rules"
+     ],
+     "a": 0,
+     "e": "Hãng Norvale công bố sẽ mở đường bay thẳng Denver – Lisbon từ tháng Sáu → đường bay mới. Các phương án khác (sáp nhập, chậm chuyến, quy định hành lý) không được nhắc.",
+     "ev": "Norvale Airlines announced that it will begin offering direct flights between Denver and Lisbon starting in June."
+    },
+    {
+     "q": "According to the speaker, what is an advantage of the new service?",
+     "o": [
+      "Lower baggage fees",
+      "Shorter travel time",
+      "More frequent departures",
+      "Better in-flight meals"
+     ],
+     "a": 1,
+     "e": "Đường bay mới giúp rút ngắn tổng thời gian di chuyển khoảng bốn tiếng → 'cut total travel time' = 'shorter travel time'. Các phương án khác không được nhắc.",
+     "ev": "the new route will cut total travel time by about four hours"
+    },
+    {
+     "q": "What does the airline plan to do by next year?",
+     "o": [
+      "Open an office in Lisbon",
+      "Launch a mobile app",
+      "Install more spacious seating",
+      "Hire additional pilots"
+     ],
+     "a": 2,
+     "e": "Hãng dự định lắp ghế mới có chỗ để chân rộng hơn trên các máy bay đường dài trước năm sau → 'extra legroom' = 'more spacious seating'. (B) bẫy: ứng dụng di động đã có sẵn để mua vé.",
+     "ev": "install new seats with extra legroom on all of its long-distance aircraft by next year"
+    }
+   ]
+  },
+  {
+   "type": "Introduction",
+   "s": "M",
+   "talk": "Good evening, and welcome to the Hamilton Business Association's annual awards dinner. I'm very pleased to introduce our guest speaker tonight, Dr. Helen Park. Dr. Park founded Greenleaf Packaging twelve years ago in a small garage, and today the company supplies recyclable containers to more than five hundred restaurants across the country. Last year, her company was named one of the region's fastest-growing businesses. Tonight, Dr. Park will talk about how small businesses can reduce waste while still keeping costs down. After her speech, she has kindly agreed to answer a few questions from the audience. If you'd like to ask something, please raise your hand, and one of our staff members will bring you a microphone. Now, please join me in welcoming Dr. Helen Park.",
+   "qs": [
+    {
+     "q": "What event is taking place?",
+     "o": [
+      "A product launch",
+      "A training workshop",
+      "An awards dinner",
+      "A restaurant opening"
+     ],
+     "a": 2,
+     "e": "Lời chào mở đầu: chào mừng đến bữa tiệc trao giải thường niên của Hiệp hội Doanh nghiệp Hamilton. (D) bẫy từ 'restaurants'. (A), (B) không phù hợp.",
+     "ev": "welcome to the Hamilton Business Association's annual awards dinner"
+    },
+    {
+     "q": "What will Dr. Park talk about?",
+     "o": [
+      "Opening a restaurant",
+      "Hiring young employees",
+      "Expanding overseas",
+      "Reducing waste in businesses"
+     ],
+     "a": 3,
+     "e": "Tiến sĩ Park sẽ nói về cách doanh nghiệp nhỏ giảm rác thải mà vẫn giữ chi phí thấp → giảm rác thải trong doanh nghiệp. Các phương án khác không được nhắc.",
+     "ev": "how small businesses can reduce waste while still keeping costs down"
+    },
+    {
+     "q": "What will happen after the speech?",
+     "o": [
+      "Audience members can ask questions.",
+      "Awards will be presented.",
+      "Dinner will be served.",
+      "Free samples will be handed out."
+     ],
+     "a": 0,
+     "e": "Sau bài phát biểu, bà đồng ý trả lời một số câu hỏi từ khán giả → khán giả có thể đặt câu hỏi. (B), (C) liên tưởng tới 'awards dinner' nhưng không được nói sẽ diễn ra sau bài nói. (D) không được nhắc.",
+     "ev": "she has kindly agreed to answer a few questions from the audience"
+    }
+   ]
+  },
+  {
+   "type": "Instructions",
+   "s": "W",
+   "talk": "Thanks for volunteering at this year's Riverside Marathon. Your job today is to staff the water stations along the course. Each of you will receive a bright yellow vest so runners can easily spot you, so please keep it on at all times. The first runners should reach your station at around eight fifteen, so have the cups filled and lined up on the tables by eight o'clock. When handing out water, hold the cup out at arm's length and let the runners take it from you. Don't try to place it in their hands. Also, please pick up any cups that land on the road, since they can be slippery. Now, I'm going to divide you into teams. When I call your name, go to the van parked behind the tent. The driver will take you to your station.",
+   "qs": [
+    {
+     "q": "Who most likely are the listeners?",
+     "o": [
+      "Professional athletes",
+      "Event volunteers",
+      "Delivery drivers",
+      "Medical staff"
+     ],
+     "a": 1,
+     "e": "Câu mở đầu cảm ơn mọi người đã tình nguyện tại giải marathon, và họ được giao trực các trạm nước → tình nguyện viên sự kiện. (A) bẫy từ 'runners'. (C) bẫy từ 'driver' (người lái xe đưa họ đi).",
+     "ev": "Thanks for volunteering at this year's Riverside Marathon."
+    },
+    {
+     "q": "What should the listeners do by eight o'clock?",
+     "o": [
+      "Prepare cups of water",
+      "Register for the race",
+      "Clean the road",
+      "Meet runners at the finish line"
+     ],
+     "a": 0,
+     "e": "Phải rót đầy cốc và xếp thẳng hàng trên bàn trước 8 giờ (vận động viên đầu tiên đến khoảng 8:15) → chuẩn bị cốc nước. (C) sai: nhặt cốc rơi trên đường là việc trong lúc chạy, không phải trước 8 giờ.",
+     "ev": "have the cups filled and lined up on the tables by eight o'clock"
+    },
+    {
+     "q": "What will the listeners do when their names are called?",
+     "o": [
+      "Collect their vests",
+      "Sign a form",
+      "Pick up some tables",
+      "Go to a vehicle"
+     ],
+     "a": 3,
+     "e": "Khi được gọi tên, họ đi đến chiếc xe van đậu sau lều để tài xế đưa tới trạm → 'van' = 'vehicle'. Các phương án khác không gắn với lúc được gọi tên.",
+     "ev": "When I call your name, go to the van parked behind the tent."
+    }
+   ]
+  }
+ ]
+}

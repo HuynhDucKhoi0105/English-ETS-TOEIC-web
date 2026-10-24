@@ -1,0 +1,165 @@
+{
+ "topics": {
+  "inv": "Đảo ngữ",
+  "subj": "Giả định (recommend that S + V)",
+  "reduce": "Rút gọn mệnh đề (V-ing / V3 / to V)",
+  "pair": "Cấu trúc song hành & liên từ tương quan",
+  "nclause": "Mệnh đề danh từ (what / whether / that)",
+  "ever": "Từ -ever & no matter",
+  "caus": "Thể sai khiến & động từ đặc biệt (have/get/make/let/help)",
+  "timecl": "Mệnh đề thời gian & tương lai",
+  "advpos": "Trạng từ đặc biệt (already/still/yet, so/such, too/enough, hardly)",
+  "prepphr": "Cụm giới từ cố định (in accordance with, on behalf of…)"
+ },
+ "coach": {
+  "inv": {
+   "sign": "Câu mở đầu bằng từ phủ định/hạn chế (Never, Rarely, Seldom, Not only, Only after/when/if, Hardly, No sooner, Under no circumstances) hoặc bằng Should/Had/Were mà không có 'if'. Đáp án là các dạng trợ động từ/động từ khác nhau.",
+   "steps": [
+    "Nhìn từ ĐẦU câu: có Never / Rarely / Seldom / Not only / Only + trạng ngữ / Hardly / No sooner / Under no circumstances / So + adj không? → mệnh đề chính phải đảo trợ động từ lên trước chủ ngữ.",
+    "Câu bắt đầu bằng ___ + chủ ngữ + động từ nguyên mẫu/V3, sau đó có dấu phẩy và mệnh đề chính → điều kiện đảo: Should (loại 1), Were (loại 2), Had (loại 3).",
+    "Chọn trợ động từ theo thì: hiện tại → do/does; quá khứ → did; hoàn thành → has/have/had; động từ sau đó về nguyên mẫu (sau do/does/did) hoặc V3 (sau have/had).",
+    "Cặp cố định: Hardly/Scarcely … when; No sooner … than; Not only … but (also)."
+   ],
+   "trap": "Thấy 'Only' tưởng là trạng từ bình thường nên chọn trật tự S + V. 'Only after / Only when / Only by' đứng đầu câu bắt buộc đảo ngữ ở MỆNH ĐỀ CHÍNH, không đảo ở mệnh đề phụ."
+  },
+  "subj": {
+   "sign": "Trước chỗ trống có động từ/tính từ/danh từ chỉ yêu cầu – đề nghị – sự cần thiết + that: recommend, suggest, request, require, insist, ask, propose, demand, advise / It is essential, vital, imperative, necessary, important that… Đáp án gồm động từ nguyên mẫu, dạng chia s/es, will, quá khứ.",
+   "steps": [
+    "Tìm 'động từ/tính từ yêu cầu + that' ở phía trước chủ ngữ của mệnh đề có chỗ trống.",
+    "Mệnh đề sau that dùng động từ NGUYÊN MẪU không 'to', không chia theo chủ ngữ, không chia thì: that he submit, that the report be reviewed.",
+    "Nếu chủ ngữ là vật/được tác động → bị động giả định: be + V3. Phủ định: not + V (that he not be late)."
+   ],
+   "trap": "Chủ ngữ số ít (the manager, each employee) khiến bạn chọn dạng -s (submits) hoặc 'is'. Trong câu giả định KHÔNG chia: chọn submit / be."
+  },
+  "reduce": {
+   "sign": "Chỗ trống đứng sau danh từ, đầu câu trước dấu phẩy, hoặc sau liên từ (when, while, before, after, once, unless, if, as, although) mà không có chủ ngữ đi kèm. Đáp án là V-ing, V3, to V, động từ chia.",
+   "steps": [
+    "Xác định câu đã có động từ chính chưa. Nếu đã có → chỗ trống không thể là động từ chia thì; phải là dạng rút gọn.",
+    "Hỏi: danh từ/chủ ngữ TỰ LÀM hành động → V-ing (chủ động); BỊ tác động → V3 (bị động); mục đích/kế hoạch tương lai, sau the first/the only/the last → to V.",
+    "Có tân ngữ phía sau chỗ trống → thường là V-ing; có 'by + tác nhân' hoặc không có tân ngữ với ngoại động từ → thường là V3.",
+    "Với đầu câu rút gọn: chủ ngữ của mệnh đề chính chính là chủ thể của hành động rút gọn."
+   ],
+   "trap": "Thấy chủ ngữ là người nên chọn V-ing một cách máy móc. Phải kiểm tra người đó làm hay chịu hành động: 'Once approved, the budget…' (budget được duyệt) chứ không phải 'Once approving'."
+  },
+  "pair": {
+   "sign": "Trong câu có một nửa của cặp liên từ (both, either, neither, not only, whether) hoặc có chuỗi 'A, B, and ___' / 'A or ___'. Đáp án có thể là and/or/nor/but also, hoặc các dạng từ loại.",
+   "steps": [
+    "Thấy both → and; either → or; neither → nor; not only → but (also); whether → or (not); between → and; rather than / as well as nối hai thành phần cùng dạng.",
+    "Với chuỗi liệt kê: xác định dạng của các thành phần đã có (danh từ, tính từ, V-ing, to V, động từ chia) → chỗ trống cùng dạng đó.",
+    "Với 'neither A nor B' / 'either A or B' làm chủ ngữ: động từ hòa hợp với B (danh từ gần động từ nhất)."
+   ],
+   "trap": "Ghép nhầm cặp: 'neither … or', 'both … as well as', 'not only … and'. Nhớ cặp nào đi với cặp nấy, và hai vế phải song song về từ loại."
+  },
+  "nclause": {
+   "sign": "Chỗ trống đứng sau động từ (decide, determine, know, confirm, ask, depend on…), sau giới từ, hoặc đầu câu làm chủ ngữ, và theo sau là một mệnh đề. Đáp án gồm what, whether, that, which, if.",
+   "steps": [
+    "Xem mệnh đề sau chỗ trống ĐỦ hay THIẾU thành phần: thiếu chủ ngữ/tân ngữ → what (= the thing that); đủ thành phần → that (sự việc) hoặc whether/if (có… hay không).",
+    "Sau giới từ (on, about, of) hoặc trước 'to V' hoặc có 'or not' → chỉ dùng whether, không dùng if/that.",
+    "Mệnh đề danh từ đầu câu làm chủ ngữ → động từ chính chia số ít: What the clients need is…; That sales rose is…",
+    "Mệnh đề danh từ dùng trật tự câu kể (S + V), không đảo ngữ như câu hỏi."
+   ],
+   "trap": "Chọn 'which' hoặc 'that' khi mệnh đề phía sau thiếu tân ngữ và không có danh từ đứng trước để bổ nghĩa — trường hợp này phải là 'what'."
+  },
+  "ever": {
+   "sign": "Đáp án gồm whoever, whatever, whichever, whenever, wherever, however và các từ thường (who, what, when). Chỗ trống mở đầu một mệnh đề hoặc đi trước một tính từ/trạng từ.",
+   "steps": [
+    "Cần chủ ngữ/tân ngữ là NGƯỜI bất kỳ → whoever (= anyone who); VẬT/điều bất kỳ → whatever; chọn trong một nhóm giới hạn → whichever (+ danh từ).",
+    "Chỉ thời gian/nơi chốn bất kỳ → whenever / wherever (mệnh đề phía sau đã đủ thành phần).",
+    "Trước TÍNH TỪ/TRẠNG TỪ + S + V (dù… đến đâu) → however (= no matter how): however busy we are.",
+    "'No matter' luôn đi với từ hỏi: no matter what/who/how/when + S + V; không đứng một mình trước mệnh đề."
+   ],
+   "trap": "Chọn 'whoever' khi chỗ trống cần TÂN NGỮ về vật, hoặc chọn 'whatever' trước tính từ. Trước tính từ/trạng từ chỉ có 'however' (no matter how)."
+  },
+  "caus": {
+   "sign": "Trước chỗ trống có have/has/had, get, make, let, help, require, ask, allow + tân ngữ. Đáp án là V nguyên mẫu, to V, V-ing, V3.",
+   "steps": [
+    "Have/make/let + O (người) + V nguyên mẫu: have the assistant book, make staff wear, let customers return.",
+    "Get + O (người) + TO V: get the vendor to lower the price. Ask/allow/require/encourage/enable + O + to V.",
+    "Have/get + O (vật) + V3: have the documents translated, get the car repaired (nhờ người khác làm, vật bị tác động).",
+    "Help + O + V hoặc to V (cả hai đều đúng); help + V cũng được."
+   ],
+   "trap": "Nhầm 'make/let + O + to V'. Chỉ ở dạng BỊ ĐỘNG mới có to: 'Employees were made to wear badges'. Và tân ngữ là vật thì dùng V3, không dùng V nguyên mẫu."
+  },
+  "timecl": {
+   "sign": "Câu có when, as soon as, once, after, before, until, by the time, while, if, unless, provided that và nói về tương lai (next week, tomorrow, will, please…). Đáp án là nhiều thì của cùng một động từ.",
+   "steps": [
+    "Xác định mệnh đề nào chứa liên từ thời gian/điều kiện → mệnh đề đó dùng HIỆN TẠI ĐƠN (hoặc hiện tại hoàn thành) dù nghĩa là tương lai.",
+    "Mệnh đề chính nói tương lai → will + V, câu mệnh lệnh (Please…), hoặc be going to.",
+    "'By the time + hiện tại đơn' → mệnh đề chính thường là will have V3; 'By the time + quá khứ đơn' → had V3.",
+    "Nhấn mạnh hoàn tất trước hành động khác: after/once/when + has/have V3."
+   ],
+   "trap": "Chọn 'will arrive' sau as soon as/when/once vì thấy câu nói về tương lai. Sau liên từ thời gian không dùng will."
+  },
+  "advpos": {
+   "sign": "Đáp án là các trạng từ dễ nhầm: already / still / yet / even; so / such / too / very / enough; hardly / nearly / almost / mostly; lately / late; highly / high.",
+   "steps": [
+    "already: câu khẳng định, đã xảy ra sớm (has already shipped); still: vẫn còn tiếp diễn (still pending, still hasn't arrived); yet: câu phủ định/nghi vấn, cuối câu hoặc 'have yet to V' (= chưa).",
+    "so + adj/adv (+ that); such + (a/an) + adj + N (+ that); too + adj + to V (quá… không thể); adj + enough + to V; enough + N.",
+    "hardly/scarcely = hầu như không (mang nghĩa phủ định, không dùng thêm 'not'); almost/nearly + all/every/always/số lượng.",
+    "Từ hai dạng: late (muộn) ≠ lately (gần đây); high (cao) ≠ highly (rất, hết sức); hard (chăm chỉ) ≠ hardly."
+   ],
+   "trap": "Dùng 'so' trước cụm danh từ (so a successful event) hoặc 'enough' đứng trước tính từ (enough large). Đúng: such a successful event, large enough."
+  },
+  "prepphr": {
+   "sign": "Chỗ trống nằm trong cụm giới từ nhiều chữ (in ___ with, on ___ of, ___ to, in ___ of) hoặc đáp án là 4 cụm giới từ dài khác nhau.",
+   "steps": [
+    "Đọc cả cụm quanh chỗ trống để nhận ra khung cố định: in accordance with, in compliance with, on behalf of, in charge of, in light of, in exchange for, in addition to, with regard to, prior to, according to.",
+    "Nếu 4 đáp án là 4 cụm giới từ → dịch nghĩa câu: nguyên nhân (due to, owing to, because of), nhượng bộ (despite, in spite of, notwithstanding), thay thế (instead of, in place of), mục đích (for the purpose of, in an effort to).",
+    "Kiểm tra phía sau: cụm giới từ + danh từ/V-ing; liên từ (because, although) + mệnh đề — loại theo cấu trúc trước khi xét nghĩa."
+   ],
+   "trap": "Nhầm giới từ cuối cụm: 'in accordance to', 'on behalf for', 'in compliance to', 'prior than'. Học cả khối, không học rời từng chữ."
+  }
+ },
+ "lessons": [
+  {
+   "t": "Đảo ngữ (Inversion)",
+   "k": "inv",
+   "b": "Đảo ngữ = đưa trợ động từ (do/does/did, have/has/had, will, can, be…) lên TRƯỚC chủ ngữ khi câu mở đầu bằng một từ/cụm mang nghĩa phủ định hoặc hạn chế. TOEIC 800+ hay hỏi trợ động từ nào đúng và động từ sau đó ở dạng gì.\n\n1) Trạng từ phủ định/hạn chế đầu câu\n• Never / Rarely / Seldom / Little + trợ động từ + S + V\n• Under no circumstances / In no way / At no time + trợ động từ + S + V\n• Not only + trợ động từ + S + V, but (S) also …\n• Hardly / Scarcely + had + S + V3 + when …; No sooner + had + S + V3 + than …\n\n2) Only + trạng ngữ đầu câu → đảo ở MỆNH ĐỀ CHÍNH\n• Only after / Only when / Only if / Only by V-ing / Only recently + mệnh đề phụ (giữ nguyên) + trợ động từ + S + V\n\n3) Đảo ngữ câu điều kiện (bỏ if)\n• Loại 1: Should + S + V, … (= If S should V)\n• Loại 2: Were + S + to V / adj, … (= If S were…)\n• Loại 3: Had + S + V3, would have V3 (= If S had V3)\n\nVí dụ TOEIC:\n• Rarely has the firm received so many applications. (Hiếm khi công ty nhận được nhiều đơn ứng tuyển như vậy.)\n• Only after the contract is signed will the supplier begin production. (Chỉ sau khi hợp đồng được ký thì nhà cung cấp mới bắt đầu sản xuất.)\n• Should you have any questions, please contact the front desk. (Nếu quý khách có thắc mắc, vui lòng liên hệ quầy lễ tân.)\n• Had the shipment arrived on time, we would have met the deadline. (Nếu lô hàng đến đúng hạn, chúng tôi đã kịp thời hạn.)\n\nBẫy thường gặp:\n• Chọn V thường sau Rarely/Never mà quên trợ động từ: 'Rarely the manager approves' → sai; đúng: 'Rarely does the manager approve'.\n• Sau does/did động từ phải về NGUYÊN MẪU (does approve, không 'does approves').\n• 'Should you need' — không có 'if' đi kèm; 'If should you' là sai."
+  },
+  {
+   "t": "Giả định (Subjunctive: recommend that S + V)",
+   "k": "subj",
+   "b": "Câu giả định dùng khi nói về một yêu cầu, đề nghị, mệnh lệnh hay sự cần thiết. Điểm đặc biệt: động từ trong mệnh đề 'that' ở dạng NGUYÊN MẪU (không to, không chia theo chủ ngữ, không chia thì).\n\n1) Sau động từ yêu cầu/đề nghị\n• S + recommend / suggest / request / require / insist / ask / propose / demand / advise / urge + that + S + V(nguyên mẫu)\n• Ví dụ: The consultant recommended that the company reduce its inventory.\n\n2) Sau tính từ chỉ sự cần thiết\n• It is essential / vital / imperative / necessary / important / crucial / mandatory + that + S + V(nguyên mẫu)\n\n3) Sau danh từ tương ứng\n• the recommendation / request / requirement / suggestion / proposal + that + S + V(nguyên mẫu)\n\n4) Dạng bị động và phủ định\n• Bị động: that + S + be + V3 (that all receipts be submitted)\n• Phủ định: that + S + not + V (that visitors not park in Lot B)\n\nVí dụ TOEIC:\n• The board insisted that the CEO attend the shareholders' meeting in person. (Hội đồng quản trị yêu cầu CEO phải đích thân dự họp cổ đông.)\n• It is imperative that every invoice be approved before payment. (Bắt buộc mọi hóa đơn phải được phê duyệt trước khi thanh toán.)\n• The policy requires that employees not share access codes. (Chính sách yêu cầu nhân viên không chia sẻ mã truy cập.)\n\nBẫy thường gặp:\n• Chủ ngữ số ít làm bạn chọn 'provides', 'is' → sai; giả định luôn là 'provide', 'be'.\n• Động từ chính ở quá khứ (requested) làm bạn chọn quá khứ (provided) → sai, vẫn là nguyên mẫu.\n• Không phải mọi 'suggest' đều là giả định: 'The data suggest that sales are rising' (gợi ý = cho thấy) → chia bình thường.\n• Nhầm cấu trúc: recommend + V-ing (recommend hiring) hoặc recommend that S + V; KHÔNG có 'recommend sb to V' trong văn phong chuẩn TOEIC."
+  },
+  {
+   "t": "Rút gọn mệnh đề (V-ing / V3 / to V)",
+   "k": "reduce",
+   "b": "Rút gọn mệnh đề giúp câu ngắn hơn: bỏ đại từ quan hệ/chủ ngữ + trợ động từ và giữ lại V-ing, V3 hoặc to V. TOEIC hỏi rất nhiều dạng này vì đáp án là 4 dạng của cùng một động từ.\n\n1) Rút gọn mệnh đề quan hệ (sau danh từ)\n• Chủ động → V-ing: Customers who purchase two items → Customers purchasing two items\n• Bị động → V3: The report which was submitted yesterday → The report submitted yesterday\n• Sau the first / the last / the only / số thứ tự → to V: the first company to adopt the policy\n\n2) Rút gọn mệnh đề trạng ngữ (cùng chủ ngữ)\n• Liên từ + V-ing (chủ động): Before leaving the office, please turn off the lights.\n• Liên từ + V3 (bị động): Once approved, the budget will be released. / Unless otherwise noted, prices include tax.\n• V3 đầu câu: Located near the station, the hotel is popular with business travelers.\n\n3) To V chỉ mục đích\n• To qualify for the discount, customers must register online. (Để đủ điều kiện…)\n\nVí dụ TOEIC:\n• Applicants wishing to attend the workshop should sign up by Friday. (Ứng viên muốn tham gia hội thảo nên đăng ký trước thứ Sáu.)\n• The samples sent by the supplier were damaged. (Các mẫu do nhà cung cấp gửi đã bị hư hỏng.)\n• When asked about the delay, the spokesperson declined to comment. (Khi được hỏi về sự chậm trễ, người phát ngôn từ chối bình luận.)\n• Ms. Ruiz was the only candidate to complete all three interviews. (Cô Ruiz là ứng viên duy nhất hoàn thành cả ba vòng phỏng vấn.)\n\nBẫy thường gặp:\n• Câu đã có động từ chính → chỗ trống KHÔNG thể là động từ chia thì (is submitted, submitted as past tense).\n• Nhìn tân ngữ: có tân ngữ sau chỗ trống → V-ing; không có tân ngữ với ngoại động từ → V3.\n• 'as + V3' cố định: as requested, as scheduled, as indicated, as mentioned."
+  },
+  {
+   "t": "Cấu trúc song hành & liên từ tương quan",
+   "k": "pair",
+   "b": "Liên từ tương quan là các cặp từ luôn đi chung. Cấu trúc song hành (parallelism) yêu cầu các thành phần được nối bằng and / or / but / cặp tương quan phải CÙNG DẠNG (danh từ – danh từ, tính từ – tính từ, V-ing – V-ing, to V – to V).\n\n1) Các cặp tương quan phải thuộc lòng\n• both A and B (cả A và B) → động từ số nhiều\n• either A or B (hoặc A hoặc B)\n• neither A nor B (không A cũng không B)\n• not only A but (also) B (không những A mà còn B)\n• whether A or B (dù A hay B / liệu A hay B)\n• between A and B; A as well as B; A rather than B; not A but B\n\n2) Hòa hợp chủ vị\n• either A or B / neither A nor B / not only A but also B + động từ chia theo B\n• both A and B → số nhiều; A as well as B → chia theo A\n\n3) Song hành từ loại\n• The new chair is comfortable, durable, and affordable. (3 tính từ)\n• Staff are responsible for greeting guests, answering calls, and scheduling appointments. (3 V-ing)\n• The goal is to reduce costs and (to) increase efficiency.\n\nVí dụ TOEIC:\n• Both the marketing team and the sales department will attend the training. (Cả đội marketing và phòng kinh doanh sẽ dự buổi đào tạo.)\n• Applications may be submitted either online or in person. (Hồ sơ có thể nộp trực tuyến hoặc trực tiếp.)\n• Neither the manager nor her assistants were informed of the change. (Cả quản lý lẫn các trợ lý đều không được báo về thay đổi.)\n• The hotel is known not only for its location but also for its service. (Khách sạn nổi tiếng không chỉ vì vị trí mà còn vì dịch vụ.)\n\nBẫy thường gặp:\n• Ghép sai cặp: neither … or, either … nor, both … or, not only … and.\n• Song hành sai: 'quickly and efficient' → phải là 'quickly and efficiently'.\n• 'whether … or not' — không dùng 'if … or not' sau giới từ.\n• Đặt sai vị trí: 'not only' và 'but also' phải đứng trước hai thành phần cùng loại."
+  },
+  {
+   "t": "Mệnh đề danh từ (what / whether / that)",
+   "k": "nclause",
+   "b": "Mệnh đề danh từ đóng vai trò như MỘT DANH TỪ: làm chủ ngữ, tân ngữ của động từ, tân ngữ của giới từ hoặc bổ ngữ sau 'be'. Ba từ mở đầu quan trọng nhất trong TOEIC: that, whether/if, what (và các từ hỏi how, why, when, where, who).\n\n1) That + mệnh đề ĐẦY ĐỦ (sự việc là…)\n• The survey showed that most customers prefer online booking.\n• That the merger was approved surprised analysts. (đầu câu → động từ số ít)\n• Không dùng 'that' ngay sau giới từ (trừ in that, except that).\n\n2) Whether / if + mệnh đề ĐẦY ĐỦ (liệu… có… hay không)\n• Management has not decided whether the office will relocate.\n• Chỉ dùng whether (không dùng if) khi: sau giới từ (depends on whether), đầu câu làm chủ ngữ, trước to V (whether to renew), có 'or not' ngay sau.\n\n3) What + mệnh đề THIẾU chủ ngữ hoặc tân ngữ (điều mà / cái mà)\n• What the client requested was a detailed cost estimate. (requested thiếu tân ngữ)\n• We will provide what is needed for the event. (thiếu chủ ngữ)\n• what = the thing(s) that → không có danh từ đứng trước.\n\nVí dụ TOEIC:\n• The committee will determine whether the proposal meets the budget requirements. (Ủy ban sẽ xác định liệu đề xuất có đáp ứng yêu cầu ngân sách không.)\n• What impressed the judges most was the clear design. (Điều gây ấn tượng nhất với giám khảo là thiết kế rõ ràng.)\n• Please confirm that you have received the package. (Vui lòng xác nhận rằng bạn đã nhận được kiện hàng.)\n\nBẫy thường gặp:\n• 'which' cần danh từ đứng trước; không có danh từ + mệnh đề thiếu → chọn what.\n• Mệnh đề danh từ dùng trật tự S + V: 'Please tell us when the order will arrive' (không 'when will the order arrive').\n• 'that' và 'what' đều đứng sau động từ, khác nhau ở chỗ mệnh đề phía sau đủ hay thiếu."
+  },
+  {
+   "t": "Từ -ever & no matter",
+   "k": "ever",
+   "b": "Các từ -ever (whoever, whatever, whichever, whenever, wherever, however) mang nghĩa 'bất kỳ… nào' hoặc 'dù… thế nào đi nữa'. 'No matter + từ hỏi' tương đương nghĩa nhượng bộ.\n\n1) Làm mệnh đề danh từ (chủ ngữ/tân ngữ)\n• whoever = anyone who: Whoever wins the contest will receive a gift card.\n• whatever = anything that: Customers may choose whatever they like from the menu.\n• whichever (+ N) = any (one) that, chọn trong một nhóm xác định: Select whichever option is most convenient.\n\n2) Làm mệnh đề trạng ngữ (nhượng bộ / bất kỳ lúc nào, nơi nào)\n• whenever = any time / every time: Please call us whenever you need assistance.\n• wherever = any place: The tablet can be used wherever there is a signal.\n• however + adj/adv + S + V = no matter how: However busy the staff are, they respond within 24 hours.\n• Whatever/Whoever + S + V, … = No matter what/who …\n\n3) No matter + what / who / how / when / where / which + S + V\n• No matter how large the order is, shipping is free.\n\nVí dụ TOEIC:\n• Whoever is responsible for the storage room should keep it locked. (Bất kỳ ai phụ trách kho đều phải khóa cửa.)\n• However carefully the team plans, some delays are unavoidable. (Dù đội lên kế hoạch cẩn thận đến đâu, vẫn có những chậm trễ không thể tránh.)\n• We will match whatever price our competitors offer. (Chúng tôi sẽ áp dụng bằng mọi mức giá mà đối thủ đưa ra.)\n\nBẫy thường gặp:\n• whoever (người) ≠ whatever (vật/việc). Nhìn động từ phía sau: 'whoever submits' (ai nộp), 'whatever is left' (thứ còn lại).\n• Trước tính từ/trạng từ CHỈ dùng however (no matter how): 'however small', không 'whatever small'.\n• whoever vs whomever: chọn theo vai trò trong mệnh đề phía sau, không theo giới từ đứng trước ('to whoever arrives first')."
+  },
+  {
+   "t": "Thể sai khiến & động từ đặc biệt (have/get/make/let/help)",
+   "k": "caus",
+   "b": "Thể sai khiến (causative) diễn tả việc khiến/nhờ/cho phép người khác làm gì hoặc nhờ ai làm gì cho một vật. TOEIC 800+ thường cho 4 dạng động từ sau tân ngữ: V, to V, V-ing, V3.\n\n1) Tân ngữ là NGƯỜI (chủ động)\n• have + O + V: The manager had her assistant book the venue.\n• make + O + V (bắt buộc): The policy makes employees submit receipts.\n• let + O + V (cho phép): Let customers return items within 30 days.\n• get + O + to V (thuyết phục): We got the supplier to extend the deadline.\n• help + O + (to) V: The software helps staff track orders / to track orders.\n\n2) Tân ngữ là VẬT (bị động) → have / get + O + V3\n• We had the brochures printed locally. (nhờ in)\n• You should get the contract reviewed by a lawyer.\n\n3) Các động từ + O + to V (rất hay ra)\n• ask, allow, permit, require, encourage, enable, advise, remind, invite, urge, expect, instruct + O + to V\n• Bị động: Employees are required/encouraged/advised to V.\n\n4) Bị động của make: be made to V (có 'to'); let không dùng bị động → dùng be allowed to V.\n\nVí dụ TOEIC:\n• Ms. Patel had the technician inspect the copier. (Cô Patel đã nhờ kỹ thuật viên kiểm tra máy photocopy.)\n• The hotel had all of its rooms repainted last spring. (Khách sạn đã cho sơn lại toàn bộ phòng vào mùa xuân năm ngoái.)\n• The new policy lets employees work from home on Fridays. (Chính sách mới cho phép nhân viên làm tại nhà vào thứ Sáu.)\n• Guests are asked to check out by 11 A.M. (Khách được yêu cầu trả phòng trước 11 giờ sáng.)\n\nBẫy thường gặp:\n• 'make/let/have + O + to V' → sai (chủ động không có to).\n• 'get + O + V' (người) → sai, phải là to V.\n• Vật làm tân ngữ mà chọn V nguyên mẫu ('had the roof repair') → sai, phải là V3 (had the roof repaired).\n• keep + O + adj/V-ing (keep customers informed / keep the line running)."
+  },
+  {
+   "t": "Mệnh đề thời gian & tương lai",
+   "k": "timecl",
+   "b": "Quy tắc vàng: trong mệnh đề trạng ngữ chỉ THỜI GIAN hoặc ĐIỀU KIỆN nói về tương lai, KHÔNG dùng will; thay bằng hiện tại đơn (hoặc hiện tại hoàn thành). Mệnh đề chính mới dùng will / câu mệnh lệnh / be going to.\n\n1) Các liên từ cần nhớ\n• Thời gian: when, as soon as, once, after, before, until/till, by the time, while, the moment\n• Điều kiện: if, unless, provided (that), as long as, in case\n\n2) Công thức\n• Mệnh đề chính (will V / Please V / be going to V) + when/as soon as/once + S + V(hiện tại đơn)\n• … + after/once/when + S + have/has V3 (nhấn mạnh việc hoàn tất trước)\n• By the time + S + V(hiện tại), S + will have V3 (tương lai hoàn thành)\n• By the time + S + V(quá khứ), S + had V3 (quá khứ hoàn thành)\n• Until + hiện tại: The offer is valid until supplies run out.\n\n3) Ngoại lệ: 'when/if' mở đầu MỆNH ĐỀ DANH TỪ (tân ngữ của know, ask, wonder, confirm) thì vẫn dùng will:\n• Please let me know when the shipment will arrive. (tân ngữ của know)\n\nVí dụ TOEIC:\n• Ms. Okafor will review the figures as soon as she returns from Seoul. (Cô Okafor sẽ xem lại số liệu ngay khi trở về từ Seoul.)\n• Once the renovation has been completed, the lobby will reopen. (Một khi việc cải tạo hoàn tất, sảnh sẽ mở cửa lại.)\n• By the time the auditors arrive, we will have organized all the files. (Trước khi kiểm toán viên đến, chúng tôi sẽ sắp xếp xong toàn bộ hồ sơ.)\n• Please keep your receipt until the item is delivered. (Vui lòng giữ biên lai cho đến khi hàng được giao.)\n\nBẫy thường gặp:\n• Chọn 'will arrive' sau as soon as/once → sai.\n• Chọn thì quá khứ sau when vì 'cảm giác' sự việc đã xảy ra, trong khi mệnh đề chính là will → sai.\n• By the time + hiện tại, mệnh đề chính chọn 'will finish' thay vì 'will have finished' khi nhấn mạnh hoàn tất trước mốc."
+  },
+  {
+   "t": "Trạng từ đặc biệt (already/still/yet, so/such, too/enough, hardly)",
+   "k": "advpos",
+   "b": "Nhóm trạng từ này giống nhau về nghĩa nhưng khác về vị trí và cấu trúc đi kèm. TOEIC 800+ hay cho 4 trạng từ cùng nhóm để bạn chọn theo ngữ pháp, không chỉ theo nghĩa.\n\n1) already / still / yet\n• already: khẳng định, xảy ra sớm hơn mong đợi; vị trí giữa trợ động từ và V3: has already been shipped.\n• still: vẫn còn (khẳng định/phủ định), đứng trước trợ động từ phủ định: The parts still have not arrived. / is still under review.\n• yet: phủ định & nghi vấn, cuối câu: hasn't been approved yet; cấu trúc 'have/be yet to V' = chưa: The board has yet to decide.\n\n2) so / such / too / enough / very\n• so + adj/adv (+ that): so popular that…; so many/much + N\n• such + a/an + adj + N đếm được số ít; such + adj + N số nhiều/không đếm được: such a strong demand, such high prices\n• too + adj/adv + (for sb) + to V = quá… đến nỗi không: too heavy to lift\n• adj/adv + enough + to V; enough + N: large enough, enough seats\n\n3) hardly / nearly / almost / mostly\n• hardly / scarcely / barely = hầu như không (đã mang nghĩa phủ định): hardly any, hardly ever, could hardly hear\n• almost / nearly = gần như: almost all, nearly every, almost always, nearly 200\n\n4) Cặp hình thức dễ nhầm\n• late (muộn) / lately (gần đây); high / highly (rất: highly recommended); hard / hardly\n\nVí dụ TOEIC:\n• The new branch has yet to hire a manager. (Chi nhánh mới vẫn chưa tuyển được quản lý.)\n• The demand was so strong that the store ran out of stock. (Nhu cầu cao đến mức cửa hàng hết hàng.)\n• The room is not large enough to hold 100 guests. (Phòng không đủ rộng để chứa 100 khách.)\n\nBẫy thường gặp:\n• 'so a big event' → sai; 'such a big event' đúng.\n• 'enough large' → sai; 'large enough' đúng.\n• 'hardly not' → sai (phủ định kép).\n• 'almost employees' → sai; 'almost all employees' hoặc 'most employees'."
+  },
+  {
+   "t": "Cụm giới từ cố định (in accordance with, on behalf of…)",
+   "k": "prepphr",
+   "b": "Cụm giới từ nhiều chữ hoạt động như MỘT giới từ: theo sau là danh từ/cụm danh từ/V-ing, không phải mệnh đề. TOEIC hỏi hai kiểu: (1) điền một chữ còn thiếu trong cụm; (2) chọn cụm đúng nghĩa trong 4 cụm.\n\n1) Tuân theo / phù hợp\n• in accordance with, in compliance with, according to, pursuant to\n\n2) Đại diện / phụ trách / thay thế\n• on behalf of (thay mặt), in charge of (phụ trách), in place of / instead of (thay cho), in exchange for (để đổi lấy)\n\n3) Nguyên nhân / xét đến\n• due to, owing to, because of, as a result of, in light of (xét đến), in response to (đáp lại)\n\n4) Thêm vào / nhượng bộ / ngoại trừ\n• in addition to, along with; despite, in spite of, notwithstanding, regardless of; except for, apart from, aside from\n\n5) Thời gian / liên quan / mục đích\n• prior to (trước), ahead of, as of (kể từ), with regard to / with respect to / in regard to / regarding (liên quan đến), for the purpose of, in an effort to V, in the event of (trong trường hợp), on the condition that…\n\nVí dụ TOEIC:\n• All waste must be disposed of in accordance with local regulations. (Toàn bộ rác thải phải được xử lý theo quy định địa phương.)\n• Mr. Chen accepted the award on behalf of the entire team. (Ông Chen nhận giải thay mặt cả nhóm.)\n• In light of recent feedback, the menu will be revised. (Xét đến phản hồi gần đây, thực đơn sẽ được điều chỉnh.)\n• As of June 1, the store will open at 9 A.M. (Kể từ ngày 1/6, cửa hàng sẽ mở cửa lúc 9 giờ sáng.)\n\nBẫy thường gặp:\n• Sai giới từ cuối: in accordance TO, on behalf FOR, in compliance TO, prior THAN → đều sai.\n• Cụm giới từ + mệnh đề → sai: 'due to the weather was bad' → phải 'because the weather was bad'.\n• 'in case of' và 'in the event of' cùng nghĩa (trong trường hợp xảy ra); nhưng 'in charge of' (phụ trách) ≠ 'in care of' (nhờ chuyển cho)."
+  }
+ ]
+}

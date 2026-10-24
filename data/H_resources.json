@@ -1,0 +1,222 @@
+{
+  "categories": [
+    {
+      "category": "1. Tài liệu & Đề thi TOEIC Chính thống (Listening, Reading, Speaking & Writing)",
+      "items": [
+        {
+          "name": "ETS TOEIC Official Website & Examinee Handbooks (L&R + S&W)",
+          "focus": "Cấu trúc đề thi chuẩn mới nhất, thang điểm, tiêu chí chấm Speaking & Writing (Rubrics) và câu hỏi mẫu chính thức từ viện khảo thí ETS.",
+          "cost": "Miễn phí (Free tài liệu Handbook PDF & Sample Questions)",
+          "url": "https://www.ets.org/toeic.html",
+          "howToUse": "Tải file 'TOEIC Listening & Reading Examinee Handbook' và 'TOEIC Speaking & Writing Examinee Handbook' để nắm rõ yêu cầu từng câu hỏi trước khi luyện đề."
+        },
+        {
+          "name": "Bộ sách ETS TOEIC Official Test-Preparation Guide (YBM phát hành độc quyền theo bản quyền ETS)",
+          "focus": "Luyện đề sát 99% đề thi thật (cùng giọng đọc viên âm thanh và độ khó Part 5–7 với bài thi thật).",
+          "cost": "Trả phí (Mua sách giấy tại nhà sách uy tín; cần kiểm tra bản phát hành năm mới nhất)",
+          "url": "",
+          "howToUse": "Dùng cho khối 35 phút Reading mỗi ngày (Tuần 6–9 tách làm từng Part có bấm giờ; Tuần 10–12 bấm đồng hồ 75 phút làm full Reading)."
+        },
+        {
+          "name": "Hackers TOEIC Reading & Hackers TOEIC Speaking / Writing",
+          "focus": "Phân tích cực kỳ chi tiết các bẫy ngữ pháp Part 5–6, chiến thuật đọc tìm bằng chứng Part 7 và khung bài mẫu (templates) cho Speaking & Writing.",
+          "cost": "Trả phí (Sách bản quyền)",
+          "url": "",
+          "howToUse": "Khi đang ở mức Reading 100–200, dùng cuốn Hackers TOEIC Reading (hoặc Economy TOEIC) ở giai đoạn Tuần 1–6 để nắm chắc lý thuyết trước khi giải đề ETS nặng."
+        },
+        {
+          "name": "Study4 (Nền tảng luyện đề trực tuyến phổ biến tại Việt Nam)",
+          "focus": "Thi thử TOEIC L&R và S&W trực tuyến có giao diện bấm giờ từng Part, thống kê dạng câu hay sai.",
+          "cost": "Miễn phí các bộ đề cơ bản / Có gói trả phí cho khóa học chi tiết",
+          "url": "https://study4.com",
+          "howToUse": "Tiện lợi để bấm giờ làm riêng Part 5, Part 6 hoặc Part 7. Lưu ý: Với các giải thích do cộng đồng đóng góp, nên đối chiếu lại với từ điển chuẩn (Cambridge/Oxford)."
+        }
+      ]
+    },
+    {
+      "category": "2. Ngữ pháp & Từ vựng Cốt lõi (Xây nền tảng Reading 100 → 305+)",
+      "items": [
+        {
+          "name": "English Grammar in Use — Intermediate (Raymond Murphy, Cambridge University Press)",
+          "focus": "Sách gối đầu giường sửa gốc ngữ pháp (Thì, Bị động, Mệnh đề quan hệ, Giới từ, V-ing/To-V). Mỗi bài 2 trang: trang trái lý thuyết ngắn gọn, trang phải bài tập.",
+          "cost": "Trả phí (Sách in / eBook bản quyền)",
+          "url": "https://www.cambridge.org",
+          "howToUse": "Trong 5 tuần đầu, mỗi khi làm sai chủ đề nào ở tab Ngữ pháp trong app, hãy mở đúng Unit tương ứng trong sách này làm 15 phút."
+        },
+        {
+          "name": "Oxford 3000 & Oxford 5000 Word Lists (Oxford Learner's Dictionaries)",
+          "focus": "Danh sách 3.000–5.000 từ vựng cốt lõi quan trọng nhất trong tiếng Anh, có phân loại CEFR (A1–C1) và phát âm Anh-Mỹ chuẩn.",
+          "cost": "Miễn phí 100%",
+          "url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+          "howToUse": "Dùng để tra cứu phát âm IPA Anh-Mỹ, nghe giọng đọc mẫu và xem các cụm từ đi kèm (collocations) chuẩn xác nhất."
+        },
+        {
+          "name": "600 Essential Words for the TOEIC (Barron's)",
+          "focus": "50 chủ đề từ vựng kinh doanh, văn phòng, hợp đồng, nhân sự, tài chính, chuỗi cung ứng luôn xuất hiện trong TOEIC.",
+          "cost": "Trả phí (Sách in)",
+          "url": "",
+          "howToUse": "Học theo ngữ cảnh bài đọc ngắn và gia đình từ (Word Family: noun, verb, adjective, adverb) để giải quyết triệt để dạng bài Từ loại ở Part 5 & Part 6."
+        },
+        {
+          "name": "Cambridge Dictionary Online (Anh–Anh & Anh–Việt)",
+          "focus": "Tra nghĩa chuẩn, xem ví dụ câu văn thương mại và phân biệt từ dễ nhầm lẫn.",
+          "cost": "Miễn phí 100%",
+          "url": "https://dictionary.cambridge.org",
+          "howToUse": "Khi gặp từ mới trong Part 7, đừng chỉ tra 1 từ tiếng Việt—hãy đọc 2 câu ví dụ tiếng Anh trong từ điển Cambridge để nhớ luôn giới từ đi kèm."
+        }
+      ]
+    },
+    {
+      "category": "3. Tiếng Anh Chuyên ngành Công nghệ Thông tin (IT & Software Engineering)",
+      "items": [
+        {
+          "name": "Cambridge Professional English in Use: ICT (Information and Communications Technology)",
+          "focus": "Từ vựng và cấu trúc câu chuẩn về phần cứng, kiến trúc phần mềm, mạng, cơ sở dữ liệu, bảo mật và phát triển web.",
+          "cost": "Trả phí (Sách Cambridge)",
+          "url": "",
+          "howToUse": "Học kết hợp với tab 💻 IT trong web app để nắm vững cách diễn đạt kỹ thuật chuẩn xác mà kỹ sư bản xứ sử dụng."
+        },
+        {
+          "name": "Podcast: Syntax.fm & The Changelog",
+          "focus": "Hội thoại tự nhiên giữa các Senior/Staff Engineers người Mỹ về Full-stack Web Development, AI, kiến trúc hệ thống, debugging và văn hóa làm việc ngành phần mềm.",
+          "cost": "Miễn phí 100% (Có transcript đầy đủ trên web)",
+          "url": "https://syntax.fm",
+          "howToUse": "Nghe 10–15 phút mỗi ngày khi đi đường; chọn 1 đoạn 30 giây có transcript để nhại theo (Shadowing) giúp quen với các cụm như 'trade-off', 'bottleneck', 'ship to prod'."
+        },
+        {
+          "name": "The Changelog Podcast & News",
+          "focus": "Phỏng vấn các kỹ sư trưởng, tác giả mã nguồn mở và lãnh đạo kỹ thuật trên thế giới.",
+          "cost": "Miễn phí 100% (Có kèm transcript)",
+          "url": "https://changelog.com/podcast",
+          "howToUse": "Rất tốt để học cách đặt câu hỏi và trả lời phỏng vấn System Design, thuyết trình giải pháp kỹ thuật (Technical Pitch)."
+        },
+        {
+          "name": "YouTube Tech Keynotes & Engineering Talks (Google I/O, GitHub Universe, AWS re:Invent, Fireship)",
+          "focus": "Luyện nghe tốc độ thật + học cách kỹ sư bản xứ demo sản phẩm (Sprint Review) và giải thích kiến trúc trực quan.",
+          "cost": "Miễn phí 100%",
+          "url": "https://www.youtube.com",
+          "howToUse": "Bật phụ đề tiếng Anh (English CC, tuyệt đối không bật phụ đề tiếng Việt) để vừa học thuật ngữ vừa học ngữ điệu thuyết trình cho TOEIC Speaking Q1–2 và công việc."
+        }
+      ]
+    },
+    {
+      "category": "4. Phát âm, Nối âm (Connected Speech) & Luyện Nói với Người thật",
+      "items": [
+        {
+          "name": "YouGlish (Tra cứu phát âm thực tế trong hàng triệu video bản xứ)",
+          "focus": "Gõ bất kỳ từ/cụm từ IT hoặc TOEIC nào (chọn 'US'), hệ thống sẽ tua ngay tới giây người bản xứ phát âm cụm đó trong câu thực tế.",
+          "cost": "Miễn phí 100%",
+          "url": "https://youglish.com",
+          "howToUse": "Cực kỳ hữu ích khi bạn không chắc một thuật ngữ IT (như 'idempotency', 'orchestration', 'Kubernetes', 'prioritize') đặt trọng âm ở đâu trong câu nói thật."
+        },
+        {
+          "name": "Rachel's English (Kênh YouTube dạy Phát âm & Nối âm Anh-Mỹ)",
+          "focus": "Giải mã hiện tượng nuốt âm cuối (stop consonants /t/, /d/), nối phụ âm-nguyên âm, giảm âm (schwa /ə/) và ngữ điệu lên xuống của người Mỹ.",
+          "cost": "Miễn phí trên YouTube / Có khóa học trả phí trên web",
+          "url": "https://rachelsenglish.com",
+          "howToUse": "Xem danh sách phát 'Reduction and Linking' để hiểu vì sao mình biết từ vựng nhưng khi người bản xứ nói nhanh lại không nhận ra."
+        },
+        {
+          "name": "BBC Learning English & ELLLO.org",
+          "focus": "Bài nghe ngắn 3–6 phút đa dạng chủ đề công sở, công nghệ, đời sống kèm đầy đủ transcript và giải thích từ vựng.",
+          "cost": "Miễn phí 100%",
+          "url": "https://www.elllo.org",
+          "howToUse": "ELLLO có đủ các giọng Mỹ, Anh, Úc, Canada (đúng 4 giọng chuẩn trong đề thi TOEIC Listening). Rất hợp để luyện nghe chép và đối chiếu transcript."
+        },
+        {
+          "name": "Nền tảng luyện nói 1-1 với gia sư/người bản xứ: italki / Cambly / Preply",
+          "focus": "Thực hành giao tiếp trực tiếp, Mock Interview IT và sửa lỗi phát âm/ngữ pháp trực tiếp với giáo viên bản xứ hoặc gia sư có kinh nghiệm IT.",
+          "cost": "Trả phí theo buổi hoặc gói tháng (HelloTalk / Tandem có chế độ trao đổi ngôn ngữ miễn phí)",
+          "url": "https://www.italki.com",
+          "howToUse": "Từ Tuần 7 trở đi, đặt lịch 1–2 buổi/tuần (30 phút/buổi). Mang đúng 10 tình huống IT Workplace và đề Q11 trong app này ra nói thử để giáo viên sửa phản xạ."
+        }
+      ]
+    }
+  ],
+  "appResourcesFormat": [
+    {
+      "cat": "1. Tài liệu & Đề thi TOEIC Chính thống (Listening, Reading, Speaking & Writing)",
+      "items": [
+        [
+          "ETS TOEIC Official Website & Examinee Handbooks (L&R + S&W) (Miễn phí (Free tài liệu Handbook PDF & Sample Questions)) — https://www.ets.org/toeic.html",
+          "🎯 Trọng tâm: Cấu trúc đề thi chuẩn mới nhất, thang điểm, tiêu chí chấm Speaking & Writing (Rubrics) và câu hỏi mẫu chính thức từ viện khảo thí ETS. 💡 Cách dùng: Tải file 'TOEIC Listening & Reading Examinee Handbook' và 'TOEIC Speaking & Writing Examinee Handbook' để nắm rõ yêu cầu từng câu hỏi trước khi luyện đề."
+        ],
+        [
+          "Bộ sách ETS TOEIC Official Test-Preparation Guide (YBM phát hành độc quyền theo bản quyền ETS) (Trả phí (Mua sách giấy tại nhà sách uy tín; cần kiểm tra bản phát hành năm mới nhất))",
+          "🎯 Trọng tâm: Luyện đề sát 99% đề thi thật (cùng giọng đọc viên âm thanh và độ khó Part 5–7 với bài thi thật). 💡 Cách dùng: Dùng cho khối 35 phút Reading mỗi ngày (Tuần 6–9 tách làm từng Part có bấm giờ; Tuần 10–12 bấm đồng hồ 75 phút làm full Reading)."
+        ],
+        [
+          "Hackers TOEIC Reading & Hackers TOEIC Speaking / Writing (Trả phí (Sách bản quyền))",
+          "🎯 Trọng tâm: Phân tích cực kỳ chi tiết các bẫy ngữ pháp Part 5–6, chiến thuật đọc tìm bằng chứng Part 7 và khung bài mẫu (templates) cho Speaking & Writing. 💡 Cách dùng: Khi đang ở mức Reading 100–200, dùng cuốn Hackers TOEIC Reading (hoặc Economy TOEIC) ở giai đoạn Tuần 1–6 để nắm chắc lý thuyết trước khi giải đề ETS nặng."
+        ],
+        [
+          "Study4 (Nền tảng luyện đề trực tuyến phổ biến tại Việt Nam) (Miễn phí các bộ đề cơ bản / Có gói trả phí cho khóa học chi tiết) — https://study4.com",
+          "🎯 Trọng tâm: Thi thử TOEIC L&R và S&W trực tuyến có giao diện bấm giờ từng Part, thống kê dạng câu hay sai. 💡 Cách dùng: Tiện lợi để bấm giờ làm riêng Part 5, Part 6 hoặc Part 7. Lưu ý: Với các giải thích do cộng đồng đóng góp, nên đối chiếu lại với từ điển chuẩn (Cambridge/Oxford)."
+        ]
+      ]
+    },
+    {
+      "cat": "2. Ngữ pháp & Từ vựng Cốt lõi (Xây nền tảng Reading 100 → 305+)",
+      "items": [
+        [
+          "English Grammar in Use — Intermediate (Raymond Murphy, Cambridge University Press) (Trả phí (Sách in / eBook bản quyền)) — https://www.cambridge.org",
+          "🎯 Trọng tâm: Sách gối đầu giường sửa gốc ngữ pháp (Thì, Bị động, Mệnh đề quan hệ, Giới từ, V-ing/To-V). Mỗi bài 2 trang: trang trái lý thuyết ngắn gọn, trang phải bài tập. 💡 Cách dùng: Trong 5 tuần đầu, mỗi khi làm sai chủ đề nào ở tab Ngữ pháp trong app, hãy mở đúng Unit tương ứng trong sách này làm 15 phút."
+        ],
+        [
+          "Oxford 3000 & Oxford 5000 Word Lists (Oxford Learner's Dictionaries) (Miễn phí 100%) — https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+          "🎯 Trọng tâm: Danh sách 3.000–5.000 từ vựng cốt lõi quan trọng nhất trong tiếng Anh, có phân loại CEFR (A1–C1) và phát âm Anh-Mỹ chuẩn. 💡 Cách dùng: Dùng để tra cứu phát âm IPA Anh-Mỹ, nghe giọng đọc mẫu và xem các cụm từ đi kèm (collocations) chuẩn xác nhất."
+        ],
+        [
+          "600 Essential Words for the TOEIC (Barron's) (Trả phí (Sách in))",
+          "🎯 Trọng tâm: 50 chủ đề từ vựng kinh doanh, văn phòng, hợp đồng, nhân sự, tài chính, chuỗi cung ứng luôn xuất hiện trong TOEIC. 💡 Cách dùng: Học theo ngữ cảnh bài đọc ngắn và gia đình từ (Word Family: noun, verb, adjective, adverb) để giải quyết triệt để dạng bài Từ loại ở Part 5 & Part 6."
+        ],
+        [
+          "Cambridge Dictionary Online (Anh–Anh & Anh–Việt) (Miễn phí 100%) — https://dictionary.cambridge.org",
+          "🎯 Trọng tâm: Tra nghĩa chuẩn, xem ví dụ câu văn thương mại và phân biệt từ dễ nhầm lẫn. 💡 Cách dùng: Khi gặp từ mới trong Part 7, đừng chỉ tra 1 từ tiếng Việt—hãy đọc 2 câu ví dụ tiếng Anh trong từ điển Cambridge để nhớ luôn giới từ đi kèm."
+        ]
+      ]
+    },
+    {
+      "cat": "3. Tiếng Anh Chuyên ngành Công nghệ Thông tin (IT & Software Engineering)",
+      "items": [
+        [
+          "Cambridge Professional English in Use: ICT (Information and Communications Technology) (Trả phí (Sách Cambridge))",
+          "🎯 Trọng tâm: Từ vựng và cấu trúc câu chuẩn về phần cứng, kiến trúc phần mềm, mạng, cơ sở dữ liệu, bảo mật và phát triển web. 💡 Cách dùng: Học kết hợp với tab 💻 IT trong web app để nắm vững cách diễn đạt kỹ thuật chuẩn xác mà kỹ sư bản xứ sử dụng."
+        ],
+        [
+          "Podcast: Syntax.fm & The Changelog (Miễn phí 100% (Có transcript đầy đủ trên web)) — https://syntax.fm",
+          "🎯 Trọng tâm: Hội thoại tự nhiên giữa các Senior/Staff Engineers người Mỹ về Full-stack Web Development, AI, kiến trúc hệ thống, debugging và văn hóa làm việc ngành phần mềm. 💡 Cách dùng: Nghe 10–15 phút mỗi ngày khi đi đường; chọn 1 đoạn 30 giây có transcript để nhại theo (Shadowing) giúp quen với các cụm như 'trade-off', 'bottleneck', 'ship to prod'."
+        ],
+        [
+          "The Changelog Podcast & News (Miễn phí 100% (Có kèm transcript)) — https://changelog.com/podcast",
+          "🎯 Trọng tâm: Phỏng vấn các kỹ sư trưởng, tác giả mã nguồn mở và lãnh đạo kỹ thuật trên thế giới. 💡 Cách dùng: Rất tốt để học cách đặt câu hỏi và trả lời phỏng vấn System Design, thuyết trình giải pháp kỹ thuật (Technical Pitch)."
+        ],
+        [
+          "YouTube Tech Keynotes & Engineering Talks (Google I/O, GitHub Universe, AWS re:Invent, Fireship) (Miễn phí 100%) — https://www.youtube.com",
+          "🎯 Trọng tâm: Luyện nghe tốc độ thật + học cách kỹ sư bản xứ demo sản phẩm (Sprint Review) và giải thích kiến trúc trực quan. 💡 Cách dùng: Bật phụ đề tiếng Anh (English CC, tuyệt đối không bật phụ đề tiếng Việt) để vừa học thuật ngữ vừa học ngữ điệu thuyết trình cho TOEIC Speaking Q1–2 và công việc."
+        ]
+      ]
+    },
+    {
+      "cat": "4. Phát âm, Nối âm (Connected Speech) & Luyện Nói với Người thật",
+      "items": [
+        [
+          "YouGlish (Tra cứu phát âm thực tế trong hàng triệu video bản xứ) (Miễn phí 100%) — https://youglish.com",
+          "🎯 Trọng tâm: Gõ bất kỳ từ/cụm từ IT hoặc TOEIC nào (chọn 'US'), hệ thống sẽ tua ngay tới giây người bản xứ phát âm cụm đó trong câu thực tế. 💡 Cách dùng: Cực kỳ hữu ích khi bạn không chắc một thuật ngữ IT (như 'idempotency', 'orchestration', 'Kubernetes', 'prioritize') đặt trọng âm ở đâu trong câu nói thật."
+        ],
+        [
+          "Rachel's English (Kênh YouTube dạy Phát âm & Nối âm Anh-Mỹ) (Miễn phí trên YouTube / Có khóa học trả phí trên web) — https://rachelsenglish.com",
+          "🎯 Trọng tâm: Giải mã hiện tượng nuốt âm cuối (stop consonants /t/, /d/), nối phụ âm-nguyên âm, giảm âm (schwa /ə/) và ngữ điệu lên xuống của người Mỹ. 💡 Cách dùng: Xem danh sách phát 'Reduction and Linking' để hiểu vì sao mình biết từ vựng nhưng khi người bản xứ nói nhanh lại không nhận ra."
+        ],
+        [
+          "BBC Learning English & ELLLO.org (Miễn phí 100%) — https://www.elllo.org",
+          "🎯 Trọng tâm: Bài nghe ngắn 3–6 phút đa dạng chủ đề công sở, công nghệ, đời sống kèm đầy đủ transcript và giải thích từ vựng. 💡 Cách dùng: ELLLO có đủ các giọng Mỹ, Anh, Úc, Canada (đúng 4 giọng chuẩn trong đề thi TOEIC Listening). Rất hợp để luyện nghe chép và đối chiếu transcript."
+        ],
+        [
+          "Nền tảng luyện nói 1-1 với gia sư/người bản xứ: italki / Cambly / Preply (Trả phí theo buổi hoặc gói tháng (HelloTalk / Tandem có chế độ trao đổi ngôn ngữ miễn phí)) — https://www.italki.com",
+          "🎯 Trọng tâm: Thực hành giao tiếp trực tiếp, Mock Interview IT và sửa lỗi phát âm/ngữ pháp trực tiếp với giáo viên bản xứ hoặc gia sư có kinh nghiệm IT. 💡 Cách dùng: Từ Tuần 7 trở đi, đặt lịch 1–2 buổi/tuần (30 phút/buổi). Mang đúng 10 tình huống IT Workplace và đề Q11 trong app này ra nói thử để giáo viên sửa phản xạ."
+        ]
+      ]
+    }
+  ]
+}

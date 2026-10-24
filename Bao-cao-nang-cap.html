@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Báo cáo nâng cấp English Lab</title>
+<style>
+:root{--bg:#f7f7f4;--card:#fff;--ink:#1d2321;--mut:#5f6b66;--line:#e2e4df;--pri:#2f7d5b;--pri-l:#e6f2ec;--warn:#9a5b00;--warn-l:#fdf3e1;--bad:#a8322d;--bad-l:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--card:#1c211f;--ink:#e6ebe8;--mut:#9aa6a0;--line:#2c3330;--pri:#5fbf92;--pri-l:#1f3229;--warn:#e0a84a;--warn-l:#33291a;--bad:#e67b74;--bad-l:#3a2120}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:28px;margin:0 0 4px}header p{margin:0;color:var(--mut)}
+nav.toc{margin:20px 0 8px;display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font-size:14px;text-decoration:none;color:var(--pri);background:var(--pri-l);padding:4px 10px;border-radius:999px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:18px 0}
+h2{font-size:20px;margin:0 0 12px}h2 .n{display:inline-block;min-width:28px;color:var(--pri)}
+h3{font-size:16px;margin:16px 0 6px}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{background:var(--warn-l);border-left:4px solid var(--warn);padding:10px 14px;border-radius:6px;margin:12px 0}
+.ok{background:var(--pri-l);border-left:4px solid var(--pri);padding:10px 14px;border-radius:6px;margin:12px 0}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--pri-l);color:var(--pri);font-weight:600}
+.tag.w{background:var(--warn-l);color:var(--warn)}.tag.b{background:var(--bad-l);color:var(--bad)}
+code{background:var(--pri-l);padding:1px 5px;border-radius:4px;font-size:.92em}
+ul,ol{padding-left:22px;margin:8px 0}li{margin:6px 0}
+.qa{border-top:1px solid var(--line);padding:12px 0}.qa:first-of-type{border-top:0}
+.qa .q{font-weight:700}.qa .a{margin-top:4px}
+a{color:var(--pri)}
+footer{color:var(--mut);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Báo cáo nâng cấp English Lab</h1>
+  <p>Mục tiêu TOEIC 800+ · Hoàn thành 24/10/2026 · Mở <code>English-Lab.html</code> để dùng</p>
+</header>
+
+<nav class="toc">
+  <a href="#dot2">0. Đợt 2: deploy + đồng bộ</a>
+  <a href="#ket-qua">1. Đã làm gì</a>
+  <a href="#cach-dung">2. Dùng thế nào</a>
+  <a href="#ai">3. Lấy API key</a>
+  <a href="#format">4. Format đề & Zenlish</a>
+  <a href="#thieu">5. Web còn thiếu gì</a>
+  <a href="#can">6. Bạn cần cung cấp gì</a>
+</nav>
+
+<section id="dot2">
+  <h2><span class="n">0</span>Đợt 2: làm các mục ở phần tự hỏi–đáp, đồng bộ MongoDB, đưa lên GitHub</h2>
+  <div class="tw"><table>
+    <tr><th>Mục ở phần 5</th><th>Đã làm</th></tr>
+    <tr><td>Kế hoạch theo điểm yếu</td><td>Trang 🏠 Hôm nay có thẻ <b>🎯 Ưu tiên theo điểm yếu</b>: % đúng từng Part (lấy từ 3 bài thi thử gần nhất và kết quả luyện tập). Hai Part yếu nhất có nút luyện ngay; với Part 5, app chọn đúng dạng ngữ pháp bạn sai nhiều nhất.</td></tr>
+    <tr><td>Sổ câu sai Nghe & Đọc</td><td>Bài Part 1–4, 6–7 làm sai (luyện tập và thi thử) tự vào <b>📝 Thi thử → 📕 Ôn câu sai</b>, hẹn ôn sau 1 ngày. Làm lại đúng thì tự xoá.</td></tr>
+    <tr><td>Luyện paraphrase</td><td>Tab 📚 Từ vựng có nút <b>🔁 Luyện paraphrase</b>: chọn từ/cụm thay được cho chữ in đậm trong câu ví dụ (dùng 1.700+ từ có sẵn paraphrase).</td></tr>
+    <tr><td>Tốc độ đọc</td><td>Reading báo số giây/câu và số từ/phút. Thi thử báo thời gian Part 5 / 6 / 7 so với mục tiêu (10′ / 8′ / 55′).</td></tr>
+    <tr><td>Thêm đề</td><td><b>Đề 3</b> (~800) và <b>Đề 4 — KHÓ</b> (850–900): thêm 400 câu. Mỗi agent soạn đề đã tự giải lại với đáp án bị giấu.</td></tr>
+    <tr><td>MP3 sách ETS</td><td>Phiếu chấm có nút <b>🎵 Mở file nghe</b> (phát ngay trên máy, không tải lên đâu) và bấm giờ 45′ / 75′ / 120′.</td></tr>
+    <tr><td>Không mất tiến độ</td><td><b>☁️ Đồng bộ MongoDB</b>: tự lưu lên mây khoảng 5 giây sau mỗi thay đổi; máy khác mở app sẽ tự tải về; máy chủ giữ 20 bản lưu cũ. Chưa bật đồng bộ thì app nhắc xuất sao lưu sau 7 ngày.</td></tr>
+    <tr><td>Học trên điện thoại</td><td>Deploy lên web (Vercel) và cài được như app (PWA): mở “Thêm vào màn hình chính”, vẫn mở được khi mất mạng.</td></tr>
+  </table></div>
+  <div class="ok"><b>Đã kiểm tra:</b> API đồng bộ chạy thật với MongoDB của bạn: sai mã thì bị từ chối, ghi/đọc được, chặn ghi đè giữa 2 máy. Luồng 2 trình duyệt: máy A học → tự lưu lên mây → máy B mở lần đầu tải về đúng tiến độ. Bài thử dùng database riêng và đã xoá sau khi thử. App chạy thử 85 thao tác trên Chrome: 0 lỗi.</div>
+  <div class="note"><b>Bảo mật:</b> chuỗi kết nối MongoDB <b>không</b> nằm trong code hay trên GitHub; nó chỉ nằm trong biến môi trường trên Vercel. Vì mật khẩu đã được gửi qua chat, sau khi deploy xong hãy <b>đổi mật khẩu user MongoDB</b> (Atlas → Database Access → Edit → Edit Password) rồi cập nhật lại <code>MONGODB_URI</code> trên Vercel.</div>
+</section>
+
+<section id="ket-qua">
+  <h2><span class="n">1</span>Đã làm gì</h2>
+  <div class="tw"><table>
+    <tr><th>Hạng mục</th><th>Trước</th><th>Sau</th><th>Ghi chú</th></tr>
+    <tr><td>Từ vựng TOEIC</td><td class="num">549</td><td class="num"><b>2.274</b></td><td>+1.725 từ chia 25 chủ đề ETS (tài chính, nhân sự, marketing, sản xuất, du lịch, pháp lý…) + từ khó Part 5 + 46 cặp từ dễ nhầm. Mỗi từ có IPA, ví dụ kèm dịch, <b>paraphrase</b> (đồng nghĩa hay gặp trong Part 7/3/4), collocation, mức 600–900.</td></tr>
+    <tr><td>Từ vựng IT (bộ riêng)</td><td class="num">268</td><td class="num"><b>1.046</b></td><td>+778 thuật ngữ và câu dùng khi làm việc, chia 18 mảng. <b>Tách riêng hoàn toàn</b>: không tính vào khối TOEIC, cây tuần hay nhiệm vụ ngày.</td></tr>
+    <tr><td>Câu Part 5</td><td class="num">333</td><td class="num"><b>633</b></td><td>+300 câu mức 700–900. Viết lại <b>197 lời giải quá ngắn</b> → giờ mọi câu đều có khung: Dấu hiệu → Đáp án → Vì sao 3 đáp án sai → Mẹo + bản dịch.</td></tr>
+    <tr><td>Ngữ pháp</td><td class="num">15 bài · 17 dạng</td><td class="num"><b>25 bài · 27 dạng</b></td><td>+10 dạng khó: đảo ngữ, giả định, rút gọn mệnh đề, cấu trúc song hành, mệnh đề danh từ, -ever, sai khiến, mệnh đề thời gian, trạng từ đặc biệt, cụm giới từ cố định.</td></tr>
+    <tr><td>Giải thích không cần AI</td><td>—</td><td><b>Mới</b></td><td>Mỗi câu Part 5 có mục <b>🧠 Phân tích logic từng bước</b>: nhận dạng dạng câu → vị trí chỗ trống cần từ loại gì → xét từng đáp án → kết luận. Chạy offline, áp dụng cả cho câu bạn tự thêm.</td></tr>
+    <tr><td>Listening Part 1–4</td><td>chưa có</td><td><b>74 bài · 146 câu</b></td><td>Tab 🎧 Nghe: Part 1–4 đúng dạng đề mới, nhiều giọng người (nam/nữ, Mỹ/Anh/Úc tuỳ máy), có transcript tô vàng câu chứa đáp án + giải thích.</td></tr>
+    <tr><td>Reading Part 6/7</td><td class="num">12 bài · 46 câu</td><td class="num"><b>27 bài · 105 câu</b></td><td>Thêm bài 3 đoạn văn (triple passage), tin nhắn, chèn câu. Bài mới theo bối cảnh kinh doanh chung (bài cũ thiên về IT).</td></tr>
+    <tr><td>Thi thử</td><td>chưa có</td><td><b>2 đề × 200 câu</b></td><td>Tab mới 📝 Thi thử: full test / chỉ nghe / chỉ đọc, mini test 50 câu, bảng câu hỏi, đồng hồ 75′, quy đổi điểm, thống kê theo Part, xem lại có giải thích. Câu Part 5 làm sai tự vào Sổ lỗi sai.</td></tr>
+    <tr><td>AI</td><td>chỉ Gemini</td><td><b>Gemini + Groq + OpenRouter</b></td><td>Tự chuyển sang nhà cung cấp kế tiếp khi một bên lỗi hoặc hết lượt. Có hướng dẫn lấy key từng bước ngay trong app.</td></tr>
+  </table></div>
+  <div class="ok"><b>Đã kiểm tra:</b> 2 đề thi được 2 agent độc lập giải lại cả 400 câu (giấu đáp án rồi so sánh): <b>không có đáp án sai</b>, chỉ sửa 1 lỗi mạo từ. Chạy thử app trên Chrome qua 73 thao tác (mọi tab, làm đề, nộp bài, chấm phiếu, AI panel): <b>0 lỗi</b>. Câu q68 bị phát hiện có 2 đáp án đều hợp lý → đã thay phương án nhiễu.</div>
+  <div class="note">Bản cũ được giữ ở <code>English-Lab.backup-2026-10-24.html</code>. Tiến độ học (thẻ SRS, điểm, cây) lưu trong trình duyệt nên vẫn giữ nguyên.</div>
+</section>
+
+<section id="cach-dung">
+  <h2><span class="n">2</span>Dùng thế nào</h2>
+  <ul>
+    <li><b>📚 Từ vựng</b>: chọn <b>Chủ đề</b> để học theo mảng ETS. Nút <b>🎯 Trắc nghiệm nghĩa</b> cho 10 câu nhanh; từ trả lời sai tự vào “Ôn hôm nay”. Danh sách hiện 200 dòng, bấm “Hiện thêm” để xem tiếp.</li>
+    <li><b>💻 IT</b>: bộ riêng, có giới hạn từ mới riêng (đổi ở tab Dữ liệu). Trang Hôm nay có một thẻ nhỏ nhắc thẻ IT đến hạn.</li>
+    <li><b>✍️ Ngữ pháp</b>: sau khi chọn đáp án, mở <b>🧠 Phân tích logic</b> để xem lập luận từng bước.</li>
+    <li><b>🎧 Nghe</b>: chọn Part 1–4 → ▶ Phát → chọn đáp án. Part 3–4 nên đọc câu hỏi trước khi bấm phát.</li>
+    <li><b>📝 Thi thử</b>: tuần đầu làm <b>Đề thi thử 1 (full)</b> để biết điểm xuất phát. Điểm tự ghi vào biểu đồ ở tab Lộ trình.</li>
+    <li><b>Khối “Nghe” hằng ngày</b> giờ tự đánh dấu xong khi làm ≥ 9 câu Part 1–4. <b>Khối “Reading”</b> cũng tự đánh dấu xong khi làm 1 bài thi thử.</li>
+  </ul>
+</section>
+
+<section id="ai">
+  <h2><span class="n">3</span>Lấy API key miễn phí (khoảng 2 phút)</h2>
+  <p>Mình không có sẵn key để cho bạn: key phải đăng ký bằng tài khoản của bạn. Trong app bấm <b>🤖 AI Mini</b> (góc phải trên) → <b>⚙️ Cài đặt AI Mini</b>, hoặc vào tab <b>⚙️ Dữ liệu</b>. Mỗi nhà cung cấp có hướng dẫn và nút “Mở trang lấy key”.</p>
+  <ol>
+    <li><b>Google Gemini</b> (nên có): <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> → Create API key → dán → Lưu → Kiểm tra.</li>
+    <li><b>Groq</b> (dự phòng, rất nhanh, khoảng 1.000 lượt/ngày): <a href="https://console.groq.com/keys" target="_blank" rel="noopener">console.groq.com/keys</a>.</li>
+    <li><b>OpenRouter</b> (tuỳ chọn, 50 lượt/ngày với model có đuôi <code>:free</code>): <a href="https://openrouter.ai/keys" target="_blank" rel="noopener">openrouter.ai/keys</a>.</li>
+  </ol>
+  <p class="note">Có từ 2 key trở lên thì AI gần như luôn chạy được. Model mặc định có thể bị nhà cung cấp đổi tên. Nếu nút Kiểm tra báo lỗi “model not found”, đổi tên model trong ô Model (ví dụ <code>gemini-2.5-flash</code>).</p>
+</section>
+
+<section id="format">
+  <h2><span class="n">4</span>TOEIC đổi format năm nào? Dùng Zenlish thế nào?</h2>
+  <ul>
+    <li><b>Format mới</b> áp dụng ở Nhật/Hàn từ <b>5/2016</b>, ở <b>Việt Nam từ 1/6/2019</b> (IIG). Tổng 200 câu, 120 phút, thang 10–990 <b>không đổi</b>; chỉ đổi số câu từng Part và thêm dạng mới.</li>
+    <li><b>Nhận biết đề mới:</b> Part 1 có <b>6</b> câu, Part 2 có 25, Part 3 có 39, Part 4 có 30, Part 5 có 30, Part 6 có 16, Part 7 có 54 (có bài 3 đoạn). Đề cũ có Part 1 = 10 câu và Part 5 = 40 câu thì bỏ qua.</li>
+    <li><b>Zenlish:</b> chọn nhóm <b>2026 (New)</b>, sau đó 2024 / 2023 / 2022 / 2020 / 2019. Với nhóm 2018 và Hacker, mở đề kiểm tra Part 1 có 6 câu hay không. Link đã có trong app: tab <b>📝 Thi thử → 🌐 Web luyện đề</b>, gồm cả link thẳng tới <a href="https://zenlishtoeic.vn/stm-quizzes/test-1-2026/" target="_blank" rel="noopener">Test 1 · 2026</a>.</li>
+    <li>Làm đề ở Zenlish hoặc sách xong → vào <b>🧾 Chấm đề sách / web</b> để nhập số câu đúng (hoặc tô phiếu 200 câu + dán đáp án). App quy đổi điểm và vẽ vào biểu đồ.</li>
+  </ul>
+  <p class="note">Điểm quy đổi trong app là <b>ước tính</b>: ETS không công bố bảng quy đổi cố định, mỗi đề thật quy đổi hơi khác nhau.</p>
+</section>
+
+<section id="thieu">
+  <h2><span class="n">5</span>Tự hỏi – tự đáp: web còn thiếu gì để hỗ trợ học tối đa?</h2>
+  <div class="qa"><div class="q">1. Phần nghe đã giống thi thật chưa? <span class="tag b">Thiếu lớn nhất</span></div><div class="a">Chưa hẳn. Audio là giọng máy của trình duyệt: phát âm rõ nhưng thiếu ngữ điệu tự nhiên và tốc độ thật, và Part 1 chỉ có mô tả bằng chữ thay cho ảnh. <b>Cách bù:</b> mỗi tuần làm ít nhất 1 đề có audio người thật trên Zenlish/ETS rồi chấm trong app. <b>Nên làm tiếp:</b> cho app mở file MP3 của sách ETS ngay trong phiếu chấm để luyện nghe + chấm tại một chỗ.</div></div>
+  <div class="qa"><div class="q">2. App có tự biết tuần sau nên luyện gì không? <span class="tag w">Nên làm</span></div><div class="a">Chưa. Kết quả thi thử đã có thống kê theo Part nhưng lộ trình 12 tuần vẫn cố định. <b>Nên làm tiếp:</b> “Kế hoạch tuần tự động”: Part nào dưới 70% thì tự tăng bài luyện Part đó trong trang Hôm nay.</div></div>
+  <div class="qa"><div class="q">3. Có luyện riêng kỹ năng paraphrase (diễn đạt lại) chưa? <span class="tag w">Nên làm</span></div><div class="a">Dữ liệu đã có sẵn (trường paraphrase của 1.725 từ mới) nhưng chưa có bài tập riêng. <b>Nên làm tiếp:</b> chế độ “Nối paraphrase”: cho một câu trong bài đọc/nghe, chọn cách diễn đạt tương đương. Đây là kỹ năng quyết định Part 3, 4 và 7 ở mức 800+.</div></div>
+  <div class="qa"><div class="q">4. Câu sai ở Listening và Part 7 có được ôn lại không? <span class="tag w">Nên làm</span></div><div class="a">Hiện Sổ lỗi sai chỉ lưu câu Part 5. <b>Nên làm tiếp:</b> lưu cả bài Part 3/4/7 làm sai để ôn lại theo lịch, giống thẻ từ vựng.</div></div>
+  <div class="qa"><div class="q">5. Có đo tốc độ đọc Part 7 không? <span class="tag">Có thể thêm</span></div><div class="a">Part 5 có theo dõi ≤ 20 giây/câu, còn Part 7 chưa đo số từ/phút. Thiếu thời gian Part 7 là lý do phổ biến khiến người 750 không lên được 850. <b>Nên làm tiếp:</b> hiện số từ/phút và cảnh báo khi chậm hơn nhịp cần thiết (khoảng 55 phút cho 54 câu).</div></div>
+  <div class="qa"><div class="q">6. Khi hết 2 đề trong app thì sao? <span class="tag">Có giải pháp</span></div><div class="a">Dùng đề ngoài (Zenlish, sách ETS) + phiếu chấm 200 câu. Nếu muốn, mình có thể soạn thêm đề 3, đề 4 cùng chuẩn (mỗi đề khoảng 1 giờ để soạn và kiểm tra).</div></div>
+  <div class="qa"><div class="q">7. Dữ liệu học có an toàn không? <span class="tag b">Rủi ro</span></div><div class="a">Tiến độ chỉ nằm trong trình duyệt của máy này. Xoá lịch sử hoặc đổi máy là mất. <b>Việc nên làm ngay:</b> tab ⚙️ Dữ liệu → <b>Xuất sao lưu</b> mỗi tuần. <b>Nên làm tiếp:</b> nhắc sao lưu tự động mỗi 7 ngày, hoặc biến app thành app cài được trên điện thoại.</div></div>
+  <div class="qa"><div class="q">8. Học trên điện thoại được không? <span class="tag">Có thể thêm</span></div><div class="a">Giao diện đã hợp màn hình nhỏ, nhưng mở file HTML trên điện thoại hơi bất tiện. Có thể đưa lên một link riêng tư để mở bằng điện thoại. Tiến độ trên mỗi thiết bị sẽ tách riêng, trừ khi làm thêm phần đồng bộ.</div></div>
+  <div class="qa"><div class="q">9. Speaking / Writing đã đủ chưa? <span class="tag">Đủ dùng</span></div><div class="a">Có đề, bài mẫu, checklist tự chấm. Có key AI thì AI chấm chi tiết. Mục tiêu hiện tại là L&amp;R 800+, nên phần này để sau.</div></div>
+  <h3>Đề xuất thứ tự làm tiếp (nếu bạn muốn)</h3>
+  <ol><li>Kế hoạch tuần tự động theo điểm yếu (mục 2)</li><li>Sổ lỗi sai cho Listening và Part 7 (mục 4)</li><li>Bài luyện paraphrase (mục 3)</li><li>Mở MP3 sách ETS trong app + nhắc sao lưu (mục 1, 7)</li><li>Thêm đề 3–4</li></ol>
+</section>
+
+<section id="can">
+  <h2><span class="n">6</span>Bạn cần cung cấp gì?</h2>
+  <ul>
+    <li><b>Không bắt buộc gì cả</b>: app đã chạy đầy đủ.</li>
+    <li><b>API key</b>: bạn tự tạo và dán trong app (mục 3). Đừng gửi key qua chat hoặc lưu vào file.</li>
+    <li><b>Điểm thi gần nhất / ngày dự thi</b>: để chỉnh ngày bắt đầu lộ trình (tab Dữ liệu) cho khớp mốc thi.</li>
+    <li><b>Nếu có sách ETS</b> (bản bạn đã mua): dùng phiếu chấm 200 câu trong app. Mình không đưa nội dung đề ETS vào app vì có bản quyền.</li>
+  </ul>
+</section>
+
+<footer>
+  Nguồn: <a href="https://www.ets.org/toeic/test-takers/prepare.html">ETS – Preparation</a> ·
+  <a href="https://www.eu.ets.org/content/dam/ets-org/eu/pdfs/toeic/toeic-listening-and-reading-sample-test.pdf">ETS sample test</a> ·
+  <a href="https://iigvietnam.com/wp-content/uploads/2026/05/TOEIC-Examinee-Handbook-update-2026.pdf">IIG Handbook 2026</a> ·
+  <a href="https://dainam.edu.vn/en/news/new-points-in-the-toeic-listening-test-will-be-applied-from-june-1st">Áp dụng format mới từ 1/6</a> ·
+  <a href="https://zenlishtoeic.vn/test-online-new/">Zenlish</a> ·
+  <a href="https://openrouter.ai/blog/tutorials/free-llm-apis-compared/">Free LLM APIs 2026</a>
+</footer>
+</div>
+</body>
+</html>

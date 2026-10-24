@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kế hoạch nâng cấp English Lab</title>
+<style>
+:root{--bg:#f7f7f4;--card:#fff;--ink:#1d2321;--mut:#5f6b66;--line:#e2e4df;--pri:#2f7d5b;--pri-l:#e6f2ec;--warn:#9a5b00;--warn-l:#fdf3e1;--bad:#a8322d;--bad-l:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--card:#1c211f;--ink:#e6ebe8;--mut:#9aa6a0;--line:#2c3330;--pri:#5fbf92;--pri-l:#1f3229;--warn:#e0a84a;--warn-l:#33291a;--bad:#e67b74;--bad-l:#3a2120}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:28px;margin:0 0 4px}
+header p{margin:0;color:var(--mut)}
+nav.toc{margin:20px 0 8px;display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font-size:14px;text-decoration:none;color:var(--pri);background:var(--pri-l);padding:4px 10px;border-radius:999px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:18px 0}
+h2{font-size:20px;margin:0 0 12px}
+h2 .n{display:inline-block;min-width:28px;color:var(--pri)}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600;white-space:nowrap}
+.note{background:var(--warn-l);border-left:4px solid var(--warn);padding:10px 14px;border-radius:6px;margin:12px 0}
+.bad{background:var(--bad-l);border-left:4px solid var(--bad);padding:10px 14px;border-radius:6px;margin:12px 0}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--pri-l);color:var(--pri);font-weight:600}
+code{background:var(--pri-l);padding:1px 5px;border-radius:4px;font-size:.92em}
+ul,ol{padding-left:22px;margin:8px 0}
+li{margin:6px 0}
+.q{font-weight:600}
+.dec li{margin:10px 0}
+.dec .opt{color:var(--mut);font-size:14px}
+a{color:var(--pri)}
+footer{color:var(--mut);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Kế hoạch nâng cấp English Lab</h1>
+  <p>Mục tiêu TOEIC 800+ · Bản nháp chờ duyệt · 24/10/2026</p>
+</header>
+
+<nav class="toc">
+  <a href="#hien-trang">1. Hiện trạng</a>
+  <a href="#api">2. API AI miễn phí</a>
+  <a href="#ets">3. Đề thi ETS</a>
+  <a href="#ke-hoach">4. Kế hoạch</a>
+  <a href="#thieu">5. Web còn thiếu gì</a>
+  <a href="#chot">6. Cần bạn chốt</a>
+</nav>
+
+<section id="hien-trang">
+  <h2><span class="n">1</span>Hiện trạng English-Lab.html</h2>
+  <p>Số liệu đếm trực tiếp từ dữ liệu trong file.</p>
+  <div class="tw"><table>
+    <tr><th>Mục</th><th>Hiện có</th><th>Nhận xét cho mục tiêu 800+</th></tr>
+    <tr><td>Từ vựng</td><td>817 mục: 449 TOEIC, 198 IT, 61 phrasal verb, 70 cụm IT, 39 giao tiếp</td><td>Quá ít. Mức 800+ cần khoảng 3.000 từ trở lên, kèm collocation và từ đồng nghĩa</td></tr>
+    <tr><td>Ngữ pháp</td><td>15 bài, 17 dạng, 333 câu Part 5</td><td>Thiếu các dạng khó: đảo ngữ, giả định, rút gọn mệnh đề…</td></tr>
+    <tr><td>Giải thích offline</td><td>Trung bình 253 ký tự/câu, nhưng <b>176/333 câu dưới 60 ký tự</b></td><td>Gần nửa số câu chỉ có một dòng giải thích, chưa đủ logic</td></tr>
+    <tr><td>Reading</td><td>4 bài Part 6 + 8 bài Part 7 (46 câu)</td><td>Chưa có bài 3 đoạn văn, chưa có đề đầy đủ</td></tr>
+    <tr><td>Listening</td><td>Chỉ có nghe chép chính tả (60 câu)</td><td><b>Chưa có Part 1–4</b>, đây là lỗ hổng lớn nhất</td></tr>
+    <tr><td>AI</td><td>Đã nối Gemini, cần bạn tự nhập key</td><td>Chỉ có một nhà cung cấp, Gemini lỗi là AI không chạy</td></tr>
+  </table></div>
+</section>
+
+<section id="api">
+  <h2><span class="n">2</span>API AI miễn phí</h2>
+  <div class="bad"><b>Mình không có API key để cho bạn.</b> Key nào cũng phải đăng ký bằng tài khoản của bạn. Việc này miễn phí, mất khoảng 2 phút và không cần thẻ. Mình cũng không ghi cứng key vào file, vì gửi file cho ai là người đó dùng được key của bạn.</div>
+  <div class="tw"><table>
+    <tr><th>Nhà cung cấp</th><th>Giới hạn miễn phí (10/2026)</th><th>Ghi chú</th></tr>
+    <tr><td>Google Gemini<br><span class="tag">Chính</span></td><td>Dòng Flash miễn phí. Google không còn công bố giới hạn, phải đăng nhập AI Studio mới xem được</td><td>Web đã hỗ trợ sẵn. Bản miễn phí: Google dùng dữ liệu để cải thiện sản phẩm</td></tr>
+    <tr><td>Groq<br><span class="tag">Dự phòng</span></td><td>Khoảng 30 lượt/phút, 1.000 lượt/ngày (model <code>gpt-oss-120b</code>)</td><td>Rất nhanh. Llama 3.3 đã ngừng từ 16/8/2026</td></tr>
+    <tr><td>OpenRouter<br><span class="tag">Tuỳ chọn</span></td><td>20 lượt/phút, 50 lượt/ngày (model <code>:free</code>)</td><td>Danh sách model miễn phí thay đổi liên tục</td></tr>
+  </table></div>
+  <p><b>Đề xuất:</b> dùng Gemini làm chính, tự chuyển sang Groq khi Gemini lỗi hoặc hết lượt. Không có key thì web vẫn chạy đầy đủ bằng phần giải thích offline.</p>
+</section>
+
+<section id="ets">
+  <h2><span class="n">3</span>Đề thi ETS</h2>
+  <div class="note">Đề ETS chính thức (các bộ ETS 2019–2024…) <b>có bản quyền</b>, nên mình không chép nguyên vào web. Khi tìm kiếm, mình cũng không thấy đề mẫu miễn phí nào trên trang ETS.</div>
+  <p><b>Cách làm:</b> mình tự soạn đề mới, đúng y cấu trúc và độ khó ETS từ 2019 đến nay. Web có thêm link tới tài liệu chính thức của ETS để bạn tự làm thêm.</p>
+  <div class="tw"><table>
+    <tr><th>Phần</th><th>Part</th><th>Số câu</th><th>Đặc điểm</th></tr>
+    <tr><td rowspan="4">Listening<br>100 câu · 45′</td><td>Part 1</td><td>6</td><td>Mô tả tranh</td></tr>
+    <tr><td>Part 2</td><td>25</td><td>Hỏi – đáp</td></tr>
+    <tr><td>Part 3</td><td>39</td><td>13 đoạn hội thoại, có hội thoại 3 người, câu hỏi kèm bảng/biểu đồ, câu hỏi ý người nói</td></tr>
+    <tr><td>Part 4</td><td>30</td><td>10 bài nói (một số trang ghi 32 là sai)</td></tr>
+    <tr><td rowspan="3">Reading<br>100 câu · 75′</td><td>Part 5</td><td>30</td><td>Điền câu</td></tr>
+    <tr><td>Part 6</td><td>16</td><td>4 đoạn văn, mỗi đoạn có 1 câu chèn cả câu</td></tr>
+    <tr><td>Part 7</td><td>54</td><td>29 câu bài đơn + 25 câu bài đôi/ba</td></tr>
+  </table></div>
+</section>
+
+<section id="ke-hoach">
+  <h2><span class="n">4</span>Kế hoạch triển khai</h2>
+  <div class="tw"><table>
+    <tr><th>Giai đoạn</th><th>Nội dung</th><th>Khối lượng</th></tr>
+    <tr><td>0. Sao lưu</td><td>Sao lưu English-Lab.html trước khi sửa. Tiến độ học đang lưu trong trình duyệt vẫn giữ nguyên.</td><td>—</td></tr>
+    <tr><td>1. AI nhiều nhà cung cấp</td><td>Gemini làm chính, Groq dự phòng (thêm OpenRouter nếu bạn muốn). Hướng dẫn lấy key từng bước ngay trong web. Nút kiểm tra key. Báo rõ khi hết lượt.</td><td>Phần code AI</td></tr>
+    <tr><td>2. Giải thích offline</td><td>Viết lại 176 lời giải ngắn theo khung: <b>Dấu hiệu → Đáp án → Vì sao 3 đáp án còn lại sai → Dịch → Mẹo</b>. Thêm bộ tự phân tích: nhận ra dạng câu (đuôi từ, giới từ hay liên từ, thì…) rồi tự tạo các bước giải, áp dụng cả cho câu bạn tự thêm.</td><td>333 câu cũ + mọi câu mới</td></tr>
+    <tr><td>3. Từ vựng 800+</td><td>Thêm khoảng <b>1.500 từ</b> theo chủ đề ETS: tài chính, nhân sự, marketing, sản xuất, mua hàng, hợp đồng, du lịch, y tế, bất động sản, sự kiện… Mỗi từ có nghĩa, ví dụ, collocation và <b>từ đồng nghĩa</b> (phục vụ Part 7). Thêm bộ các cặp từ hay bị nhầm (affect/effect, rise/raise…).</td><td>817 → khoảng 2.300</td></tr>
+    <tr><td>4. Ngữ pháp</td><td>Thêm khoảng 10 bài: đảo ngữ, giả định (<code>recommend that S + V</code>), rút gọn mệnh đề quan hệ, cấu trúc cặp (<code>not only…but also</code>), mệnh đề danh từ (what/whether), từ đuôi -ever, thể sai khiến, thì trong mệnh đề thời gian… Thêm khoảng <b>300 câu Part 5</b> mức 750–900, mỗi câu có lời giải đầy đủ.</td><td>333 → khoảng 630 câu</td></tr>
+    <tr><td>5. Listening Part 1–4</td><td>Đọc bằng giọng trình duyệt: Mỹ, Anh, Úc. Part 1 không có ảnh thật nên mô tả cảnh bằng hình minh họa hoặc chữ. Bật/tắt transcript và lời giải.</td><td>Mỗi Part khoảng 2 bộ</td></tr>
+    <tr><td>6. Thi thử</td><td><b>2 đề đủ 200 câu</b> đúng cấu trúc mới + các đề mini 50 câu. Đồng hồ 45′ / 75′, phiếu tô đáp án, chấm điểm, <b>quy đổi điểm ước tính 10–990</b> (không phải điểm chính thức). Thống kê lỗi theo Part và theo dạng. Câu sai tự vào sổ lỗi.</td><td>400 câu + đề mini</td></tr>
+    <tr><td>7. Kiểm tra</td><td>Chạy thử từng tab, kiểm tra dữ liệu không lỗi cú pháp, đối chiếu đáp án.</td><td>—</td></tr>
+    <tr><td>8. Tự đánh giá</td><td>Viết phần hỏi đáp "web còn thiếu gì" sau khi làm xong.</td><td>—</td></tr>
+  </table></div>
+</section>
+
+<section id="thieu">
+  <h2><span class="n">5</span>Web còn thiếu gì (bản nháp)</h2>
+  <ul>
+    <li><span class="q">Biết mình đang ở khoảng điểm nào chưa?</span><br>Chưa. Nên có bài kiểm tra đầu vào và biểu đồ điểm theo Part qua từng tuần.</li>
+    <li><span class="q">Có luyện diễn đạt lại (paraphrase) không?</span><br>Chưa. Part 7 và Part 3–4 hay đổi từ ngữ giữa bài và đáp án, nên cần bài tập nối câu gốc với câu diễn đạt lại.</li>
+    <li><span class="q">Có luyện tốc độ không?</span><br>Chưa. Nên có chế độ đọc tính giờ (số từ mỗi phút) và giới hạn khoảng 20 giây cho mỗi câu Part 5.</li>
+    <li><span class="q">Có ôn theo lỗi sai không?</span><br>Mới có một phần. Nên tự tạo bộ ôn từ chính các câu sai và từ hay quên.</li>
+    <li><span class="q">Có học trên điện thoại khi không có mạng không?</span><br>Nên cân nhắc biến web thành app cài được (PWA) và đồng bộ bản sao lưu.</li>
+  </ul>
+</section>
+
+<section id="chot">
+  <h2><span class="n">6</span>Cần bạn chốt trước khi làm</h2>
+  <ol class="dec">
+    <li><b>AI:</b> Gemini + Groq dự phòng, có được không? Có thêm OpenRouter không?</li>
+    <li><b>Số đề thi thử đầy đủ:</b> 2 đề (đề xuất) hay nhiều hơn?<br><span class="opt">Mỗi đề 200 câu, càng nhiều đề thì làm càng lâu.</span></li>
+    <li><b>Part 1:</b> mô tả cảnh bằng chữ hoặc hình minh họa đơn giản, có được không?</li>
+    <li><b>Thứ tự ưu tiên:</b> đề xuất 3 → 2 → 6 → 5 → 4 → 1 (từ vựng và thi thử trước). Bạn có muốn đổi không?</li>
+    <li><b>Khối lượng từ vựng:</b> thêm 1.500 từ (lên khoảng 2.300) cho đợt này, có ổn không?</li>
+  </ol>
+  <p>Trả lời trong Claude Code, ví dụ: <i>"1 ok, 2 làm 3 đề, 3 ok, 4 giữ nguyên, 5 ok"</i>.</p>
+</section>
+
+<footer>
+  <b>Nguồn:</b>
+  <a href="https://openrouter.ai/blog/tutorials/free-llm-apis-compared/">OpenRouter – Free LLM API 2026</a> ·
+  <a href="https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l">Free LLM API Tiers Oct 2026</a> ·
+  <a href="https://dev.to/aifree/9-free-llm-apis-compared-rate-limits-card-rules-and-the-catch-2026-3hhj">9 free LLM APIs compared</a> ·
+  <a href="https://continuumcode.ai/guides/free-llm-api/">Free LLM API: limits & catches</a> ·
+  <a href="https://klymentiev.com/blog/free-llm-api">Free LLM APIs, verified</a> ·
+  <a href="https://www.iibc-global.org/hubfs/library/default/english/toeic/official_data/pdf/DAA_english_2026.pdf?hsLang=ja">IIBC TOEIC data 2026</a>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,716 @@
+{
+  "formatInfo": {
+    "version": "Cập nhật tháng 8/2021 (hiện hành) — Nguồn: ETS TOEIC Speaking & Writing Examinee Handbook (ets.org/toeic)",
+    "totalQuestions": 11,
+    "durationMinutes": 20,
+    "scoreRange": "0–200 (chia theo các mức Proficiency Levels 1–8; mục tiêu 200 điểm tương đương Level 8 — mức cao nhất)",
+    "sections": [
+      {
+        "questions": "Q1–2",
+        "task": "Read a text aloud (Đọc to một đoạn văn ngắn)",
+        "prepSeconds": 45,
+        "speakSeconds": 45,
+        "criteria": "Phát âm (Pronunciation), ngữ điệu và trọng âm (Intonation & Stress). Chú ý ngắt cụm (chunking), nhấn từ nội dung, lên giọng ở đầu danh sách A, B, and C (xuống giọng ở C)."
+      },
+      {
+        "questions": "Q3–4",
+        "task": "Describe a picture (Mô tả tranh)",
+        "prepSeconds": 45,
+        "speakSeconds": 30,
+        "criteria": "Từ vựng, ngữ pháp, sự mạch lạc. (Lưu ý: Bản cập nhật 08/2021 của ETS đã giảm thời gian nói từ 45s xuống 30s và tăng từ 1 tranh lên 2 tranh Q3–4). Cấu trúc chuẩn 30s: Câu 1 bối cảnh chung → Câu 2–3 tiền cảnh/trung tâm (hiện tại tiếp diễn) → Câu 4 hậu cảnh → Câu 5 ấn tượng chung."
+      },
+      {
+        "questions": "Q5–7",
+        "task": "Respond to questions (Trả lời 3 câu hỏi ngắn theo chủ đề quen thuộc)",
+        "prepSeconds": 3,
+        "speakSeconds": "15s (Q5, Q6) / 30s (Q7)",
+        "criteria": "Trả lời trực diện câu hỏi ngay giây đầu tiên, đúng thì, mở rộng 1–2 lý do/ví dụ thực tế."
+      },
+      {
+        "questions": "Q8–10",
+        "task": "Respond to questions using information provided (Trả lời câu hỏi dựa trên bảng thông tin/lịch trình)",
+        "readInfoSeconds": 45,
+        "prepSeconds": 3,
+        "speakSeconds": "15s (Q8, Q9) / 30s (Q10)",
+        "criteria": "Đọc đúng thông tin trên bảng, dùng giới từ chỉ thời gian/địa điểm chuẩn xác (at + giờ, on + ngày, in + phòng). Q8 thường hỏi thông tin đơn lẻ, Q9 thường đính chính thông tin sai của người hỏi, Q10 yêu cầu tóm tắt 2–3 mục."
+      },
+      {
+        "questions": "Q11",
+        "task": "Express an opinion (Trình bày quan điểm cá nhân)",
+        "prepSeconds": 45,
+        "speakSeconds": 60,
+        "criteria": "Cấu trúc rõ ràng (Mở bài nêu rõ quan điểm → Lý do 1 + ví dụ cá nhân/IT → Lý do 2 → Kết luận khẳng định lại), từ vựng đa dạng, liên từ mạch lạc."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "spk_q12_01",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #1] Thông báo chuyến bay tại sân bay (Airport Gate Announcement)",
+      "prompt": "Read the following announcement aloud cleanly with natural pauses and rising/falling intonation: \"Attention passengers traveling on Apex Airlines Flight 408 to Seattle. Due to routine maintenance on the aircraft, boarding has been delayed by approximately twenty minutes. Complimentary beverages, light snacks, and high-speed Wi-Fi vouchers are available at the customer service counter next to Gate B14. We sincerely apologize for the inconvenience and appreciate your patience.\"",
+      "chunks": [
+        "Attention passengers / traveling on Apex Airlines Flight 408",
+        "Due to routine maintenance / boarding has been delayed",
+        "Complimentary beverages↗, light snacks↗, and high-speed Wi-Fi vouchers↘",
+        "available at the customer service counter / next to Gate B14",
+        "We sincerely apologize / for the inconvenience"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Attention passengers | traveling on Apex Airlines Flight four-oh-eight to Seattle. || Due to routine maintenance on the aircraft, | boarding has been delayed | by approximately twenty minutes. || Complimentary beverages (↗), | light snacks (↗), | and high-speed Wi-Fi vouchers (↘) | are available at the customer service counter | next to Gate B-fourteen. || We sincerely apologize for the inconvenience | and appreciate your patience.",
+      "tips": "Chú ý nhấn trọng âm từ: 'maintenance /ˈmeɪntənəns/, 'complimentary /ˌkɑːmplɪˈmentri/, 'apologize /əˈpɑːlədʒaɪz/. Lên giọng ở beverages, light snacks và xuống giọng ở Wi-Fi vouchers."
+    },
+    {
+      "id": "spk_q12_02",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #2] Bản tin giao thông & thời tiết buổi sáng (Morning Radio Broadcast)",
+      "prompt": "Read the following radio broadcast aloud: \"Good morning, commuters! If you are heading downtown this morning, please expect heavy congestion along Interstate 95 due to road construction near the harbor tunnel. Commuters are strongly advised to take the express commuter rail, use the northern bypass, or carpool whenever possible. Meanwhile, skies will remain clear throughout the morning, though scattered thunderstorms are expected later this afternoon.\"",
+      "chunks": [
+        "Good morning, commuters! / If you are heading downtown",
+        "please expect heavy congestion / along Interstate 95",
+        "take the express commuter rail↗, use the northern bypass↗, or carpool↘",
+        "Meanwhile / skies will remain clear throughout the morning",
+        "scattered thunderstorms / are expected later this afternoon"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Good morning, commuters! || If you are heading downtown this morning, | please expect heavy congestion along Interstate ninety-five | due to road construction near the harbor tunnel. || Commuters are strongly advised | to take the express commuter rail (↗), | use the northern bypass (↗), | or carpool whenever possible (↘). || Meanwhile, | skies will remain clear throughout the morning, | though scattered thunderstorms are expected later this afternoon.",
+      "tips": "Đọc 'Interstate 95' là 'Interstate ninety-five'. Nhấn đối lập ở 'clear throughout the morning' và 'scattered thunderstorms... later this afternoon'."
+    },
+    {
+      "id": "spk_q12_03",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #3] Hướng dẫn đoàn tham quan trung tâm đổi mới sáng tạo (Innovation Hub Tour)",
+      "prompt": "Read the following tour guide welcome speech aloud: \"Welcome to the Vertex Technology Innovation Center. During our forty-five-minute guided tour, you will visit our robotics laboratory, our renewable energy showroom, and our interactive cloud operations theater. For safety reasons, please keep your visitor badge visible at all times, stay with the group, and refrain from taking flash photographs inside the testing zones.\"",
+      "chunks": [
+        "Welcome to / the Vertex Technology Innovation Center",
+        "During our forty-five-minute guided tour",
+        "our robotics laboratory↗, our renewable energy showroom↗, and our interactive cloud operations theater↘",
+        "please keep your visitor badge visible / at all times",
+        "refrain from taking flash photographs / inside the testing zones"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Welcome to the Vertex Technology Innovation Center. || During our forty-five-minute guided tour, | you will visit our robotics laboratory (↗), | our renewable energy showroom (↗), | and our interactive cloud operations theater (↘). || For safety reasons, | please keep your visitor badge visible at all times (↗), | stay with the group (↗), | and refrain from taking flash photographs inside the testing zones (↘).",
+      "tips": "Chú ý phát âm 'laboratory' theo Anh-Mỹ /ˈlæbrətɔːri/, 'renewable' /rɪˈnuːəbəl/, 'refrain' /rɪˈfreɪn/. Có 2 danh sách liệt kê 3 phần tử — áp dụng quy tắc ↗ ↗ ↘."
+    },
+    {
+      "id": "spk_q12_04",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #4] Giới thiệu diễn giả tại hội thảo công nghệ (IT Keynote Introduction)",
+      "prompt": "Read the following event introduction aloud: \"Ladies and gentlemen, thank you for joining the afternoon session of the Global Cloud & AI Summit. In just a few moments, Dr. Elena Rostova, Chief Architect at Nexus Systems, will share practical strategies for building resilient, scalable, and cost-effective enterprise platforms. Following her presentation, we will open the floor for a fifteen-minute question-and-answer session. Please silence all mobile devices now.\"",
+      "chunks": [
+        "Ladies and gentlemen / thank you for joining the afternoon session",
+        "Dr. Elena Rostova / Chief Architect at Nexus Systems",
+        "building resilient↗, scalable↗, and cost-effective enterprise platforms↘",
+        "Following her presentation / we will open the floor",
+        "Please silence / all mobile devices now"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Ladies and gentlemen, | thank you for joining the afternoon session | of the Global Cloud and AI Summit. || In just a few moments, | Doctor Elena Rostova, | Chief Architect at Nexus Systems, | will share practical strategies for building resilient (↗), | scalable (↗), | and cost-effective enterprise platforms (↘). || Following her presentation, | we will open the floor for a fifteen-minute question-and-answer session. || Please silence all mobile devices now.",
+      "tips": "Chú ý từ 'Architect' /ˈɑːrkɪtekt/ (âm /k/, không phải /tʃ/), 'resilient' /rɪˈzɪliənt/, 'scalable' /ˈskeɪləbəl/. Ngắt nhịp ngắn trước và sau cụm đồng vị 'Chief Architect at Nexus Systems'."
+    },
+    {
+      "id": "spk_q12_05",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #5] Quảng cáo phần mềm quản lý công việc đám mây (SaaS Commercial)",
+      "prompt": "Read the following commercial script aloud: \"Are your teams struggling to track project milestones across multiple spreadsheets and endless email threads? Introducing FlowSync Pro, the all-in-one workspace designed for modern hybrid teams. With automated sprint reporting, real-time document collaboration, and enterprise-grade security, FlowSync Pro helps your organization deliver projects faster. Visit flowsync.io today to start your thirty-day free trial!\"",
+      "chunks": [
+        "Are your teams struggling / to track project milestones↗?",
+        "Introducing FlowSync Pro / the all-in-one workspace",
+        "automated sprint reporting↗, real-time document collaboration↗, and enterprise-grade security↘",
+        "helps your organization / deliver projects faster",
+        "Visit flowsync.io today / to start your thirty-day free trial!"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Are your teams struggling to track project milestones | across multiple spreadsheets and endless email threads (↗)? || Introducing FlowSync Pro, | the all-in-one workspace designed for modern hybrid teams. || With automated sprint reporting (↗), | real-time document collaboration (↗), | and enterprise-grade security (↘), | FlowSync Pro helps your organization deliver projects faster. || Visit flow-sync-dot-I-O today | to start your thirty-day free trial!",
+      "tips": "Câu đầu là câu hỏi Yes/No nên lên giọng ở cuối ('email threads↗'). Đọc 'flowsync.io' là 'flow-sync dot I-O'. Thể hiện giọng hào hứng, truyền cảm ở câu kêu gọi cuối."
+    },
+    {
+      "id": "spk_q12_06",
+      "toeicType": "TOEIC Q1–2: Read a text aloud",
+      "title": "[TOEIC Q1–2 #6] Thông báo bảo trì hệ thống nội bộ (IT Maintenance Voicemail)",
+      "prompt": "Read the following recorded voicemail message aloud: \"Thank you for calling the Horizon Corporate IT Help Desk. Please be advised that our internal VPN, employee portal, and payroll database will undergo scheduled maintenance this Saturday from midnight until six a.m. Eastern Time. During this window, remote access will be temporarily unavailable. If you are experiencing an urgent security incident, press one to be connected to our on-call engineer.\"",
+      "chunks": [
+        "Thank you for calling / the Horizon Corporate IT Help Desk",
+        "our internal VPN↗, employee portal↗, and payroll database↘",
+        "will undergo scheduled maintenance / this Saturday",
+        "During this window / remote access will be temporarily unavailable",
+        "If you are experiencing an urgent security incident / press one"
+      ],
+      "prep": 45,
+      "time": 45,
+      "sample": "Thank you for calling the Horizon Corporate IT Help Desk. || Please be advised | that our internal V-P-N (↗), | employee portal (↗), | and payroll database (↘) | will undergo scheduled maintenance this Saturday | from midnight until six A-M Eastern Time. || During this window, | remote access will be temporarily unavailable. || If you are experiencing an urgent security incident (↗), | press one to be connected to our on-call engineer (↘).",
+      "tips": "Phát âm 'temporarily' theo Anh-Mỹ /ˌtempəˈrerəli/, 'scheduled' /ˈskedʒuːld/. Nhấn rõ các con số và mốc giờ 'Saturday from midnight until six a.m.'."
+    },
+    {
+      "id": "spk_q34_01",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #1] Tả tranh: Văn phòng mở & thảo luận nhóm (Open-Plan Office)",
+      "prompt": "[Scene Description]: This picture shows a bright, modern open-plan office. In the foreground at a wooden desk, a woman wearing glasses and a navy blazer is pointing at a dual-monitor setup while holding a stylus. Sitting next to her, a male colleague in a plaid shirt is taking notes in a notebook, with a stainless-steel coffee mug beside his laptop. In the background, another employee is standing in front of a glass whiteboard covered with colorful sticky notes, and large floor-to-ceiling windows overlook city buildings. Describe the picture in as much detail as possible in 30 seconds.",
+      "chunks": [
+        "This picture was taken in a bright, modern open-plan office",
+        "In the foreground, a woman wearing glasses is pointing at a dual-monitor setup",
+        "Sitting next to her, a male colleague is taking notes in a notebook",
+        "In the background, someone is standing by a glass whiteboard with sticky notes",
+        "Overall, everyone seems focused on a collaborative project"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture was taken in a bright, modern open-plan office. In the foreground, two colleagues are working together at a wooden desk. A woman wearing glasses and a navy blazer is pointing at a dual-monitor screen, while a man in a plaid shirt sitting next to her is taking notes in a notebook. In the background, another coworker is standing near a glass whiteboard covered with colorful sticky notes, and large windows overlook the city. Overall, the team looks focused and collaborative.",
+      "tips": "Công thức 30s ăn trọn điểm Q3–4: (1) Bối cảnh chung (1 câu) → (2) Trung tâm/Tiền cảnh với V-ing (2 câu) → (3) Hậu cảnh (1 câu) → (4) Ấn tượng chung (1 câu)."
+    },
+    {
+      "id": "spk_q34_02",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #2] Tả tranh: Quầy làm thủ tục tại sân bay (Airport Check-in Counter)",
+      "prompt": "[Scene Description]: This picture depicts a busy airport check-in area. In the center, a male passenger wearing a backpack and pulling a silver rolling suitcase is handing his passport to a uniformed airline agent behind the counter. On the left, a woman is using a self-service check-in kiosk to print her boarding pass. Above the counters, digital flight information screens display departure times, and in the background, travelers are walking toward the security checkpoint. Describe the picture in 30 seconds.",
+      "chunks": [
+        "This picture shows a busy check-in area at an airport",
+        "In the center, a passenger with a backpack is handing his passport to an airline agent",
+        "On the left side, a woman is using a self-service kiosk to print a boarding pass",
+        "Above the counter, digital screens are displaying flight departure information",
+        "Overall, the terminal looks well-organized and bustling with travelers"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture shows a busy check-in area inside an airport terminal. In the center of the photo, a man wearing a backpack and standing next to a silver rolling suitcase is handing his passport to a uniformed airline agent. On the left side, a woman is using a self-service kiosk to print her boarding pass. Above the counters, digital screens display flight schedules, and in the background, several travelers are walking toward the gates. Overall, the airport looks modern and well-organized.",
+      "tips": "Dùng giới từ định vị rõ ràng: In the center, On the left side, Above the counters, In the background. Luôn chia hiện tại tiếp diễn (is handing, is using, are walking) cho hành động trong tranh."
+    },
+    {
+      "id": "spk_q34_03",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #3] Tả tranh: Hai kỹ sư kiểm tra tủ rack trong phòng server (Server Room)",
+      "prompt": "[Scene Description]: This picture shows two IT engineers working inside a data center server room. On the right, a woman wearing an ID lanyard is holding a tablet and inspecting glowing green indicator lights on an open server rack. On the left, a male technician is plugging a blue Ethernet cable into a network switch. Rows of black server cabinets stretch into the background under bright overhead LED lighting. Describe the picture in 30 seconds.",
+      "chunks": [
+        "This picture shows two IT engineers working in a data center server room",
+        "On the right, a woman wearing an ID badge is holding a tablet and inspecting a server rack",
+        "On the left, a male technician is plugging a blue cable into a network switch",
+        "In the background, rows of black server cabinets line the corridor",
+        "Overall, they appear to be performing routine network maintenance"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture shows two IT engineers working inside a modern data center. On the right side, a woman wearing an ID lanyard is holding a tablet and inspecting the indicator lights on an open server rack. Beside her on the left, a male technician is plugging a blue network cable into a switch. In the background, neat rows of black server cabinets stretch down the aisle under bright LED lights. Overall, they appear to be performing hardware or network maintenance.",
+      "tips": "Kết hợp tính từ + giới từ rút gọn để câu giàu chi tiết: 'a woman wearing an ID lanyard', 'rows of black server cabinets'."
+    },
+    {
+      "id": "spk_q34_04",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #4] Tả tranh: Làm việc từ xa tại quán cà phê (Working at a Café)",
+      "prompt": "[Scene Description]: This picture shows the interior of a cozy neighborhood café. In the foreground, a young man wearing wireless headphones is typing on a laptop at a round marble table, participating in a video call. Next to his laptop are a ceramic cup of latte and a plate with a croissant. Behind the wooden counter in the background, a barista wearing a dark apron is operating an espresso machine, and potted plants hang near the window. Describe the picture in 30 seconds.",
+      "chunks": [
+        "This picture was taken inside a cozy neighborhood café",
+        "In the foreground, a man wearing wireless headphones is typing on his laptop",
+        "On the table, there is a cup of coffee and a croissant next to his computer",
+        "In the background behind the counter, a barista in an apron is making espresso",
+        "Overall, it looks like a quiet and comfortable place for remote work"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture was taken inside a cozy coffee shop. In the foreground, a man wearing wireless headphones is sitting at a round table and typing on his laptop during a video call. Next to his computer, there is a cup of latte and a croissant on a small plate. In the background, a barista wearing a dark apron is operating an espresso machine behind the wooden counter, and green plants hang near the window. Overall, it looks like a pleasant environment for remote work.",
+      "tips": "Khi tả đồ vật nằm trên bàn, dùng cấu trúc 'There is / There are ... next to ...' hoặc 'Beside his laptop sits a cup of coffee'."
+    },
+    {
+      "id": "spk_q34_05",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #5] Tả tranh: Kiểm kê hàng hóa trong kho vận (Warehouse Logistics)",
+      "prompt": "[Scene Description]: This picture shows workers in a large distribution warehouse. In the foreground, two employees wearing yellow high-visibility vests and hard hats are standing beside a wooden pallet stacked with cardboard boxes. One worker is scanning a barcode label with a handheld scanner while the other is checking a clipboard. In the background, a forklift is moving boxes along tall metal shelving units. Describe the picture in 30 seconds.",
+      "chunks": [
+        "This picture shows workers inside a large distribution warehouse",
+        "In the foreground, two employees in yellow safety vests and hard hats are checking a pallet of boxes",
+        "One worker is scanning a barcode label while the other is looking at a clipboard",
+        "In the background, a forklift is operating near tall metal shelves",
+        "Overall, the warehouse operations look safe and efficient"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture shows a scene inside a large distribution warehouse. In the foreground, two workers wearing yellow high-visibility vests and hard hats are standing next to a wooden pallet stacked with cardboard boxes. One of them is scanning a barcode with a handheld device, while the other is checking a list on a clipboard. In the background, a forklift is moving cargo beside tall metal shelves filled with inventory. Overall, the warehouse looks busy, safe, and well-managed.",
+      "tips": "Từ vựng ăn điểm cho tranh nhà kho TOEIC: high-visibility vest (áo phản quang), hard hat (mũ bảo hộ), wooden pallet, handheld barcode scanner, forklift (xe nâng), metal shelving units."
+    },
+    {
+      "id": "spk_q34_06",
+      "toeicType": "TOEIC Q3–4: Describe a picture",
+      "title": "[TOEIC Q3–4 #6] Tả tranh: Gian hàng triển lãm công nghệ (Tech Conference Booth)",
+      "prompt": "[Scene Description]: This picture shows a lively exhibition hall at a technology trade show. At a company booth in the foreground, a presenter wearing a smart-casual jacket is demonstrating a software dashboard on a large curved monitor to three visitors wearing conference badges. On the counter, neatly arranged brochures and promotional tote bags are displayed. In the background, banners hang from the ceiling and other attendees are networking in the aisle. Describe the picture in 30 seconds.",
+      "chunks": [
+        "This picture was taken at a bustling technology trade show",
+        "At the booth in the foreground, a presenter is demonstrating software on a large monitor",
+        "Three visitors wearing conference badges are listening attentively",
+        "On the counter, brochures and promotional bags are neatly arranged",
+        "In the background, other attendees are walking and networking in the hall"
+      ],
+      "prep": 45,
+      "time": 30,
+      "sample": "This picture was taken in an exhibition hall at a technology conference. In the foreground at a company booth, a representative is demonstrating a software dashboard on a large curved screen to three visitors wearing name badges. On the counter beside them, informational brochures and promotional tote bags are neatly displayed. In the background, large banners hang from the ceiling and other attendees are chatting in the aisle. Overall, the trade show looks engaging and well-attended.",
+      "tips": "Từ vựng đắt giá cho tranh hội chợ/sự kiện: exhibition hall, trade show booth, demonstrate on a monitor, conference badges, promotional merchandise/brochures."
+    },
+    {
+      "id": "spk_q57_01",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 1] Khảo sát thói quen làm việc từ xa (Remote & Hybrid Work Survey)",
+      "prompt": "Imagine that a workplace consulting firm is conducting research on remote work habits. Answer three questions: Q5 (15s): How many days a week do you work from home, and where do you usually set up your workspace? Q6 (15s): What communication tools do you use most frequently to stay in touch with your team? Q7 (30s): What do you think is the biggest challenge of working remotely, and how do you overcome it?",
+      "chunks": [
+        "Q5: I currently follow a hybrid schedule and work from home three days a week...",
+        "Q6: I rely heavily on Slack for instant messaging and Zoom or Google Meet for daily stand-ups...",
+        "Q7: In my experience, the biggest challenge is maintaining clear communication and work-life boundaries...",
+        "To overcome this, I document decisions clearly on Jira and stick to a strict routine"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: I currently follow a hybrid schedule and work from home three days a week. I have a dedicated home office corner with an ergonomic chair and an external monitor so I can focus without distractions.\n[Q6 - 15s]: I use Slack throughout the day for quick async updates and code discussions, and we use Zoom every morning for our fifteen-minute daily stand-up meeting.\n[Q7 - 30s]: In my experience, the biggest challenge of remote work is avoiding miscommunication when solving complex technical issues. Without face-to-face contact, text messages can sometimes be unclear. To overcome this, I always jump on a quick five-minute screen-sharing huddle whenever a thread gets too long, and I document all key decisions in our shared wiki.",
+      "tips": "Q5 & Q6 chỉ có 15s: trả lời thẳng câu hỏi ở giây thứ 1 + thêm 1 câu chi tiết. Q7 có 30s: nêu luận điểm chính + 1 lý do + 1 cách giải quyết cụ thể."
+    },
+    {
+      "id": "spk_q57_02",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 2] Khảo sát về phần mềm quản lý công việc (Productivity App Feedback)",
+      "prompt": "A software company is interviewing users about task management apps. Answer three questions: Q5 (15s): How often do you use a digital calendar or task management app, and on which device? Q6 (15s): Do you prefer tracking your daily tasks on a mobile app, a desktop app, or a paper notebook? Why? Q7 (30s): If you could add one new feature to your current project management software, what would it be and how would it help you?",
+      "chunks": [
+        "Q5: I use task management software every single day, mainly on my work laptop...",
+        "Q6: I definitely prefer using a desktop web app because I can easily link tickets and code branches...",
+        "Q7: If I could add one feature, I would integrate an AI assistant that automatically summarizes sprint progress...",
+        "For example, it could flag blocked tickets and save engineers hours of manual status reporting"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: I use digital task management tools every single day, primarily Jira and Notion on my work laptop, though I also check notifications on my smartphone when I'm away from my desk.\n[Q6 - 15s]: I definitely prefer a desktop application because it gives me a full view of the Kanban board and makes it much faster to type detailed technical specifications.\n[Q7 - 30s]: If I could add one feature, I would build an automated dependency tracker that alerts teams whenever an upstream API change might delay another squad's ticket. Right now, we spend a lot of time manually checking cross-team blockers during stand-ups. Having automatic alerts would save time and prevent last-minute release delays.",
+      "tips": "Ở Q7, câu hỏi giả định 'If you could add...' → mở đầu bằng cấu trúc điều kiện loại 2 'If I could add one feature, I would...' để ăn điểm ngữ pháp."
+    },
+    {
+      "id": "spk_q57_03",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 3] Khảo sát việc đi lại hàng ngày (Daily Commuting Habits)",
+      "prompt": "A city transportation department is surveying residents about their daily commute. Answer three questions: Q5 (15s): How do you usually get to work, and how long does your commute take? Q6 (15s): What do you usually do to pass the time while commuting? Q7 (30s): What improvements should the city make to encourage more people to use public transportation?",
+      "chunks": [
+        "Q5: I usually commute to the office by motorbike, which takes about thirty minutes...",
+        "Q6: When I take the bus or train, I like listening to English tech podcasts...",
+        "Q7: To encourage public transit, the city should improve bus punctuality and expand metro routes...",
+        "In addition, offering an integrated contactless payment card would make commuting much more convenient"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: On the days I go to the office, I usually ride my motorbike, and it takes around thirty minutes each way depending on morning traffic.\n[Q6 - 15s]: Whenever I take a taxi or bus, I listen to English podcasts or review my TOEIC flashcards on my phone to make good use of the travel time.\n[Q7 - 30s]: I believe the city should focus on two main improvements. First, they should add more dedicated bus lanes and expand the metro network so public transit is faster and more reliable during rush hour. Second, introducing a unified mobile payment app across all buses and trains would make transferring between routes much more convenient for daily commuters.",
+      "tips": "Khi trả lời Q7 dạng đề xuất giải pháp, dùng 'First,... Second,...' giúp bài nói 30 giây cực kỳ rõ ràng và dễ nghe."
+    },
+    {
+      "id": "spk_q57_04",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 4] Đào tạo kỹ năng nghề nghiệp trong công ty (Corporate Training)",
+      "prompt": "Your company's HR department is planning next quarter's professional development workshops. Answer three questions: Q5 (15s): When was the last time you took a professional training course, and what was it about? Q6 (15s): Do you prefer live instructor-led workshops or self-paced online video courses? Q7 (30s): What kind of training program should your company offer to employees this year, and why?",
+      "chunks": [
+        "Q5: Last month, I completed an online course on cloud architecture and security...",
+        "Q6: I prefer self-paced online courses because I can pause the video and practice coding...",
+        "Q7: I strongly recommend offering a practical workshop on Business English and technical communication...",
+        "Since we work with international clients, speaking clearly in meetings would boost our team's productivity"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: Just last month, I completed an online course focused on cloud architecture and container orchestration, which helped me optimize our deployment pipeline.\n[Q6 - 15s]: I personally prefer self-paced video courses because I can pause the lecture, test the code on my own machine, and study whenever my schedule allows.\n[Q7 - 30s]: I think our company should offer a hands-on workshop on English communication for IT professionals. Many engineers on our team have strong technical skills, but they feel hesitant when explaining system designs or negotiating deadlines with overseas clients. A practical speaking course focused on stand-ups, demos, and emails would immediately improve our collaboration with global partners.",
+      "tips": "Chú ý Q5 hỏi 'When was the last time...' → bắt buộc chia thì quá khứ đơn (Last month, I completed / took / attended...)."
+    },
+    {
+      "id": "spk_q57_05",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 5] Thói quen mua sắm thiết bị điện tử (Shopping for Electronics)",
+      "prompt": "A consumer electronics retailer is conducting a customer survey. Answer three questions: Q5 (15s): What was the last electronic device you bought, and where did you buy it? Q6 (15s): What factors do you check first before buying a new laptop or smartphone? Q7 (30s): Do you think it is better to buy expensive electronics online or at a physical retail store? Explain your reasons.",
+      "chunks": [
+        "Q5: About two months ago, I bought a mechanical keyboard from an authorized online store...",
+        "Q6: I always check the hardware specifications, battery life, and verified user reviews first...",
+        "Q7: For high-end electronics like laptops, I prefer testing them at a physical store first...",
+        "However, I often place the final order online to take advantage of promotional discounts"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: About two months ago, I purchased a wireless mechanical keyboard from an official electronics store online to upgrade my home workstation.\n[Q6 - 15s]: Before buying a laptop, I always look at the processor performance, RAM capacity, battery life, and independent video reviews from other developers.\n[Q7 - 30s]: For expensive electronics like a laptop or monitor, I prefer visiting a physical store first so I can test the keyboard feel, screen brightness, and build quality in person. However, once I decide on the exact model, I often buy it from the brand's official online store because they usually offer better seasonal discounts and free home delivery.",
+      "tips": "Mẹo Q7: Bạn có thể chọn 1 bên hoặc kết hợp khéo léo (trải nghiệm ở cửa hàng vật lý + đặt mua online để hưởng ưu đãi) miễn là lập luận mạch lạc."
+    },
+    {
+      "id": "spk_q57_06",
+      "toeicType": "TOEIC Q5–7: Respond to questions",
+      "title": "[TOEIC Q5–7 Set 6] Tham dự sự kiện & hội thảo chuyên ngành (Tech Conferences & Networking)",
+      "prompt": "An event organizer is gathering feedback on professional conferences. Answer three questions: Q5 (15s): How often do you attend professional events, webinars, or industry meetups? Q6 (15s): Would you rather attend a conference in person or join virtually from home? Q7 (30s): What makes a professional conference or workshop valuable to attendees?",
+      "chunks": [
+        "Q5: I attend online tech webinars about once a month and in-person meetups twice a year...",
+        "Q6: I prefer attending local conferences in person because networking during coffee breaks is much easier...",
+        "Q7: A conference is truly valuable when speakers share real-world case studies rather than sales pitches...",
+        "Additionally, interactive Q&A sessions and hands-on coding labs give attendees practical takeaways"
+      ],
+      "prep": 3,
+      "time": 60,
+      "sample": "[Q5 - 15s]: I join online tech webinars about once a month, and I try to attend major in-person developer conferences in my city at least twice a year.\n[Q6 - 15s]: Whenever possible, I prefer attending in person because it is much easier to network with other engineers and exchange ideas during coffee breaks.\n[Q7 - 30s]: In my opinion, two things make a conference truly valuable. First, the speakers should share honest, real-world case studies and technical lessons learned rather than giving a disguised sales pitch. Second, there should be interactive Q&A sessions or hands-on workshops where attendees can ask specific questions and apply what they've learned right away.",
+      "tips": "Tránh dừng hình (dead air): nếu cần 1 giây suy nghĩ ở Q7, hãy mở đầu bằng 'That's an interesting question. In my opinion, two main factors make a conference valuable...'"
+    },
+    {
+      "id": "spk_q810_01",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 1] Lịch trình Hội thảo Điện toán Đám mây (Cloud Dev Summit Schedule)",
+      "prompt": "[Information Sheet — Apex Cloud Developer Summit (Friday, Nov 14 | Grand Ballroom & Rooms A/B)]:\n• 09:00–10:00 | Opening Keynote: Next-Gen Cloud Native Architecture | Speaker: Sarah Jenkins | Grand Ballroom\n• 10:15–11:30 | Track A: Kubernetes Auto-Scaling Workshop | Speaker: David Chen | Room 204 *(Note: Laptop required)*\n• 10:15–11:30 | Track B: Zero-Trust API Security | Speaker: Priya Patel | Room 208\n• 11:30–13:00 | Networking Lunch & Sponsor Expo | Exhibition Hall\n• 13:00–14:30 | Afternoon Panel: FinOps & Reducing Cloud Costs | Moderator: Marcus Vance | Grand Ballroom\n• 14:45–16:15 | Track A: Building Production AI Agents | Speaker: Dr. Kenji Sato | Room 204 *(Update: Moved from Room 102)*\n• 14:45–16:15 | Track B: Observability with OpenTelemetry | Speaker: Elena Gomez | Room 208\n---\nQuestions from an attendee calling you:\n• Q8 (15s): Hi! What time does the opening keynote start, and where will it be held?\n• Q9 (15s): I heard that Dr. Kenji Sato's afternoon session on AI Agents is in Room 102. Is that right?\n• Q10 (30s): I'm especially interested in sessions taught by David Chen or Priya Patel, or anything hosted in Room 204. Can you tell me all the sessions that fit my interests?",
+      "chunks": [
+        "Q8: The opening keynote starts at 9:00 a.m. and will be held in the Grand Ballroom...",
+        "Q9: Actually, there has been a room change. Dr. Sato's session has been moved from Room 102 to Room 204...",
+        "Q10: Sure! In the morning from 10:15 to 11:30, you have two options: David Chen's Kubernetes workshop in Room 204...",
+        "Or Priya Patel's API Security session in Room 208. Also, at 2:45 p.m. in Room 204, there is Dr. Sato's session on AI Agents"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: Hello! The opening keynote on Next-Gen Cloud Native Architecture starts at nine a.m. and runs until ten a.m., and it will be held in the Grand Ballroom.\n[Q9 - 15s]: Actually, that's no longer correct. According to the updated schedule, Dr. Kenji Sato's session on Building Production AI Agents from 2:45 to 4:15 p.m. has been moved from Room 102 to Room 204.\n[Q10 - 30s]: Certainly! There are three sessions that match your criteria. First, from 10:15 to 11:30 a.m., David Chen is leading the Kubernetes Auto-Scaling Workshop in Room 204—just remember to bring your laptop. At the same time, from 10:15 to 11:30 a.m., Priya Patel is speaking on Zero-Trust API Security in Room 208. Finally, from 2:45 to 4:15 p.m., Room 204 will also host Dr. Kenji Sato's session on Building Production AI Agents.",
+      "tips": "Mẹo vàng Q8–10: Trong 45s đọc bảng, hãy tìm ngay các dấu hoa thị (*Note / *Update / *Canceled) — 99% câu Q9 sẽ bẫy ở dòng chữ nhỏ đó! Ở Q10, nhớ đọc đủ giờ + tên bài + phòng."
+    },
+    {
+      "id": "spk_q810_02",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 2] Lịch trình công tác của Giám đốc Kỹ thuật (VP of Engineering Itinerary)",
+      "prompt": "[Information Sheet — Business Trip Itinerary for Mr. Thomas Wright (Tokyo, Oct 20–21)]:\n• Oct 20, 08:30 | Arrive at Haneda Airport (Flight JL 015) — Private shuttle pickup at Terminal 3\n• Oct 20, 11:00 | Check-in at Sakura Grand Hotel (Reservation #SG-8841, Breakfast included)\n• Oct 20, 14:00 | Q4 Roadmap Alignment with Tokyo Backend Team | Shibuya Office, 8th Floor\n• Oct 20, 18:30 | Welcome Dinner with Client Executives | Kiku Steakhouse *(Canceled — replaced by video call with London office at 19:00)*\n• Oct 21, 09:30 | Data Center Security Audit | Kawasaki Facility\n• Oct 21, 13:30 | Vendor Contract Review with NexaCorp | Shibuya Office, Room 3B\n• Oct 21, 17:45 | Depart from Haneda Airport (Flight JL 022 to San Francisco)\n---\nQuestions from Mr. Wright:\n• Q8 (15s): Could you remind me which hotel I'm staying at and what my reservation number is?\n• Q9 (15s): I'm looking forward to the dinner at Kiku Steakhouse on the evening of October 20th. Is everything still set for 6:30 p.m.?\n• Q10 (30s): Could you go over my full schedule for Tuesday, October 21st, before I head back to the airport?",
+      "chunks": [
+        "Q8: You'll be staying at the Sakura Grand Hotel, and your reservation number is SG-8841...",
+        "Q9: Actually, I'm afraid the dinner at Kiku Steakhouse has been canceled. Instead, you have a video call...",
+        "Q10: Certainly! On October 21st, your first appointment is at 9:30 a.m. for a Data Center Security Audit...",
+        "Then at 1:30 p.m., you have a Vendor Contract Review with NexaCorp at the Shibuya Office before your 5:45 p.m. flight"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: You are booked at the Sakura Grand Hotel, with check-in scheduled for eleven a.m. on October twentieth. Your reservation number is S-G-eight-eight-four-one, and breakfast is included.\n[Q9 - 15s]: Actually, I'm afraid that dinner at Kiku Steakhouse has been canceled. Instead, it has been replaced by a video call with the London office at seven p.m. that evening.\n[Q10 - 30s]: Of course! On Tuesday, October twenty-first, you have two main meetings before your flight. First, at 9:30 a.m., you will visit the Kawasaki Facility for a Data Center Security Audit. Next, at 1:30 p.m., you have a Vendor Contract Review with NexaCorp at the Shibuya Office in Room 3B. After that, you'll head to Haneda Airport for Flight JL 022 departing at 5:45 p.m.",
+      "tips": "Khi đọc mã đặt chỗ (SG-8841) hay số hiệu chuyến bay (JL 022), đọc rõ từng chữ cái và con số: 'S-G dash eight-eight-four-one'."
+    },
+    {
+      "id": "spk_q810_03",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 3] Lịch phỏng vấn tuyển dụng Senior Backend Engineer (Interview Schedule)",
+      "prompt": "[Information Sheet — Candidate Interview Schedule (Position: Senior Backend Engineer | Room: Zoom Link #4)]:\n• 09:30–10:15 | Candidate 1: Minh Tran | 6 yrs exp (Go, Kubernetes) | Current Role: Lead Dev at FinPay\n• 10:30–11:15 | Candidate 2: Rachel Green | 4 yrs exp (Java, AWS) | Current Role: Backend Engineer at CloudMart *(Rescheduled to Thursday at 14:00)*\n• 11:30–12:15 | Candidate 3: Carlos Rivera | 7 yrs exp (Python, PostgreSQL) | Current Role: Senior Engineer at DataPulse\n• 13:30–14:15 | Candidate 4: Hana Kim | 5 yrs exp (Go, Microservices) | Current Role: Software Engineer at Veloce\n• 14:30–15:15 | Candidate 5: Liam O'Connor | 8 yrs exp (Rust, Kafka) | Current Role: Staff Engineer at StreamLine\n---\nQuestions from the Hiring Manager:\n• Q8 (15s): Who is our first candidate of the day, and what is his current job title?\n• Q9 (15s): So I'll be interviewing Rachel Green at 10:30 this morning, right?\n• Q10 (30s): We specifically need someone with experience in Go or more than six years of total experience. Which candidates are we actually interviewing TODAY who meet either of those requirements?",
+      "chunks": [
+        "Q8: Our first candidate at 9:30 a.m. is Minh Tran, and he currently works as a Lead Developer at FinPay...",
+        "Q9: Actually, Rachel Green's interview at 10:30 a.m. has been rescheduled to Thursday at 2:00 p.m....",
+        "Q10: Today, we have four candidates meeting those criteria: Minh Tran at 9:30 and Hana Kim at 1:30 both know Go...",
+        "In addition, Carlos Rivera at 11:30 has 7 years of experience, and Liam O'Connor at 2:30 has 8 years"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: Our first candidate today is Minh Tran from 9:30 to 10:15 a.m. He has six years of experience and currently works as a Lead Developer at FinPay.\n[Q9 - 15s]: No, actually Rachel Green's interview is not happening this morning. Her slot has been rescheduled to Thursday at two p.m.\n[Q10 - 30s]: All four remaining candidates on today's schedule meet your criteria! First, for Go experience, we have Minh Tran at 9:30 a.m. with six years of experience, and Hana Kim at 1:30 p.m. with five years of experience in Go and Microservices. Second, for candidates with over six years of experience, we are interviewing Carlos Rivera at 11:30 a.m., who has seven years in Python, and Liam O'Connor at 2:30 p.m., who has eight years in Rust and Kafka.",
+      "tips": "Chú ý bẫy ở Q10: Đề hỏi 'who we are interviewing TODAY' nên phải loại ứng viên đã dời lịch (Rachel Green) và gom nhóm rõ ràng theo tiêu chí."
+    },
+    {
+      "id": "spk_q810_04",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 4] Bảng báo giá gói bản quyền phần mềm doanh nghiệp (SaaS Pricing Tiers)",
+      "prompt": "[Information Sheet — CodeGuard Enterprise Security Platform (Annual Subscription Plans)]:\n• Starter Plan: $29/user/month | Up to 15 users | Automated PR Scanning, Email Support (24h response)\n• Growth Plan: $59/user/month | Up to 75 users | Everything in Starter + Container Scanning, SSO Login, Priority Chat Support (4h response)\n• Enterprise Plan: $99/user/month | Unlimited users | Everything in Growth + On-Premises Deployment, Custom Compliance Reports, 24/7 Dedicated Phone Support\n• *Special Q4 Promotion*: Sign a 2-year contract before November 30 and receive a 15% discount on Growth or Enterprise plans (Starter plan excluded).\n---\nQuestions from a prospective client:\n• Q8 (15s): How much does the Growth Plan cost per user, and what is the maximum number of users allowed?\n• Q9 (15s): We have a small team of 12 developers, so if we sign a two-year contract for the Starter Plan before November 30, we'll get the 15% discount, right?\n• Q10 (30s): Our company has 120 engineers and our security policy requires On-Premises Deployment. Which plan do we need, and what extra benefits does it include compared to the Growth Plan?",
+      "chunks": [
+        "Q8: The Growth Plan costs $59 per user per month and supports up to 75 users...",
+        "Q9: I'm sorry, but the 15% two-year discount only applies to the Growth and Enterprise plans; the Starter Plan is excluded...",
+        "Q10: Since you have 120 engineers and need On-Premises Deployment, you will need the Enterprise Plan at $99 per user...",
+        "Compared to the Growth Plan, it supports unlimited users and adds Custom Compliance Reports plus 24/7 Dedicated Phone Support"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: The Growth Plan costs fifty-nine dollars per user per month, and it supports a maximum of seventy-five users.\n[Q9 - 15s]: Actually, I'm afraid the Starter Plan is excluded from that promotion. The fifteen percent discount for signing a two-year contract before November thirtieth only applies to the Growth and Enterprise plans.\n[Q10 - 30s]: Since you have one hundred and twenty engineers—which exceeds the seventy-five-user limit on the Growth Plan—you will need our Enterprise Plan at ninety-nine dollars per user per month. In addition to supporting unlimited users and providing On-Premises Deployment, the Enterprise Plan also includes Custom Compliance Reports and twenty-four-seven Dedicated Phone Support.",
+      "tips": "Với bảng giá (Pricing Tiers), câu 9 rất hay hỏi điều kiện áp dụng khuyến mãi (*Starter plan excluded), còn câu 10 hay cho quy mô nhân sự để bạn chọn đúng gói và đọc quyền lợi đi kèm."
+    },
+    {
+      "id": "spk_q810_05",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 5] Chương trình đào tạo nhân viên mới (New Hire Onboarding Agenda)",
+      "prompt": "[Information Sheet — Engineering Onboarding Day (Monday, Nov 3 | Coordinator: Lisa Park, Ext. 4102)]:\n• 09:00–09:45 | Welcome Coffee & ID Badge Pickup | Lobby Reception\n• 09:45–11:00 | Laptop Setup & VPN Configuration | IT Lab, 2nd Floor *(Bring government-issued photo ID)*\n• 11:00–12:15 | Company Culture & HR Benefits Overview | Room 301\n• 12:15–13:30 | Team Welcome Lunch | Rooftop Cafeteria *(Vegetarian & Halal options available)*\n• 13:30–15:00 | Git Workflow & CI/CD Pipeline Walkthrough | Lead: Kevin Nguyen | Room 405\n• 15:15–16:30 | Product Architecture Deep Dive | Lead: Sarah Lin | Room 405 *(Changed from Room 301)*\n---\nQuestions from a new software engineer:\n• Q8 (15s): What time is the Laptop Setup session, and do I need to bring anything with me?\n• Q9 (15s): After the Git Workflow session in Room 405, I need to walk back down to Room 301 for the Product Architecture Deep Dive at 3:15, right?\n• Q10 (30s): Could you tell me about all the afternoon activities starting from 12:15 p.m. onward?",
+      "chunks": [
+        "Q8: The Laptop Setup session runs from 9:45 to 11:00 a.m. in the IT Lab, and you must bring a government-issued photo ID...",
+        "Q9: Actually, you don't need to change rooms! The Product Architecture session was moved from Room 301 to Room 405...",
+        "Q10: Sure! Starting at 12:15 p.m., there is a Team Welcome Lunch in the Rooftop Cafeteria until 1:30 p.m....",
+        "Then in Room 405, Kevin Nguyen leads the Git Workflow session at 1:30, followed by Sarah Lin's Architecture Deep Dive at 3:15"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: The Laptop Setup and VPN Configuration session is from 9:45 to 11:00 a.m. in the IT Lab on the second floor, and please remember to bring a government-issued photo ID.\n[Q9 - 15s]: Actually, you can stay right where you are! The Product Architecture Deep Dive at 3:15 p.m. has been moved from Room 301 to Room 405, the same room as the Git Workflow session.\n[Q10 - 30s]: Certainly! Your afternoon starts at 12:15 p.m. with a Team Welcome Lunch in the Rooftop Cafeteria until 1:30, where vegetarian and Halal options are available. Next, from 1:30 to 3:00 p.m., Kevin Nguyen will lead the Git Workflow and CI/CD Pipeline Walkthrough in Room 405. Finally, from 3:15 to 4:30 p.m., Sarah Lin will host the Product Architecture Deep Dive, also in Room 405.",
+      "tips": "Nếu có dư 2–3 giây ở Q8 hoặc Q10, hãy đọc luôn ghi chú phụ như '(Bring government-issued photo ID)' hoặc '(Vegetarian & Halal options available)' để đạt điểm tuyệt đối về độ đầy đủ thông tin."
+    },
+    {
+      "id": "spk_q810_06",
+      "toeicType": "TOEIC Q8–10: Respond using provided information",
+      "title": "[TOEIC Q8–10 Set 6] Hóa đơn đặt mua thiết bị phần cứng IT (Hardware Purchase Invoice)",
+      "prompt": "[Information Sheet — TechSource B2B Order Summary (Invoice #TS-9042 | Customer: NovaSoft Inc.)]:\n• Item 1: 10 × UltraBook Pro 16\" Laptops (32GB RAM, 1TB SSD) | Unit Price: $1,800 | Total: $18,000 | Status: In Stock (Ships Nov 5)\n• Item 2: 20 × 27-inch 4K IPS Ergonomic Monitors | Unit Price: $350 | Total: $7,000 | Status: Backordered *(Ships Nov 18 instead of Nov 5)*\n• Item 3: 10 × Thunderbolt 4 Docking Stations | Unit Price: $180 | Total: $1,800 | Status: In Stock (Ships Nov 5)\n• Shipping & Handling: Express Freight ($250 — Waived for orders over $20,000)\n• Delivery Address: 450 Innovation Way, Suite 600, Austin, TX (Contact: Office Manager)\n---\nQuestions from your Finance Director:\n• Q8 (15s): How many laptops did we order on Invoice TS-9042, and what is the total cost for just the laptops?\n• Q9 (15s): Since we chose Express Freight, we have to pay an extra $250 for shipping, and all three items will ship out on November 5th, right?\n• Q10 (30s): Could you summarize the remaining hardware items on the invoice besides the laptops, including their quantities, total prices, and shipping dates?",
+      "chunks": [
+        "Q8: We ordered 10 UltraBook Pro 16-inch laptops at $1,800 each, so the total for the laptops is $18,000...",
+        "Q9: Actually, there are two corrections: the $250 shipping fee is waived because our order exceeds $20,000, and the monitors won't ship until November 18...",
+        "Q10: Besides the laptops, we ordered 20 27-inch 4K monitors for $7,000 total, which are backordered and ship on November 18...",
+        "We also ordered 10 Thunderbolt 4 docking stations for $1,800 total, which are in stock and ship on November 5"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "[Q8 - 15s]: On Invoice TS-9042, we ordered ten UltraBook Pro sixteen-inch laptops at one thousand eight hundred dollars each, so the total cost for the laptops is eighteen thousand dollars.\n[Q9 - 15s]: Actually, there are two things to note. First, the two-hundred-and-fifty-dollar Express Freight fee is waived because our total order is over twenty thousand dollars. Second, while the laptops and docking stations ship on November fifth, the monitors are backordered and won't ship until November eighteenth.\n[Q10 - 30s]: Sure! Besides the laptops, there are two other hardware items on the invoice. First, we ordered twenty twenty-seven-inch 4K ergonomic monitors at three hundred and fifty dollars each, for a total of seven thousand dollars; those are currently backordered and will ship on November eighteenth. Second, we ordered ten Thunderbolt 4 docking stations at one hundred and eighty dollars each, totaling one thousand eight hundred dollars, which are in stock and will ship on November fifth.",
+      "tips": "Chú ý Q9 có thể chứa 2 chi tiết cần đính chính cùng lúc (phí vận chuyển được miễn + màn hình bị lùi ngày giao hàng). Hãy bình tĩnh dùng 'First,... Second,...' để sửa cả hai!"
+    },
+    {
+      "id": "spk_q11_01",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #1] Quan điểm: Cho phép nhân viên sử dụng công cụ AI trong công việc (AI Tools at Work)",
+      "prompt": "Some companies encourage employees to use generative AI tools (such as coding assistants and writing aids) in their daily work, while others restrict them due to security and quality concerns. Do you think companies should encourage employees to use AI tools at work? Give specific reasons and examples to support your opinion. (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "In my opinion, companies should definitely encourage employees to use AI tools with proper security guidelines",
+        "First of all, AI tools significantly boost productivity by automating repetitive tasks",
+        "For example, as a software engineer, I use AI coding assistants to generate unit tests and boilerplate code",
+        "Second, providing official enterprise AI tools prevents employees from pasting sensitive data into public websites",
+        "For these reasons, I firmly believe adopting AI responsibly is essential for modern workplaces"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "In my opinion, companies should definitely encourage employees to use generative AI tools in their daily work, provided that clear security guidelines are in place. First of all, AI tools dramatically increase productivity by automating repetitive and time-consuming tasks. For example, as a software engineer, I use AI coding assistants to write boilerplate code, generate unit tests, and summarize long technical documentation. This saves me several hours every week and allows me to focus on complex system architecture. Second, when companies officially provide enterprise-grade AI tools and train staff on how to use them safely, employees are much less likely to paste confidential data into unapproved public websites. Of course, human engineers still need to review every output carefully. Overall, for these reasons, I firmly believe that embracing AI tools is a smart decision for any modern organization.",
+      "tips": "Khung 60 giây chuẩn Band 200 cho Q11 (khoảng 130–150 từ): (1) Mở bài trả lời trực tiếp (10s) → (2) First of all + Ví dụ thực tế ngành IT của bạn (25s) → (3) Second + Giải thích tác động (15s) → (4) Overall, for these reasons... (10s)."
+    },
+    {
+      "id": "spk_q11_02",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #2] Quan điểm: Tuần làm việc 4 ngày (Four-Day Workweek)",
+      "prompt": "Do you agree or disagree with the following statement? \"Implementing a four-day workweek (32 hours with full pay) would increase overall employee productivity and retention.\" Use specific reasons and examples to support your answer. (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "I strongly agree that implementing a four-day workweek can boost both productivity and employee retention",
+        "First, having a three-day weekend reduces burnout and helps knowledge workers stay mentally sharp",
+        "For instance, in the IT industry, tired developers are much more likely to introduce bugs into production",
+        "Second, a shorter workweek motivates teams to cut out unnecessary meetings and focus on high-impact tasks",
+        "Therefore, I believe a four-day workweek is a win-win for both employees and employers"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "I strongly agree with the statement that a four-day workweek would increase both productivity and employee retention. First of all, knowledge work requires deep concentration, and a three-day weekend gives employees enough time to recharge and avoid burnout. For instance, in the software industry, when developers are exhausted after working long hours, they are much more likely to make mistakes or introduce bugs that take days to fix. Well-rested engineers write cleaner, more reliable code. Second, knowing that there are only four working days forces teams to eliminate unnecessary status meetings and focus strictly on high-priority deliverables. Furthermore, offering a four-day workweek is a powerful perk that helps companies attract and retain top talent in a competitive market. Therefore, I believe a four-day workweek benefits both employees and businesses.",
+      "tips": "Mẹo lấy ví dụ cho dân IT ở Q11: Luôn quy về công việc lập trình/kỹ sư của bạn ('For instance, in the software industry, when developers...') — bạn sẽ nói cực kỳ trôi chảy vì đó là trải nghiệm thật!"
+    },
+    {
+      "id": "spk_q11_03",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #3] Quan điểm: Làm việc kết hợp (Hybrid) vs. Lên văn phòng 100% (Full-Time In-Office)",
+      "prompt": "Some business leaders believe all employees should return to the office five days a week, while others believe a hybrid model (combining remote and in-office days) is better. Which work arrangement do you prefer, and why? (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "Between the two options, I strongly prefer a hybrid work model over working in the office five days a week",
+        "First, a hybrid schedule combines the best of both worlds: deep focus at home and collaboration at the office",
+        "When I need to write complex code or debug a system, working from home eliminates office noise and commuting time",
+        "On the other hand, going into the office two days a week allows us to hold sprint planning and bond as a team",
+        "In conclusion, a hybrid arrangement maximizes both individual efficiency and team cohesion"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "Between the two options, I strongly prefer a hybrid work model rather than returning to the office five days a week. First, a hybrid schedule gives employees the best of both worlds: quiet focus at home and face-to-face collaboration at the office. For example, when I need to write complex backend code or review technical specs, working from home saves me an hour of daily commuting and protects me from constant office interruptions. Second, coming into the office two or three days a week is still enough to build strong relationships with teammates, run brainstorming sessions, and mentor junior developers in person. In contrast, forcing everyone to commute five days a week lowers morale without improving output. In conclusion, a hybrid model is the most balanced and effective approach.",
+      "tips": "Cụm từ ăn điểm Band 200: 'gives employees the best of both worlds', 'face-to-face collaboration', 'constant office interruptions', 'team cohesion'."
+    },
+    {
+      "id": "spk_q11_04",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #4] Quan điểm: Chuyên sâu 1 lĩnh vực (Specialist) vs. Đa kỹ năng (Generalist)",
+      "prompt": "In today's fast-changing job market, is it better for professionals to specialize deeply in one specific skill, or to develop a broad range of skills across different areas? Support your opinion with specific reasons and examples. (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "In my view, developing a broad range of skills—while having one strong core area—is better in today's market",
+        "First, technology evolves rapidly, so relying on a single narrow skill can be risky if that tool becomes obsolete",
+        "For example, a developer who understands backend, cloud deployment, and business communication can adapt to any project",
+        "Second, professionals with broad knowledge can bridge the gap between different departments, such as engineering and product",
+        "Overall, being adaptable and versatile is the key to long-term career growth"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "In my view, it is much better for professionals to develop a broad range of skills across different areas, often called being a T-shaped professional, rather than focusing narrowly on just one skill. First, technology and business needs change extremely fast. If an engineer only knows one specific framework that eventually becomes obsolete, they may struggle to find new opportunities. By contrast, someone who understands backend coding, cloud infrastructure, and English communication can easily adapt to new roles. Second, having broad knowledge allows you to see the big picture and collaborate effectively across departments. For instance, in my team, developers who understand both technical constraints and customer needs always design better products and get promoted faster. Overall, versatility is the key to long-term career success.",
+      "tips": "Khái niệm 'T-shaped professional' (vừa có chiều rộng đa kỹ năng vừa có 1 mũi nhọn chuyên sâu) cực kỳ tự nhiên và ấn tượng với giám khảo chấm thi."
+    },
+    {
+      "id": "spk_q11_05",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #5] Quan điểm: Công ty có nên tài trợ chi phí học tập & thi chứng chỉ cho nhân viên?",
+      "prompt": "Do you agree or disagree that companies should pay for employees' external courses and professional certifications (such as cloud, project management, or language exams)? Give specific reasons and examples to support your opinion. (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "I completely agree that companies should sponsor employees' external courses and professional certifications",
+        "First of all, upskilling current employees directly improves the quality of the company's products and services",
+        "For example, when my company sponsored an AWS cloud certification for our team, we reduced our server costs by 20 percent",
+        "Second, investing in employee growth builds strong loyalty and reduces costly staff turnover",
+        "Therefore, educational sponsorship is not an expense, but a high-return investment"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "I completely agree that companies should pay for their employees' external courses and professional certifications. First of all, upgrading employees' skills directly improves the quality and efficiency of the company's own projects. For example, when an IT company sponsors engineers to earn cloud architecture certifications or improve their English skills, those employees can immediately design more secure systems and communicate better with international clients. The money saved from avoiding technical mistakes easily outweighs the cost of the exam fee. Second, investing in professional development shows employees that the company values their long-term career growth. This boosts morale and significantly reduces staff turnover, which is much more expensive than paying for a course. Therefore, sponsoring education is a smart investment for any company.",
+      "tips": "Câu kết đắt giá cho chủ đề ngân sách đào tạo: 'Sponsoring employee education is not merely an expense, but a high-return investment.'"
+    },
+    {
+      "id": "spk_q11_06",
+      "toeicType": "TOEIC Q11: Express an opinion",
+      "title": "[TOEIC Q11 #6] Quan điểm: Lãnh đạo nên đề bạt từ nội bộ hay tuyển quản lý từ bên ngoài?",
+      "prompt": "When a management position opens up, some companies prefer to promote an existing employee from within the team, while others prefer to hire an experienced manager from outside. Which approach do you think is better, and why? (Prep: 45s | Speak: 60s)",
+      "chunks": [
+        "In most cases, I believe promoting an existing employee from within the team is the better approach",
+        "First, an internal candidate already understands the company's culture, codebase, and business workflows",
+        "For instance, a senior engineer promoted to team lead can start making effective decisions on day one",
+        "Second, internal promotions motivate the rest of the team because they see a clear career path for hard work",
+        "For these reasons, promoting from within is usually more beneficial than hiring externally"
+      ],
+      "prep": 45,
+      "time": 60,
+      "sample": "In most cases, I believe promoting an existing employee from within the team is much better than hiring a manager from outside. First of all, an internal candidate already understands the company's culture, workflows, and technical systems, so there is a much shorter learning curve. For instance, when a senior developer on my team was promoted to engineering manager last year, he already knew our codebase and our clients' expectations, which allowed him to guide the sprint smoothly from day one. Second, promoting from within sends a positive message to the entire organization. When employees see that hard work and dedication are rewarded with leadership opportunities, they feel much more motivated to stay with the company. For these reasons, I think internal promotion is usually the best choice.",
+      "tips": "Cụm từ chuyên nghiệp cho chủ đề HR/Management: 'shorter learning curve', 'from day one', 'sends a positive message to the entire organization', 'rewarded with leadership opportunities'."
+    },
+    {
+      "id": "spk_it_01",
+      "toeicType": "IT Workplace Speaking #1",
+      "title": "[IT #1] Daily Stand-up: Báo cáo tiến độ, Blocker & phụ thuộc chéo giữa các nhóm (Cross-Team Dependency)",
+      "prompt": "You are in your morning daily stand-up with native-speaking teammates. Give a crisp 60-second update: (1) Yesterday you finished implementing the OAuth2 token refresh logic and unit tests; (2) Today you are integrating the payment webhook; (3) You are blocked on testing the staging endpoint because the DevOps team hasn't whitelisted the new sandbox IP yet. Ask your Scrum Master or DevOps lead for help.",
+      "chunks": [
+        "Yesterday, I wrapped up the OAuth2 token refresh logic and got all unit tests passing",
+        "Today, my main focus is integrating the payment webhook and writing integration tests",
+        "However, I'm currently blocked on end-to-end testing in the staging environment",
+        "We're waiting on the DevOps team to whitelist the payment provider's new sandbox IP",
+        "Could someone help me escalate Ticket OPS-312 right after stand-up so we stay on track?"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "Good morning, everyone. Here's my quick update. Yesterday, I wrapped up the OAuth2 token refresh logic, opened the pull request, and got all the unit tests passing in CI. Today, my main focus is integrating the payment webhook handler and setting up the retry mechanism for failed callbacks. However, I'm currently blocked on testing the webhook end-to-end in our staging environment. Specifically, we're waiting on the DevOps team to whitelist the payment gateway's new sandbox IP address in our firewall. I left a comment on ticket OPS-312 yesterday, but haven't heard back yet. Alex, could we sync for two minutes right after stand-up to escalate this so it doesn't delay tomorrow's QA handoff? Thanks!",
+      "tips": "Stand-up với người bản xứ cần ngắn gọn, có cấu trúc 3 phần rõ ràng (Yesterday wrapped up → Today focusing on → Currently blocked on + Call to action cụ thể)."
+    },
+    {
+      "id": "spk_it_02",
+      "toeicType": "IT Workplace Speaking #2",
+      "title": "[IT #2] Sprint Review / Demo tính năng mới cho khách hàng không chuyên kỹ thuật (Non-Tech Stakeholders)",
+      "prompt": "During a Sprint Review, demo a new \"One-Click CSV & PDF Invoice Export\" feature to non-technical business stakeholders. Avoid heavy jargon: explain the user problem it solves, walk through what happens on screen when they click export, highlight how much time it saves the finance team, and invite their feedback.",
+      "chunks": [
+        "In this sprint, our goal was to make monthly financial reporting much faster for your team",
+        "Previously, exporting large reports took several minutes and sometimes froze the browser",
+        "As you can see on my screen, you can now filter by date range and click Export to PDF or CSV",
+        "Behind the scenes, we process large files in the background and email you a download link within seconds",
+        "We'd love to hear your feedback—does this layout match what your accounting team needs?"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "Thanks, everyone. Let me share my screen and walk you through the new One-Click Invoice Export feature we built this sprint. Previously, our finance users told us that downloading monthly transaction reports took several minutes and occasionally froze their browser when there were thousands of rows. To solve this, we redesigned the export workflow. As you can see here on the Billing Dashboard, you simply select your date range, choose either CSV or formatted PDF, and click Export. For smaller reports, the file downloads instantly. For massive end-of-quarter reports, the system processes the file in the background so you can keep working without any lag, and sends a secure download link straight to your inbox within thirty seconds. We estimate this will save your accounting team about four hours every month. I'd love to hear your thoughts—does this cover your reporting needs?",
+      "tips": "Khi demo cho stakeholder không rành code, luôn dùng công thức: Problem (nỗi đau cũ) → Solution on screen (thao tác trực quan) → Business Value (tiết kiệm bao nhiêu giờ/tiền) → Ask for feedback."
+    },
+    {
+      "id": "spk_it_03",
+      "toeicType": "IT Workplace Speaking #3",
+      "title": "[IT #3] Phỏng vấn System Design: Phân tích đánh đổi kiến trúc (Scalability & Caching Trade-offs)",
+      "prompt": "In a technical interview with an engineering manager, you are asked: \"Our e-commerce product catalog API is experiencing high database load and slow response times during flash sales. How would you redesign it, and what are the trade-offs of your approach?\" Explain your solution clearly in 75 seconds.",
+      "chunks": [
+        "To handle flash-sale traffic spikes, I would introduce a distributed caching layer using Redis",
+        "Since product catalog data is read-heavy and rarely changes every second, caching is a great fit",
+        "The main upside is that we can serve 95% of read requests from memory in under ten milliseconds",
+        "However, the main trade-off is cache invalidation and potential stale data when prices or stock change",
+        "To mitigate this, we can use a short TTL combined with event-driven cache invalidation on inventory updates"
+      ],
+      "prep": 30,
+      "time": 75,
+      "sample": "That's a classic high-read scenario. Since a product catalog during a flash sale has a very high read-to-write ratio, our primary bottleneck is hitting the relational database for identical queries. First, I would introduce an in-memory distributed caching layer, such as Redis, in front of the database using a cache-aside pattern, along with a CDN for static product images. The biggest upside of this approach is that we can offload over ninety percent of read traffic from the primary database and cut API latency down to single-digit milliseconds. However, the main trade-off we have to manage is data consistency—specifically, serving stale price or inventory data, or facing a cache stampede when a popular key expires. To mitigate this, I would keep a short Time-To-Live for general metadata, use event-driven cache invalidation whenever a seller updates a price, and handle real-time stock deduction atomically so we never oversell.",
+      "tips": "Trong phỏng vấn System Design bằng tiếng Anh, người bản xứ đánh giá cao nhất việc bạn chủ động nêu Trade-offs ('The biggest upside is... However, the main trade-off we have to manage is... To mitigate this...')."
+    },
+    {
+      "id": "spk_it_04",
+      "toeicType": "IT Workplace Speaking #4",
+      "title": "[IT #4] Báo cáo sự cố Production & Postmortem (Incident Report & Prevention Plan)",
+      "prompt": "Lead a 60-second blameless postmortem summary for management after a 25-minute checkout outage yesterday afternoon. Cover: (1) Timeline & user impact; (2) Root cause (a database migration locked the orders table during peak traffic); (3) How the team mitigated it (killed the blocking query and rolled back); (4) Preventive action items.",
+      "chunks": [
+        "I'd like to share a quick postmortem summary of yesterday's 25-minute checkout outage",
+        "Between 2:10 and 2:35 p.m. UTC, roughly 12 percent of checkout requests failed with timeout errors",
+        "The root cause was an unindexed schema migration that acquired a full table lock on the orders table",
+        "We mitigated the issue within eight minutes of the alert by terminating the query and rolling back the release",
+        "Moving forward, we are adding an automated CI check to block locking migrations during peak hours"
+      ],
+      "prep": 20,
+      "time": 60,
+      "sample": "I'd like to give a quick blameless postmortem summary of yesterday's checkout incident. Between 2:10 and 2:35 p.m. UTC, our monitoring alerted us to a spike in 504 timeout errors, which affected roughly twelve percent of customer checkout attempts. Upon investigation, we found that the root cause was a database schema migration deployed during afternoon traffic that unexpectedly acquired a full table lock on our primary orders table, queuing up incoming writes. We mitigated the impact within eight minutes of the alert by terminating the blocking migration query and rolling back the deployment, which immediately restored normal traffic. To prevent this from happening again, we have two action items this sprint: first, adding an automated linter in our CI pipeline to flag unsafe locking migrations, and second, restricting schema changes to low-traffic maintenance windows.",
+      "tips": "Văn hóa kỹ thuật Âu-Mỹ rất coi trọng 'blameless postmortem' (tập trung vào quy trình và hệ thống, dùng 'the migration caused...' thay vì đổ lỗi cá nhân)."
+    },
+    {
+      "id": "spk_it_05",
+      "toeicType": "IT Workplace Speaking #5",
+      "title": "[IT #5] Đàm phán Deadline & từ chối khéo Scope Creep với Product Manager / Khách hàng",
+      "prompt": "Three days before the sprint release, the Product Manager asks if your team can \"quickly squeeze in\" a custom role-based permission system before Friday's launch. Politely push back on scope creep, explain the technical risk to the current release, and propose a realistic phased alternative.",
+      "chunks": [
+        "I completely understand why custom role permissions would be valuable for the client",
+        "However, adding role-based access control touches every API endpoint and carries high regression risk",
+        "If we squeeze this in three days before launch, we won't have enough time for security and QA testing",
+        "Here's what I propose instead: let's ship the core release on Friday with standard Admin and Member roles",
+        "Then we can prioritize custom permissions at the very top of next sprint and deliver it safely next week"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "I completely understand why the client is asking for custom role-based permissions, and I agree it's an important feature. However, I want to be transparent about the engineering risk if we try to squeeze this into Friday's release. Role-based access control isn't just a small UI toggle—it requires updating authorization checks across fifteen backend API endpoints and writing thorough security tests. If we rush that in over the next three days, we risk introducing critical security bugs or delaying the entire launch. Here is what I'd propose instead: let's stick to our Friday launch with the two standard Admin and Member roles so the client can go live on schedule. Meanwhile, we can scope out the custom permission matrix today and put it at the very top of Monday's sprint backlog. How does that sound?",
+      "tips": "Nghệ thuật Pushback với PM/Client bản xứ: Đừng nói 'No, impossible'. Hãy dùng 'Yes, and here is the trade-off': (1) Đồng cảm giá trị tính năng → (2) Nêu rủi ro chất lượng/bảo mật → (3) Đưa phương án chia giai đoạn (phased rollout)."
+    },
+    {
+      "id": "spk_it_06",
+      "toeicType": "IT Workplace Speaking #6",
+      "title": "[IT #6] Thảo luận Code Review: Góp ý lịch sự để tối ưu hiệu năng (N+1 Query Refactoring)",
+      "prompt": "You are on a quick call with a teammate to discuss their Pull Request. Their code works functionally, but you noticed an N+1 database query inside a `for` loop that will slow down when loading hundreds of records. Praise their clean logic first, then politely explain the N+1 issue and suggest batching the query.",
+      "chunks": [
+        "First off, great job on structuring the new order history service—the unit tests are super clean",
+        "I just noticed one performance detail on line 84 that I wanted to walk through with you",
+        "Right now, we're calling getUserDetails inside a for-loop, which triggers an N+1 query problem",
+        "In staging with ten rows it's fast, but in production with a thousand orders it could cause timeouts",
+        "What do you think about collecting all the user IDs first and fetching them in a single batched IN query?"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "Hey Sam, thanks for hopping on a quick call. First off, nice work on structuring the new order history endpoint—the validation logic and unit tests are super clean and easy to read. I just noticed one potential performance bottleneck around line eighty-four that I wanted to discuss. Right now, inside the loop that formats each order, the code calls the database to fetch the customer's profile one by one, which creates an N-plus-one query pattern. In our local environment with ten test records it runs fine, but in production where enterprise accounts load five hundred orders at once, that'll trigger five hundred separate database round-trips. What do you think about collecting all the unique user IDs first and fetching them in a single batched query using an IN clause? I'd be happy to pair with you on it if you'd like!",
+      "tips": "Khi góp ý code review bằng tiếng Anh, dùng câu hỏi gợi mở ('What do you think about...?', 'Have we considered...?') và khen điểm tốt trước sẽ giúp đồng nghiệp rất thoải mái tiếp nhận."
+    },
+    {
+      "id": "spk_it_07",
+      "toeicType": "IT Workplace Speaking #7",
+      "title": "[IT #7] Giải thích lỗi khó (Race Condition / Concurrency Bug) và xin ý kiến Senior Engineer",
+      "prompt": "You are pairing with a Staff/Senior Engineer to debug an intermittent issue where customers are occasionally charged twice when they double-click the \"Pay Now\" button on a slow mobile connection. Explain what you've investigated so far, why you suspect a race condition, and ask for their advice on implementing an idempotency key or distributed lock.",
+      "chunks": [
+        "Thanks for taking a look at this with me—I'm debugging an intermittent double-charge issue in checkout",
+        "Looking at the logs, two identical POST requests arrive within 50 milliseconds when a user double-clicks",
+        "Because both requests read the order status as PENDING before either transaction commits, we hit a race condition",
+        "We already disabled the button on the frontend, but retries on flaky mobile networks still slip through",
+        "Would you recommend handling this with an idempotency key in Redis or a database row-level lock?"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "Hey Chris, thanks for taking ten minutes to look at this with me. I'm investigating an intermittent bug where a few mobile users were charged twice for the same order. Here's what I've found so far from the logs: when a user is on a flaky 4G connection and taps 'Pay Now' twice, or when the client automatically retries, two identical POST requests hit our API pods within fifty milliseconds of each other. Because both threads check the database at the exact same moment and see the order status as PENDING before the first transaction commits, both requests proceed to call the payment gateway—so it's a classic race condition. We already disable the button on the frontend, but we definitely need backend protection. In our architecture, would you recommend enforcing an idempotency key in Redis, or using a pessimistic `SELECT FOR UPDATE` lock in PostgreSQL?",
+      "tips": "Khi nhờ Senior/Staff Engineer hỗ trợ, đừng chỉ nói 'It doesn't work'. Hãy trình bày theo chuẩn: (1) Triệu chứng lỗi → (2) Bằng chứng từ log bạn đã tìm ra → (3) Giả thuyết của bạn + 2 hướng giải quyết để họ chọn."
+    },
+    {
+      "id": "spk_it_08",
+      "toeicType": "IT Workplace Speaking #8",
+      "title": "[IT #8] Bàn giao ca trực On-Call cho đồng nghiệp khác múi giờ (On-Call Shift Handover)",
+      "prompt": "Your on-call shift in Vietnam is ending, and you are handing over duties to a teammate in London/US. Give a clear 60-second handover: (1) Overall system health; (2) One noisy memory-usage alert on the reporting worker that you already investigated; (3) An upcoming maintenance window in two hours that they need to watch.",
+      "chunks": [
+        "Hi Jordan, I'm wrapping up my on-call shift here, so let me give you a quick handover",
+        "Overall, core production services are stable and error rates have been below 0.05% all day",
+        "There is one non-critical alert you should be aware of: memory usage on the PDF reporting worker",
+        "I investigated the metrics and restarted the pod; a permanent memory-leak fix is going out tomorrow",
+        "Also, please keep an eye on the database read-replica upgrade scheduled in two hours at 14:00 UTC"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "Hi Jordan, good morning! I'm wrapping up my on-call shift on this side, so let me give you a quick handover. Overall, core production services are green and API latency has been completely normal for the past eight hours. There is just one low-priority alert you should be aware of: around two hours ago, we got a warning for high memory usage on the background PDF reporting worker. I checked the profiling metrics, confirmed it wasn't affecting customer traffic, and cycled the pod to free up memory. The backend squad already has a pull request ready to fix that memory leak tomorrow morning. One last thing to keep on your radar: the database team is performing a scheduled read-replica upgrade at 14:00 UTC today. I've pinned the runbook link in the #on-call Slack channel. Let me know if you have any questions!",
+      "tips": "Bàn giao ca trực (On-call handover) cần rõ ràng: Overall status → Active/investigated alerts → Upcoming scheduled changes → Where to find the runbook."
+    },
+    {
+      "id": "spk_it_09",
+      "toeicType": "IT Workplace Speaking #9",
+      "title": "[IT #9] Họp Sprint Retrospective: Nêu điểm nghẽn CI/CD & đề xuất tự động hóa",
+      "prompt": "In your team's Sprint Retrospective, share constructive feedback: (1) What went well (great collaboration between Frontend and Backend on the new dashboard); (2) What slowed the team down (the CI test suite now takes 35 minutes and fails randomly due to flaky E2E tests); (3) Propose a concrete action item for next sprint.",
+      "chunks": [
+        "First, for what went well this sprint, I want to give a shout-out to the frontend and backend collaboration",
+        "Defining the OpenAPI contract on day one saved us a ton of integration rework",
+        "On the flip side, one bottleneck that slowed us down was our CI/CD pipeline",
+        "Right now, the full build takes 35 minutes, and flaky end-to-end tests force us to re-run builds multiple times",
+        "For next sprint, I propose allocating 10% capacity to parallelize our test runner and quarantine flaky tests"
+      ],
+      "prep": 15,
+      "time": 60,
+      "sample": "I'd like to share one thing that went really well this sprint and one bottleneck we should tackle. First, a huge shout-out to both the frontend and backend folks on the analytics dashboard feature—agreeing on the OpenAPI contract on day one allowed us to work in parallel with zero integration surprises. On the flip side, the biggest pain point this sprint was our CI pipeline speed and reliability. Right now, running the full test suite takes thirty-five minutes, and two flaky end-to-end tests failed randomly on almost every pull request, forcing everyone to hit 're-run' two or three times before merging. For next sprint, I'd like to propose an action item: let's dedicate one story to splitting our test suite into parallel shards and quarantining those flaky UI tests so we can get build times back under ten minutes.",
+      "tips": "Trong buổi Retro, cụm từ 'give a shout-out to...' (tuyên dương đồng đội) và 'On the flip side, one bottleneck that slowed us down...' giúp bạn giao tiếp cực kỳ tự nhiên như kỹ sư bản xứ."
+    },
+    {
+      "id": "spk_it_10",
+      "toeicType": "IT Workplace Speaking #10",
+      "title": "[IT #10] Thuyết phục Ban Giám đốc tách Module Thanh toán từ Monolith sang Microservice",
+      "prompt": "Pitch a technical proposal to engineering leadership: migrating the legacy billing module out of the 8-year-old monolith into an independent cloud microservice. Focus on business & engineering ROI: faster independent deployments, fault isolation, and reduced cloud costs, while proposing a low-risk Strangler Fig migration strategy.",
+      "chunks": [
+        "I'd like to propose extracting our legacy billing module out of the core monolith over the next quarter",
+        "Right now, any small update to billing requires redeploying the entire monolith, which slows down releases",
+        "Furthermore, during end-of-month invoice generation, heavy CPU usage in billing degrades the main app",
+        "By extracting billing into an independent service, we gain fault isolation and can scale it only when needed",
+        "To minimize risk, we can use the Strangler Fig pattern and route 5% of traffic first before full cutover"
+      ],
+      "prep": 20,
+      "time": 75,
+      "sample": "I'd like to propose a high-impact architectural initiative for Q3: extracting our legacy billing module out of the core monolith into a standalone cloud service. Currently, our monolith is tightly coupled, which creates two major business problems. First, every time we need to update a tax rule or invoice template, we have to regression-test and redeploy the entire application, delaying feature releases from two days to two weeks. Second, at the end of every month when batch invoicing runs, the heavy CPU spike degrades response times for all active users on our platform. By decoupling billing into an independent microservice, we achieve fault isolation, independent deployment, and auto-scaling that only spins up extra compute during month-end billing—saving roughly twenty percent on our baseline server costs. To keep risk low, we won't do a big-bang rewrite; instead, we'll use the Strangler Fig pattern and shadow-test with five percent of traffic first.",
+      "tips": "Khi thuyết phục lãnh đạo (Engineering Leadership) duyệt dự án kỹ thuật / trả nợ kỹ thuật (Tech Debt), luôn quy đổi lợi ích kỹ thuật sang lợi ích kinh doanh: tốc độ ra tính năng (time-to-market), độ ổn định cho khách hàng (fault isolation), và chi phí hạ tầng (cost savings)."
+    }
+  ]
+}

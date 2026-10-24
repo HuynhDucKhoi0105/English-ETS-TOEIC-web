@@ -1,0 +1,150 @@
+virtual machine | n | máy ảo | We run the test suite on a virtual machine. | it
+object storage | n | lưu trữ đối tượng | Backups are kept in object storage. | it
+auto scaling | n | tự động co giãn tài nguyên | Auto scaling adds servers when traffic spikes. | it
+availability zone | n | vùng khả dụng (cloud) | We deploy across two availability zones for resilience. | it
+elasticity | n | tính co giãn | Elasticity lets us pay only for the capacity we use. | it
+cold start | n | độ trễ khởi động lạnh | Cold start adds a delay to the first request. | it
+edge computing | n | điện toán biên | Edge computing reduces latency for remote users. | it
+content delivery network | n | mạng phân phối nội dung (CDN) | A content delivery network speeds up our website worldwide. | it
+vendor lock-in | n | bị phụ thuộc nhà cung cấp | We avoid vendor lock-in by using open standards. | it
+managed service | n | dịch vụ được quản lý | A managed service saves us from maintaining the database. | it
+disaster recovery | n | khôi phục sau thảm họa | Our disaster recovery plan is tested twice a year. | it
+blue-green deployment | n | triển khai xanh-lục | Blue-green deployment lets us switch traffic instantly. | it
+canary release | n | phát hành thử nghiệm cho nhóm nhỏ | We started with a canary release for five percent of users. | it
+service mesh | n | lớp mạng giữa các dịch vụ | A service mesh handles traffic between microservices. | it
+API gateway | n | cổng API | Every request goes through the API gateway. | it
+message queue | n | hàng đợi thông điệp | Orders are placed in a message queue and processed later. | it
+event-driven | adj | hướng sự kiện | We built an event-driven architecture for notifications. | it
+idempotent | adj | lặp lại không đổi kết quả | A payment API must be idempotent to avoid double charges. | it
+eventual consistency | n | nhất quán cuối cùng | The system offers eventual consistency, not instant updates. | it
+sharding | n | chia nhỏ dữ liệu theo phân vùng | Sharding helps the database handle more traffic. | it
+replication | n | sao chép dữ liệu | Replication keeps a copy of the data in another region. | it
+data pipeline | n | luồng xử lý dữ liệu | The data pipeline loads sales figures every night. | it
+data lake | n | hồ dữ liệu | Raw logs are stored in a data lake. | it
+data governance | n | quản trị dữ liệu | Data governance defines who can access which datasets. | it
+data lineage | n | nguồn gốc và đường đi của dữ liệu | Data lineage shows where each metric comes from. | it
+stream processing | n | xử lý dữ liệu theo luồng | Stream processing detects fraud in real time. | it
+batch processing | n | xử lý theo lô | Payroll runs as a batch processing job. | it
+data quality | n | chất lượng dữ liệu | Poor data quality leads to wrong decisions. | it
+anomaly detection | n | phát hiện bất thường | Anomaly detection flagged a sudden spike in logins. | it
+feature engineering | n | xây dựng đặc trưng cho mô hình | Feature engineering improved the model's accuracy. | it
+training data | n | dữ liệu huấn luyện | The model needs more diverse training data. | it
+overfitting | n | quá khớp (mô hình) | Overfitting makes the model perform poorly on new data. | it
+model drift | n | mô hình trôi dạt (kém dần theo thời gian) | We monitor model drift every month. | it
+embedding | n | vector biểu diễn ngữ nghĩa | Each document is converted into an embedding. | it
+vector database | n | cơ sở dữ liệu vector | A vector database helps us search by meaning. | it
+retrieval-augmented generation | n | sinh văn bản có truy xuất (RAG) | Retrieval-augmented generation reduces wrong answers from the chatbot. | it
+guardrails | n | cơ chế rào chắn an toàn (AI) | We added guardrails to block unsafe responses. | it
+context window | n | cửa sổ ngữ cảnh | A longer context window lets the model read bigger documents. | it
+prompt injection | n | tấn công chèn câu lệnh | Prompt injection can trick the assistant into leaking data. | it
+AI agent | n | tác tử AI tự thực hiện tác vụ | The AI agent books meetings on our behalf. | it
+bias | n | thiên kiến (trong dữ liệu, mô hình) | We tested the model for bias across user groups. | it
+zero trust | n | mô hình không tin cậy mặc định | We moved to a zero trust security model. | it
+least privilege | n | nguyên tắc đặc quyền tối thiểu | Follow the principle of least privilege when granting access. | it
+single sign-on | n | đăng nhập một lần (SSO) | Single sign-on lets staff use one login for every tool. | it
+access token | n | mã truy cập | The access token expires after one hour. | it
+encryption at rest | n | mã hóa dữ liệu lưu trữ | Encryption at rest protects the stored backups. | it
+secrets management | n | quản lý thông tin bí mật | Secrets management keeps passwords out of the code. | it
+SQL injection | n | tấn công chèn SQL | Parameterized queries prevent SQL injection. | it
+cross-site scripting | n | tấn công chèn script (XSS) | The scan found a cross-site scripting flaw in the form. | it
+DDoS attack | n | tấn công từ chối dịch vụ phân tán | A DDoS attack took the website offline for an hour. | it
+ransomware | n | mã độc tống tiền | Regular backups are our best defense against ransomware. | it
+threat model | n | mô hình mối đe dọa | We updated the threat model for the new payment feature. | it
+security audit | n | kiểm toán bảo mật | An external security audit is scheduled for October. | it
+vulnerability scan | n | quét lỗ hổng | The weekly vulnerability scan found two high-risk issues. | it
+patch management | n | quản lý bản vá | Patch management ensures every server stays up to date. | it
+incident response | n | ứng phó sự cố | Our incident response team is available around the clock. | it
+user story | n | câu chuyện người dùng | Each user story describes a feature from the customer's view. | it
+acceptance criteria | n | tiêu chí chấp nhận | The ticket is done when it meets the acceptance criteria. | it
+story point | n | điểm ước lượng công việc | We estimated this task at five story points. | it
+velocity | n | tốc độ hoàn thành của nhóm | Our velocity is about thirty points per sprint. | it
+burndown chart | n | biểu đồ burndown | The burndown chart shows we are slightly behind. | it
+sprint planning | n | họp lập kế hoạch sprint | Sprint planning takes place every other Monday. | it
+retrospective | n | họp nhìn lại sprint | In the retrospective, we discussed how to reduce delays. | it
+product owner | n | chủ sở hữu sản phẩm | The product owner decides which features come first. | it
+definition of done | n | định nghĩa hoàn thành | Testing is part of our definition of done. | it
+epic | n | epic (nhóm tính năng lớn) | This epic covers the entire checkout redesign. | it
+backlog refinement | n | tinh chỉnh backlog | Backlog refinement helps us clarify upcoming tasks. | it
+MVP | n | sản phẩm khả dụng tối thiểu | We shipped an MVP to test the idea with real users. | it
+kanban | n | bảng kanban | Our team tracks work on a kanban board. | it
+scrum master | n | người điều phối scrum | The scrum master removes obstacles for the team. | it
+cross-functional team | n | nhóm đa chức năng | A cross-functional team includes developers, designers, and testers. | it
+timebox | v/n | giới hạn thời gian | Let's timebox the investigation to two hours. | it
+continuous delivery | n | chuyển giao liên tục | Continuous delivery lets us release several times a day. | it
+build artifact | n | sản phẩm đầu ra của bản build | The build artifact is stored in the registry. | it
+alerting | n | cảnh báo tự động | Better alerting would have caught the problem sooner. | it
+runbook | n | sổ tay vận hành xử lý sự cố | Follow the runbook if the database becomes unresponsive. | it
+SRE | n | kỹ sư độ tin cậy hệ thống | The SRE team keeps our services reliable. | it
+error budget | n | ngân sách lỗi cho phép | We have used up our error budget this month. | it
+service level objective | n | mục tiêu mức dịch vụ (SLO) | Our service level objective is 99.9 percent availability. | it
+mean time to recovery | n | thời gian khôi phục trung bình | We cut our mean time to recovery from two hours to twenty minutes. | it
+log aggregation | n | tập trung nhật ký | Log aggregation makes it easier to search across services. | it
+distributed tracing | n | truy vết phân tán | Distributed tracing shows which service is slowing down a request. | it
+configuration drift | n | cấu hình lệch khỏi chuẩn | Configuration drift caused the staging server to behave differently. | it
+immutable infrastructure | n | hạ tầng bất biến | With immutable infrastructure, we replace servers instead of editing them. | it
+Kubernetes cluster | n | cụm Kubernetes | The Kubernetes cluster runs all of our services. | it
+feature branch | n | nhánh tính năng | Create a feature branch for each new task. | it
+trunk-based development | n | phát triển trên nhánh chính | Trunk-based development keeps merges small and frequent. | it
+release candidate | n | bản ứng viên phát hành | The release candidate is ready for final testing. | it
+smoke test | n | kiểm thử nhanh sau triển khai | A quick smoke test confirmed the site was up. | it
+integration test | n | kiểm thử tích hợp | The integration test failed because the API changed. | it
+end-to-end test | n | kiểm thử đầu cuối | The end-to-end test simulates a full customer purchase. | it
+test case | n | ca kiểm thử | Please add a test case for the empty input. | it
+regression testing | n | kiểm thử hồi quy | Regression testing is mandatory before every release. | it
+load testing | n | kiểm thử tải | Load testing revealed the server fails at 5,000 users. | it
+mock | n/v | đối tượng giả lập; giả lập | Use a mock to simulate the payment service. | it
+bug triage | n | phân loại ưu tiên lỗi | We hold bug triage every Tuesday morning. | it
+severity | n | mức độ nghiêm trọng | The bug has high severity because it blocks checkout. | it
+root cause analysis | n | phân tích nguyên nhân gốc | The root cause analysis pointed to a missing index. | it
+exploratory testing | n | kiểm thử khám phá | Exploratory testing uncovered several usability problems. | it
+linter | n | công cụ kiểm tra phong cách code | The linter flagged an unused variable. | it
+Let's take it from the top. | phrase | Mình bắt đầu lại từ đầu nhé. | Let's take it from the top so everyone is on the same page. | itphr
+Are we on the same page? | phrase | Chúng ta đã hiểu giống nhau chưa? | Before we start, are we on the same page about the scope? | itphr
+I'll share my screen. | phrase | Tôi sẽ chia sẻ màn hình. | I'll share my screen so you can see the dashboard. | itphr
+You're on mute. | phrase | Bạn đang tắt micro đó. | Sorry to interrupt, but you're on mute. | itphr
+Can everyone see my screen? | phrase | Mọi người thấy màn hình của tôi chưa? | Can everyone see my screen, or should I zoom in? | itphr
+Let me know if you have any blockers. | phrase | Cần gỡ vướng gì cứ báo tôi. | Let me know if you have any blockers after stand-up. | itphr
+I'm picking up the login ticket. | phrase | Tôi nhận ticket đăng nhập. | I'm picking up the login ticket, and I'll update you by noon. | itphr
+I'm blocked until the API is ready. | phrase | Tôi bị chặn đến khi API xong. | I'm blocked until the API is ready, so I'll review code in the meantime. | itphr
+That's out of my wheelhouse. | phrase | Cái đó không thuộc chuyên môn của tôi. | Database tuning is out of my wheelhouse, so let's ask Linh. | itphr
+We're running a bit behind. | phrase | Chúng tôi hơi trễ tiến độ. | We're running a bit behind because of a failed test. | itphr
+Nit: could you rename this variable? | phrase | Góc nhỏ: bạn đổi tên biến này được không? | Nit: could you rename this variable to something clearer? | itphr
+Could you add a comment here? | phrase | Bạn thêm chú thích chỗ này được không? | Could you add a comment here to explain the logic? | itphr
+Have you considered using a map instead? | phrase | Bạn đã nghĩ tới việc dùng map chưa? | Have you considered using a map instead of a loop? | itphr
+This might cause a performance issue. | phrase | Chỗ này có thể gây vấn đề hiệu năng. | This might cause a performance issue when the list grows. | itphr
+Please add tests for this change. | phrase | Vui lòng thêm test cho thay đổi này. | Please add tests for this change before I approve it. | itphr
+I left a few comments on your PR. | phrase | Tôi để vài nhận xét trên PR của bạn. | I left a few comments on your PR, mostly minor. | itphr
+Good catch! | phrase | Phát hiện hay đấy! | Good catch! I missed that edge case. | itphr
+I'll address your feedback today. | phrase | Hôm nay tôi sẽ xử lý các góp ý của bạn. | Thanks for the review. I'll address your feedback today. | itphr
+Let's weigh the pros and cons. | phrase | Cùng cân nhắc ưu nhược điểm. | Let's weigh the pros and cons before choosing a database. | itphr
+What are the trade-offs here? | phrase | Ở đây đánh đổi những gì? | What are the trade-offs here between speed and cost? | itphr
+It depends on the use case. | phrase | Còn tùy trường hợp sử dụng. | It depends on the use case, but I'd start simple. | itphr
+I'd lean toward the simpler option. | phrase | Tôi nghiêng về phương án đơn giản hơn. | I'd lean toward the simpler option given our deadline. | itphr
+Will this scale? | phrase | Cái này mở rộng được không? | It works now, but will this scale to ten times the traffic? | itphr
+We should document this decision. | phrase | Nên ghi lại quyết định này. | We should document this decision in the design doc. | itphr
+Let's not over-engineer this. | phrase | Đừng thiết kế phức tạp quá mức. | It's a small tool, so let's not over-engineer this. | itphr
+We're seeing elevated error rates. | phrase | Tỷ lệ lỗi đang tăng cao. | We're seeing elevated error rates on the checkout service. | itphr
+We've identified the root cause. | phrase | Chúng tôi đã xác định nguyên nhân gốc. | We've identified the root cause and are preparing a fix. | itphr
+The issue is now mitigated. | phrase | Sự cố đã được giảm nhẹ. | The issue is now mitigated, and we're monitoring closely. | itphr
+We're rolling back the change. | phrase | Chúng tôi đang hoàn tác thay đổi. | We're rolling back the change to restore service. | itphr
+I'm declaring an incident. | phrase | Tôi chính thức khai báo sự cố. | I'm declaring an incident because payments are failing. | itphr
+Who's the incident commander? | phrase | Ai là người điều phối sự cố? | Who's the incident commander for this outage? | itphr
+Let's schedule a postmortem. | phrase | Hãy lên lịch họp rút kinh nghiệm. | Let's schedule a postmortem for Thursday. | itphr
+I'll post an update in the channel. | phrase | Tôi sẽ đăng cập nhật trên kênh. | I'll post an update in the channel every thirty minutes. | itphr
+Thanks for your patience. | phrase | Cảm ơn sự kiên nhẫn của bạn. | Thanks for your patience while we investigate. | itphr
+To be fair, the requirements changed. | phrase | Công bằng mà nói, yêu cầu đã thay đổi. | To be fair, the requirements changed after the kickoff. | itphr
+That's a fair point. | phrase | Ý bạn có lý đó. | That's a fair point. Let me check the numbers. | itphr
+We can deliver that by the end of the month. | phrase | Chúng tôi giao được vào cuối tháng. | We can deliver that by the end of the month if we reduce the scope. | itphr
+That would impact the timeline. | phrase | Điều đó sẽ ảnh hưởng tiến độ. | Adding that feature would impact the timeline. | itphr
+Could we prioritize the must-haves first? | phrase | Mình ưu tiên các mục bắt buộc trước nhé? | Could we prioritize the must-haves first and add extras later? | itphr
+I'll follow up with a summary email. | phrase | Tôi sẽ gửi email tóm tắt sau. | I'll follow up with a summary email after the demo. | itphr
+Let me loop in my manager. | phrase | Để tôi kéo quản lý của tôi vào. | Let me loop in my manager to confirm the budget. | itphr
+We'll get back to you with an estimate. | phrase | Chúng tôi sẽ gửi báo giá sau. | We'll get back to you with an estimate by Friday. | itphr
+Here's a quick demo of the new feature. | phrase | Đây là demo nhanh tính năng mới. | Here's a quick demo of the new feature. Feel free to interrupt. | itphr
+Any questions so far? | phrase | Đến đây có câu hỏi nào không? | That's the overview. Any questions so far? | itphr
+I'll take the action item. | phrase | Tôi nhận việc này. | I'll take the action item and report back on Wednesday. | itphr
+Let's park that for now. | phrase | Tạm gác vấn đề đó lại nhé. | Let's park that for now and focus on the release. | itphr
+Can we get a second pair of eyes on this? | phrase | Ai xem giúp tôi đoạn này được không? | Can we get a second pair of eyes on this before we merge? | itphr
+It's working as intended. | phrase | Nó hoạt động đúng thiết kế. | It's working as intended, but we can improve the message. | itphr
+We need to loop in security. | phrase | Cần kéo đội bảo mật vào. | We need to loop in security before launching the feature. | itphr
+Let's sync up after lunch. | phrase | Mình họp đồng bộ sau bữa trưa nhé. | Let's sync up after lunch and compare notes. | itphr

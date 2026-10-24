@@ -1,0 +1,299 @@
+{
+  "formatInfo": {
+    "version": "Cấu trúc chuẩn hiện hành — Nguồn: ETS TOEIC Speaking & Writing Examinee Handbook (ets.org/toeic)",
+    "totalQuestions": 8,
+    "durationMinutes": 60,
+    "scoreRange": "0–200 (chia theo Proficiency Levels 1–9; mục tiêu 200 điểm tương đương Level 9)",
+    "sections": [
+      {
+        "questions": "Q1–5",
+        "task": "Write a sentence based on a picture (Viết 1 câu mô tả tranh dựa trên 2 từ/cụm từ cho sẵn)",
+        "timeMinutes": 8,
+        "note": "8 phút cho cả 5 câu (~95 giây/câu), được phép chuyển qua lại giữa các câu 1–5 trong 8 phút này.",
+        "criteria": "Điểm 0–3/câu. Yêu cầu: (1) Chỉ viết ĐÚNG 1 câu hoàn chỉnh; (2) Dùng cả 2 từ cho sẵn (được phép đổi thì động từ hoặc số ít/số nhiều của danh từ, nhưng KHÔNG đổi từ loại); (3) Đúng ngữ pháp và mô tả đúng nội dung chính của bức tranh."
+      },
+      {
+        "questions": "Q6–7",
+        "task": "Respond to a written request (Viết email phản hồi yêu cầu công việc)",
+        "timeMinutes": "20 phút (10 phút/câu, tính giờ riêng từng câu)",
+        "note": "Mỗi đề cho 1 email khoảng 80–120 từ và yêu cầu trong phần Directions phải hoàn thành 2–3 nhiệm vụ (ví dụ: cung cấp 2 thông tin, hỏi 1 câu hỏi, hoặc đề xuất 1 giải pháp).",
+        "criteria": "Điểm 0–4/câu. Yêu cầu: Giải quyết ĐẦY ĐỦ cả 3 yêu cầu trong Directions (thiếu 1 ý bị trừ điểm nặng), văn phong email thương mại lịch sự (Opening → Body paragraphs → Call to action → Sign-off), dùng từ đồng nghĩa (paraphrase) thay vì chép nguyên câu đề bài, độ dài lý tưởng 120–160 từ."
+      },
+      {
+        "questions": "Q8",
+        "task": "Write an opinion essay (Viết bài luận nêu quan điểm cá nhân)",
+        "timeMinutes": 30,
+        "note": "Đề bài hỏi quan điểm đồng ý/không đồng ý hoặc chọn 1 phương án trong môi trường làm việc/xã hội. Khuyến nghị của ETS: tối thiểu 300 từ (300–350 từ).",
+        "criteria": "Điểm 0–5. Yêu cầu: (1) Bố cục 4 đoạn rõ ràng (Introduction → Body 1 với ví dụ cụ thể → Body 2 → Conclusion); (2) Lập luận chặt chẽ, có ví dụ thực tế; (3) Đa dạng cấu trúc câu (câu ghép, câu phức, mệnh đề quan hệ, đảo ngữ/điều kiện) và từ nối học thuật; (4) Độ dài đạt ≥ 300 từ, chính tả Anh-Mỹ nhất quán."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "wrt_q15_01",
+      "part": "Q1–5",
+      "title": "[TOEIC Writing Q1–5 #1] Thuyết trình biểu đồ trong phòng họp (Conference Room Presentation)",
+      "time": 8,
+      "timeSeconds": 96,
+      "keywords": [
+        "present",
+        "while"
+      ],
+      "task": "[Mô tả tranh (Scene Description)]: Trong phòng họp có bàn kính dài, một người phụ nữ mặc vest đang đứng cạnh màn hình máy chiếu lớn và chỉ tay vào biểu đồ doanh thu quý. Ba đồng nghiệp đang ngồi quanh bàn, chăm chú lắng nghe và ghi chép vào sổ tay.\n• Hai từ bắt buộc (Required words): present / while\n• Yêu cầu: Viết 1 câu hoàn chỉnh, đúng ngữ pháp, sử dụng cả 2 từ cho sẵn (có thể chia thì cho 'present') để mô tả bức tranh.",
+      "sample": "A woman is presenting a financial chart on the projection screen while her colleagues take notes around the conference table.\n(Phương án 2 nâng cao): While the manager presents the quarterly sales figures on the large screen, three employees are listening attentively and taking notes.",
+      "checklist": [
+        "Đã dùng đúng cả 2 từ 'present' (chia thì: is presenting / presents) và 'while' (liên từ nối 2 mệnh đề S + V)",
+        "Chỉ viết ĐÚNG 1 câu đơn/ghép/phức hoàn chỉnh (có 1 dấu chấm câu ở cuối, không tách thành 2 câu)",
+        "Hai mệnh đề nối bởi 'while' đều có đầy đủ Chủ ngữ + Động từ chia thì (S1 + V1 + while + S2 + V2)",
+        "Nội dung câu khớp chính xác với hành động trong tranh (thuyết trình biểu đồ và đồng nghiệp ghi chép)",
+        "Không sai lỗi hòa hợp chủ-vị, mạo từ (a/an/the) hoặc chính tả"
+      ]
+    },
+    {
+      "id": "wrt_q15_02",
+      "part": "Q1–5",
+      "title": "[TOEIC Writing Q1–5 #2] Kỹ sư kiểm tra thiết bị mạng trong phòng máy chủ (Server Room Inspection)",
+      "time": 8,
+      "timeSeconds": 96,
+      "keywords": [
+        "technician",
+        "in order to"
+      ],
+      "task": "[Mô tả tranh (Scene Description)]: Trong phòng máy chủ (data center), một kỹ thuật viên đeo thẻ nhân viên đang mở cánh cửa tủ rack mạng và cầm máy tính bảng kết nối cáp chẩn đoán để kiểm tra trạng thái hoạt động của hệ thống.\n• Hai từ bắt buộc (Required words): technician / in order to\n• Yêu cầu: Viết 1 câu hoàn chỉnh sử dụng cả 2 từ/cụm từ cho sẵn để mô tả hành động và mục đích trong tranh.",
+      "sample": "A network technician is connecting a tablet to the server rack in order to inspect the system's status.\n(Phương án 2 nâng cao): The IT technician has opened the cabinet door in order to check the network switches with a diagnostic tablet.",
+      "checklist": [
+        "Đã dùng danh từ 'technician' (có mạo từ a/the phía trước) và cụm chỉ mục đích 'in order to'",
+        "Sau 'in order to' là động từ nguyên mẫu (V-infinitive: inspect / check / test / diagnose)",
+        "Chỉ viết ĐÚNG 1 câu duy nhất có chủ ngữ và vị ngữ chính rõ ràng",
+        "Mô tả hợp lý bối cảnh phòng máy chủ và mục đích kiểm tra thiết bị trong tranh",
+        "Đúng chính tả và dấu câu"
+      ]
+    },
+    {
+      "id": "wrt_q15_03",
+      "part": "Q1–5",
+      "title": "[TOEIC Writing Q1–5 #3] Hành khách xếp hàng lên tàu tại nhà ga (Passengers Boarding a Train)",
+      "time": 8,
+      "timeSeconds": 96,
+      "keywords": [
+        "passenger",
+        "before"
+      ],
+      "task": "[Mô tả tranh (Scene Description)]: Trên sân ga tàu điện hiện đại, nhiều hành khách kéo vali đang xếp hàng ngay ngắn trước cửa toa tàu đang mở và xuất trình vé điện tử trên điện thoại cho nhân viên soát vé trước khi bước lên tàu.\n• Hai từ bắt buộc (Required words): passenger / before\n• Yêu cầu: Viết 1 câu hoàn chỉnh sử dụng 'passenger' (có thể đổi sang số nhiều 'passengers') và 'before' (dùng như liên từ + S V hoặc giới từ + V-ing).",
+      "sample": "Several passengers are showing their digital tickets to the conductor before boarding the train at the platform.\n(Phương án 2 dùng mệnh đề): The passengers are waiting in line on the platform before they board the commuter train.",
+      "checklist": [
+        "Đã dùng từ 'passenger' (nên dùng số nhiều 'passengers' hoặc có mạo từ 'a/the passenger') và từ 'before'",
+        "Cấu trúc sau 'before' chuẩn ngữ pháp: 'before + V-ing' (before boarding) hoặc 'before + S + V hiện tại đơn' (before they board)",
+        "Chỉ viết ĐÚNG 1 câu hoàn chỉnh, không mắc lỗi comma splice (nối 2 mệnh đề độc lập chỉ bằng dấu phẩy)",
+        "Phản ánh đúng khung cảnh nhà ga và hành khách chuẩn bị lên tàu",
+        "Kiểm tra mạo từ (the train / the platform) và chia động từ số nhiều (passengers are...)"
+      ]
+    },
+    {
+      "id": "wrt_q15_04",
+      "part": "Q1–5",
+      "title": "[TOEIC Writing Q1–5 #4] Hai lập trình viên cùng gỡ lỗi trên màn hình đôi (Pair Programming)",
+      "time": 8,
+      "timeSeconds": 96,
+      "keywords": [
+        "screen",
+        "who"
+      ],
+      "task": "[Mô tả tranh (Scene Description)]: Tại bàn làm việc gần cửa sổ, hai lập trình viên đang ngồi cạnh nhau. Người đàn ông đeo kính đang chỉ tay vào những dòng code trên màn hình máy tính lớn cho nữ đồng nghiệp ngồi bên cạnh xem.\n• Hai từ bắt buộc (Required words): screen / who\n• Yêu cầu: Viết 1 câu hoàn chỉnh có sử dụng mệnh đề quan hệ với 'who' và danh từ 'screen'.",
+      "sample": "The developer who is wearing glasses is pointing at the code on the computer screen to explain it to his coworker.\n(Phương án 2): A software engineer is looking at the large monitor screen with a female colleague who is sitting next to him.",
+      "checklist": [
+        "Đã dùng đúng cả 2 từ 'screen' và đại từ quan hệ 'who'",
+        "Đại từ quan hệ 'who' đứng ngay sau danh từ chỉ người (the developer who... / a colleague who...) và có động từ chia khớp với danh từ đó",
+        "Câu có đầy đủ cả động từ của mệnh đề quan hệ LẪN động từ chính của câu (tránh lỗi thiếu động từ chính!)",
+        "Chỉ viết ĐÚNG 1 câu mô tả sát bức tranh hai đồng nghiệp làm việc trước màn hình",
+        "Đúng giới từ đi kèm (point at / look at / on the screen)"
+      ]
+    },
+    {
+      "id": "wrt_q15_05",
+      "part": "Q1–5",
+      "title": "[TOEIC Writing Q1–5 #5] Nhân viên kho dán nhãn kiện hàng chuẩn bị giao (Packaging in a Warehouse)",
+      "time": 8,
+      "timeSeconds": 96,
+      "keywords": [
+        "stack",
+        "already"
+      ],
+      "task": "[Mô tả tranh (Scene Description)]: Trong khu vực đóng gói của kho hàng, một nhân viên mặc áo phản quang đang cầm máy quét mã vạch kiểm tra kiện hàng trên bàn, bên cạnh anh ấy là những thùng carton đã được dán băng keo và xếp chồng gọn gàng trên tấm pallet gỗ.\n• Hai từ bắt buộc (Required words): stack / already\n• Yêu cầu: Viết 1 câu hoàn chỉnh sử dụng 'stack' (động từ hoặc danh từ) và trạng từ 'already' (thường đi với thì hiện tại hoàn thành hoặc bị động).",
+      "sample": "A warehouse worker is scanning a shipping label beside several cardboard boxes that have already been stacked on a wooden pallet.\n(Phương án 2 gọn hơn): Many sealed packages have already been stacked neatly on the pallet by the warehouse staff.",
+      "checklist": [
+        "Đã dùng cả 2 từ 'stack' (stacked / a stack of) và 'already'",
+        "Vị trí của 'already' đúng ngữ pháp: đứng giữa 'have/has' và 'V3/been' (have already been stacked)",
+        "Nếu chủ ngữ là 'boxes / packages' (vật) thì động từ 'stack' phải chia ở thể bị động (have already been stacked / are already stacked)",
+        "Chỉ viết ĐÚNG 1 câu mô tả chính xác cảnh đóng gói/xếp hàng trong kho",
+        "Không sai lỗi chính tả (warehouse, cardboard boxes, wooden pallet)"
+      ]
+    },
+    {
+      "id": "wrt_q67_01",
+      "part": "Q6–7",
+      "title": "[TOEIC Writing Q6–7 #1] Phản hồi khách hàng doanh nghiệp hỏi về dịch vụ di chuyển dữ liệu lên Cloud (IT Service Inquiry)",
+      "time": 10,
+      "timeSeconds": 600,
+      "task": "Directions: Read the e-mail below. You have 10 minutes to write a response.\n\nFrom: Marcus Vance, Operations Director, Beacon Logistics <mvance@beaconlogistics.com>\nTo: Enterprise Sales Team, CloudBridge Solutions <sales@cloudbridge.io>\nSubject: Inquiry regarding database cloud migration services\nDate: October 15\n\nDear CloudBridge Team,\nOur logistics company currently runs an on-premises SQL database with approximately 15 terabytes of shipment records. We are planning to migrate our infrastructure to the cloud before the end of Q1 next year to improve system reliability. Could you let us know how long a migration of this size typically takes? Also, we cannot afford extended downtime during business hours, so we would like to know how your team handles data synchronization during the transition. Finally, please let us know what information we should prepare before scheduling an initial technical consultation.\n\nBest regards,\nMarcus Vance\n\n---\nRespond to the e-mail as if you are a Solutions Architect at CloudBridge Solutions. In your e-mail, do the following:\n1. Answer Mr. Vance's question about the estimated timeline for migrating a 15 TB database.\n2. Explain how your team minimizes downtime during the transition.\n3. Specify two pieces of technical information his team should prepare before the consultation call.",
+      "sample": "Subject: Re: Inquiry regarding database cloud migration services\n\nDear Mr. Vance,\n\nThank you for contacting CloudBridge Solutions regarding your upcoming infrastructure migration. As a Solutions Architect on our enterprise team, I would be delighted to assist Beacon Logistics with transitioning your 15-terabyte SQL database to the cloud well ahead of your Q1 deadline.\n\nRegarding your question about the timeline, a migration of this scale typically takes between four and six weeks from initial assessment to final cutover, including two weeks of performance and security testing in a staging environment.\n\nTo ensure your daily logistics operations are not disrupted, we use a zero-downtime Change Data Capture (CDC) replication strategy. Specifically, we copy your historical data in the background while continuously syncing real-time transactions, and we perform the final switchover during a brief 15-minute maintenance window on a Sunday night.\n\nBefore our initial technical consultation, please prepare two documents: (1) a summary of your current SQL Server version and database schema, and (2) an overview of your peak daily transaction volume and compliance requirements. Are you available this Thursday at 2:00 p.m. EST for an introductory call?\n\nBest regards,\n\nAlex Nguyen\nSenior Solutions Architect, CloudBridge Solutions",
+      "checklist": [
+        "Có lời chào trang trọng (Dear Mr. Vance,) và câu mở đầu nêu rõ lý do viết thư (Thank you for contacting... regarding...)",
+        "Hoàn thành Nhiệm vụ 1: Nêu rõ thời gian ước tính cho việc migrate 15 TB (ví dụ: 4–6 tuần bao gồm cả kiểm thử)",
+        "Hoàn thành Nhiệm vụ 2: Giải thích cách giảm thiểu downtime trong giờ làm việc (đồng bộ nền real-time / cắt chuyển vào ban đêm hoặc cuối tuần)",
+        "Hoàn thành Nhiệm vụ 3: Nêu rõ ĐỦ 2 thông tin kỹ thuật khách hàng cần chuẩn bị trước buổi tư vấn (ví dụ: sơ đồ schema/phiên bản DB và lưu lượng truy cập)",
+        "Diễn đạt lại (paraphrase) câu hỏi của đề bài thay vì chép nguyên văn, độ dài đạt khoảng 130–180 từ, kết thư chuyên nghiệp (Best regards,)"
+      ]
+    },
+    {
+      "id": "wrt_q67_02",
+      "part": "Q6–7",
+      "title": "[TOEIC Writing Q6–7 #2] Đề nghị đổi thông tin đăng ký & suất thuyết trình tại Hội thảo Công nghệ (Conference Registration Change)",
+      "time": 10,
+      "timeSeconds": 600,
+      "task": "Directions: Read the e-mail below. You have 10 minutes to write a response.\n\nFrom: Registration Desk, Pacific Tech Expo <registrar@pacifictechexpo.org>\nTo: Elena Torres, Engineering Lead, FinCore Systems <etorres@fincore.com>\nSubject: Confirmation of Group Registration (#PTE-4092)\nDate: November 2\n\nDear Ms. Torres,\nThank you for registering four engineers from FinCore Systems for the Pacific Tech Expo taking place on November 18–19 in San Jose. We have confirmed your four Standard Passes and scheduled your lightning talk, \"Automated Fraud Detection at Scale,\" for Tuesday, November 18, at 10:30 a.m. in Hall B. Please review these details and notify us by November 10 if any adjustments are required.\n\nSincerely,\nPacific Tech Expo Registration Team\n\n---\nRespond to the e-mail as if you are Elena Torres. In your e-mail, do the following:\n1. Request to replace one registered attendee on your team with another colleague (provide names).\n2. Ask to move your lightning talk to the afternoon of November 18 and explain why.\n3. Inquire about upgrading your four Standard Passes to VIP All-Access Passes.",
+      "sample": "Subject: Re: Confirmation of Group Registration (#PTE-4092) — Requested Adjustments\n\nDear Pacific Tech Expo Registration Team,\n\nThank you for sending the confirmation for our group registration (#PTE-4092). I have reviewed the details and would like to request a few adjustments prior to the November 10 deadline.\n\nFirst, one of our registered engineers, David Miller, will no longer be able to attend due to an urgent client deployment. Could you please transfer his badge to our Senior Data Scientist, Minh Pham (mpham@fincore.com)?\n\nSecond, I would like to ask if my lightning talk, \"Automated Fraud Detection at Scale,\" could be moved from 10:30 a.m. to an afternoon slot on Tuesday, November 18. My flight into San Jose that morning was recently rescheduled by the airline and will not land until 10:15 a.m., so an afternoon session after 1:30 p.m. would ensure I arrive on time.\n\nFinally, our team is interested in upgrading all four of our Standard Passes to VIP All-Access Passes so we can attend the executive workshops. Could you let me know the additional cost and send an updated invoice?\n\nThank you for your assistance.\n\nBest regards,\n\nElena Torres\nEngineering Lead, FinCore Systems",
+      "checklist": [
+        "Trích dẫn đúng mã đăng ký (#PTE-4092) và cảm ơn ban tổ chức ở đoạn mở đầu",
+        "Hoàn thành Nhiệm vụ 1: Yêu cầu đổi tên 1 thành viên không đi được sang 1 đồng nghiệp khác (nêu rõ tên và email)",
+        "Hoàn thành Nhiệm vụ 2: Xin dời bài trình bày từ 10:30 sáng sang buổi chiều ngày 18/11 kèm lý do hợp lý (ví dụ: chuyến bay bị đổi giờ)",
+        "Hoàn thành Nhiệm vụ 3: Hỏi thủ tục và chi phí nâng cấp 4 vé Standard lên VIP All-Access Passes",
+        "Sử dụng cấu trúc câu yêu cầu lịch sự (Could you please...?, I would like to ask if...?) và phân đoạn rõ ràng"
+      ]
+    },
+    {
+      "id": "wrt_q67_03",
+      "part": "Q6–7",
+      "title": "[TOEIC Writing Q6–7 #3] Báo lỗi kích hoạt giấy phép phần mềm & sai số lượng trên hóa đơn (Software License & Billing Issue)",
+      "time": 10,
+      "timeSeconds": 600,
+      "task": "Directions: Read the e-mail below. You have 10 minutes to write a response.\n\nFrom: Billing & Licensing Department, JetStream IDE <billing@jetstream-ide.com>\nTo: IT Procurement, Veloce Digital <it-admin@velocedigital.com>\nSubject: Your Annual Enterprise License Renewal (Order #JS-7721)\nDate: March 4\n\nDear Customer,\nYour annual renewal for JetStream IDE Enterprise (Order #JS-7721) has been processed. Attached to this email are your 50 license activation keys and the invoice for $12,500 ($250 per seat), which is due within 30 days. You may distribute the new keys to your developers immediately through the admin portal. If you encounter any technical or billing discrepancies, please reply to this message.\n\nWarm regards,\nJetStream Billing Team\n\n---\nRespond to the e-mail as if you are the IT Administrator at Veloce Digital. In your e-mail, do the following:\n1. Point out a billing discrepancy regarding the number of seats ordered versus what was billed.\n2. Describe a technical error that occurred when you tried to activate the new license keys in the admin portal.\n3. Request a corrected invoice and urgent technical assistance before the current licenses expire on Friday.",
+      "sample": "Subject: Re: Your Annual Enterprise License Renewal (Order #JS-7721) — Billing & Activation Issues\n\nDear JetStream Billing Team,\n\nThank you for sending over the renewal confirmation for Order #JS-7721. However, after reviewing the invoice and testing the license keys in our admin portal this morning, I noticed both a billing discrepancy and a technical issue that require your immediate attention.\n\nFirst, regarding the invoice, we were billed $12,500 for 50 seats, whereas our signed purchase order generated last week was only for 35 seats ($8,750 total) following a recent team restructuring.\n\nSecond, when I attempted to import the new activation keys into our organization's admin portal, the system returned an \"Invalid Subscription Signature (Error 403)\" message, preventing me from assigning licenses to our developers.\n\nSince our existing licenses are set to expire this Friday, March 8, could you please have your technical support team resolve the portal activation error today so our engineers are not locked out of their IDE? Additionally, please send us a revised invoice reflecting the 35 seats we ordered.\n\nBest regards,\n\nKevin Park\nIT Administrator, Veloce Digital",
+      "checklist": [
+        "Nêu rõ mã đơn hàng (#JS-7721) và mục đích email (báo sai lệch hóa đơn và lỗi kích hoạt license)",
+        "Hoàn thành Nhiệm vụ 1: Chỉ rõ sự chênh lệch số lượng seat được xuất hóa đơn (50 seats) so với số lượng thực đặt",
+        "Hoàn thành Nhiệm vụ 2: Mô tả cụ thể lỗi kỹ thuật khi nhập key trên trang quản trị (Admin Portal)",
+        "Hoàn thành Nhiệm vụ 3: Yêu cầu xuất lại hóa đơn đúng và hỗ trợ kỹ thuật khẩn cấp trước khi license cũ hết hạn vào thứ Sáu",
+        "Giọng điệu chuyên nghiệp, lịch sự nhưng thể hiện rõ tính cấp thiết (urgency) của sự cố"
+      ]
+    },
+    {
+      "id": "wrt_q67_04",
+      "part": "Q6–7",
+      "title": "[TOEIC Writing Q6–7 #4] Xử lý việc nhà cung cấp giao trễ thiết bị mạng cho văn phòng mới (Vendor Delivery Delay)",
+      "time": 10,
+      "timeSeconds": 600,
+      "task": "Directions: Read the e-mail below. You have 10 minutes to write a response.\n\nFrom: Account Manager, MetroNet Hardware Supplies <orders@metronethardware.com>\nTo: David Pham, Infrastructure Manager, Horizon Tech <dpham@horizontech.com>\nSubject: Shipment Update — Purchase Order #MN-3309\nDate: August 12\n\nDear Mr. Pham,\nWe are writing to inform you of an unexpected shipping delay regarding your Purchase Order #MN-3309 for 12 enterprise Wi-Fi 7 access points and 4 core switches. While the 4 core switches are ready for dispatch, the Wi-Fi 7 access points are temporarily out of stock at our regional warehouse and will not arrive until August 28. Please let us know if you would like us to hold the entire order until August 28 or make alternative arrangements.\n\nSincerely,\nMetroNet Order Fulfillment Team\n\n---\nRespond to the e-mail as if you are David Pham. In your e-mail, do the following:\n1. Explain why waiting until August 28 for the entire order is not acceptable for your company.\n2. Instruct the vendor on what to do with the 4 core switches that are currently in stock.\n3. Propose a solution for the delayed Wi-Fi 7 access points (e.g., partial substitute model or loaner units).",
+      "sample": "Subject: Re: Shipment Update — Purchase Order #MN-3309 (Urgent Split Shipment Request)\n\nDear MetroNet Order Fulfillment Team,\n\nThank you for updating me on the status of Purchase Order #MN-3309. Unfortunately, waiting until August 28 for the entire shipment is not feasible for us because our new third-floor engineering office is officially opening on Monday, August 19, and eighty employees will be moving in that morning.\n\nFirst, please do not hold the order. Instead, please dispatch the four core switches that are currently in stock immediately via express courier so our network engineers can configure the server room racks this week.\n\nSecond, regarding the twelve backordered Wi-Fi 7 access points, could you check if you have an equivalent model—such as the Enterprise Wi-Fi 6E Pro series—available for immediate delivery, or provide temporary loaner access points until the Wi-Fi 7 units arrive on August 28? Since this delay impacts our office launch, we also ask that any additional shipping fees for splitting the order be waived.\n\nPlease confirm by 4:00 p.m. today so we can finalize our installation schedule.\n\nSincerely,\n\nDavid Pham\nInfrastructure Manager, Horizon Tech",
+      "checklist": [
+        "Trích dẫn đúng mã đơn mua hàng (Purchase Order #MN-3309) ở tiêu đề và câu mở đầu",
+        "Hoàn thành Nhiệm vụ 1: Giải thích lý do không thể đợi đến 28/8 (văn phòng mới khai trương/nhân viên chuyển vào trước ngày đó)",
+        "Hoàn thành Nhiệm vụ 2: Yêu cầu giao ngay lập tức 4 bộ chuyển mạch (core switches) đang có sẵn trong kho",
+        "Hoàn thành Nhiệm vụ 3: Đề xuất phương án thay thế hợp lý cho 12 bộ phát Wi-Fi bị trễ (mượn thiết bị tạm hoặc đổi sang mẫu tương đương có sẵn)",
+        "Dùng từ vựng chuỗi cung ứng/mua hàng chuẩn TOEIC (dispatch immediately, backordered, split shipment, waive the shipping fee)"
+      ]
+    },
+    {
+      "id": "wrt_q67_05",
+      "part": "Q6–7",
+      "title": "[TOEIC Writing Q6–7 #5] Phản hồi thư mời phỏng vấn kỹ thuật & xác nhận hình thức làm bài (Job Interview Scheduling)",
+      "time": 10,
+      "timeSeconds": 600,
+      "task": "Directions: Read the e-mail below. You have 10 minutes to write a response.\n\nFrom: Hannah Brooks, Senior Technical Recruiter, StripeCloud Inc. <hbrooks@stripecloud.com>\nTo: Khôi Huỳnh <khoi.huynh@email.com>\nSubject: Invitation to Technical Interview — Senior Full-Stack Engineer\nDate: April 9\n\nDear Khôi,\nThank you for completing our online coding assessment! Our engineering team was very impressed with your solution, and we would like to invite you to a 60-minute live technical interview via Zoom next week. Our hiring manager is available on Tuesday, April 15, at 9:00 a.m. or Wednesday, April 16, at 3:00 p.m. (ICT). Please let us know which time works best for you, and feel free to ask any questions about the interview format or preparation.\n\nBest regards,\nHannah Brooks\n\n---\nRespond to the e-mail as if you are Khôi Huỳnh. In your e-mail, do the following:\n1. Express enthusiasm for the role and confirm one of the proposed interview times.\n2. Ask one specific question about the structure of the 60-minute technical interview (e.g., live coding vs. system design).\n3. Let the recruiter know which programming language/environment you prefer to use during the session.",
+      "sample": "Subject: Re: Invitation to Technical Interview — Senior Full-Stack Engineer (Khôi Huỳnh)\n\nDear Ms. Brooks,\n\nThank you very much for the update and for inviting me to the next stage of the interview process for the Senior Full-Stack Engineer position. I am very excited about the opportunity to join StripeCloud Inc. and contribute to your engineering team.\n\nBetween the two proposed slots, Wednesday, April 16, at 3:00 p.m. (ICT) works best for my schedule. I have already blocked that time on my calendar.\n\nTo help me prepare effectively, could you share a few details about how the 60-minute technical interview will be structured? Specifically, I would love to know whether the session will focus primarily on live algorithmic coding, a practical full-stack debugging exercise, or high-level system design.\n\nAdditionally, if there is a live coding component, I would prefer to use TypeScript (Node.js/React) or Go, and I wanted to check whether we will be using a browser-based platform like CoderPad or if I should prepare my local IDE for screen sharing.\n\nThank you again, and I look forward to speaking with the hiring manager next Wednesday.\n\nBest regards,\n\nKhôi Huỳnh",
+      "checklist": [
+        "Thể hiện thái độ hào hứng, chuyên nghiệp khi nhận được lời mời phỏng vấn vòng kỹ thuật",
+        "Hoàn thành Nhiệm vụ 1: Xác nhận rõ ràng 1 trong 2 khung giờ được đề xuất (kèm ngày, giờ và múi giờ)",
+        "Hoàn thành Nhiệm vụ 2: Đặt câu hỏi cụ thể về cấu trúc buổi phỏng vấn 60 phút (live coding, debugging hay system design)",
+        "Hoàn thành Nhiệm vụ 3: Nêu rõ ngôn ngữ lập trình ưu tiên sử dụng và hỏi về môi trường code (web platform hay local IDE)",
+        "Cấu trúc email mạch lạc, không sai lỗi ngữ pháp hoặc chính tả"
+      ]
+    },
+    {
+      "id": "wrt_q8_01",
+      "part": "Q8",
+      "title": "[TOEIC Writing Q8 #1] Bài luận: Cho phép làm việc từ xa linh hoạt hay bắt buộc lên văn phòng 100%?",
+      "time": 30,
+      "timeSeconds": 1800,
+      "task": "Directions: Read the question below. You have 30 minutes to plan, write, and revise your essay. Typically, an effective response will contain a minimum of 300 words.\n\nPrompt:\nMany companies are debating whether to require all employees to work in the office five days a week or to offer a permanent hybrid/flexible remote work policy. Do you agree or disagree with the following statement?\n\"Offering employees a flexible hybrid work schedule is more beneficial to a company's long-term success than requiring full-time office attendance.\"\nGive specific reasons and examples to support your opinion.",
+      "sample": "In recent years, the debate over workplace flexibility has become one of the most important topics in corporate management. While some traditional executives argue that requiring employees to sit in an office five days a week is necessary for supervision, I strongly agree that offering a flexible hybrid work schedule is far more beneficial to a company's long-term success. A hybrid model not only maximizes individual productivity during complex tasks but also helps organizations attract and retain top-tier talent.\n\nFirst and foremost, a hybrid schedule allows employees to match their physical environment to the nature of their work, which significantly increases productivity. Modern knowledge work—especially in fields like software engineering, finance, and data analysis—requires long blocks of uninterrupted concentration. Open-plan offices, while lively, are often filled with constant distractions, impromptu conversations, and background noise. Furthermore, daily commuting in major cities easily consumes one to two hours each day, leaving workers exhausted before they even turn on their computers. For example, in my current role as a software developer, our team works from home three days a week and comes into the office on Tuesdays and Thursdays. On my remote days, I can write complex code and review technical specifications with zero interruptions. On our in-office days, we hold sprint planning sessions, whiteboard system architectures, and bond over lunch. Since adopting this hybrid arrangement, our team's sprint velocity has increased by twenty percent, and production bugs have dropped noticeably.\n\nSecond, offering flexible work arrangements provides a decisive competitive advantage in recruitment and employee retention. Today's skilled professionals value work-life balance more than ever before. When a company insists on rigid five-day office attendance, it limits its hiring pool to people living within a short commuting radius and risks losing experienced staff to more flexible competitors. Replacing a senior engineer or manager can cost a company months of lost productivity and tens of thousands of dollars in recruitment fees. By trusting employees with flexibility, companies build a culture of mutual respect and loyalty.\n\nIn conclusion, requiring full-time office attendance is an outdated approach that confuses physical presence with actual performance. Because a hybrid work policy boosts deep-focus productivity, preserves team collaboration, and strengthens employee retention, it is undeniably the smarter strategy for long-term business success.",
+      "checklist": [
+        "Độ dài đạt tối thiểu 300 từ (bài mẫu đạt ~375 từ) — yếu tố bắt buộc để đạt điểm tối đa 5/5 ở Q8",
+        "Mở bài (Introduction): Paraphrase lại đề bài và có câu Thesis Statement khẳng định rõ quan điểm ngay đoạn 1",
+        "Thân bài 1 (Body 1): Có câu chủ đề (Topic Sentence) rõ ràng + giải thích + ví dụ thực tế cụ thể (như làm việc IT kết hợp 3 ngày ở nhà / 2 ngày lên công ty)",
+        "Thân bài 2 (Body 2): Khai thác góc nhìn quản trị doanh nghiệp (thu hút nhân tài, giảm tỷ lệ nghỉ việc / turnover cost)",
+        "Kết bài (Conclusion): Tóm lược lại 2 luận điểm chính bằng cách diễn đạt mới và khẳng định lại quan điểm",
+        "Sử dụng đa dạng từ nối (First and foremost, Furthermore, For example, Second, By contrast, In conclusion) và cấu trúc câu phức"
+      ],
+      "wordCount": 373
+    },
+    {
+      "id": "wrt_q8_02",
+      "part": "Q8",
+      "title": "[TOEIC Writing Q8 #2] Bài luận: Tự động hóa & AI có làm giảm giá trị của kỹ năng giao tiếp con người?",
+      "time": 30,
+      "timeSeconds": 1800,
+      "task": "Directions: Read the question below. You have 30 minutes to plan, write, and revise your essay. Typically, an effective response will contain a minimum of 300 words.\n\nPrompt:\nAs artificial intelligence (AI) and automation tools become more advanced in the workplace, some people believe that technical skills are all that matter, while others argue that human interpersonal and communication skills are becoming even more important. Which view do you agree with? Use specific reasons and examples to support your answer.",
+      "sample": "The rapid rise of artificial intelligence and workplace automation has transformed almost every industry over the past few years. Because AI tools can now generate code, analyze financial spreadsheets, and draft reports in seconds, some people assume that interpersonal skills are losing their relevance. However, I strongly believe the exact opposite is true: as routine technical tasks become automated, human communication, empathy, and collaborative problem-solving are becoming more valuable than ever before.\n\nTo begin with, while AI excels at executing well-defined technical instructions, it cannot replace the human ability to understand ambiguous client needs and align diverse stakeholders. In real-world business projects, the hardest challenge is rarely writing the code or running the formula; rather, it is figuring out what problem actually needs to be solved. Clients and business departments often have conflicting priorities or unclear requirements. For instance, in my software engineering team, we use AI coding assistants every day to speed up routine implementation. Yet last month, when a key overseas client requested a major change to their payment workflow, an AI tool could not negotiate the deadline, reassure the client about security risks, or coordinate a compromise between our product, legal, and engineering teams. Those critical conversations required active listening, cultural sensitivity, and clear spoken English.\n\nFurthermore, strong interpersonal skills are essential for leadership, mentorship, and maintaining psychological safety within a team. As workplaces become more digital and geographically distributed, employees can easily feel isolated or misunderstood. A technical expert who cannot explain their architecture clearly during a code review or who dismisses teammates' ideas will slow down the entire organization. Conversely, professionals who can articulate complex technical trade-offs in simple terms, give constructive feedback, and inspire trust are the ones who drive innovation and get promoted into leadership roles.\n\nIn conclusion, artificial intelligence is a powerful multiplier for technical execution, but it is not a substitute for human connection. As automation handles more routine analytical work, the ability to communicate clearly, negotiate empathetically, and lead collaborative teams will remain the ultimate differentiator in a successful career.",
+      "checklist": [
+        "Độ dài đạt ≥ 300 từ (bài mẫu đạt ~355 từ), chia 4 đoạn cân đối",
+        "Nêu rõ lập trường ngay từ đoạn mở bài (kỹ năng giao tiếp và tương tác con người ngày càng quan trọng hơn khi AI phát triển)",
+        "Luận điểm 1 chặt chẽ: AI giỏi thực thi tác vụ lặp lại nhưng con người mới có thể lắng nghe khách hàng, làm rõ yêu cầu mơ hồ và đàm phán",
+        "Luận điểm 2 sâu sắc: Giao tiếp, cố vấn (mentorship) và giải thích trade-off kỹ thuật là chìa khóa để làm việc nhóm và lãnh đạo",
+        "Từ vựng học thuật & công nghệ đắt giá (ambiguous requirements, align diverse stakeholders, psychological safety, ultimate differentiator)"
+      ],
+      "wordCount": 340
+    },
+    {
+      "id": "wrt_q8_03",
+      "part": "Q8",
+      "title": "[TOEIC Writing Q8 #3] Bài luận: Đánh giá nhân viên theo Kết quả đầu ra (Results) hay Số giờ làm việc (Hours Logged)?",
+      "time": 30,
+      "timeSeconds": 1800,
+      "task": "Directions: Read the question below. You have 30 minutes to plan, write, and revise your essay. Typically, an effective response will contain a minimum of 300 words.\n\nPrompt:\nDo you agree or disagree with the following statement?\n\"Companies should evaluate employees primarily based on the results and value they deliver rather than the number of hours they spend at their desks.\"\nSupport your essay with specific reasons and examples.",
+      "sample": "For decades, traditional management relied on a simple metric to judge employee dedication: how early workers arrived at the office and how late they stayed at their desks. However, in the modern knowledge economy, measuring performance by the clock is both inaccurate and counterproductive. I wholeheartedly agree that companies should evaluate employees primarily based on the tangible results and value they deliver rather than the number of hours they log.\n\nFirst of all, focusing on output rather than hours encourages efficiency, innovation, and smart problem-solving. When a company rewards employees simply for sitting at their desks for ten hours a day, it unintentionally penalizes fast, highly skilled workers and rewards inefficiency. If an employee knows that finishing their tasks early will only result in being assigned more busywork—or being viewed as not working hard enough—they have no incentive to optimize their workflow. For example, at a previous technology company where I worked, a senior backend engineer wrote an automated deployment script that reduced our weekly release preparation from six hours of manual checking to just ten minutes. Under an hour-based evaluation system, his contribution might look like he was working less; under a results-oriented system, he was rightfully recognized for saving the company hundreds of engineering hours a year.\n\nSecond, evaluating staff based on clear deliverables fosters autonomy, trust, and better mental health. Knowledge workers do not produce value at a constant mechanical rate; a single breakthrough idea or a well-architected system design created in three hours of deep focus is worth far more than forty hours of distracted, exhausted effort. When managers define clear Key Performance Indicators (KPIs) and sprint goals—such as code quality, customer satisfaction, and on-time delivery—employees feel trusted to manage their own energy. This autonomy reduces burnout and creates a culture of true accountability, where nobody can hide behind long hours if they fail to deliver actual results.\n\nIn conclusion, time spent at a desk is merely an input, whereas business success depends entirely on output. By evaluating employees on the quality and impact of their results rather than the hours they sit in a chair, organizations can unlock higher productivity, greater innovation, and stronger employee morale.",
+      "checklist": [
+        "Độ dài đạt ≥ 300 từ (bài mẫu đạt ~365 từ)",
+        "Mở bài dẫn dắt từ thói quen quản lý truyền thống sang nền kinh tế tri thức hiện đại và nêu rõ Thesis Statement",
+        "Thân bài 1 chứng minh việc chấm công theo giờ gây phạt ngược người làm nhanh và lấy ví dụ thực tế về tự động hóa trong IT",
+        "Thân bài 2 phân tích lợi ích của quản trị theo mục tiêu (KPIs/OKRs): tăng tính tự chủ (autonomy), giảm burnout và đề cao chất lượng",
+        "Sử dụng câu đối lập rất sắc bén ở kết bài: 'time spent at a desk is merely an input, whereas business success depends entirely on output'"
+      ],
+      "wordCount": 361
+    },
+    {
+      "id": "wrt_q8_04",
+      "part": "Q8",
+      "title": "[TOEIC Writing Q8 #4] Bài luận: Yếu tố giữ chân nhân sự giỏi — Lương thưởng cao hay Môi trường & Cơ hội phát triển?",
+      "time": 30,
+      "timeSeconds": 1800,
+      "task": "Directions: Read the question below. You have 30 minutes to plan, write, and revise your essay. Typically, an effective response will contain a minimum of 300 words.\n\nPrompt:\nSome people believe that offering a high salary is the single most effective way for a company to retain talented employees. Others believe that a positive workplace culture and career growth opportunities are equally or more important. Which view do you agree with? Give specific reasons and examples to support your opinion.",
+      "sample": "Attracting and retaining skilled professionals is one of the greatest challenges facing modern businesses. While competitive financial compensation is undeniably an essential foundation, I strongly believe that salary alone is not enough to keep talented employees long-term. Once a fair baseline income is met, a supportive workplace culture and clear opportunities for career growth are far more effective drivers of employee retention.\n\nFirst, even the highest salary cannot compensate for a toxic or stagnant work environment over the long run. When employees face micromanagement, poor communication, chronic overtime, or a lack of respect from leadership, their mental and physical health quickly suffers. High performers always have options in the job market; if they feel undervalued or burned out, a slightly bigger paycheck will not stop them from leaving. For instance, two years ago, a close friend of mine accepted a senior developer role at a financial firm that offered him a thirty percent salary increase. However, the company had a blame-heavy culture where engineers were constantly called on weekends and never given credit for their work. Despite the generous pay, he resigned after just eight months to join a mid-sized product company with a slightly lower salary but a collaborative, respectful engineering culture.\n\nSecond, ambitious professionals want to feel that they are continuously learning and advancing in their careers. In fast-moving industries such as information technology, standing still for two or three years means falling behind. When a company invests in its people—by providing mentorship from senior leaders, sponsoring professional certifications, rotating engineers onto challenging new projects, and offering a transparent path to promotion—employees see a future for themselves within the organization. They stay not just for this month's paycheck, but because the company is actively helping them build their five-year career vision.\n\nIn conclusion, while a competitive salary is necessary to attract talent through the door, it is workplace culture and career development that persuade them to stay. Companies that combine fair compensation with genuine respect and continuous learning opportunities will always build the most loyal and high-performing teams.",
+      "checklist": [
+        "Độ dài đạt ≥ 300 từ (bài mẫu đạt ~355 từ)",
+        "Có cái nhìn cân bằng, sắc sảo (thừa nhận lương cạnh tranh là điều kiện cần ban đầu, nhưng văn hóa và cơ hội phát triển mới là điều kiện đủ để giữ chân lâu dài)",
+        "Thân bài 1 có ví dụ thực tế sinh động (câu chuyện người bạn nhận lương cao hơn 30% nhưng nghỉ sau 8 tháng vì văn hóa độc hại)",
+        "Thân bài 2 lập luận thuyết phục về nhu cầu học hỏi liên tục và lộ trình thăng tiến minh bạch trong ngành công nghệ",
+        "Ngữ pháp chuẩn xác, dùng tốt các cấu trúc nhượng bộ (While..., Despite..., Once a fair baseline income is met...)"
+      ],
+      "wordCount": 340
+    },
+    {
+      "id": "wrt_q8_05",
+      "part": "Q8",
+      "title": "[TOEIC Writing Q8 #5] Bài luận: Quyết định quan trọng nên do Quản lý tự quyết hay Thảo luận cùng cả nhóm?",
+      "time": 30,
+      "timeSeconds": 1800,
+      "task": "Directions: Read the question below. You have 30 minutes to plan, write, and revise your essay. Typically, an effective response will contain a minimum of 300 words.\n\nPrompt:\nWhen making important decisions that affect a project or department, should managers make the decisions quickly on their own, or should they consult with team members before deciding? Support your opinion with specific reasons and examples.",
+      "sample": "Decision-making is one of the core responsibilities of any leader. Some people argue that managers should make major project decisions entirely on their own in order to save time and maintain authority. However, outside of rare emergency situations, I firmly believe that managers should consult with their team members before finalizing important decisions. Involving the team leads to better-informed choices, prevents costly blind spots, and builds strong commitment during execution.\n\nFirst of all, no single manager—no matter how experienced—possesses all the front-line technical or operational details of a complex project. The employees who write the code, manage the servers, or speak directly with customers every day are the ones who see hidden risks and practical constraints first. When a manager makes a top-down decision in isolation, they often overlook critical dependencies. For example, last year our product director considered committing to a client that we would migrate our authentication system within two weeks. Fortunately, before signing the agreement, she held a thirty-minute consultation with our backend and security engineers. During that discussion, our team pointed out that a third-party identity provider required a mandatory ten-day security review, which the director had not known about. By consulting the team first, she adjusted the contract timeline to four weeks and saved the company from an embarrassing breach of contract.\n\nSecond, consulting employees before making a decision creates a powerful sense of ownership and morale. People naturally support what they help create. When a new policy, tool, or deadline is forced upon a team without any explanation or input, employees often feel frustrated and comply only reluctantly. In contrast, when a manager listens to the team's perspectives, explains the business trade-offs, and incorporates their feedback, team members feel respected as professionals. Even if the final decision does not follow everyone's exact preference, understanding the reasoning behind it motivates the whole group to execute the plan wholeheartedly.\n\nIn conclusion, consulting with team members is not a sign of weak leadership; rather, it is the hallmark of an intelligent manager. Because collaborative decision-making uncovers hidden risks and fosters genuine team buy-in, managers should always seek their team's input on important matters.",
+      "checklist": [
+        "Độ dài đạt ≥ 300 từ (bài mẫu đạt ~365 từ)",
+        "Mở bài loại trừ khéo léo trường hợp khẩn cấp ('outside of rare emergency situations') trước khi khẳng định quan điểm nên tham khảo ý kiến nhóm",
+        "Thân bài 1 phân tích góc độ chuyên môn: nhân viên trực tiếp làm việc nắm rõ rủi ro kỹ thuật ẩn giấu (hidden risks & dependencies) kèm ví dụ thực tế",
+        "Thân bài 2 phân tích góc độ tâm lý tổ chức: tạo tinh thần làm chủ (sense of ownership / team buy-in) khi thực thi",
+        "Đa dạng cấu trúc ngữ pháp: đảo ngữ/nhấn mạnh, mệnh đề phân từ (By consulting the team first,...), dấu gạch ngang giải thích (—no matter how experienced—)"
+      ],
+      "wordCount": 356
+    }
+  ]
+}

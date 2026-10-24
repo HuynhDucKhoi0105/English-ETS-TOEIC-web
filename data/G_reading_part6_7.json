@@ -1,0 +1,807 @@
+{
+  "formatInfo": {
+    "version": "Cấu trúc chuẩn TOEIC Reading hiện hành (cập nhật từ 2018/2019 đến nay) — Nguồn: ETS TOEIC Listening & Reading Examinee Handbook",
+    "part6": "16 câu (4 đoạn văn × 4 câu/đoạn; mỗi đoạn có 3 câu điền từ/ngữ pháp/từ nối và 1 câu điền cả câu văn vào chỗ trống [chèn câu]). Thời gian khuyến nghị: 8–10 phút.",
+    "part7": "54 câu (29 câu Đoạn đơn [10 bài đọc × 2–4 câu] + 25 câu Đoạn ghép [2 bài Đôi + 3 bài Ba × 5 câu]). Quy tắc sống còn: 'Không có dòng bằng chứng trong bài (Evidence) thì tuyệt đối không chọn'. Thời gian khuyến nghị: 52–55 phút."
+  },
+  "items": [
+    {
+      "id": "p6_01",
+      "part": "Part 6",
+      "docType": "E-mail",
+      "title": "[Part 6 — Đoạn 1] Thông báo nâng cấp nền tảng quản lý dự án đám mây (SaaS Workspace Upgrade)",
+      "passage": "To: All Project Leads <project-leads@koretech.com>\nFrom: IT Operations <it-ops@koretech.com>\nDate: September 12\nSubject: Upcoming Migration to TaskFlow Enterprise 4.0\n\nDear Project Leads,\n\nStarting next Monday, September 18, our organization will transition from our legacy task tracker to TaskFlow Enterprise 4.0. This upgrade is designed to ___ [1] ___ cross-departmental collaboration and automate weekly sprint reporting. Over the past month, our infrastructure team ___ [2] ___ all active project boards, historical tickets, and user permissions to the new cloud environment.\n\n___ [3] ___. Therefore, you do not need to manually export your existing backlog items. ___ [4] ___, we strongly recommend that every team lead attend one of the thirty-minute live onboarding webinars scheduled for this Thursday and Friday. A link to the registration calendar is attached below.\n\nBest regards,\nIT Operations Team",
+      "questions": [
+        {
+          "id": "p6_01_q1",
+          "q": "[1] Choose the best word to fill in blank [1].",
+          "options": [
+            "streamline",
+            "hesitate",
+            "reimburse",
+            "fluctuate"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ vựng đoạn văn",
+          "evidence": "This upgrade is designed to ___ [1] ___ cross-departmental collaboration and automate weekly sprint reporting.",
+          "explain": "'streamline' (tinh gọn, làm cho hiệu quả hơn) kết hợp chuẩn xác với tân ngữ 'cross-departmental collaboration' và song song với 'automate weekly sprint reporting'. Các đáp án khác sai nghĩa: hesitate (do dự), reimburse (hoàn tiền), fluctuate (dao động)."
+        },
+        {
+          "id": "p6_01_q2",
+          "q": "[2] Choose the best verb form to fill in blank [2].",
+          "options": [
+            "migrates",
+            "has migrated",
+            "will be migrated",
+            "migrating"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ngữ pháp đoạn văn",
+          "evidence": "Over the past month, our infrastructure team ___ [2] ___ all active project boards, historical tickets, and user permissions to the new cloud environment.",
+          "explain": "Dấu hiệu thời gian 'Over the past month' (Trong suốt tháng qua) đòi hỏi thì hiện tại hoàn thành chủ động 'has migrated' (có tân ngữ 'all active project boards' theo sau nên không dùng bị động C)."
+        },
+        {
+          "id": "p6_01_q3",
+          "q": "[3] Choose the best sentence to insert into blank [3].",
+          "options": [
+            "Unfortunately, several archived tickets were permanently deleted during the outage.",
+            "Every attachment and comment thread has been preserved intact during this transfer.",
+            "Please submit your travel expense reports to the accounting department by Friday.",
+            "The software vendor has decided to discontinue support for mobile devices."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chèn câu",
+          "evidence": "___ [3] ___. Therefore, you do not need to manually export your existing backlog items.",
+          "explain": "Câu trước nói đội hạ tầng đã chuyển toàn bộ board và ticket sang môi trường mới; câu sau kết luận 'Therefore, you do not need to manually export your existing backlog items' (Vì vậy bạn không cần xuất thủ công backlog). Câu nối logic nhất là B: 'Mọi tệp đính kèm và chuỗi bình luận đều đã được giữ nguyên vẹn trong quá trình chuyển đổi này.'"
+        },
+        {
+          "id": "p6_01_q4",
+          "q": "[4] Choose the best transition word to fill in blank [4].",
+          "options": [
+            "Nevertheless",
+            "For instance",
+            "As a result",
+            "Otherwise"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ nối",
+          "evidence": "Therefore, you do not need to manually export your existing backlog items. ___ [4] ___, we strongly recommend that every team lead attend one of the thirty-minute live onboarding webinars scheduled for this Thursday and Friday.",
+          "explain": "Câu trước nói dữ liệu đã chuyển sẵn nên không cần tự xuất thủ công; câu sau khuyên các trưởng nhóm VẪN nên tham dự buổi hướng dẫn sử dụng. Từ nối chỉ sự tương phản nhẹ 'Nevertheless' (Tuy nhiên / Dù vậy) là chính xác nhất."
+        }
+      ]
+    },
+    {
+      "id": "p6_02",
+      "part": "Part 6",
+      "docType": "Memo",
+      "title": "[Part 6 — Đoạn 2] Quy định hoàn chi phí trang bị góc làm việc tại nhà (Home Office Stipend Policy)",
+      "passage": "MEMORANDUM\nTo: All Full-Time Employees\nFrom: Human Resources Department\nDate: October 3\nSubject: Updated Home Office Equipment Stipend\n\nAs part of our ongoing commitment to supporting hybrid work, the company is increasing the annual home office equipment allowance from $300 to $500 per employee, effective November 1. All full-time staff who have completed their three-month probation period are ___ [1] ___ to apply for this benefit.\n\nApproved items include ergonomic chairs, adjustable standing desks, external monitors, and noise-canceling headsets. ___ [2] ___. To request reimbursement, employees must upload itemized digital receipts to the HR portal within thirty days of purchase. ___ [3] ___, any purchase exceeding $250 requires prior written approval from a department manager. Claims ___ [4] ___ without a valid tax invoice will automatically be returned for revision.",
+      "questions": [
+        {
+          "id": "p6_02_q1",
+          "q": "[1] Choose the best word to fill in blank [1].",
+          "options": [
+            "eligible",
+            "accessible",
+            "compatible",
+            "optional"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ vựng đoạn văn",
+          "evidence": "All full-time staff who have completed their three-month probation period are ___ [1] ___ to apply for this benefit.",
+          "explain": "Cấu trúc cố định trong TOEIC: 'be eligible to V / be eligible for N' (đủ điều kiện hưởng quyền lợi). Các từ khác không đi với chủ ngữ chỉ người để mang nghĩa đủ điều kiện."
+        },
+        {
+          "id": "p6_02_q2",
+          "q": "[2] Choose the best sentence to insert into blank [2].",
+          "options": [
+            "The office cafeteria will be closed for renovation throughout November.",
+            "However, standard residential internet bills and decorative furniture are not covered under this program.",
+            "All visitors must sign in at the ground-floor security desk upon arrival.",
+            "Several candidates were interviewed for the regional director position yesterday."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chèn câu",
+          "evidence": "Approved items include ergonomic chairs, adjustable standing desks, external monitors, and noise-canceling headsets. ___ [2] ___. To request reimbursement, employees must upload itemized digital receipts to the HR portal within thirty days of purchase.",
+          "explain": "Câu liền trước liệt kê các thiết bị ĐƯỢC duyệt (Approved items include...). Câu B bổ sung ngoại lệ những khoản KHÔNG được chi trả ('However, standard residential internet bills and decorative furniture are not covered under this program') trước khi chuyển sang thủ tục thanh toán."
+        },
+        {
+          "id": "p6_02_q3",
+          "q": "[3] Choose the best transition phrase to fill in blank [3].",
+          "options": [
+            "In addition",
+            "On the contrary",
+            "In spite of",
+            "Instead"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ nối",
+          "evidence": "To request reimbursement, employees must upload itemized digital receipts to the HR portal within thirty days of purchase. ___ [3] ___, any purchase exceeding $250 requires prior written approval from a department manager.",
+          "explain": "Câu trước nêu điều kiện 1 để được hoàn tiền (nộp hóa đơn trong 30 ngày); câu sau nêu thêm điều kiện 2 cho các khoản trên $250. Cần trạng từ liên kết bổ sung thông tin 'In addition' (Ngoài ra). Loại C vì 'In spite of' là giới từ không đứng một mình trước dấu phẩy."
+        },
+        {
+          "id": "p6_02_q4",
+          "q": "[4] Choose the best word form to fill in blank [4].",
+          "options": [
+            "submit",
+            "submitting",
+            "submitted",
+            "submission"
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "ngữ pháp đoạn văn",
+          "evidence": "Claims ___ [4] ___ without a valid tax invoice will automatically be returned for revision.",
+          "explain": "Câu đã có động từ chính 'will automatically be returned'. Chỗ trống cần phân từ rút gọn mệnh đề quan hệ bị động ('Claims [that are] submitted without a valid tax invoice...' — Các yêu cầu thanh toán được nộp mà không có hóa đơn thuế hợp lệ)."
+        }
+      ]
+    },
+    {
+      "id": "p6_03",
+      "part": "Part 6",
+      "docType": "Customer Notice",
+      "title": "[Part 6 — Đoạn 3] Thông báo lịch bảo trì máy chủ & nâng cấp bảo mật đám mây (Cloud Security Maintenance)",
+      "passage": "Notice to All CloudVault Enterprise Customers\n\nAt CloudVault, protecting your organization's data infrastructure is our highest priority. This Saturday, November 9, from 01:00 to 04:00 UTC, our engineering team will perform scheduled maintenance on our primary authentication servers. This update will introduce hardware-backed encryption keys that provide ___ [1] ___ protection against unauthorized access.\n\nDuring this three-hour maintenance window, users may experience brief ___ [2] ___ when logging into the web dashboard. ___ [3] ___. Automated background backups and API webhook deliveries will continue to operate normally without any data loss. Once the upgrade is complete, administrators will be asked to ___ [4] ___ their active session tokens by signing in again.",
+      "questions": [
+        {
+          "id": "p6_03_q1",
+          "q": "[1] Choose the best word form to fill in blank [1].",
+          "options": [
+            "superior",
+            "superiority",
+            "superiorly",
+            "superiors"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "ngữ pháp đoạn văn",
+          "evidence": "This update will introduce hardware-backed encryption keys that provide ___ [1] ___ protection against unauthorized access.",
+          "explain": "Trước danh từ 'protection' cần một tính từ bổ nghĩa → 'superior' (vượt trội). 'superiority' là danh từ, 'superiorly' là trạng từ."
+        },
+        {
+          "id": "p6_03_q2",
+          "q": "[2] Choose the best word to fill in blank [2].",
+          "options": [
+            "interruptions",
+            "subscriptions",
+            "promotions",
+            "appliances"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ vựng đoạn văn",
+          "evidence": "During this three-hour maintenance window, users may experience brief ___ [2] ___ when logging into the web dashboard.",
+          "explain": "Trong khung giờ bảo trì (maintenance window), người dùng có thể gặp phải sự gián đoạn ngắn ('brief interruptions') khi đăng nhập. Các từ khác không hợp ngữ cảnh: subscriptions (gói thuê bao), promotions (khuyến mãi), appliances (thiết bị gia dụng)."
+        },
+        {
+          "id": "p6_03_q3",
+          "q": "[3] Choose the best sentence to insert into blank [3].",
+          "options": [
+            "However, core storage services will remain online throughout the entire process.",
+            "Please mail the signed paper contract to our headquarters in Boston.",
+            "Our retail store on Main Street offers free gift wrapping during the holidays.",
+            "The annual company picnic has been postponed due to heavy rain."
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chèn câu",
+          "evidence": "During this three-hour maintenance window, users may experience brief ___ [2] ___ when logging into the web dashboard. ___ [3] ___. Automated background backups and API webhook deliveries will continue to operate normally without any data loss.",
+          "explain": "Câu trước cảnh báo việc đăng nhập vào web dashboard có thể bị gián đoạn ngắn; câu sau nói sao lưu tự động và API webhook vẫn chạy bình thường. Câu A ('Tuy nhiên, các dịch vụ lưu trữ cốt lõi vẫn hoạt động trực tuyến trong suốt quá trình') tạo cầu nối chuyển ý hoàn hảo."
+        },
+        {
+          "id": "p6_03_q4",
+          "q": "[4] Choose the best word to fill in blank [4].",
+          "options": [
+            "renew",
+            "resign",
+            "relocate",
+            "recruit"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ vựng đoạn văn",
+          "evidence": "Once the upgrade is complete, administrators will be asked to ___ [4] ___ their active session tokens by signing in again.",
+          "explain": "'renew their active session tokens' (làm mới/gia hạn lại token phiên đăng nhập bằng cách đăng nhập lại). Các động từ khác sai nghĩa: resign (từ chức), relocate (di dời chỗ ở/văn phòng), recruit (tuyển dụng)."
+        }
+      ]
+    },
+    {
+      "id": "p6_04",
+      "part": "Part 6",
+      "docType": "Press Release",
+      "title": "[Part 6 — Đoạn 4] Thông cáo báo chí: Khai trương Trung tâm Nghiên cứu & Phát triển AI (R&D Center Launch)",
+      "passage": "FOR IMMEDIATE RELEASE\nAether Dynamics Opens New AI Research & Development Hub in Da Nang\n\nDA NANG, October 10 — Aether Dynamics, a global leader in enterprise cloud analytics, announced today the grand opening of its newest Research and Development center in central Vietnam. The facility ___ [1] ___ on the twelfth floor of the Coastal Innovation Tower and will house up to 250 software engineers and data scientists.\n\nAccording to Chief Technology Officer Marcus Sterling, the company chose Da Nang because of the city's rapidly growing pool of engineering talent and modern digital infrastructure. ___ [2] ___. Over the next two years, the local team will focus on building automated anomaly-detection tools for financial institutions.\n\nIn addition to full-time recruitment, Aether Dynamics plans to ___ [3] ___ closely with regional universities to offer paid internship programs every semester. This initiative reflects the firm's long-term ___ [4] ___ to nurturing the local technology ecosystem.",
+      "questions": [
+        {
+          "id": "p6_04_q1",
+          "q": "[1] Choose the best verb form to fill in blank [1].",
+          "options": [
+            "locates",
+            "is located",
+            "was locating",
+            "to locate"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ngữ pháp đoạn văn",
+          "evidence": "The facility ___ [1] ___ on the twelfth floor of the Coastal Innovation Tower and will house up to 250 software engineers and data scientists.",
+          "explain": "Cấu trúc bị động chỉ vị trí tòa nhà rất phổ biến trong TOEIC: 'be located on/in/at...' (Tòa cơ sở được đặt tại tầng 12...)."
+        },
+        {
+          "id": "p6_04_q2",
+          "q": "[2] Choose the best sentence to insert into blank [2].",
+          "options": [
+            "The center represents a $15 million investment in the company's Asia-Pacific expansion strategy.",
+            "Passengers are reminded to keep their seat belts fastened while the aircraft is in motion.",
+            "Unfortunately, the restaurant does not accept reservations for groups larger than eight.",
+            "Please return the defective printer in its original packaging within fourteen days."
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chèn câu",
+          "evidence": "According to Chief Technology Officer Marcus Sterling, the company chose Da Nang because of the city's rapidly growing pool of engineering talent and modern digital infrastructure. ___ [2] ___. Over the next two years, the local team will focus on building automated anomaly-detection tools for financial institutions.",
+          "explain": "Đoạn văn đang nói về lý do Aether Dynamics mở trung tâm R&D tại Đà Nẵng và định hướng 2 năm tới. Câu A ('Trung tâm này đại diện cho khoản đầu tư 15 triệu đô la trong chiến lược mở rộng khu vực Châu Á - Thái Bình Dương của công ty') khớp hoàn toàn về chủ đề kinh doanh/đầu tư."
+        },
+        {
+          "id": "p6_04_q3",
+          "q": "[3] Choose the best word to fill in blank [3].",
+          "options": [
+            "collaborate",
+            "compensate",
+            "compile",
+            "commute"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ vựng đoạn văn",
+          "evidence": "In addition to full-time recruitment, Aether Dynamics plans to ___ [3] ___ closely with regional universities to offer paid internship programs every semester.",
+          "explain": "Cụm động từ cố định: 'collaborate closely with...' (hợp tác chặt chẽ với các trường đại học trong vùng)."
+        },
+        {
+          "id": "p6_04_q4",
+          "q": "[4] Choose the best word form to fill in blank [4].",
+          "options": [
+            "commit",
+            "committed",
+            "commitment",
+            "committing"
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "ngữ pháp đoạn văn",
+          "evidence": "This initiative reflects the firm's long-term ___ [4] ___ to nurturing the local technology ecosystem.",
+          "explain": "Sau sở hữu cách 'the firm's' và tính từ 'long-term' cần một danh từ → 'commitment' (sự cam kết; đi kèm cấu trúc 'commitment to + V-ing: nurturing')."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_01",
+      "part": "Part 7 Single",
+      "docType": "E-mail (Client Onboarding & Schedule Update)",
+      "title": "[Part 7 Đơn #1] Email cập nhật lịch triển khai hệ thống cho khách hàng (3 câu)",
+      "passage": "To: Samantha Reed, VP of Retail Operations <sreed@urbanharvest.com>\nFrom: Julian Vance, Implementation Manager <jvance@omnipos-cloud.com>\nDate: March 18\nSubject: OmniPOS Cloud Rollout — Updated Training Schedule\n\nDear Ms. Reed,\n\nThank you for your team's prompt feedback during yesterday's sandbox testing session. I am pleased to confirm that our engineers have finished configuring the custom inventory alerts you requested for your twelve retail branches. All point-of-sale terminals at your flagship downtown store are now ready for the pilot launch on Monday, March 25.\n\nRegarding the store manager training workshops originally scheduled for Wednesday, March 20, we will need to move the afternoon session to Thursday, March 21, at 2:00 p.m. Our lead trainer, Priya Nair, was asked to conduct an urgent security briefing for another client on Wednesday afternoon. However, the Wednesday morning session at 9:30 a.m. will proceed as planned.\n\nPlease let me know by 5:00 p.m. tomorrow which store managers will attend each session so we can generate their individual sandbox login credentials in advance.\n\nWarm regards,\nJulian Vance\nImplementation Manager, OmniPOS Cloud",
+      "questions": [
+        {
+          "id": "p7_s01_q1",
+          "q": "What is one purpose of the e-mail?",
+          "options": [
+            "To request payment for a software license renewal",
+            "To announce a schedule change for a training session",
+            "To report a hardware defect in point-of-sale terminals",
+            "To apply for a retail management position"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ý chính",
+          "evidence": "Regarding the store manager training workshops originally scheduled for Wednesday, March 20, we will need to move the afternoon session to Thursday, March 21, at 2:00 p.m.",
+          "explain": "Tiêu đề email ('Updated Training Schedule') và đoạn 2 nêu rõ mục đích là thông báo dời buổi tập huấn chiều thứ Tư (20/3) sang chiều thứ Năm (21/3). Từ khóa paraphrase: 'move the afternoon session to Thursday' = 'a schedule change for a training session'."
+        },
+        {
+          "id": "p7_s01_q2",
+          "q": "What have OmniPOS Cloud engineers already completed?",
+          "options": [
+            "They have trained all store managers in person.",
+            "They have set up customized inventory notifications.",
+            "They have opened twelve new retail branches.",
+            "They have replaced all barcode scanners at the warehouse."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "I am pleased to confirm that our engineers have finished configuring the custom inventory alerts you requested for your twelve retail branches.",
+          "explain": "Dòng bằng chứng ở đoạn 1 khẳng định các kỹ sư đã hoàn tất cấu hình cảnh báo tồn kho tùy chỉnh ('finished configuring the custom inventory alerts' = 'set up customized inventory notifications')."
+        },
+        {
+          "id": "p7_s01_q3",
+          "q": "What is Ms. Reed asked to provide by March 19?",
+          "options": [
+            "A list of participants for each training workshop",
+            "A signed copy of the annual maintenance contract",
+            "Feedback on the flagship store's interior design",
+            "Shipping addresses for twelve retail branches"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chi tiết",
+          "evidence": "Please let me know by 5:00 p.m. tomorrow which store managers will attend each session so we can generate their individual sandbox login credentials in advance.",
+          "explain": "Email gửi ngày March 18, vậy 'tomorrow' là March 19. Ông Vance yêu cầu bà Reed báo danh sách quản lý cửa hàng nào sẽ tham dự mỗi buổi ('which store managers will attend each session' = 'A list of participants for each training workshop')."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_02",
+      "part": "Part 7 Single",
+      "docType": "Internal Memo (Cybersecurity & MFA Policy)",
+      "title": "[Part 7 Đơn #2] Thông báo nội bộ về chính sách Xác thực Đa yếu tố & Bảo mật (3 câu)",
+      "passage": "INTERNAL MEMORANDUM\nTo: All Engineering, Product, and Finance Staff\nFrom: Liam O'Connor, Chief Information Security Officer (CISO)\nDate: June 4\nSubject: Mandatory Hardware Security Key & Phishing Simulation Policy\n\nIn response to a recent rise in sophisticated phishing attacks targeting financial technology firms, Information Security is updating our authentication requirements effective June 20.\n\nCurrently, employees sign in to internal Git repositories and production cloud consoles using SMS-based verification codes. Starting June 20, SMS codes will be disabled completely. Instead, all staff must authenticate using either the Okta Verify mobile app (with biometric approval enabled) or a company-issued FIDO2 hardware security key.\n\nRemote employees will receive their hardware keys via express courier by June 12, while in-office staff may pick theirs up at the 4th-floor IT Help Desk starting tomorrow. Employees who fail to register their new authentication method before June 20 will have their VPN access temporarily suspended until setup is completed.",
+      "questions": [
+        {
+          "id": "p7_s02_q1",
+          "q": "Why is the company updating its authentication policy?",
+          "options": [
+            "To reduce monthly mobile phone expenses",
+            "To counter an increase in targeted cyberattacks",
+            "To comply with a new office relocation plan",
+            "To speed up the onboarding of summer interns"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "In response to a recent rise in sophisticated phishing attacks targeting financial technology firms, Information Security is updating our authentication requirements effective June 20.",
+          "explain": "Ngay câu đầu tiên nêu rõ lý do: 'In response to a recent rise in sophisticated phishing attacks...' = 'To counter an increase in targeted cyberattacks'."
+        },
+        {
+          "id": "p7_s02_q2",
+          "q": "What will happen on June 20?",
+          "options": [
+            "Text-message verification codes will no longer work.",
+            "The 4th-floor IT Help Desk will close permanently.",
+            "All remote employees must return to the office.",
+            "A new payroll software system will be launched."
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chi tiết",
+          "evidence": "Starting June 20, SMS codes will be disabled completely.",
+          "explain": "Đoạn 2 ghi rõ: 'Starting June 20, SMS codes will be disabled completely' (Từ ngày 20/6, mã xác thực qua tin nhắn SMS sẽ bị vô hiệu hóa hoàn toàn = 'Text-message verification codes will no longer work')."
+        },
+        {
+          "id": "p7_s02_q3",
+          "q": "What is implied about employees who work from home?",
+          "options": [
+            "They are exempt from the new security policy.",
+            "They do not need to visit the office to obtain their hardware key.",
+            "They must purchase their own FIDO2 keys online.",
+            "They already use hardware keys for SMS messaging."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "suy luận",
+          "evidence": "Remote employees will receive their hardware keys via express courier by June 12, while in-office staff may pick theirs up at the 4th-floor IT Help Desk starting tomorrow.",
+          "explain": "Nhân viên làm từ xa ('Remote employees') sẽ được gửi khóa phần cứng qua chuyển phát nhanh ('via express courier'), suy ra họ không cần phải lên văn phòng để nhận khóa."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_03",
+      "part": "Part 7 Single",
+      "docType": "Webpage / Advertisement",
+      "title": "[Part 7 Đơn #3] Quảng cáo không gian làm việc chung cho nhóm Công nghệ (Co-Working Space Ad — 3 câu)",
+      "passage": "NEXUS HUB — The Premier Co-Working & Tech Campus in District 1\n\nWhether you are a solo remote developer tired of noisy coffee shops or a fast-growing startup looking for a turnkey office for thirty engineers, Nexus Hub has a workspace tailored to your needs.\n\nWhy Tech Teams Choose Nexus Hub:\n• Dual-ISP Redundant Fiber Internet: 10 Gbps symmetrical bandwidth with automatic failover, ensuring your video calls and deployments never drop.\n• Acoustic Phone Booths & Podcast Studio: 18 soundproof solo booths for daily stand-ups, plus a fully equipped recording room.\n• Flexible Membership Plans:\n  - Hot Desk Pass ($140/month): Access to open lounges from 8:00 a.m. to 8:00 p.m., Monday through Saturday.\n  - Dedicated Desk ($240/month): Your own permanent ergonomic workstation, lockable storage cabinet, dual 27-inch 4K monitors, and 24/7 biometric building access.\n  - Private Team Suite (From $1,200/month): Soundproof glass offices for 6–30 people, including 15 hours of complimentary boardroom booking per month.\n\nSpecial Launch Offer: Book an annual Dedicated Desk or Private Team Suite before November 15 and receive your first month completely free, plus two complimentary passes to our monthly Tech Founders Mixer!",
+      "questions": [
+        {
+          "id": "p7_s03_q1",
+          "q": "What feature is highlighted as a benefit for all Nexus Hub members?",
+          "options": [
+            "Free airport shuttle service every morning",
+            "High-speed internet with backup connectivity",
+            "Unlimited access to a private rooftop swimming pool",
+            "Complimentary laptop repair services"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "• Dual-ISP Redundant Fiber Internet: 10 Gbps symmetrical bandwidth with automatic failover, ensuring your video calls and deployments never drop.",
+          "explain": "Mục đầu tiên trong 'Why Tech Teams Choose Nexus Hub' nhấn mạnh 'Dual-ISP Redundant Fiber Internet: 10 Gbps symmetrical bandwidth with automatic failover' = đường truyền internet tốc độ cao có kết nối dự phòng tự động ('backup connectivity')."
+        },
+        {
+          "id": "p7_s03_q2",
+          "q": "How does the Dedicated Desk plan differ from the Hot Desk Pass?",
+          "options": [
+            "It costs less per month than the Hot Desk Pass.",
+            "It includes round-the-clock entry to the building and provided monitors.",
+            "It is restricted to teams of at least six people.",
+            "It can only be used on weekdays before 6:00 p.m."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "- Dedicated Desk ($240/month): Your own permanent ergonomic workstation, lockable storage cabinet, dual 27-inch 4K monitors, and 24/7 biometric building access.",
+          "explain": "Gói Hot Desk chỉ vào được từ 8h sáng đến 8h tối T2–T7, trong khi gói Dedicated Desk có màn hình đôi 4K ('dual 27-inch 4K monitors') và quyền ra vào tòa nhà 24/7 ('24/7 biometric building access' = 'round-the-clock entry')."
+        },
+        {
+          "id": "p7_s03_q3",
+          "q": "Who is NOT eligible for the Special Launch Offer?",
+          "options": [
+            "A startup signing a one-year contract for a 10-person Private Team Suite on November 10",
+            "A freelance developer purchasing a monthly Hot Desk Pass on November 5",
+            "A remote engineer signing an annual Dedicated Desk agreement on November 1",
+            "A software firm booking a Private Team Suite for twelve months on November 14"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "NOT",
+          "evidence": "Special Launch Offer: Book an annual Dedicated Desk or Private Team Suite before November 15 and receive your first month completely free, plus two complimentary passes to our monthly Tech Founders Mixer!",
+          "explain": "Ưu đãi chỉ áp dụng khi đặt theo năm cho gói 'Dedicated Desk' hoặc 'Private Team Suite' trước ngày 15/11. Do đó người mua gói 'Hot Desk Pass' theo tháng (đáp án B) KHÔNG đủ điều kiện."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_04",
+      "part": "Part 7 Single",
+      "docType": "Online Chat Chain (Slack/Teams Engineering Discussion)",
+      "title": "[Part 7 Đơn #4] Đoạn chat nhóm kỹ sư xử lý lỗi trước giờ Demo khách hàng (4 câu — có câu Ý định tin nhắn)",
+      "passage": "Channel: #release-v2-4-staging\n\nMinh Tran (10:12 A.M.): Hey team, I'm running a final check on the staging environment before our 11:00 A.M. live demo with the Apex Retail executives. The analytics dashboard is loading fine, but when I click 'Generate Quarterly Forecast,' the spinner hangs for 30 seconds and throws a 502 Bad Gateway error.\n\nClara Jenkins (10:14 A.M.): Let me check the container logs right now. Hold on a second.\n\nClara Jenkins (10:16 A.M.): Found it! Commit #84f2a merged an hour ago updated the forecasting query, but the new database index wasn't applied to the staging replica. The query is doing a full table scan on 8 million rows and timing out.\n\nDevon Brooks (10:18 A.M.): That was my commit—sorry about that! I included the index script in the migration folder, but the staging auto-runner skipped it because of a version number conflict. I can run the index creation script manually on staging right now.\n\nClara Jenkins (10:19 A.M.): Creating an index on 8 million rows might lock the table for 15 minutes. Do we really want to risk that right before the client call?\n\nMinh Tran (10:21 A.M.): Good point, Clara. Let's just revert staging back to tag v2.3.9 for the 11:00 A.M. demo—that version already has all the UI features Apex wants to see. Devon, you can apply the index and re-test v2.4 right after the meeting wraps up at noon.\n\nDevon Brooks (10:22 A.M.): Makes total sense. Reverting staging to v2.3.9 now—it'll be ready in three minutes.",
+      "questions": [
+        {
+          "id": "p7_s04_q1",
+          "q": "Why did Minh Tran message the channel at 10:12 A.M.?",
+          "options": [
+            "To reschedule the client meeting to the afternoon",
+            "To report a timeout error on a dashboard feature before a demo",
+            "To congratulate the team on signing a contract with Apex Retail",
+            "To request access to the production database"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "The analytics dashboard is loading fine, but when I click 'Generate Quarterly Forecast,' the spinner hangs for 30 seconds and throws a 502 Bad Gateway error.",
+          "explain": "Minh nhắn tin lúc 10:12 sáng để báo lỗi khi bấm nút 'Generate Quarterly Forecast' trên môi trường staging thì bị treo 30s rồi báo lỗi 502 trước buổi demo lúc 11:00."
+        },
+        {
+          "id": "p7_s04_q2",
+          "q": "According to Clara Jenkins, what caused the problem?",
+          "options": [
+            "The client's internet connection was unstable.",
+            "A missing database index caused a query to scan an entire table.",
+            "The cloud provider experienced a regional power outage.",
+            "The frontend spinner animation had a syntax error."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "Found it! Commit #84f2a merged an hour ago updated the forecasting query, but the new database index wasn't applied to the staging replica. The query is doing a full table scan on 8 million rows and timing out.",
+          "explain": "Clara tìm ra nguyên nhân trong log lúc 10:16: index cơ sở dữ liệu mới chưa được chạy trên bản sao staging, khiến câu truy vấn phải quét toàn bộ bảng 8 triệu dòng ('full table scan') và bị quá thời gian chờ."
+        },
+        {
+          "id": "p7_s04_q3",
+          "q": "At 10:19 A.M., what does Clara Jenkins mean when she writes, \"Do we really want to risk that right before the client call?\"",
+          "options": [
+            "She wants Devon to cancel the meeting with Apex Retail.",
+            "She thinks running the index script now is too dangerous and advises against it.",
+            "She is asking Minh to invite more executives to the demonstration.",
+            "She believes the table only contains a few hundred records."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ý định tin nhắn",
+          "evidence": "Creating an index on 8 million rows might lock the table for 15 minutes. Do we really want to risk that right before the client call?",
+          "explain": "Câu hỏi tu từ của Clara đi ngay sau cảnh báo rằng việc đánh index trên 8 triệu dòng có thể khóa bảng mất 15 phút ngay sát giờ họp khách hàng. Ý định của cô ấy là khuyên Devon KHÔNG nên mạo hiểm chạy script đó ngay lúc này."
+        },
+        {
+          "id": "p7_s04_q4",
+          "q": "What will the team do for the 11:00 A.M. demonstration?",
+          "options": [
+            "Use a pre-recorded video instead of a live system",
+            "Roll back the staging server to an earlier stable version",
+            "Demonstrate the software directly from Devon's personal laptop",
+            "Postpone the 'Quarterly Forecast' feature until next month"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "Let's just revert staging back to tag v2.3.9 for the 11:00 A.M. demo—that version already has all the UI features Apex wants to see.",
+          "explain": "Minh quyết định quay lui ('revert' = 'roll back') môi trường staging về bản ổn định trước đó là v2.3.9 để phục vụ buổi demo lúc 11:00 sáng."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_05",
+      "part": "Part 7 Single",
+      "docType": "Article (Green Data Center & Sustainability Initiative)",
+      "title": "[Part 7 Đơn #5] Bài báo: Dự án Trung tâm Dữ liệu Xanh & Làm mát bằng chất lỏng (4 câu — có Chèn câu & Từ đồng nghĩa)",
+      "passage": " TerraCloud Pioneers Liquid-Cooled Green Data Center in Southeast Asia\nBy Evelyn Cho — TechInfra Weekly (October 18)\n\nSINGAPORE — As artificial intelligence workloads drive an unprecedented surge in electricity consumption across the technology sector, regional hosting provider TerraCloud has unveiled an ambitious sustainability blueprint. Yesterday, the company broke ground on its fourth data center campus in Johor, Malaysia, which is engineered to cut cooling energy usage by 45 percent compared to conventional air-cooled facilities. [1]\n\nTraditional data centers rely on massive air-conditioning chillers that consume nearly as much power as the servers themselves. [2] In contrast, TerraCloud's new facility will utilize direct-to-chip liquid cooling technology, circulating a non-conductive fluid directly over high-density GPU processors to capture heat efficiently. The captured thermal energy will then be channeled to a neighboring agricultural processing plant to assist with industrial drying.\n\n[3] Furthermore, TerraCloud signed a fifteen-year power purchase agreement with Solaris Malaysia to source 80 megawatts of electricity directly from a newly constructed solar farm. \"Our enterprise clients are no longer looking solely at uptime and latency; they are demanding verifiable carbon reduction across their software supply chain,\" said TerraCloud CEO Kenneth Lim. [4]",
+      "questions": [
+        {
+          "id": "p7_s05_q1",
+          "q": "What is the main topic of the article?",
+          "options": [
+            "A merger between two solar panel manufacturers in Malaysia",
+            "TerraCloud's construction of an energy-efficient data center",
+            "A government regulation banning air-conditioned offices",
+            "A shortage of GPU processors in the consumer gaming market"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ý chính",
+          "evidence": "Yesterday, the company broke ground on its fourth data center campus in Johor, Malaysia, which is engineered to cut cooling energy usage by 45 percent compared to conventional air-cooled facilities.",
+          "explain": "Toàn bộ bài báo xoay quanh việc TerraCloud khởi công trung tâm dữ liệu mới ứng dụng làm mát bằng chất lỏng và điện mặt trời để tiết kiệm năng lượng."
+        },
+        {
+          "id": "p7_s05_q2",
+          "q": "The word \"conventional\" in paragraph 1, line 6, is closest in meaning to",
+          "options": [
+            "standard",
+            "temporary",
+            "confidential",
+            "reluctant"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "từ đồng nghĩa",
+          "evidence": "Yesterday, the company broke ground on its fourth data center campus in Johor, Malaysia, which is engineered to cut cooling energy usage by 45 percent compared to conventional air-cooled facilities.",
+          "explain": "'conventional' (truyền thống, thông thường) đồng nghĩa với 'standard' (tiêu chuẩn/thông thường). Ở đoạn 2, tác giả cũng dùng từ 'Traditional data centers' để đối chiếu."
+        },
+        {
+          "id": "p7_s05_q3",
+          "q": "How will the heat captured from the servers be used?",
+          "options": [
+            "It will be released directly into the ocean.",
+            "It will warm residential apartments in Singapore.",
+            "It will support drying processes at a nearby agricultural facility.",
+            "It will power electric shuttle buses for employees."
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "chi tiết",
+          "evidence": "The captured thermal energy will then be channeled to a neighboring agricultural processing plant to assist with industrial drying.",
+          "explain": "Câu cuối đoạn 2 nêu rõ: nhiệt năng thu hồi ('captured thermal energy') sẽ được dẫn sang nhà máy chế biến nông sản lân cận để hỗ trợ sấy công nghiệp ('assist with industrial drying')."
+        },
+        {
+          "id": "p7_s05_q4",
+          "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"This waste-heat recovery partnership is the first of its kind in the region.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "chèn câu",
+          "evidence": "The captured thermal energy will then be channeled to a neighboring agricultural processing plant to assist with industrial drying.\n\n[3] Furthermore, TerraCloud signed a fifteen-year power purchase agreement with Solaris Malaysia to source 80 megawatts of electricity directly from a newly constructed solar farm.",
+          "explain": "Câu cần chèn có cụm đại từ chỉ định 'This waste-heat recovery partnership' (Sự hợp tác thu hồi nhiệt thải này) — nó phải đứng ngay sau câu nói về việc dẫn nhiệt năng sang nhà máy chế biến nông sản lân cận (tức là vị trí [3])."
+        }
+      ]
+    },
+    {
+      "id": "p7_single_06",
+      "part": "Part 7 Single",
+      "docType": "Customer Notice / Warranty Instructions",
+      "title": "[Part 7 Đơn #6] Hướng dẫn Bảo hành & Đổi trả Thiết bị Phần cứng (3 câu — có câu NOT & Suy luận)",
+      "passage": "VORTEX PERIPHERALS — Limited Hardware Warranty & Return Procedure\n\nThank you for purchasing a Vortex Pro Mechanical Keyboard or Ergonomic Vertical Mouse. All Vortex hardware products are backed by a two-year limited manufacturer's warranty from the original date of retail purchase.\n\nWhat Is Covered:\nThis warranty covers defects in materials and workmanship under normal office use, including unresponsive mechanical switches, faulty USB-C ports, and defective wireless Bluetooth receivers. If a covered defect occurs within the first 30 days, Vortex Peripherals will ship a brand-new replacement unit at no cost and provide a prepaid return shipping label. For claims submitted after 30 days but within the two-year warranty period, we will repair the unit or replace it with a certified refurbished model of equal value.\n\nExclusions & How to Claim:\nThis warranty does not apply to cosmetic wear on keycaps, damage caused by liquid spills, or units modified with third-party firmware. Before shipping any item back, customers must submit a support ticket at support.vortexperipherals.com with photos of the serial number sticker and original purchase receipt to obtain a Return Merchandise Authorization (RMA) number. Packages sent to our warehouse without a clearly printed RMA number on the outer box will be refused at delivery.",
+      "questions": [
+        {
+          "id": "p7_s06_q1",
+          "q": "What is NOT covered by the Vortex Peripherals warranty?",
+          "options": [
+            "A malfunctioning USB-C charging port",
+            "A wireless receiver that fails to pair",
+            "A keyboard damaged by spilled coffee",
+            "A mechanical key switch that stops registering presses"
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "NOT",
+          "evidence": "This warranty does not apply to cosmetic wear on keycaps, damage caused by liquid spills, or units modified with third-party firmware.",
+          "explain": "Đoạn cuối ghi rõ bảo hành KHÔNG áp dụng cho hư hỏng do đổ chất lỏng ('damage caused by liquid spills' = 'damaged by spilled coffee'). Ba đáp án A, B, D đều nằm trong danh sách 'What Is Covered'."
+        },
+        {
+          "id": "p7_s06_q2",
+          "q": "What can be inferred about a customer who submits a valid warranty claim ten months after buying a mouse?",
+          "options": [
+            "They may receive a certified refurbished replacement rather than a brand-new unit.",
+            "They must pay a $50 diagnostic inspection fee.",
+            "Their two-year warranty period has already expired.",
+            "They can walk into the warehouse without an RMA number."
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "suy luận",
+          "evidence": "For claims submitted after 30 days but within the two-year warranty period, we will repair the unit or replace it with a certified refurbished model of equal value.",
+          "explain": "10 tháng là sau 30 ngày đầu tiên nhưng vẫn nằm trong thời hạn 2 năm bảo hành ('after 30 days but within the two-year warranty period'). Do đó khách hàng sẽ được sửa chữa hoặc đổi sang máy tân trang đạt chuẩn ('certified refurbished model') chứ không phải máy mới nguyên hộp như 30 ngày đầu."
+        },
+        {
+          "id": "p7_s06_q3",
+          "q": "What must customers do BEFORE mailing a defective product to the warehouse?",
+          "options": [
+            "Remove all keycaps from the keyboard",
+            "Obtain an RMA number through the online support portal",
+            "Install third-party diagnostic firmware",
+            "Call the retail store where they bought the item"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "Before shipping any item back, customers must submit a support ticket at support.vortexperipherals.com with photos of the serial number sticker and original purchase receipt to obtain a Return Merchandise Authorization (RMA) number.",
+          "explain": "Trước khi gửi trả hàng ('Before shipping any item back'), khách hàng bắt buộc phải gửi ticket kèm ảnh số serial và hóa đơn trên cổng hỗ trợ để lấy mã RMA ('obtain a Return Merchandise Authorization (RMA) number')."
+        }
+      ]
+    },
+    {
+      "id": "p7_double_01",
+      "part": "Part 7 Double",
+      "docType": "Double Passage (Conference Webpage + Speaker Confirmation E-mail)",
+      "title": "[Part 7 Đôi #1] Trang web Hội nghị DevSecOps + Email xác nhận của Diễn giả (5 câu — có Kết nối thông tin 2 bài)",
+      "passage": "=== PASSAGE 1: WEBPAGE ===\nhttps://www.asiadevsecops.org/2026-workshops\nAsia DevSecOps Conference 2026 — Hands-On Workshop Schedule (Thursday, November 12)\n\nAll workshops are 90 minutes long and require advance seat reservation. Rooms have strict capacity limits:\n• Workshop WS-101 (09:00–10:30 A.M.) | \"Automating Container Vulnerability Scans in CI/CD\"\n  - Location: Marina Room A (Capacity: 40 seats) | Level: Intermediate\n• Workshop WS-102 (11:00 A.M.–12:30 P.M.) | \"Zero-Trust Secrets Management with Vault\"\n  - Location: Marina Room B (Capacity: 35 seats) | Level: Advanced\n• Workshop WS-103 (02:00–03:30 P.M.) | \"Securing Large Language Model APIs in Production\"\n  - Location: Harbor Hall (Capacity: 80 seats) | Level: Intermediate\n• Workshop WS-104 (04:00–05:30 P.M.) | \"Live Incident Response & Forensics Simulation\"\n  - Location: Marina Room A (Capacity: 40 seats) | Level: All Levels\n\n*Speaker Guidelines*: Workshop instructors must upload their final slide decks and lab repository links to the Speaker Portal no later than November 2. Each workshop room is equipped with a 4K laser projector, HDMI/USB-C adapters, and a lapel microphone.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: Program Committee <program@asiadevsecops.org>\nFrom: Nadia Al-Mansoor <nadia@shieldops.io>\nDate: October 28\nSubject: Workshop Logistics & Room Capacity Request\n\nDear Program Committee,\n\nI just uploaded my slide deck and GitHub lab instructions for my morning session on container vulnerability scanning well ahead of the deadline. However, when I logged into the Speaker Portal this morning, I noticed that 38 attendees have already reserved seats for my session, with another 25 people on the waitlist!\n\nSince my session is nearly full and has such a long waitlist, would it be possible to swap rooms with the 09:00 A.M. slot in Harbor Hall if it is unoccupied, or move my session into a larger room? Also, because attendees in my workshop will be pulling several large Docker images during the hands-on exercise, could your venue IT team pre-cache the lab images on the local network server? That will prevent the hotel Wi-Fi from slowing down when everyone runs the build simultaneously.\n\nBest regards,\nNadia Al-Mansoor",
+      "questions": [
+        {
+          "id": "p7_d01_q1",
+          "q": "According to the webpage, what are workshop instructors required to do by November 2?",
+          "options": [
+            "Pay a booth registration fee",
+            "Submit their presentation slides and lab links online",
+            "Book their own projector and audio equipment",
+            "Interview waitlisted conference attendees"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "chi tiết",
+          "evidence": "*Speaker Guidelines*: Workshop instructors must upload their final slide decks and lab repository links to the Speaker Portal no later than November 2.",
+          "explain": "Phần *Speaker Guidelines* ở cuối Passage 1 quy định giảng viên workshop phải tải slide chính thức và link kho bài lab lên Speaker Portal muộn nhất vào ngày 2/11."
+        },
+        {
+          "id": "p7_d01_q2",
+          "q": "Which workshop is Nadia Al-Mansoor leading?",
+          "options": [
+            "WS-101",
+            "WS-102",
+            "WS-103",
+            "WS-104"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "suy luận",
+          "evidence": "I just uploaded my slide deck and GitHub lab instructions for my morning session on container vulnerability scanning well ahead of the deadline.",
+          "explain": "Câu hỏi kết nối 2 bài (Cross-reference): Trong email (Passage 2), Nadia nói buổi sáng của cô ấy dạy về 'container vulnerability scanning' lúc 09:00 A.M. Đối chiếu lên lịch Passage 1, buổi 09:00–10:30 A.M. 'Automating Container Vulnerability Scans in CI/CD' chính là mã WS-101."
+        },
+        {
+          "id": "p7_d01_q3",
+          "q": "What is the current maximum capacity of the room originally assigned to Ms. Al-Mansoor?",
+          "options": [
+            "25 seats",
+            "35 seats",
+            "40 seats",
+            "80 seats"
+          ],
+          "answer": "C",
+          "answerIdx": 2,
+          "type": "chi tiết",
+          "evidence": "  - Location: Marina Room A (Capacity: 40 seats) | Level: Intermediate",
+          "explain": "Kết nối thông tin: Nadia dạy WS-101 (từ câu trên), mà WS-101 ở Passage 1 được xếp tại 'Marina Room A (Capacity: 40 seats)' — khớp với chi tiết trong email là đã có 38 người đặt chỗ và phòng gần đầy."
+        },
+        {
+          "id": "p7_d01_q4",
+          "q": "Why does Ms. Al-Mansoor ask the venue IT team to pre-cache Docker images?",
+          "options": [
+            "To avoid overloading the wireless network during the exercise",
+            "Because Harbor Hall does not have internet access",
+            "To test a new laptop projector adapter",
+            "Because her GitHub account is temporarily locked"
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chi tiết",
+          "evidence": "That will prevent the hotel Wi-Fi from slowing down when everyone runs the build simultaneously.",
+          "explain": "Cuối đoạn 2 trong email, Nadia giải thích việc pre-cache Docker image trên mạng nội bộ sẽ giúp tránh làm chậm mạng Wi-Fi của khách sạn khi tất cả học viên tải cùng lúc ('prevent the hotel Wi-Fi from slowing down' = 'avoid overloading the wireless network')."
+        },
+        {
+          "id": "p7_d01_q5",
+          "q": "What can be inferred about Ms. Al-Mansoor?",
+          "options": [
+            "She missed the deadline for uploading her presentation materials.",
+            "She submitted her workshop materials five days before the deadline.",
+            "She is teaching an afternoon session on Large Language Models.",
+            "She works for the hotel's audio-visual department."
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "suy luận",
+          "evidence": "*Speaker Guidelines*: Workshop instructors must upload their final slide decks and lab repository links to the Speaker Portal no later than November 2.",
+          "explain": "Kết nối ngày tháng giữa 2 bài: Hạn chót ở Passage 1 là ngày 2/11 (November 2), còn Nadia gửi email vào ngày 28/10 (October 28, tháng 10 có 31 ngày: 28 → 29, 30, 31, 1, 2 = sớm 5 ngày trước hạn chót) và nói 'I just uploaded my slide deck... well ahead of the deadline'."
+        }
+      ]
+    },
+    {
+      "id": "p7_double_02",
+      "part": "Part 7 Double",
+      "docType": "Double Passage (Software Maintenance Invoice + Accounting Inquiry E-mail)",
+      "title": "[Part 7 Đôi #2] Hóa đơn Dịch vụ Cloud & Bảo trì Phần mềm + Email Khiếu nại Kế toán (5 câu)",
+      "passage": "=== PASSAGE 1: INVOICE ===\nSTRATOS CLOUD SERVICES — Monthly Billing Statement\nInvoice No.: INV-2026-8840 | Billing Period: September 1–September 30\nClient: Lumina FinTech Corp. (Account #LF-309) | Payment Terms: Net 30 (Due October 30)\n\nItemized Charges:\n1. Dedicated Kubernetes Cluster (8 Production Nodes @ $450/node) ............ $3,600.00\n2. Managed PostgreSQL High-Availability Database ............................ $1,200.00\n3. Outbound Data Transfer (Egress: 12 TB; First 5 TB included free) ......... $560.00\n4. 24/7 Priority SLA Incident Support Retainer .............................. $800.00\n5. Emergency Weekend Database Migration Assistance (Sept 14, 4 hrs @ $200/hr) $800.00\n-----------------------------------------------------------------------------\nSubtotal: $6,960.00\n*Loyalty Note*: Accounts subscribed to the Priority SLA Retainer receive two complimentary hours of emergency weekend engineering assistance per quarter.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: Billing Support <billing@stratoscloud.io>\nFrom: Victor Hoang, Finance Controller <vhoang@luminafintech.com>\nDate: October 6\nSubject: Billing adjustment request for Invoice #INV-2026-8840\n\nDear Stratos Billing Team,\n\nI am reviewing our September statement (INV-2026-8840) before approving the wire transfer. While the infrastructure usage charges in items 1 through 4 match our internal monitoring records, I believe there is an overcharge on Item 5 (Emergency Weekend Database Migration Assistance on September 14).\n\nAs shown on the invoice, Lumina FinTech subscribes to the 24/7 Priority SLA Incident Support Retainer, and we had not used any emergency engineering hours during the third quarter prior to September 14. However, it appears we were billed for all four hours of the September 14 session without the quarterly benefit applied.\n\nCould you please issue a revised invoice with the appropriate credit deducted? Once we receive the corrected statement, we will process the payment immediately.\n\nSincerely,\nVictor Hoang\nFinance Controller, Lumina FinTech Corp.",
+      "questions": [
+        {
+          "id": "p7_d02_q1",
+          "q": "When is payment for Invoice #INV-2026-8840 due?",
+          "options": [
+            "September 14",
+            "September 30",
+            "October 6",
+            "October 30"
+          ],
+          "answer": "D",
+          "answerIdx": 3,
+          "type": "chi tiết",
+          "evidence": "Client: Lumina FinTech Corp. (Account #LF-309) | Payment Terms: Net 30 (Due October 30)",
+          "explain": "Phần thông tin chung trên hóa đơn (Passage 1) ghi rõ 'Payment Terms: Net 30 (Due October 30)'."
+        },
+        {
+          "id": "p7_d02_q2",
+          "q": "How many terabytes of outbound data transfer was Lumina FinTech actually charged for in September?",
+          "options": [
+            "5 TB",
+            "7 TB",
+            "8 TB",
+            "12 TB"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "suy luận",
+          "evidence": "3. Outbound Data Transfer (Egress: 12 TB; First 5 TB included free) ......... $560.00",
+          "explain": "Mục 3 trên hóa đơn ghi tổng lưu lượng truyền ra (Egress) là 12 TB, nhưng 5 TB đầu tiên được miễn phí ('First 5 TB included free'). Vậy số TB thực tế bị tính phí là 12 - 5 = 7 TB ($80/TB × 7 = $560)."
+        },
+        {
+          "id": "p7_d02_q3",
+          "q": "Why is Mr. Hoang writing to Stratos Cloud Services?",
+          "options": [
+            "To cancel the Managed PostgreSQL database subscription",
+            "To request a discount that was omitted from Item 5",
+            "To upgrade from 8 production nodes to 16 nodes",
+            "To report a security breach on September 14"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "ý chính",
+          "evidence": "However, it appears we were billed for all four hours of the September 14 session without the quarterly benefit applied.",
+          "explain": "Ông Hoàng viết email để yêu cầu điều chỉnh khoản phí bị tính dư ở Mục 5 vì quyền lợi miễn phí hàng quý chưa được khấu trừ."
+        },
+        {
+          "id": "p7_d02_q4",
+          "q": "By how much should Invoice #INV-2026-8840 be reduced?",
+          "options": [
+            "$200.00",
+            "$400.00",
+            "$560.00",
+            "$800.00"
+          ],
+          "answer": "B",
+          "answerIdx": 1,
+          "type": "suy luận",
+          "evidence": "*Loyalty Note*: Accounts subscribed to the Priority SLA Retainer receive two complimentary hours of emergency weekend engineering assistance per quarter.",
+          "explain": "Câu hỏi kết nối 2 bài (Cross-reference): Theo *Loyalty Note* ở Passage 1, khách hàng có gói Priority SLA Retainer được miễn phí 2 giờ hỗ trợ khẩn cấp cuối tuần mỗi quý. Ở Mục 5, đơn giá là $200/giờ (4 hrs @ $200/hr = $800). Vì Lumina FinTech chưa dùng giờ nào trong Quý 3 (Passage 2), họ được miễn phí 2 giờ × $200/giờ = giảm $400.00."
+        },
+        {
+          "id": "p7_d02_q5",
+          "q": "What does Mr. Hoang say about items 1 through 4 on the invoice?",
+          "options": [
+            "They match Lumina FinTech's own usage tracking.",
+            "They were billed to the wrong account number.",
+            "They should be paid in two separate installments.",
+            "They were supposed to be waived during September."
+          ],
+          "answer": "A",
+          "answerIdx": 0,
+          "type": "chi tiết",
+          "evidence": "While the infrastructure usage charges in items 1 through 4 match our internal monitoring records, I believe there is an overcharge on Item 5 (Emergency Weekend Database Migration Assistance on September 14).",
+          "explain": "Ông Hoàng xác nhận các khoản phí hạ tầng từ mục 1 đến mục 4 khớp hoàn toàn với dữ liệu giám sát nội bộ của công ty ông ('match our internal monitoring records' = 'match Lumina FinTech's own usage tracking')."
+        }
+      ]
+    }
+  ]
+}

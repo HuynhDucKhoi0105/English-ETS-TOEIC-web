@@ -1,0 +1,9 @@
+# bí mật — KHÔNG bao giờ commit
+.env
+.env.*
+# môi trường
+node_modules/
+.vercel/
+.DS_Store
+# bản sao lưu cục bộ
+*.backup-*.html

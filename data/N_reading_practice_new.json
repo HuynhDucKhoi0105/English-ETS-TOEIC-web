@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "rp6_1",
+  "part": "Part 6",
+  "docType": "Notice",
+  "title": "[Part 6 — Luyện thêm 1] Thông báo thư viện đóng cửa phòng đọc để cải tạo",
+  "passage": "NOTICE TO ALL PATRONS\n\nThe Westbrook Public Library will close its main reading room from March 3 to March 28 for renovations. During this period, workers will replace the carpeting, upgrade the lighting, and install additional seating near the windows. ___ [1] ___ the closure, patrons may continue to borrow and return materials at the circulation desk on the ground floor, which will remain open during regular hours.\n\nStudy rooms on the second floor will also be available, but they must be reserved in advance. Reservations can be made ___ [2] ___ through our website or by calling the front desk. ___ [3] ___\n\nWe apologize for any inconvenience and appreciate your patience. When the reading room reopens, patrons will enjoy a brighter and more ___ [4] ___ space in which to read and study.\n\nWestbrook Public Library Management",
+  "questions": [
+   {
+    "id": "rp6_1_q1",
+    "q": "[1] Choose the best word or phrase for blank [1].",
+    "options": [
+     "Although",
+     "Despite",
+     "Whenever",
+     "Instead"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "ngữ pháp",
+    "evidence": "___ [1] ___ the closure, patrons may continue to borrow and return materials at the circulation desk on the ground floor, which will remain open during regular hours.",
+    "explain": "Sau chỗ trống là cụm danh từ \"the closure\" (việc đóng cửa) rồi mới đến dấu phẩy và mệnh đề chính → cần một GIỚI TỪ. \"Despite\" (mặc dù) là giới từ và hợp nghĩa: mặc dù phòng đọc đóng cửa, bạn đọc vẫn mượn/trả sách được. \"Although\" và \"Whenever\" là liên từ, phải đi với một mệnh đề (S + V), không đi với danh từ trơn. \"Instead\" là trạng từ, không đứng trước danh từ như vậy (phải là \"instead of\")."
+   },
+   {
+    "id": "rp6_1_q2",
+    "q": "[2] Choose the best word or phrase for blank [2].",
+    "options": [
+     "either",
+     "both",
+     "neither",
+     "whether"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "ngữ pháp",
+    "evidence": "Reservations can be made ___ [2] ___ through our website or by calling the front desk.",
+    "explain": "Câu có cấu trúc \"___ through our website OR by calling the front desk\" → cặp liên từ tương quan \"either ... or\" (hoặc ... hoặc). \"both\" phải đi với \"and\" (both ... and); \"neither\" đi với \"nor\" và mang nghĩa phủ định, trái với ý cho phép đặt phòng; \"whether ... or\" dùng để mở mệnh đề danh từ/điều kiện (\"dù ... hay\"), không dùng để liệt kê hai cách thực hiện như ở đây."
+   },
+   {
+    "id": "rp6_1_q3",
+    "q": "[3] Choose the sentence that best fits blank [3].",
+    "options": [
+     "The library was originally designed by a local architect in 1962.",
+     "The new carpeting in the reading room has already been installed.",
+     "Overdue fines on children's books will be waived until the end of the year.",
+     "Each reservation is limited to two hours per day so that more patrons can use the rooms."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "điền câu",
+    "evidence": "Reservations can be made ___ [2] ___ through our website or by calling the front desk. ___ [3] ___",
+    "explain": "Đoạn 2 đang nói về phòng học trên tầng 2 và cách ĐẶT CHỖ (reserved in advance, Reservations can be made...). Câu tiếp theo hợp lý nhất là quy định bổ sung về việc đặt chỗ: mỗi lượt đặt giới hạn 2 tiếng/ngày để nhiều người dùng được. Câu về kiến trúc sư năm 1962 và câu miễn phạt sách thiếu nhi lạc đề; câu \"thảm mới đã được lắp xong\" mâu thuẫn với thông báo rằng việc thay thảm SẼ diễn ra trong thời gian đóng cửa (will replace the carpeting)."
+   },
+   {
+    "id": "rp6_1_q4",
+    "q": "[4] Choose the best word or phrase for blank [4].",
+    "options": [
+     "comfort",
+     "comfortable",
+     "comfortably",
+     "comforted"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "từ vựng",
+    "evidence": "When the reading room reopens, patrons will enjoy a brighter and more ___ [4] ___ space in which to read and study.",
+    "explain": "Chỗ trống nằm giữa \"more\" và danh từ \"space\", đồng thời song song với tính từ so sánh \"brighter\" qua \"and\" → cần TÍNH TỪ: \"more comfortable space\" (không gian thoải mái hơn). \"comfort\" là danh từ/động từ; \"comfortably\" là trạng từ, không bổ nghĩa cho danh từ; \"comforted\" (được an ủi) là phân từ chỉ cảm xúc của người, không dùng mô tả không gian."
+   }
+  ]
+ },
+ {
+  "id": "rp6_2",
+  "part": "Part 6",
+  "docType": "E-mail",
+  "title": "[Part 6 — Luyện thêm 2] Email nhà cung cấp rau củ thông báo đổi lịch giao hàng",
+  "passage": "To: Marco Bellini <mbellini@trattoriabellini.com>\nFrom: Grace Owusu <gowusu@freshvalleyproduce.com>\nDate: May 6\nSubject: Delivery schedule change\n\nDear Mr. Bellini,\n\nThank you for your continued business with Fresh Valley Produce. I am writing to inform you of a change to our delivery schedule. Beginning June 1, deliveries to restaurants in the downtown area will arrive on Tuesdays and Fridays ___ [1] ___ Mondays and Thursdays. This adjustment will allow our drivers to avoid the heavy traffic caused by the weekly street market.\n\nWe understand that this change may affect how you plan your menus. ___ [2] ___, we are happy to offer an additional Saturday delivery at no extra charge for the month of June. ___ [3] ___\n\nIf you have any questions, please do not hesitate to contact me directly. We value our ___ [4] ___ with Trattoria Bellini and look forward to serving you for many years to come.\n\nSincerely,\nGrace Owusu\nCustomer Accounts Manager",
+  "questions": [
+   {
+    "id": "rp6_2_q1",
+    "q": "[1] Choose the best word or phrase for blank [1].",
+    "options": [
+     "rather than",
+     "as well as",
+     "in addition to",
+     "along with"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "từ vựng",
+    "evidence": "Beginning June 1, deliveries to restaurants in the downtown area will arrive on Tuesdays and Fridays ___ [1] ___ Mondays and Thursdays.",
+    "explain": "Email thông báo một sự THAY ĐỔI lịch giao hàng (a change to our delivery schedule) để tài xế tránh giờ kẹt xe → lịch mới (Thứ Ba, Thứ Sáu) THAY CHO lịch cũ (Thứ Hai, Thứ Năm): \"rather than\" (thay vì). \"as well as\", \"in addition to\", \"along with\" đều mang nghĩa \"cũng như / thêm vào\", tức là giao cả bốn ngày — không phải thay đổi lịch và không giúp tránh kẹt xe; hơn nữa ba từ này đồng nghĩa nên không thể là đáp án duy nhất."
+   },
+   {
+    "id": "rp6_2_q2",
+    "q": "[2] Choose the best word or phrase for blank [2].",
+    "options": [
+     "In contrast",
+     "Even so",
+     "For this reason",
+     "Similarly"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "từ nối",
+    "evidence": "We understand that this change may affect how you plan your menus. ___ [2] ___, we are happy to offer an additional Saturday delivery at no extra charge for the month of June.",
+    "explain": "Câu trước nêu nguyên nhân: thay đổi có thể ảnh hưởng đến việc lên thực đơn của nhà hàng. Câu sau là hệ quả/biện pháp hỗ trợ: tặng thêm một chuyến giao hàng thứ Bảy miễn phí trong tháng 6. Quan hệ nguyên nhân → kết quả nên dùng \"For this reason\" (vì lý do này). \"In contrast\" (ngược lại) và \"Similarly\" (tương tự) không có sự so sánh nào; \"Even so\" (dù vậy) chỉ nhượng bộ, trái logic vì việc tặng chuyến giao là DO ảnh hưởng đó chứ không phải bất chấp nó."
+   },
+   {
+    "id": "rp6_2_q3",
+    "q": "[3] Choose the sentence that best fits blank [3].",
+    "options": [
+     "Our drivers have an average of ten years of experience.",
+     "Unfortunately, we will no longer be able to supply fresh herbs to your restaurant.",
+     "The street market will move to the harbor area next month.",
+     "To schedule a Saturday delivery, simply place your order by noon on the preceding Thursday."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "điền câu",
+    "evidence": "we are happy to offer an additional Saturday delivery at no extra charge for the month of June. ___ [3] ___",
+    "explain": "Câu ngay trước vừa giới thiệu ưu đãi giao hàng thêm vào thứ Bảy → câu tiếp theo tự nhiên nhất là hướng dẫn cách sử dụng ưu đãi đó (đặt hàng trước trưa thứ Năm). Câu về kinh nghiệm tài xế lạc đề; câu \"không còn cung cấp rau thơm\" là tin xấu đột ngột, không liên quan và trái giọng văn hỗ trợ; câu \"chợ phố sẽ chuyển ra cảng\" làm mất lý do của việc đổi lịch đã nêu ở đoạn 1 nên mâu thuẫn."
+   },
+   {
+    "id": "rp6_2_q4",
+    "q": "[4] Choose the best word or phrase for blank [4].",
+    "options": [
+     "partner",
+     "partnership",
+     "partnered",
+     "partnering"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "từ vựng",
+    "evidence": "We value our ___ [4] ___ with Trattoria Bellini and look forward to serving you for many years to come.",
+    "explain": "Sau tính từ sở hữu \"our\" cần một DANH TỪ làm tân ngữ cho \"value\", và nghĩa phải là mối quan hệ giữa hai công ty: \"our partnership with Trattoria Bellini\" (sự hợp tác của chúng tôi với nhà hàng). \"partner\" là danh từ chỉ người/đối tác — \"our partner with Trattoria Bellini\" sai nghĩa và cần mạo từ số ít hợp lý; \"partnered\" là quá khứ phân từ; \"partnering\" là V-ing, không phải danh từ chỉ mối quan hệ lâu dài trong ngữ cảnh này."
+   }
+  ]
+ },
+ {
+  "id": "rp6_3",
+  "part": "Part 6",
+  "docType": "Article",
+  "title": "[Part 6 — Luyện thêm 3] Bài báo: tiệm bánh gia đình mở chi nhánh thứ hai",
+  "passage": "WILLOW CREEK (April 14) — Harlow's Bakery, a family-owned business that has served Willow Creek residents for more than thirty years, ___ [1] ___ a second location on Elm Street this summer. The new shop will be considerably larger than the original store on Main Street and will include a seating area for up to forty customers.\n\nAccording to owner Patricia Harlow, the decision to expand was driven by growing demand for the bakery's whole-grain breads and custom cakes. \"On weekends, the line often stretches out the door,\" she said. \"___ [2] ___\"\n\nThe Elm Street location will also feature a small kitchen where Ms. Harlow plans to hold baking classes for adults and children. Registration details will be posted on the bakery's Web site in June. ___ [3] ___, the bakery is currently hiring counter staff and experienced bakers. Interested applicants should submit a résumé in person at the Main Street store.\n\nThe new shop is expected to create about fifteen jobs, a welcome ___ [4] ___ for the local economy.",
+  "questions": [
+   {
+    "id": "rp6_3_q1",
+    "q": "[1] Choose the best word or phrase for blank [1].",
+    "options": [
+     "will open",
+     "opened",
+     "has opened",
+     "was opening"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "ngữ pháp",
+    "evidence": "Harlow's Bakery, a family-owned business that has served Willow Creek residents for more than thirty years, ___ [1] ___ a second location on Elm Street this summer.",
+    "explain": "Bài báo đề ngày April 14, còn việc mở cửa hàng diễn ra \"this summer\" (mùa hè này) — tức là trong TƯƠNG LAI. Các câu sau cũng dùng tương lai (\"will be considerably larger\", \"will include\", \"is expected to create\") → chọn \"will open\". \"opened\" và \"has opened\" diễn tả việc đã xảy ra, mâu thuẫn với việc công ty vẫn đang tuyển nhân viên cho cửa hàng mới; \"was opening\" (quá khứ tiếp diễn) không phù hợp với mốc thời gian tương lai."
+   },
+   {
+    "id": "rp6_3_q2",
+    "q": "[2] Choose the sentence that best fits blank [2].",
+    "options": [
+     "We have decided to close the Main Street store permanently.",
+     "Fewer customers have been visiting the store in recent months.",
+     "Our cakes are decorated by a team of three designers.",
+     "Having a second shop will let us serve more customers without such long waits."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "điền câu",
+    "evidence": "\"On weekends, the line often stretches out the door,\" she said. \"___ [2] ___\"",
+    "explain": "Bà Harlow vừa nói vào cuối tuần hàng người xếp hàng dài ra tận cửa — đây là lý do mở rộng. Câu nối tiếp hợp lý là: có cửa hàng thứ hai sẽ giúp phục vụ nhiều khách hơn mà không phải chờ lâu. Câu \"đóng cửa vĩnh viễn cửa hàng Main Street\" mâu thuẫn vì ứng viên vẫn nộp hồ sơ tại Main Street; câu \"ít khách hơn gần đây\" trái với \"growing demand\"; câu về đội trang trí bánh lạc đề, không nối với ý xếp hàng dài."
+   },
+   {
+    "id": "rp6_3_q3",
+    "q": "[3] Choose the best word or phrase for blank [3].",
+    "options": [
+     "In the meantime",
+     "On the contrary",
+     "Otherwise",
+     "As a result"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "từ nối",
+    "evidence": "Registration details will be posted on the bakery's Web site in June. ___ [3] ___, the bakery is currently hiring counter staff and experienced bakers.",
+    "explain": "Câu trước nói việc đăng ký lớp học sẽ được đăng vào tháng 6 (tương lai); câu sau nói tiệm hiện ĐANG tuyển nhân viên (currently). \"In the meantime\" (trong lúc chờ đợi / trong khi đó) nối hai việc: chuyện sắp tới và chuyện đang diễn ra trước thời điểm đó. \"On the contrary\" (trái lại) dùng để bác bỏ ý trước — không có mâu thuẫn; \"Otherwise\" (nếu không thì) chỉ điều kiện; \"As a result\" (kết quả là) sai vì việc tuyển người không phải hệ quả của việc đăng thông tin lớp học."
+   },
+   {
+    "id": "rp6_3_q4",
+    "q": "[4] Choose the best word or phrase for blank [4].",
+    "options": [
+     "delay",
+     "boost",
+     "burden",
+     "decline"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "từ vựng",
+    "evidence": "The new shop is expected to create about fifteen jobs, a welcome ___ [4] ___ for the local economy.",
+    "explain": "Tạo ra khoảng 15 việc làm là điều tích cực, lại có tính từ \"welcome\" (đáng hoan nghênh) → cần danh từ mang nghĩa tích cực: \"a welcome boost for the local economy\" (một cú hích đáng mừng cho kinh tế địa phương) — collocation rất hay gặp. \"delay\" (sự chậm trễ), \"burden\" (gánh nặng), \"decline\" (sự suy giảm) đều mang nghĩa tiêu cực, mâu thuẫn với \"welcome\" và với việc tạo thêm việc làm."
+   }
+  ]
+ },
+ {
+  "id": "rp6_4",
+  "part": "Part 6",
+  "docType": "Memo",
+  "title": "[Part 6 — Luyện thêm 4] Bản ghi nhớ: quy trình hoàn ứng chi phí công tác mới",
+  "passage": "MEMO\nTo: All Sales Staff\nFrom: Daniel Reyes, Finance Department\nDate: February 2\nRe: Updated travel expense procedures\n\nEffective March 1, all requests for reimbursement of travel expenses must be submitted through the company's online expense form. Paper forms will no longer be accepted. Employees should ___ [1] ___ scanned copies of all receipts to their requests, including those for meals, taxis, and hotel stays.\n\nIn addition, requests must now be filed within 30 days of the end of a trip. Requests submitted after this deadline will be reviewed only ___ [2] ___ written approval from a department manager. ___ [3] ___\n\nWe recognize that these changes will require some adjustment. ___ [4] ___, the Finance Department will hold two short training sessions on February 20 in Conference Room B. Please contact my assistant, Hye-jin Park, to reserve a seat.",
+  "questions": [
+   {
+    "id": "rp6_4_q1",
+    "q": "[1] Choose the best word or phrase for blank [1].",
+    "options": [
+     "attaching",
+     "attached",
+     "attachment",
+     "attach"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "ngữ pháp",
+    "evidence": "Employees should ___ [1] ___ scanned copies of all receipts to their requests, including those for meals, taxis, and hotel stays.",
+    "explain": "Sau động từ khuyết thiếu \"should\" luôn là ĐỘNG TỪ NGUYÊN MẪU không \"to\" → \"should attach\" (nên đính kèm). Cấu trúc \"attach A to B\" (đính kèm A vào B) khớp với \"scanned copies ... to their requests\". \"attaching\" (V-ing) và \"attached\" (V3) không đứng ngay sau \"should\" trong câu chủ động có tân ngữ; \"attachment\" là danh từ (tệp đính kèm), không thể làm vị ngữ."
+   },
+   {
+    "id": "rp6_4_q2",
+    "q": "[2] Choose the best word or phrase for blank [2].",
+    "options": [
+     "with",
+     "about",
+     "among",
+     "onto"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "ngữ pháp",
+    "evidence": "Requests submitted after this deadline will be reviewed only ___ [2] ___ written approval from a department manager.",
+    "explain": "Ý câu: yêu cầu nộp trễ hạn chỉ được xem xét KHI CÓ sự chấp thuận bằng văn bản của trưởng bộ phận → \"only with written approval\" (chỉ khi có/kèm theo sự phê duyệt). \"about\" (về), \"among\" (giữa nhiều thứ) và \"onto\" (lên trên, chỉ chuyển động) đều không diễn đạt điều kiện \"có kèm theo\", nên sai nghĩa."
+   },
+   {
+    "id": "rp6_4_q3",
+    "q": "[3] Choose the sentence that best fits blank [3].",
+    "options": [
+     "Managers have already approved next year's sales targets.",
+     "These changes are intended to help us process payments more quickly and accurately.",
+     "Paper forms can be picked up at the reception desk.",
+     "The hotel offers a complimentary breakfast to all guests."
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "điền câu",
+    "evidence": "Requests submitted after this deadline will be reviewed only ___ [2] ___ written approval from a department manager. ___ [3] ___",
+    "explain": "Đoạn 1 và 2 liệt kê các quy định mới (nộp online, đính kèm hóa đơn scan, hạn 30 ngày). Câu chốt hợp lý cuối đoạn 2 là nêu MỤC ĐÍCH của các thay đổi: giúp xử lý thanh toán nhanh và chính xác hơn. Câu \"lấy mẫu giấy ở quầy lễ tân\" mâu thuẫn với \"Paper forms will no longer be accepted\"; câu về chỉ tiêu doanh số và câu về bữa sáng khách sạn lạc đề."
+   },
+   {
+    "id": "rp6_4_q4",
+    "q": "[4] Choose the best word or phrase for blank [4].",
+    "options": [
+     "Accordingly",
+     "Nonetheless",
+     "In contrast",
+     "Previously"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "từ nối",
+    "evidence": "We recognize that these changes will require some adjustment. ___ [4] ___, the Finance Department will hold two short training sessions on February 20 in Conference Room B.",
+    "explain": "Câu trước: các thay đổi sẽ đòi hỏi nhân viên phải làm quen. Câu sau: phòng Tài chính sẽ tổ chức hai buổi đào tạo — đây là hành động đáp ứng hợp lý với tình huống đó → \"Accordingly\" (theo đó / vì vậy). \"Nonetheless\" (tuy nhiên) chỉ sự nhượng bộ, trái logic; \"In contrast\" (ngược lại) không có đối lập; \"Previously\" (trước đây) sai thời gian vì buổi đào tạo diễn ra vào 20/2, sau ngày ra bản ghi nhớ."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_1",
+  "part": "Part 7 Single",
+  "docType": "Text-message chain",
+  "title": "[Part 7 Đơn — Luyện thêm 1] Tin nhắn: phòng tiệc khách sạn chưa dọn kịp cho buổi trao giải",
+  "passage": "Rachel Kim [9:12 A.M.]: Hi, Tom. I'm at the Lakeview Hotel, but the banquet room we booked for the awards luncheon is still set up for last night's wedding.\nTom Fischer [9:14 A.M.]: Really? Our guests start arriving at 11:30.\nRachel Kim [9:15 A.M.]: I know. The events coordinator says her staff can have it ready by 10:45, but I'm worried about the table decorations. The florist is supposed to deliver them at 10:00.\nTom Fischer [9:17 A.M.]: I'll take care of it. I have the florist's number.\nRachel Kim [9:18 A.M.]: Thanks. Ask if they can come at 11:00 instead. I'll make sure the hotel staff leave space for them to set up.\nTom Fischer [9:25 A.M.]: Done. They'll be there at 11:00 sharp.",
+  "questions": [
+   {
+    "id": "rp7s_1_q1",
+    "q": "Why did Ms. Kim contact Mr. Fischer?",
+    "options": [
+     "To ask him to pick up some awards",
+     "To report a problem with an event space",
+     "To suggest postponing a luncheon",
+     "To request an updated guest list"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "ý chính",
+    "evidence": "the banquet room we booked for the awards luncheon is still set up for last night's wedding.",
+    "explain": "Ngay tin nhắn đầu tiên (9:12), bà Kim báo rằng phòng tiệc đã đặt cho buổi tiệc trưa trao giải vẫn còn bày biện từ đám cưới tối qua — tức là có sự cố với địa điểm tổ chức (\"banquet room\" = \"event space\"). Không ai nhờ lấy cúp/giải thưởng, không ai đề nghị dời buổi tiệc (khách vẫn đến lúc 11:30), cũng không nhắc đến danh sách khách mời."
+   },
+   {
+    "id": "rp7s_1_q2",
+    "q": "At 9:17 A.M., what does Mr. Fischer most likely mean when he writes, \"I'll take care of it\"?",
+    "options": [
+     "He will decorate the tables himself.",
+     "He will speak with the hotel's events coordinator.",
+     "He will contact the florist about the delivery time.",
+     "He will find a different hotel for the luncheon."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "ý định người viết",
+    "evidence": "I'll take care of it. I have the florist's number.",
+    "explain": "Bà Kim lo lắng vì người bán hoa sẽ giao đồ trang trí lúc 10:00, trong khi phòng 10:45 mới dọn xong. Ông Fischer đáp \"I'll take care of it\" rồi nói ngay \"I have the florist's number\" → ông sẽ gọi cho bên hoa để đổi giờ giao (sau đó xác nhận \"They'll be there at 11:00 sharp\"). Ông không tự trang trí bàn, không nói chuyện với điều phối viên khách sạn (việc đó bà Kim lo), và không có ý đổi khách sạn."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_2",
+  "part": "Part 7 Single",
+  "docType": "Advertisement",
+  "title": "[Part 7 Đơn — Luyện thêm 2] Quảng cáo khai trương cửa hàng nội thất",
+  "passage": "Grand Opening at Brightway Furniture!\n\nVisit our newest showroom at 450 Carver Avenue in Millbrook, opening Saturday, September 9. To celebrate, we are offering 20 percent off all sofas, dining sets, and office chairs through September 24. Customers who spend more than $500 will also receive free delivery to any address within 30 miles of the store.\n\nNot sure what will fit your space? Our design consultants can visit your home, measure your rooms, and recommend pieces that suit your style and budget. This service is free for customers who make a purchase within two weeks of the consultation; otherwise, a $40 fee applies.\n\nBrightway Furniture — open daily from 10 A.M. to 8 P.M. Call 555-0187 to book a home consultation.",
+  "questions": [
+   {
+    "id": "rp7s_2_q1",
+    "q": "What is indicated about the discount?",
+    "options": [
+     "It applies only to online purchases.",
+     "It requires a store membership card.",
+     "It excludes office furniture.",
+     "It is available for a limited time."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "NOT/TRUE",
+    "evidence": "To celebrate, we are offering 20 percent off all sofas, dining sets, and office chairs through September 24.",
+    "explain": "Quảng cáo nói giảm 20% \"through September 24\" (đến hết ngày 24/9) → ưu đãi chỉ có trong thời gian giới hạn. Không hề nhắc đến mua hàng online hay thẻ thành viên; còn \"excludes office furniture\" (không áp dụng cho nội thất văn phòng) sai vì ghế văn phòng (office chairs) nằm trong danh sách được giảm giá."
+   },
+   {
+    "id": "rp7s_2_q2",
+    "q": "According to the advertisement, why might a customer be charged $40?",
+    "options": [
+     "For a delivery to an address more than 30 miles away",
+     "For booking a consultation by telephone",
+     "For not making a purchase soon after a home visit",
+     "For spending less than $500 in the store"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "chi tiết",
+    "evidence": "This service is free for customers who make a purchase within two weeks of the consultation; otherwise, a $40 fee applies.",
+    "explain": "Dịch vụ tư vấn thiết kế tại nhà miễn phí nếu khách mua hàng trong vòng 2 tuần sau buổi tư vấn; \"otherwise\" (nếu không) thì tính phí 40 đô → khách bị tính 40 đô khi không mua hàng sớm sau buổi tư vấn tại nhà. Phí giao hàng xa trên 30 dặm và chi tiêu dưới 500 đô không được gắn với mức 40 đô; gọi điện đặt lịch là cách đặt bình thường, không mất phí."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_3",
+  "part": "Part 7 Single",
+  "docType": "Notice",
+  "title": "[Part 7 Đơn — Luyện thêm 3] Thông báo cư dân: tạm ngưng cấp nước để sửa van",
+  "passage": "Attention, Residents of Harborview Apartments\n\nPlease be advised that the building's main water supply will be shut off on Wednesday, July 12, from 9:00 A.M. to approximately 3:00 P.M. so that plumbers can replace an aging valve in the basement. During this time, sinks, showers, and washing machines will not operate. The laundry room on the ground floor will also be closed for the entire day.\n\nWe recommend that residents store water in advance for drinking and cooking. Bottled water will be available free of charge in the lobby starting at 8:30 A.M. while supplies last.\n\nParking spaces near the east entrance will be reserved for the plumbing company's vehicles on that day. Residents who normally park there are asked to use the visitor lot on Pine Street instead.\n\nIf you have any questions or concerns, please contact the management office at 555-0143 or stop by Room 101 between 8:00 A.M. and 5:00 P.M., Monday through Friday.\n\nHarborview Property Management",
+  "questions": [
+   {
+    "id": "rp7s_3_q1",
+    "q": "What is the purpose of the notice?",
+    "options": [
+     "To introduce a new building manager",
+     "To explain an increase in water charges",
+     "To request volunteers for a cleaning project",
+     "To announce a temporary interruption of a service"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "ý chính",
+    "evidence": "Please be advised that the building's main water supply will be shut off on Wednesday, July 12, from 9:00 A.M. to approximately 3:00 P.M.",
+    "explain": "Câu đầu tiên của thông báo cho biết nguồn nước chính của tòa nhà sẽ bị ngắt vào thứ Tư 12/7 từ 9 giờ sáng đến khoảng 3 giờ chiều → mục đích là báo việc tạm ngưng một dịch vụ (\"shut off ... from 9:00 to 3:00\" = \"temporary interruption\"). Không có quản lý mới, không có tăng giá nước, không kêu gọi tình nguyện viên."
+   },
+   {
+    "id": "rp7s_3_q2",
+    "q": "What is NOT mentioned as being affected on July 12?",
+    "options": [
+     "The building's elevators",
+     "The washing machines",
+     "The laundry room",
+     "Parking near the east entrance"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "NOT/TRUE",
+    "evidence": "During this time, sinks, showers, and washing machines will not operate. The laundry room on the ground floor will also be closed for the entire day.",
+    "explain": "Thông báo nêu rõ máy giặt không hoạt động, phòng giặt đóng cửa cả ngày, và chỗ đậu xe gần lối vào phía đông được dành cho xe của công ty sửa ống nước (\"Parking spaces near the east entrance will be reserved...\"). Thang máy (elevators) hoàn toàn không được nhắc đến → đây là đáp án NOT."
+   },
+   {
+    "id": "rp7s_3_q3",
+    "q": "What are some residents asked to do?",
+    "options": [
+     "Collect bottled water before 8:30 A.M.",
+     "Visit the management office on July 12",
+     "Park their vehicles in a different area",
+     "Remove personal items from the basement"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "chi tiết",
+    "evidence": "Residents who normally park there are asked to use the visitor lot on Pine Street instead.",
+    "explain": "Đoạn 3: những cư dân thường đậu xe gần lối vào phía đông được yêu cầu dùng bãi xe khách trên đường Pine thay thế → đậu xe ở khu vực khác. Nước đóng chai chỉ được phát TỪ 8:30 sáng nên \"trước 8:30\" sai; việc liên hệ văn phòng chỉ là tùy chọn nếu có thắc mắc, không gắn với ngày 12/7; không ai yêu cầu dọn đồ khỏi tầng hầm."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_4",
+  "part": "Part 7 Single",
+  "docType": "E-mail",
+  "title": "[Part 7 Đơn — Luyện thêm 4] Email khách sạn xác nhận đặt phòng (có câu từ đồng nghĩa)",
+  "passage": "To: Amelia Novak <anovak@corvellconsulting.com>\nFrom: Reservations <reservations@seasidegrandhotel.com>\nDate: October 3\nSubject: Your reservation, confirmation no. 58217\n\nDear Ms. Novak,\n\nThank you for choosing the Seaside Grand Hotel for your upcoming stay from October 18 to October 21. We have reserved a deluxe king room with an ocean view for you, as requested. Your rate of $189 per night includes a full breakfast in our Harbor Café and access to the fitness center.\n\nWe noticed that your booking was made through your company's corporate account. Please note that guests traveling on corporate rates must present a valid company identification card at check-in. If you are unable to do so, the standard rate of $229 per night will apply.\n\nYou also mentioned that you will be arriving on a late flight. Our front desk is staffed around the clock, so you may check in at any hour. However, if you expect to arrive after midnight, please let us know in advance so that we can hold your room.\n\nShould you wish to reserve a table at our rooftop restaurant or arrange airport transportation, simply reply to this e-mail. We look forward to welcoming you.\n\nSincerely,\nLuis Ortega\nReservations Manager",
+  "questions": [
+   {
+    "id": "rp7s_4_q1",
+    "q": "Why was the e-mail sent?",
+    "options": [
+     "To confirm the details of a hotel booking",
+     "To announce the opening of a rooftop restaurant",
+     "To offer an upgrade to a larger room",
+     "To request payment of an outstanding bill"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "ý chính",
+    "evidence": "We have reserved a deluxe king room with an ocean view for you, as requested.",
+    "explain": "Tiêu đề email là \"Your reservation, confirmation no. 58217\" và đoạn 1 xác nhận ngày lưu trú, loại phòng (deluxe king, hướng biển, \"as requested\") và giá phòng → mục đích là xác nhận chi tiết đặt phòng. Nhà hàng trên sân thượng chỉ được nhắc như dịch vụ thêm, không phải mới khai trương; không có nâng hạng phòng hay yêu cầu thanh toán nợ."
+   },
+   {
+    "id": "rp7s_4_q2",
+    "q": "What must Ms. Novak do to receive the rate of $189 per night?",
+    "options": [
+     "Arrive at the hotel before midnight",
+     "Show proof of her employment",
+     "Book a table at the hotel restaurant",
+     "Stay for at least four nights"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "Please note that guests traveling on corporate rates must present a valid company identification card at check-in.",
+    "explain": "Đoạn 2: khách dùng giá doanh nghiệp phải xuất trình thẻ nhân viên công ty còn hiệu lực khi nhận phòng; nếu không sẽ bị tính giá thường 229 đô → muốn giữ giá 189 đô phải chứng minh mình là nhân viên công ty (\"company identification card\" = \"proof of her employment\"). Việc đến sau nửa đêm chỉ cần báo trước để giữ phòng, không liên quan đến giá; đặt bàn nhà hàng là tùy chọn; kỳ nghỉ 18–21/10 chỉ có 3 đêm."
+   },
+   {
+    "id": "rp7s_4_q3",
+    "q": "In the e-mail, the word \"hold\" in paragraph 3 is closest in meaning to",
+    "options": [
+     "grasp",
+     "organize",
+     "support",
+     "keep"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "từ đồng nghĩa",
+    "evidence": "However, if you expect to arrive after midnight, please let us know in advance so that we can hold your room.",
+    "explain": "\"hold your room\" ở đây nghĩa là GIỮ phòng lại cho khách (không hủy hoặc không giao cho người khác) khi khách đến muộn sau nửa đêm → đồng nghĩa với \"keep\" (giữ lại, để dành). \"grasp\" (nắm chặt bằng tay), \"organize\" (tổ chức, sắp xếp) và \"support\" (chống đỡ, ủng hộ) là các nghĩa khác của \"hold\" nhưng không hợp ngữ cảnh đặt phòng."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_5",
+  "part": "Part 7 Single",
+  "docType": "Article",
+  "title": "[Part 7 Đơn — Luyện thêm 5] Bài báo: chuỗi siêu thị mua lại đối thủ (có câu chèn câu)",
+  "passage": "Greenleaf Markets to Acquire Valley Fresh Grocers\nBy Sandra Okafor\n\nPORTLAND (June 2) — Greenleaf Markets, the region's largest independent grocery chain, announced yesterday that it has agreed to purchase Valley Fresh Grocers for an undisclosed sum. The deal, which is expected to be finalized by the end of September, will add eleven stores to Greenleaf's existing network of 34 locations. [1]\n\nValley Fresh, founded in 1988 by brothers Henry and Paul Lindqvist, is known for its long-standing partnerships with small farms in the surrounding area. Greenleaf chief executive Maria Chen said that maintaining those relationships is a top priority. \"Our customers increasingly want to know where their food comes from,\" Ms. Chen said. [2] \"Valley Fresh has built exactly the kind of supplier network we hope to expand.\"\n\nAccording to the announcement, all Valley Fresh stores will remain open during the transition, and current employees will be offered positions with Greenleaf. [3] The stores will gradually be renamed over the next two years, although Greenleaf has not yet decided whether to keep the Valley Fresh name at its two largest locations, in Salem and Eugene.\n\nIndustry analysts say the acquisition will help Greenleaf compete with national chains that have recently entered the market. [4] \"Scale matters in this business,\" said retail consultant Owen Pryce. \"Combining their purchasing power will allow the two companies to negotiate better prices with distributors.\"",
+  "questions": [
+   {
+    "id": "rp7s_5_q1",
+    "q": "What is the article mainly about?",
+    "options": [
+     "A business acquisition",
+     "The opening of a farmers' market",
+     "A change in company leadership",
+     "The relocation of a grocery store"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "ý chính",
+    "evidence": "Greenleaf Markets, the region's largest independent grocery chain, announced yesterday that it has agreed to purchase Valley Fresh Grocers for an undisclosed sum.",
+    "explain": "Tiêu đề \"Greenleaf Markets to Acquire Valley Fresh Grocers\" và câu đầu bài cho biết Greenleaf đã đồng ý mua lại Valley Fresh → chủ đề chính là một thương vụ mua lại doanh nghiệp (\"purchase\" = \"acquisition\"). Bài có nhắc nông trại nhưng không có chợ nông sản mới; không có thay đổi lãnh đạo; các cửa hàng vẫn mở và chỉ đổi tên chứ không di dời."
+   },
+   {
+    "id": "rp7s_5_q2",
+    "q": "What is indicated about Valley Fresh Grocers?",
+    "options": [
+     "It currently operates 34 stores.",
+     "It was founded by Maria Chen.",
+     "It has worked with local farms for a long time.",
+     "It will close its store in Salem."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "NOT/TRUE",
+    "evidence": "is known for its long-standing partnerships with small farms in the surrounding area.",
+    "explain": "Đoạn 2: Valley Fresh nổi tiếng với quan hệ hợp tác lâu năm với các trang trại nhỏ trong khu vực (\"long-standing partnerships with small farms in the surrounding area\" = \"worked with local farms for a long time\"). 34 cửa hàng là của Greenleaf (Valley Fresh có 11); Valley Fresh do anh em nhà Lindqvist sáng lập, còn Maria Chen là CEO của Greenleaf; cửa hàng Salem vẫn mở, chỉ chưa quyết định có giữ tên hay không."
+   },
+   {
+    "id": "rp7s_5_q3",
+    "q": "According to the article, what has Greenleaf Markets not yet decided?",
+    "options": [
+     "When to complete the purchase",
+     "Whether to retain a brand name at certain stores",
+     "How many employees to hire",
+     "Which distributors to work with"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "although Greenleaf has not yet decided whether to keep the Valley Fresh name at its two largest locations, in Salem and Eugene.",
+    "explain": "Đoạn 3 nói Greenleaf CHƯA quyết định có giữ tên Valley Fresh tại hai cửa hàng lớn nhất ở Salem và Eugene hay không (\"keep the Valley Fresh name\" = \"retain a brand name\"; \"two largest locations\" = \"certain stores\"). Thời điểm hoàn tất thương vụ đã được nêu (cuối tháng 9); nhân viên hiện tại đều được nhận vào làm; bài không nói chưa chọn nhà phân phối nào."
+   },
+   {
+    "id": "rp7s_5_q4",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"That offer applies to all of the roughly 600 people currently on the Valley Fresh payroll, including warehouse staff.\"",
+    "options": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "chèn câu",
+    "evidence": "current employees will be offered positions with Greenleaf. [3]",
+    "explain": "Câu cần chèn bắt đầu bằng \"That offer\" (lời đề nghị đó) nên phải đứng ngay sau một câu có nhắc đến một \"lời đề nghị\". Ở vị trí [3], câu trước nói nhân viên hiện tại \"will be offered positions with Greenleaf\" (sẽ được đề nghị vị trí làm việc) → \"That offer applies to all of the roughly 600 people currently on the Valley Fresh payroll\" nói rõ đề nghị việc làm áp dụng cho khoảng 600 nhân viên đang hưởng lương của Valley Fresh, kể cả nhân viên kho. Các vị trí [1], [2], [4] nói về số cửa hàng, nguồn cung nông trại và sức cạnh tranh — không có \"offer\" nào để \"That offer\" thay thế."
+   }
+  ]
+ },
+ {
+  "id": "rp7s_6",
+  "part": "Part 7 Single",
+  "docType": "Web page",
+  "title": "[Part 7 Đơn — Luyện thêm 6] Trang web trung tâm cộng đồng: đăng ký lớp học mùa thu",
+  "passage": "https://www.riversidecommunitycenter.org/fall-programs\n\nRiverside Community Center — Fall Program Registration\n\nRegistration for our fall programs opens on August 15 for center members and on August 22 for the general public. Classes run for eight weeks, from September 11 through November 3. Members receive a 15 percent discount on all course fees.\n\nFeatured Programs\n• Introduction to Watercolor Painting — Tuesdays, 6:30–8:30 P.M. | Instructor: Lena Morales | $120 (all materials included)\n• Conversational Spanish for Beginners — Wednesdays, 7:00–8:30 P.M. | Instructor: Diego Herrera | $95\n• Small Business Bookkeeping — Thursdays, 6:00–8:00 P.M. | Instructor: Karen Whitfield | $140\n• Family Cooking Workshop — Saturdays, 10:00 A.M.–12:00 P.M. | Instructor: Samuel Adeyemi | $150 per family (up to four people)\n\nClasses with fewer than six registered participants one week before the start date may be canceled. In that case, registrants will receive a full refund or may transfer to another program. Participants who withdraw from a class after the first session will receive a refund of 50 percent of the course fee.\n\nTo register, complete the online form below or visit the front desk at 22 Riverside Drive. Questions about specific courses may be directed to our program coordinator, Ji-woo Han, at programs@riversidecommunitycenter.org.",
+  "questions": [
+   {
+    "id": "rp7s_6_q1",
+    "q": "What is true about center members?",
+    "options": [
+     "They can sign up for classes before other people.",
+     "They receive free art supplies.",
+     "They may attend one class at no charge.",
+     "They must register in person at the front desk."
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "NOT/TRUE",
+    "evidence": "Registration for our fall programs opens on August 15 for center members and on August 22 for the general public.",
+    "explain": "Hội viên được đăng ký từ ngày 15/8, còn công chúng từ 22/8 → hội viên đăng ký sớm hơn người khác. Vật liệu vẽ được bao gồm trong học phí lớp màu nước cho MỌI học viên, không phải ưu đãi riêng cho hội viên; hội viên chỉ được giảm 15% chứ không học miễn phí một lớp; ai cũng có thể đăng ký online hoặc tại quầy."
+   },
+   {
+    "id": "rp7s_6_q2",
+    "q": "Which class includes the cost of supplies?",
+    "options": [
+     "Conversational Spanish for Beginners",
+     "Small Business Bookkeeping",
+     "Family Cooking Workshop",
+     "Introduction to Watercolor Painting"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "chi tiết",
+    "evidence": "• Introduction to Watercolor Painting — Tuesdays, 6:30–8:30 P.M. | Instructor: Lena Morales | $120 (all materials included)",
+    "explain": "Chỉ có lớp \"Introduction to Watercolor Painting\" ghi chú \"$120 (all materials included)\" — học phí đã bao gồm toàn bộ vật liệu (\"materials\" = \"supplies\"). Ba lớp còn lại chỉ ghi giá tiền, riêng lớp nấu ăn ghi \"per family (up to four people)\" là giá theo gia đình chứ không nói gì về nguyên liệu."
+   },
+   {
+    "id": "rp7s_6_q3",
+    "q": "What can be inferred about a class that has only four registrants on September 4?",
+    "options": [
+     "It will be moved to a larger room.",
+     "Its fee will be reduced by 15 percent.",
+     "It might not take place.",
+     "It will be taught by a different instructor."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "suy luận",
+    "evidence": "Classes with fewer than six registered participants one week before the start date may be canceled.",
+    "explain": "Các lớp bắt đầu ngày 11/9, nên 4/9 là đúng một tuần trước ngày khai giảng. Theo quy định, lớp có ít hơn 6 người đăng ký vào thời điểm này \"may be canceled\" (có thể bị hủy) → lớp chỉ có 4 người có thể không được mở. Không có thông tin về đổi phòng, giảm phí (15% là ưu đãi hội viên) hay đổi giảng viên."
+   },
+   {
+    "id": "rp7s_6_q4",
+    "q": "What will a participant who drops a class after the first session receive?",
+    "options": [
+     "A full refund",
+     "Half of the course fee",
+     "A transfer to a different course",
+     "A free center membership"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "Participants who withdraw from a class after the first session will receive a refund of 50 percent of the course fee.",
+    "explain": "Học viên rút khỏi lớp sau buổi học đầu tiên được hoàn 50% học phí (\"withdraw\" = \"drops\"; \"50 percent\" = \"half\"). Hoàn tiền toàn bộ hoặc chuyển sang lớp khác chỉ áp dụng khi lớp bị HỦY do không đủ người; trang web không nhắc tới việc tặng thẻ hội viên."
+   }
+  ]
+ },
+ {
+  "id": "rp7d_1",
+  "part": "Part 7 Double",
+  "docType": "Double Passage (Job Advertisement + E-mail)",
+  "title": "[Part 7 Đôi — Luyện thêm 1] Tin tuyển dụng điều phối viên sự kiện + Email ứng tuyển",
+  "passage": "=== PASSAGE 1: JOB ADVERTISEMENT ===\nCarlton & Wells Event Planning — Position Available: Event Coordinator (Full-Time)\n\nCarlton & Wells, a leading planner of corporate conferences and private celebrations in the Chicago area, seeks an experienced event coordinator to join our growing team.\n\nResponsibilities:\n• Negotiate contracts with venues, caterers, and entertainment providers\n• Manage event budgets and prepare cost reports for clients\n• Supervise on-site staff during events, including some evenings and weekends\n\nRequirements:\n• At least three years of experience in event planning or hospitality management\n• Excellent communication and organizational skills\n• A valid driver's license\n• Fluency in Spanish is preferred but not required\n\nApplicants should send a résumé, a cover letter, and two professional references to hiring@carltonwells.com by April 30. Interviews will be held in person at our downtown office during the second week of May.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: hiring@carltonwells.com\nFrom: Natalia Ruiz <nruiz@mailbox.com>\nDate: April 21\nSubject: Event Coordinator position\n\nDear Hiring Manager,\n\nI am writing to apply for the event coordinator position advertised on your Web site. For the past five years, I have worked as an assistant banquet manager at the Lakeshore Plaza Hotel, where I organize weddings, product launches, and conferences for up to 400 guests. In this role, I regularly negotiate with outside vendors and oversee a team of twelve servers.\n\nI grew up in a bilingual household and speak Spanish fluently, which has been especially helpful when working with our international clients. I am also comfortable working irregular hours, as hotel events frequently run late into the night.\n\nAttached please find my résumé and cover letter. I will send my references separately later this week, as I am still waiting for one of my former supervisors to respond. Please note that I will be out of town from May 9 to May 13 to attend a family wedding; however, I would be happy to interview by video call during that period.\n\nSincerely,\nNatalia Ruiz",
+  "questions": [
+   {
+    "id": "rp7d_1_q1",
+    "q": "What is indicated about Carlton & Wells?",
+    "options": [
+     "It recently opened an office in Chicago.",
+     "It is looking for several part-time workers.",
+     "It operates the Lakeshore Plaza Hotel.",
+     "It plans events for both businesses and individuals."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "NOT/TRUE",
+    "evidence": "Carlton & Wells, a leading planner of corporate conferences and private celebrations in the Chicago area",
+    "explain": "Tin tuyển dụng giới thiệu Carlton & Wells là công ty hàng đầu tổ chức \"corporate conferences\" (hội nghị doanh nghiệp) và \"private celebrations\" (tiệc riêng) → tổ chức sự kiện cho cả doanh nghiệp lẫn cá nhân. Không có thông tin mới mở văn phòng; vị trí tuyển là toàn thời gian (Full-Time), chỉ một vị trí; khách sạn Lakeshore Plaza là nơi bà Ruiz đang làm, không thuộc Carlton & Wells."
+   },
+   {
+    "id": "rp7d_1_q2",
+    "q": "Which preferred qualification does Ms. Ruiz have?",
+    "options": [
+     "A valid driver's license",
+     "A degree in hospitality management",
+     "The ability to speak a second language",
+     "Experience preparing financial reports"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "I grew up in a bilingual household and speak Spanish fluently",
+    "explain": "Kết nối 2 bài: Trong tin tuyển dụng, tiêu chí duy nhất được ghi là \"preferred\" (ưu tiên) là thông thạo tiếng Tây Ban Nha. Trong email, bà Ruiz nói bà lớn lên trong gia đình song ngữ và nói tiếng Tây Ban Nha lưu loát → có khả năng nói ngôn ngữ thứ hai. Bằng lái xe là yêu cầu BẮT BUỘC chứ không phải ưu tiên, và bà không nhắc tới; bằng cấp ngành khách sạn và kinh nghiệm làm báo cáo tài chính cũng không được đề cập trong email."
+   },
+   {
+    "id": "rp7d_1_q3",
+    "q": "What does Ms. Ruiz say she will do?",
+    "options": [
+     "Contact a former supervisor about a job",
+     "Send some application materials at a later time",
+     "Reschedule a family event",
+     "Visit the company's downtown office next week"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "I will send my references separately later this week, as I am still waiting for one of my former supervisors to respond.",
+    "explain": "Đoạn cuối email: bà Ruiz sẽ gửi thư giới thiệu (references) riêng vào cuối tuần, vì còn chờ một cấp trên cũ phản hồi → gửi một phần hồ sơ sau (\"references\" thuộc \"application materials\"). Bà đang chờ cấp trên cũ trả lời về thư giới thiệu, không phải hỏi về việc làm; bà không dời đám cưới gia đình mà đề nghị phỏng vấn qua video; không nói sẽ đến văn phòng tuần sau."
+   },
+   {
+    "id": "rp7d_1_q4",
+    "q": "What is suggested about Ms. Ruiz's plans in May?",
+    "options": [
+     "They may conflict with the interview schedule.",
+     "They include a business trip with clients.",
+     "They require her to leave her current job early.",
+     "They were arranged by Carlton & Wells."
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Interviews will be held in person at our downtown office during the second week of May.",
+    "explain": "Kết nối 2 bài: Tin tuyển dụng cho biết phỏng vấn trực tiếp tại văn phòng vào TUẦN THỨ HAI của tháng 5. Bà Ruiz sẽ đi vắng từ 9 đến 13/5 (rơi vào tuần thứ hai của tháng 5) và đề nghị phỏng vấn qua video → kế hoạch của bà có thể trùng với lịch phỏng vấn. Chuyến đi là để dự đám cưới gia đình, không phải công tác; không có chi tiết nghỉ việc sớm hay do Carlton & Wells sắp xếp."
+   },
+   {
+    "id": "rp7d_1_q5",
+    "q": "What is true about Ms. Ruiz?",
+    "options": [
+     "She is currently looking for part-time work.",
+     "She has worked for Carlton & Wells in the past.",
+     "She has more experience than the position requires.",
+     "She submitted her application after the deadline."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "NOT/TRUE (kết nối 2 bài)",
+    "evidence": "For the past five years, I have worked as an assistant banquet manager at the Lakeshore Plaza Hotel",
+    "explain": "Kết nối 2 bài: Vị trí yêu cầu ít nhất 3 năm kinh nghiệm tổ chức sự kiện hoặc quản lý khách sạn; bà Ruiz đã làm trợ lý quản lý tiệc tại khách sạn được 5 năm → nhiều kinh nghiệm hơn yêu cầu. Bà ứng tuyển vị trí toàn thời gian; chưa từng làm cho Carlton & Wells; email gửi ngày 21/4, TRƯỚC hạn chót 30/4 nên không nộp trễ."
+   }
+  ]
+ },
+ {
+  "id": "rp7d_2",
+  "part": "Part 7 Double",
+  "docType": "Double Passage (Invoice + E-mail)",
+  "title": "[Part 7 Đôi — Luyện thêm 2] Hóa đơn văn phòng phẩm + Email khiếu nại hàng sai/hỏng",
+  "passage": "=== PASSAGE 1: INVOICE ===\nPinnacle Office Supply\n1250 Commerce Boulevard, Denver, CO 80202\n\nINVOICE\nInvoice No.: 40917 | Order Date: March 4 | Ship Date: March 6\nCustomer: Brennan Dental Clinic, Attn: Olivia Brennan\n\nItem No. | Description | Quantity | Unit Price | Total\nP-220 | Copy paper, letter size (case of 10 reams) | 3 | $42.00 | $126.00\nT-115 | Black toner cartridge, LX-400 printer | 2 | $68.50 | $137.00\nF-308 | Hanging file folders (box of 25) | 4 | $14.25 | $57.00\nC-042 | Ergonomic desk chair, gray | 1 | $189.00 | $189.00\n\nSubtotal: $509.00\nShipping: FREE (orders over $250)\nTotal: $509.00\n\nReturns: Unopened items may be returned within 30 days of delivery for a full refund. Furniture returns are subject to a 15 percent restocking fee unless the item arrived damaged.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: customerservice@pinnacleoffice.com\nFrom: Olivia Brennan <obrennan@brennandental.com>\nDate: March 10\nSubject: Invoice no. 40917\n\nHello,\n\nOur order arrived on March 8, and most of the items were in perfect condition. However, there are two problems I need to bring to your attention.\n\nFirst, the toner cartridges you sent are for the LX-300 model rather than the LX-400 printer we use in our office. I have not opened the packages, so I would like to exchange them for the correct ones as soon as possible.\n\nSecond, the chair we ordered arrived with a large crack in its base, and it cannot be used safely. Please let me know how to return it. I would prefer a refund rather than a replacement, since we have decided to purchase a different model in person from a local store.\n\nThank you for your help.\n\nOlivia Brennan\nOffice Manager, Brennan Dental Clinic",
+  "questions": [
+   {
+    "id": "rp7d_2_q1",
+    "q": "What is indicated on the invoice?",
+    "options": [
+     "The customer was not charged for shipping.",
+     "The order was shipped on the day it was placed.",
+     "Some items were temporarily out of stock.",
+     "Payment is due within 30 days."
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "NOT/TRUE",
+    "evidence": "Shipping: FREE (orders over $250)",
+    "explain": "Hóa đơn ghi \"Shipping: FREE (orders over $250)\" vì đơn hàng 509 đô vượt mức 250 đô → khách không phải trả phí vận chuyển. Ngày đặt là 4/3 còn ngày gửi là 6/3 nên không gửi trong ngày; không có hàng nào hết hàng; \"30 days\" là thời hạn TRẢ HÀNG, không phải hạn thanh toán."
+   },
+   {
+    "id": "rp7d_2_q2",
+    "q": "How much did Brennan Dental Clinic pay for the items that were sent by mistake?",
+    "options": [
+     "$68.50",
+     "$126.00",
+     "$137.00",
+     "$189.00"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "chi tiết (kết nối 2 bài)",
+    "evidence": "T-115 | Black toner cartridge, LX-400 printer | 2 | $68.50 | $137.00",
+    "explain": "Kết nối 2 bài: Trong email, bà Brennan cho biết hộp mực bị gửi nhầm loại (LX-300 thay vì LX-400). Trên hóa đơn, mục T-115 hộp mực đen gồm 2 hộp × 68,50 đô = 137,00 đô. 68,50 đô chỉ là đơn giá một hộp; 126,00 đô là tiền giấy photo; 189,00 đô là chiếc ghế — ghế bị hỏng chứ không phải gửi nhầm."
+   },
+   {
+    "id": "rp7d_2_q3",
+    "q": "Why does Ms. Brennan request a refund for the chair?",
+    "options": [
+     "She ordered the wrong color.",
+     "The replacement chair is out of stock.",
+     "The chair is too large for her office.",
+     "She intends to buy a different chair elsewhere."
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "chi tiết",
+    "evidence": "I would prefer a refund rather than a replacement, since we have decided to purchase a different model in person from a local store.",
+    "explain": "Bà Brennan muốn hoàn tiền thay vì đổi ghế mới vì phòng khám đã quyết định mua một mẫu khác trực tiếp tại cửa hàng địa phương (\"purchase a different model ... from a local store\" = \"buy a different chair elsewhere\"). Email không nói đặt nhầm màu, không nói hết hàng thay thế, cũng không phàn nàn về kích thước — vấn đề là ghế bị nứt đế."
+   },
+   {
+    "id": "rp7d_2_q4",
+    "q": "What will most likely be true about the refund for the chair?",
+    "options": [
+     "It will be issued as store credit.",
+     "It will not include a restocking fee.",
+     "It will be reduced by 15 percent.",
+     "It will be sent after 30 days."
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Furniture returns are subject to a 15 percent restocking fee unless the item arrived damaged.",
+    "explain": "Kết nối 2 bài: Chính sách trên hóa đơn: trả đồ nội thất bị trừ phí nhập kho 15% TRỪ KHI hàng đến nơi đã bị hỏng. Email cho biết chiếc ghế đến với vết nứt lớn ở đế → thuộc trường hợp ngoại lệ, nên sẽ không bị trừ phí 15%. Vì vậy \"giảm 15%\" sai; không có thông tin về hoàn bằng phiếu mua hàng hay hoàn sau 30 ngày (30 ngày là hạn được trả hàng)."
+   },
+   {
+    "id": "rp7d_2_q5",
+    "q": "When did Ms. Brennan's office receive the order?",
+    "options": [
+     "Two days after it was shipped",
+     "On the same day it was shipped",
+     "One week after it was ordered",
+     "On the day the e-mail was written"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Our order arrived on March 8",
+    "explain": "Kết nối 2 bài: Hóa đơn ghi ngày gửi hàng (Ship Date) là 6/3; email nói hàng đến ngày 8/3 → nhận hàng 2 ngày sau khi gửi. Không phải cùng ngày gửi (6/3); đặt hàng ngày 4/3 nên 8/3 chỉ là 4 ngày sau khi đặt, không phải một tuần; email được viết ngày 10/3, không phải ngày nhận hàng."
+   }
+  ]
+ },
+ {
+  "id": "rp7t_1",
+  "part": "Part 7 Triple",
+  "docType": "Triple Passage (Web page + E-mail + E-mail)",
+  "title": "[Part 7 Ba — Luyện thêm 1] Gói gian hàng hội chợ thực phẩm + Email đặt gian hàng + Email phản hồi",
+  "passage": "=== PASSAGE 1: WEB PAGE ===\nPacific Northwest Food & Beverage Expo — Exhibitor Information\nDates: November 7–9 | Venue: Tacoma Convention Center\n\nBooth Packages\n• Standard (3m x 3m): $850 — one table, two chairs, and one electrical outlet\n• Premium (3m x 6m): $1,500 — two tables, four chairs, two electrical outlets, and a listing in the printed program\n• Corner Premium (3m x 6m, corner location): $1,800 — all Premium features plus a refrigerated display case\n• Showcase (6m x 6m): $2,900 — all Corner Premium features plus a 15-minute product demonstration on the main stage\n\nExhibitors who book by August 31 receive a 10 percent early registration discount. Additional electrical outlets may be rented for $40 each.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: exhibitors@pnwfoodexpo.com\nFrom: Hiroshi Tanaka <htanaka@cascadecoldbrew.com>\nDate: August 28\nSubject: Booth reservation\n\nHello,\n\nMy company, Cascade Cold Brew, would like to exhibit at this year's expo. We produce bottled coffee drinks that must be kept chilled, so we need a booth that includes refrigeration. However, our budget does not allow for a main-stage demonstration, so we will not need your largest package.\n\nWe will also be bringing an espresso machine and a coffee grinder for sampling, which means we will need two more outlets than the package provides. Please confirm our reservation and send an invoice.\n\nBest regards,\nHiroshi Tanaka\n\n===\n=== PASSAGE 3: E-MAIL ===\nTo: Hiroshi Tanaka <htanaka@cascadecoldbrew.com>\nFrom: Melissa Grant <mgrant@pnwfoodexpo.com>\nDate: September 2\nSubject: RE: Booth reservation\n\nDear Mr. Tanaka,\n\nThank you for your interest in the Pacific Northwest Food & Beverage Expo. I apologize for the delay in responding; our office was closed for several days last week while we moved into a new building. Because your request reached us before the deadline, you will still be eligible for the early registration discount.\n\nI have reserved booth C-14 for Cascade Cold Brew, which is located near the main entrance. Your invoice, including the additional equipment you requested, is attached. Please note that exhibitors may begin setting up their booths at 7:00 A.M. on November 6, the day before the expo opens.\n\nBest regards,\nMelissa Grant\nExhibitor Services",
+  "questions": [
+   {
+    "id": "rp7t_1_q1",
+    "q": "According to the Web page, what is NOT included in the Premium package?",
+    "options": [
+     "A listing in the printed program",
+     "Two electrical outlets",
+     "Four chairs",
+     "A refrigerated display case"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "NOT/TRUE",
+    "evidence": "• Premium (3m x 6m): $1,500 — two tables, four chairs, two electrical outlets, and a listing in the printed program",
+    "explain": "Gói Premium gồm 2 bàn, 4 ghế, 2 ổ điện và tên trong chương trình in. Tủ trưng bày có làm lạnh (refrigerated display case) chỉ được thêm vào từ gói Corner Premium trở lên (\"all Premium features plus a refrigerated display case\") → đây là thứ KHÔNG có trong gói Premium."
+   },
+   {
+    "id": "rp7t_1_q2",
+    "q": "Which package did Mr. Tanaka most likely reserve?",
+    "options": [
+     "Standard",
+     "Corner Premium",
+     "Premium",
+     "Showcase"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "We produce bottled coffee drinks that must be kept chilled, so we need a booth that includes refrigeration. However, our budget does not allow for a main-stage demonstration, so we will not need your largest package.",
+    "explain": "Kết nối bài 1 + 2: Ông Tanaka cần gian hàng CÓ thiết bị làm lạnh nhưng KHÔNG cần gói lớn nhất có phần trình diễn trên sân khấu chính. Trên trang web, tủ làm lạnh chỉ có ở Corner Premium và Showcase; Showcase là gói lớn nhất (6m x 6m, có trình diễn) → chọn Corner Premium. Standard và Premium không có tủ lạnh."
+   },
+   {
+    "id": "rp7t_1_q3",
+    "q": "How many electrical outlets will Cascade Cold Brew have at its booth?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Four"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "suy luận (kết nối 3 bài)",
+    "evidence": "which means we will need two more outlets than the package provides",
+    "explain": "Kết nối 3 bài: Gói Corner Premium có \"all Premium features\", tức là 2 ổ điện. Ông Tanaka xin thêm 2 ổ nữa so với gói (bài 2), và bà Grant xác nhận hóa đơn đã bao gồm thiết bị bổ sung được yêu cầu (bài 3) → tổng cộng 2 + 2 = 4 ổ điện. \"One\" là số ổ của gói Standard; \"Two\" là số ổ chưa cộng thêm; \"Three\" không khớp với yêu cầu thêm hai ổ."
+   },
+   {
+    "id": "rp7t_1_q4",
+    "q": "Why did Ms. Grant respond late?",
+    "options": [
+     "She was attending another trade show.",
+     "She was waiting for a payment.",
+     "Her office was relocating.",
+     "The booth Mr. Tanaka wanted was unavailable."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "chi tiết",
+    "evidence": "our office was closed for several days last week while we moved into a new building.",
+    "explain": "Bà Grant xin lỗi vì trả lời chậm, giải thích rằng văn phòng đóng cửa vài ngày tuần trước để chuyển sang tòa nhà mới (\"moved into a new building\" = \"relocating\"). Bà không đi hội chợ khác, không chờ thanh toán (hóa đơn được gửi kèm trong chính email này), và gian hàng vẫn được đặt thành công (C-14)."
+   },
+   {
+    "id": "rp7t_1_q5",
+    "q": "What is indicated about Mr. Tanaka's reservation?",
+    "options": [
+     "It was received after the registration deadline.",
+     "It qualifies for a reduced price.",
+     "It includes a time slot on the main stage.",
+     "It allows setup to begin on November 7."
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "suy luận (kết nối 3 bài)",
+    "evidence": "Because your request reached us before the deadline, you will still be eligible for the early registration discount.",
+    "explain": "Kết nối 3 bài: Trang web cho giảm 10% nếu đặt trước 31/8; ông Tanaka gửi email ngày 28/8; bà Grant xác nhận yêu cầu đến trước hạn nên vẫn được giảm giá đăng ký sớm → đặt chỗ được hưởng giá giảm. Yêu cầu đến TRƯỚC hạn chứ không phải sau; ông không chọn gói có trình diễn sân khấu; việc lắp đặt bắt đầu ngày 6/11 (ngày 7/11 là ngày khai mạc)."
+   }
+  ]
+ },
+ {
+  "id": "rp7t_2",
+  "part": "Part 7 Triple",
+  "docType": "Triple Passage (Itinerary + E-mail + Online review)",
+  "title": "[Part 7 Ba — Luyện thêm 2] Lịch trình tour 3 ngày + Email hỏi giá + Đánh giá trực tuyến",
+  "passage": "=== PASSAGE 1: ITINERARY ===\nCoastal Heritage Tours — Three-Day Maine Coast Tour\nDeparts every Friday, June through September\n\nDay 1 (Friday): Depart Boston at 8:00 A.M. by motor coach. Lunch stop in Portsmouth. Afternoon visit to Portland Head Lighthouse. Overnight at the Harborside Inn, Portland.\nDay 2 (Saturday): Morning boat cruise around Casco Bay. Afternoon free for shopping in the Old Port district. Lobster dinner with the group. Overnight at the Harborside Inn.\nDay 3 (Sunday): Drive to Bar Harbor. Guided hike in Acadia National Park (approx. 3 km, moderate difficulty). Return to Boston by 9:00 P.M.\n\nPrice: $645 per person (based on two people sharing a room). Single-room supplement: $180 per person. The price includes accommodations, daily breakfast, the Saturday dinner, and all admission fees. Lunches and other dinners are not included.\n\n===\n=== PASSAGE 2: E-MAIL ===\nTo: bookings@coastalheritagetours.com\nFrom: Gloria Mendes <gmendes@quickmail.com>\nDate: July 3\nSubject: Maine Coast Tour inquiry\n\nHello,\n\nMy sister and I are interested in joining your Maine Coast Tour departing on July 21. We would each prefer to have our own room. Could you tell me the total cost for the two of us?\n\nAlso, my sister recently had knee surgery. Although she can walk short distances, her doctor has advised her to avoid hiking for the next few months. Is there an alternative activity she could do while the rest of the group is on the hike?\n\nThank you,\nGloria Mendes\n\n===\n=== PASSAGE 3: ONLINE REVIEW ===\nPosted July 26 by Gloria M.\nRating: 4 out of 5 stars\n\nMy sister and I just returned from Coastal Heritage Tours' Maine Coast trip, and we had a wonderful time. Our guide, Kevin, was knowledgeable and entertaining, and the lighthouse visit was a highlight. The lobster dinner was delicious as well. While the group went hiking, the company arranged for my sister to take a guided trolley tour of the park, which she enjoyed very much.\n\nMy only complaint concerns our accommodations. Our rooms faced a busy street, and it was difficult to sleep both nights because of the traffic noise. I would recommend that the company request quieter rooms for its guests in the future.",
+  "questions": [
+   {
+    "id": "rp7t_2_q1",
+    "q": "According to the itinerary, what is included in the price of the tour?",
+    "options": [
+     "A meal on the second evening",
+     "Lunch on the first day",
+     "Transportation from New York",
+     "A souvenir from the Old Port district"
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "chi tiết",
+    "evidence": "The price includes accommodations, daily breakfast, the Saturday dinner, and all admission fees.",
+    "explain": "Giá tour bao gồm chỗ ở, bữa sáng hằng ngày, bữa tối thứ Bảy và vé vào cửa. Thứ Bảy là Ngày 2 → \"the Saturday dinner\" = \"a meal on the second evening\" (bữa tối hải sản tôm hùm). Bữa trưa KHÔNG bao gồm (\"Lunches ... are not included\"); xe khởi hành từ Boston, không phải New York; không có quà lưu niệm nào được tặng."
+   },
+   {
+    "id": "rp7t_2_q2",
+    "q": "How much will Ms. Mendes and her sister most likely pay in total for the tour?",
+    "options": [
+     "$1,290",
+     "$1,470",
+     "$1,650",
+     "$1,830"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Single-room supplement: $180 per person.",
+    "explain": "Kết nối bài 1 + 2: Giá cơ bản 645 đô/người khi ở chung phòng; bà Mendes và em gái mỗi người muốn một phòng riêng nên mỗi người trả thêm phụ phí phòng đơn 180 đô (\"$180 per person\"). Tổng: (645 + 180) × 2 = 1.650 đô. 1.290 đô là giá ở chung phòng; 1.470 đô chỉ cộng một lần phụ phí; 1.830 đô là con số tính sai."
+   },
+   {
+    "id": "rp7t_2_q3",
+    "q": "On what day did Ms. Mendes's sister most likely take a trolley tour?",
+    "options": [
+     "Thursday",
+     "Friday",
+     "Saturday",
+     "Sunday"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Day 3 (Sunday): Drive to Bar Harbor. Guided hike in Acadia National Park (approx. 3 km, moderate difficulty).",
+    "explain": "Kết nối bài 1 + 3: Bài đánh giá cho biết em gái bà Mendes đi tour xe điện tham quan công viên TRONG LÚC cả đoàn đi bộ đường dài. Theo lịch trình, chuyến đi bộ ở Vườn quốc gia Acadia diễn ra vào Ngày 3 — Chủ nhật (Sunday). Thứ Sáu là ngày thăm hải đăng, thứ Bảy là du thuyền và mua sắm; tour không có ngày thứ Năm."
+   },
+   {
+    "id": "rp7t_2_q4",
+    "q": "What did Ms. Mendes dislike about the trip?",
+    "options": [
+     "The tour guide was not well informed.",
+     "It was hard to rest at the hotel.",
+     "The boat cruise was canceled.",
+     "The group dinner was too expensive."
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "Our rooms faced a busy street, and it was difficult to sleep both nights because of the traffic noise.",
+    "explain": "Phàn nàn duy nhất của bà Mendes là về chỗ ở: phòng hướng ra đường đông xe, khó ngủ cả hai đêm vì tiếng ồn (\"difficult to sleep\" = \"hard to rest\"). Bà khen hướng dẫn viên Kevin am hiểu và vui tính; không nhắc gì đến việc hủy du thuyền; bữa tối tôm hùm được khen ngon và đã bao gồm trong giá tour."
+   },
+   {
+    "id": "rp7t_2_q5",
+    "q": "Where did Ms. Mendes most likely have difficulty sleeping?",
+    "options": [
+     "At a hotel in Bar Harbor",
+     "At a hotel in Boston",
+     "At an inn in Portsmouth",
+     "At the Harborside Inn"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Overnight at the Harborside Inn, Portland.",
+    "explain": "Kết nối bài 1 + 3: Bà Mendes nói khó ngủ \"both nights\" (cả hai đêm). Theo lịch trình, cả hai đêm của tour (thứ Sáu và thứ Bảy) đều nghỉ tại Harborside Inn ở Portland; Ngày 3 đoàn quay về Boston, không ngủ lại Bar Harbor. Portsmouth chỉ là điểm dừng ăn trưa, và tour không qua đêm ở Boston."
+   }
+  ]
+ },
+ {
+  "id": "rp7t_3",
+  "part": "Part 7 Triple",
+  "docType": "Triple Passage (Memo + Sign-up sheet + E-mail)",
+  "title": "[Part 7 Ba — Luyện thêm 3] Bản ghi nhớ Ngày tình nguyện + Bảng đăng ký + Email nhân viên",
+  "passage": "=== PASSAGE 1: MEMO ===\nTo: All Employees, Hartwell Manufacturing\nFrom: Janet Liu, Human Resources\nDate: April 10\nSubject: Community Service Day\n\nOn Friday, May 19, Hartwell Manufacturing will hold its fourth annual Community Service Day. Employees who take part will receive a full day of paid leave in addition to their regular vacation days. This year, we are partnering with four local organizations, which are listed on the attached sign-up sheet.\n\nEach project has a limited number of spots, which will be filled on a first-come, first-served basis. Please register by May 5. Transportation will be provided from the main factory parking lot, and lunch will be served at each site. Employees who will be working outdoors should wear sturdy shoes and bring sunscreen.\n\n===\n=== PASSAGE 2: SIGN-UP SHEET ===\nCommunity Service Day — Project Sign-Up (updated May 2)\n\nProject | Organization | Time | Spots | Registered\nA. Park cleanup and tree planting | Greenfield Parks Association | 8:00 A.M.–2:00 P.M. | 25 | 25\nB. Sorting donated food | Tri-County Food Bank | 9:00 A.M.–3:00 P.M. | 20 | 14\nC. Painting classrooms | Lincoln Elementary School | 9:00 A.M.–4:00 P.M. | 15 | 15\nD. Reading to seniors and serving lunch | Maple Grove Senior Center | 10:00 A.M.–3:00 P.M. | 10 | 6\n\n===\n=== PASSAGE 3: E-MAIL ===\nTo: Janet Liu <jliu@hartwellmfg.com>\nFrom: Robert Okoye <rokoye@hartwellmfg.com>\nDate: May 3\nSubject: Community Service Day\n\nHi Janet,\n\nI'd like to sign up for Community Service Day. Last year I helped plant trees in the park and really enjoyed being outdoors, so I was hoping to do that again, but I see that the project is already full. I would also have been interested in painting classrooms, but that project seems to be full as well.\n\nOf the remaining options, I'd prefer the one that starts earlier, since I need to leave by 3:30 P.M. to pick up my son from school. Could you please add my name to that project?\n\nAlso, several people on my team in the shipping department have asked whether family members may join us. A few of them have teenage children who would like to volunteer.\n\nThanks,\nRobert",
+  "questions": [
+   {
+    "id": "rp7t_3_q1",
+    "q": "What is the purpose of the memo?",
+    "options": [
+     "To announce changes to the company's vacation policy",
+     "To recruit new staff for a local food bank",
+     "To invite employees to take part in a volunteer event",
+     "To report the results of a community survey"
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "ý chính",
+    "evidence": "On Friday, May 19, Hartwell Manufacturing will hold its fourth annual Community Service Day.",
+    "explain": "Bản ghi nhớ thông báo Ngày phục vụ cộng đồng thường niên lần thứ tư, nêu các dự án, hạn đăng ký 5/5, phương tiện đưa đón… → mục đích là mời nhân viên tham gia một sự kiện tình nguyện. Ngày nghỉ có lương được nhắc như quyền lợi tham gia, không phải thay đổi chính sách nghỉ phép; không tuyển nhân sự cho ngân hàng thực phẩm; không có khảo sát nào."
+   },
+   {
+    "id": "rp7t_3_q2",
+    "q": "What is indicated about employees who participate in the event?",
+    "options": [
+     "They will be paid for the day.",
+     "They must bring their own lunch.",
+     "They must arrange their own transportation.",
+     "They must have taken part in a previous year."
+    ],
+    "answerIdx": 0,
+    "answer": "A",
+    "type": "NOT/TRUE",
+    "evidence": "Employees who take part will receive a full day of paid leave in addition to their regular vacation days.",
+    "explain": "Nhân viên tham gia được hưởng một ngày nghỉ có lương trọn vẹn, ngoài số ngày phép thường → họ vẫn được trả lương cho ngày hôm đó. Bữa trưa được phục vụ tại mỗi địa điểm (không phải tự mang); công ty bố trí xe đưa đón từ bãi đỗ xe chính; bản ghi nhớ không yêu cầu đã từng tham gia trước đó."
+   },
+   {
+    "id": "rp7t_3_q3",
+    "q": "Which project will Mr. Okoye most likely join?",
+    "options": [
+     "Park cleanup and tree planting",
+     "Painting classrooms",
+     "Reading to seniors and serving lunch",
+     "Sorting donated food"
+    ],
+    "answerIdx": 3,
+    "answer": "D",
+    "type": "suy luận (kết nối 2 bài)",
+    "evidence": "Of the remaining options, I'd prefer the one that starts earlier, since I need to leave by 3:30 P.M. to pick up my son from school.",
+    "explain": "Kết nối bài 2 + 3: Dự án A (trồng cây) và C (sơn lớp học) đã đủ người (25/25 và 15/15). Còn lại B (bắt đầu 9:00 sáng) và D (bắt đầu 10:00 sáng). Ông Okoye muốn dự án bắt đầu SỚM HƠN → B: Phân loại thực phẩm quyên góp, kết thúc lúc 3:00 chiều, kịp để ông rời đi trước 3:30. D bắt đầu muộn hơn nên không được chọn."
+   },
+   {
+    "id": "rp7t_3_q4",
+    "q": "What is true about Mr. Okoye?",
+    "options": [
+     "He works in the Human Resources Department.",
+     "He has never volunteered at the event before.",
+     "He registered before the deadline.",
+     "He plans to bring his son to the event."
+    ],
+    "answerIdx": 2,
+    "answer": "C",
+    "type": "NOT/TRUE (kết nối 2 bài)",
+    "evidence": "Please register by May 5.",
+    "explain": "Kết nối bài 1 + 3: Hạn đăng ký là 5/5, ông Okoye gửi email đăng ký ngày 3/5 → đăng ký trước hạn. Ông làm ở bộ phận vận chuyển (shipping department), không phải nhân sự; năm ngoái ông đã trồng cây ở công viên nên không phải lần đầu tham gia; ông chỉ nói phải về sớm để đón con, không định đưa con theo."
+   },
+   {
+    "id": "rp7t_3_q5",
+    "q": "What does Mr. Okoye ask Ms. Liu about?",
+    "options": [
+     "Whether he can change departments",
+     "Whether employees' relatives can participate",
+     "Whether lunch will be served at the senior center",
+     "Whether the event can be moved to a Saturday"
+    ],
+    "answerIdx": 1,
+    "answer": "B",
+    "type": "chi tiết",
+    "evidence": "several people on my team in the shipping department have asked whether family members may join us.",
+    "explain": "Đoạn cuối email: nhóm của ông Okoye hỏi liệu thành viên gia đình có được tham gia không, vì vài người có con tuổi thiếu niên muốn làm tình nguyện (\"family members\" = \"relatives\"). Ông không hỏi chuyển bộ phận; bản ghi nhớ đã nói bữa trưa được phục vụ ở mọi địa điểm; không có đề nghị dời sự kiện sang thứ Bảy."
+   }
+  ]
+ }
+]

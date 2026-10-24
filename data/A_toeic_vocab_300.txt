@@ -1,0 +1,300 @@
+stationery | n | văn phòng phẩm | We order stationery from the same vendor every quarter. | toeic
+photocopier | n | máy photocopy | The photocopier on the second floor is out of paper. | toeic
+cubicle | n | ô làm việc có vách ngăn | Her cubicle faces the window. | toeic
+memo | n | thông báo nội bộ | A memo about the new dress code was sent out today. | toeic
+minutes | n | biên bản cuộc họp | Who will take the minutes at today's meeting? | toeic
+attendee | n | người tham dự | Each attendee will receive a name badge. | toeic
+proofread | v | đọc soát lỗi | Please proofread the letter before you send it. | toeic
+correspondence | n | thư từ, việc trao đổi thư | All correspondence should be addressed to the manager. | toeic
+draft | n/v | bản nháp; soạn thảo | I'll send you a first draft by noon. | toeic
+handout | n | tài liệu phát tay | The handout summarizes the key points of the talk. | toeic
+shred | v | hủy (giấy tờ) bằng máy | Shred any confidential documents after use. | toeic
+workstation | n | bàn/trạm làm việc | Each workstation is equipped with two monitors. | toeic
+confidential | adj | bảo mật, mật | The salary information is strictly confidential. | toeic
+spreadsheet | n | bảng tính | I entered all the figures into a spreadsheet. | toeic
+prioritize | v | ưu tiên | We need to prioritize the most urgent requests. | toeic
+forward | v | chuyển tiếp (email, thư) | Could you forward me the email from the client? | toeic
+attachment | n | tệp đính kèm | The attachment is too large to open. | toeic
+bulletin board | n | bảng tin | Post the notice on the bulletin board in the break room. | toeic
+timesheet | n | bảng chấm công | Submit your timesheet every Friday. | toeic
+break room | n | phòng nghỉ giải lao | There's fresh coffee in the break room. | toeic
+filing cabinet | n | tủ đựng hồ sơ | The old contracts are kept in the filing cabinet. | toeic
+in charge of | phr | phụ trách | Ms. Ito is in charge of the new project. | toeic
+on a regular basis | phr | thường xuyên, định kỳ | The team meets on a regular basis. | toeic
+at your earliest convenience | phr | sớm nhất khi bạn tiện | Please call me at your earliest convenience. | toeic
+meet a deadline | phr | kịp hạn chót | Everyone worked overtime to meet the deadline. | toeic
+jot down | pv | ghi nhanh | Let me jot down your phone number. | phrasal
+sort out | pv | giải quyết, sắp xếp ổn thỏa | We need to sort out the scheduling problem today. | phrasal
+print out | pv | in ra | Please print out the agenda for everyone. | phrasal
+Do you have a minute? | phrase | Bạn rảnh một chút không? | Do you have a minute? I'd like to ask about the report. | talk
+I'll be out of the office. | phrase | Tôi sẽ vắng mặt ở văn phòng. | I'll be out of the office until Monday, so email me if it's urgent. | talk
+cover letter | n | thư xin việc | Please attach a cover letter to your application. | toeic
+résumé | n | sơ yếu lý lịch, CV | Her résumé lists five years of marketing experience. | toeic
+reference | n | người giới thiệu; thư giới thiệu | Two references are required with each application. | toeic
+onboarding | n | quy trình hòa nhập nhân viên mới | Onboarding for new hires takes about two weeks. | toeic
+orientation | n | buổi định hướng cho người mới | New employees must attend orientation on their first day. | toeic
+turnover | n | tỷ lệ nghỉ việc; doanh thu | High turnover is costing the company a lot of money. | toeic
+retirement | n | sự nghỉ hưu | He announced his retirement after thirty years of service. | toeic
+resign | v | từ chức | The director resigned to start her own company. | toeic
+terminate | v | chấm dứt (hợp đồng) | The company may terminate the contract with thirty days' notice. | toeic
+severance | n | trợ cấp thôi việc | Laid-off workers received three months of severance pay. | toeic
+overtime | n | giờ làm thêm | Overtime must be approved in advance. | toeic
+payroll | n | bảng lương | The payroll department processes salaries on the 25th. | toeic
+performance review | n | đánh giá hiệu suất | Your performance review is scheduled for next Tuesday. | toeic
+trainee | n | thực tập sinh, học viên | Each trainee works with an experienced mentor. | toeic
+internship | n | kỳ thực tập | She got a job offer after her summer internship. | toeic
+job opening | n | vị trí đang tuyển | There is a job opening in our logistics team. | toeic
+shortlist | v | đưa vào danh sách rút gọn | Five candidates were shortlisted for the final round. | toeic
+interviewee | n | người được phỏng vấn | The interviewee arrived ten minutes early. | toeic
+paid leave | n | nghỉ phép có lương | Full-time staff receive twenty days of paid leave per year. | toeic
+pension | n | lương hưu | The company contributes to every employee's pension plan. | toeic
+pay raise | n | tăng lương | He asked his manager for a pay raise. | toeic
+bonus | n | tiền thưởng | Everyone received a year-end bonus. | toeic
+seniority | n | thâm niên | Vacation days are assigned based on seniority. | toeic
+reassign | v | điều chuyển công việc | Two engineers were reassigned to the mobile project. | toeic
+work ethic | n | tinh thần làm việc | Her strong work ethic impressed the interviewers. | toeic
+step down | pv | từ chức, rời vị trí | The CEO will step down at the end of the year. | phrasal
+lay off | pv | cho nghỉ việc (do cắt giảm) | The firm had to lay off fifty workers last spring. | phrasal
+take on | pv | nhận (việc, trách nhiệm) | I can take on a few more tasks this week. | phrasal
+Let me introduce you to the team. | phrase | Để tôi giới thiệu bạn với cả nhóm. | Let me introduce you to the team. We're glad you're here. | talk
+What's your availability next week? | phrase | Tuần sau bạn rảnh lúc nào? | What's your availability next week? I'd like to schedule a call. | talk
+accrue | v | tích lũy dần (lãi, quyền lợi) | Interest accrues on the account every month. | toeic
+asset | n | tài sản | The building is the company's most valuable asset. | toeic
+balance sheet | n | bảng cân đối kế toán | The balance sheet shows a rise in debt. | toeic
+bankruptcy | n | sự phá sản | The retailer filed for bankruptcy last year. | toeic
+capital | n | vốn | The startup raised additional capital from investors. | toeic
+collateral | n | tài sản thế chấp | The bank requires collateral for large loans. | toeic
+creditor | n | chủ nợ | The company owes money to several creditors. | toeic
+deposit | n/v | tiền đặt cọc; gửi tiền | A deposit of 20 percent is required to reserve the hall. | toeic
+depreciation | n | sự khấu hao; mất giá | The depreciation of equipment lowered the annual profit. | toeic
+fiscal year | n | năm tài chính | Our fiscal year ends on March 31. | toeic
+forecast | n/v | dự báo | The sales forecast for next quarter is optimistic. | toeic
+gross | adj | tổng (chưa trừ chi phí) | Gross income rose by eight percent. | toeic
+interest rate | n | lãi suất | The bank lowered its interest rate on business loans. | toeic
+investment | n | khoản đầu tư | The investment paid off within two years. | toeic
+loan | n | khoản vay | She applied for a small business loan. | toeic
+mortgage | n | khoản vay thế chấp mua nhà | They took out a thirty-year mortgage. | toeic
+net income | n | thu nhập ròng | Net income increased for the third straight quarter. | toeic
+overdraft | n | thấu chi | The account is in overdraft by two hundred dollars. | toeic
+portfolio | n | danh mục đầu tư; hồ sơ năng lực | The fund manager diversified her portfolio. | toeic
+profit margin | n | biên lợi nhuận | Higher shipping costs reduced our profit margin. | toeic
+remittance | n | khoản tiền chuyển | Please include the invoice number with your remittance. | toeic
+shareholder | n | cổ đông | Shareholders will vote on the proposal in June. | toeic
+tariff | n | thuế quan; biểu giá | The new tariff raised the price of imported steel. | toeic
+withhold | v | khấu trừ; giữ lại | Employers withhold income tax from each paycheck. | toeic
+yield | n/v | lợi suất; mang lại | The new bonds yield five percent annually. | toeic
+cash flow | n | dòng tiền | Late payments are hurting our cash flow. | toeic
+bottom line | n | lợi nhuận cuối cùng; điểm mấu chốt | Cutting waste will improve the bottom line. | toeic
+break even | pv | hòa vốn | We expect to break even by the end of the year. | phrasal
+pay off | pv | trả hết (nợ); mang lại kết quả | Her hard work finally paid off. | phrasal
+We're in the red. | phrase | Chúng ta đang thua lỗ. | We're in the red this quarter, so we must cut expenses. | talk
+backorder | n | đơn hàng chờ hàng về | The item is on backorder until early March. | toeic
+cargo | n | hàng hóa vận chuyển | The cargo was loaded onto the ship at dawn. | toeic
+checkout | n | quầy thanh toán; thanh toán | Items are scanned at checkout. | toeic
+clearance | n | hàng xả kho; sự thông quan | Winter coats are on clearance this week. | toeic
+consignment | n | hàng ký gửi | The store sells art on consignment. | toeic
+customs duty | n | thuế hải quan | Customs duty is added to all imported goods. | toeic
+defective | adj | bị lỗi, hỏng | We will replace any defective product free of charge. | toeic
+distributor | n | nhà phân phối | The distributor delivers to more than 200 stores. | toeic
+freight | n | cước vận chuyển; hàng hóa | Freight charges depend on the weight of the package. | toeic
+in stock | phr | còn hàng | The blue model is currently in stock. | toeic
+merchandise | n | hàng hóa | All merchandise must be paid for before it leaves the store. | toeic
+out of stock | phr | hết hàng | The size small is out of stock. | toeic
+packaging | n | bao bì | The company switched to recyclable packaging. | toeic
+price tag | n | nhãn giá | The price tag fell off the jacket. | toeic
+retailer | n | nhà bán lẻ | The retailer opened three new stores in the region. | toeic
+return policy | n | chính sách đổi trả | Please read our return policy before you order. | toeic
+wholesale | n/adj | bán sỉ | They buy goods at wholesale prices. | toeic
+warehouse | n | nhà kho | The warehouse is located near the highway. | toeic
+tracking number | n | mã theo dõi đơn hàng | Use the tracking number to see where your parcel is. | toeic
+place an order | phr | đặt hàng | You can place an order online or by phone. | toeic
+special offer | n | ưu đãi đặc biệt | The special offer ends on Sunday. | toeic
+gift card | n | thẻ quà tặng | She gave her team gift cards as a thank-you. | toeic
+bestseller | n | sản phẩm bán chạy | The new tablet is our bestseller this season. | toeic
+mark down | pv | giảm giá | The store marked down all summer items by thirty percent. | phrasal
+stock up on | pv | tích trữ | Customers stocked up on supplies before the storm. | phrasal
+sell out | pv | bán hết sạch | Tickets for the concert sold out in an hour. | phrasal
+send back | pv | gửi trả lại | I had to send back the damaged package. | phrasal
+shop around | pv | đi so sánh giá | It pays to shop around before buying a laptop. | phrasal
+Is this item still available? | phrase | Món này còn hàng không? | Excuse me, is this item still available in black? | talk
+Do you offer free shipping? | phrase | Bên bạn có miễn phí vận chuyển không? | Do you offer free shipping on orders over fifty dollars? | talk
+I'd like to return this. | phrase | Tôi muốn trả lại món này. | I'd like to return this. It doesn't fit. | talk
+boarding pass | n | thẻ lên máy bay | Please show your boarding pass at the gate. | toeic
+baggage claim | n | khu nhận hành lý | Meet me at baggage claim after you land. | toeic
+carry-on | n/adj | hành lý xách tay | Each passenger may bring one carry-on bag. | toeic
+connecting flight | n | chuyến bay nối chuyến | I missed my connecting flight in Seoul. | toeic
+layover | n | thời gian quá cảnh | We had a four-hour layover in Dubai. | toeic
+destination | n | điểm đến | Our final destination is Lisbon. | toeic
+fare | n | giá vé | Train fares will rise by five percent in July. | toeic
+departure | n | sự khởi hành | Departure is scheduled for 7:30 a.m. | toeic
+concierge | n | nhân viên hỗ trợ khách (khách sạn) | The concierge booked a table for us. | toeic
+reservation | n | việc đặt chỗ | I'd like to make a reservation for two nights. | toeic
+round-trip | adj | khứ hồi | A round-trip ticket costs less than two one-way tickets. | toeic
+one-way | adj | một chiều | I bought a one-way ticket to Osaka. | toeic
+shuttle | n | xe đưa đón | A free shuttle runs between the hotel and the airport. | toeic
+luggage | n | hành lý | Please keep your luggage with you at all times. | toeic
+passport | n | hộ chiếu | Your passport must be valid for at least six months. | toeic
+upgrade | n/v | nâng hạng; nâng cấp | She got a free upgrade to a suite. | toeic
+peak season | n | mùa cao điểm | Hotel prices rise sharply during peak season. | toeic
+sightseeing | n | tham quan | We spent the afternoon sightseeing downtown. | toeic
+excursion | n | chuyến đi tham quan ngắn | An optional excursion to the island is available. | toeic
+tourist attraction | n | điểm thu hút du khách | The old castle is a popular tourist attraction. | toeic
+aisle seat | n | ghế sát lối đi | I prefer an aisle seat on long flights. | toeic
+check in | pv | làm thủ tục nhận phòng/chuyến bay | Guests can check in after 3 p.m. | phrasal
+check out | pv | trả phòng | Please check out before noon. | phrasal
+set off | pv | khởi hành | We set off for the airport at dawn. | phrasal
+pick up | pv | đón; lấy | I'll pick up the rental car at the airport. | phrasal
+drop off | pv | thả xuống; giao tới | The driver will drop off the guests at the main entrance. | phrasal
+Could I get a window seat? | phrase | Tôi có thể ngồi cạnh cửa sổ không? | Could I get a window seat, please? | talk
+What time is check-out? | phrase | Mấy giờ phải trả phòng? | What time is check-out, and can I leave my bags here afterward? | talk
+Is breakfast included? | phrase | Có kèm bữa sáng không? | Is breakfast included in the room rate? | talk
+assembly line | n | dây chuyền lắp ráp | Workers on the assembly line wear protective gloves. | toeic
+blueprint | n | bản thiết kế chi tiết | The engineers reviewed the blueprint of the new plant. | toeic
+defect | n | khuyết điểm, lỗi sản phẩm | Quality control found a defect in the battery. | toeic
+prototype | n | mẫu thử nghiệm | The team built a prototype in three weeks. | toeic
+raw materials | n | nguyên liệu thô | The price of raw materials has risen sharply. | toeic
+output | n | sản lượng | Factory output increased by ten percent. | toeic
+machinery | n | máy móc | New machinery will be installed over the weekend. | toeic
+quality assurance | n | đảm bảo chất lượng | The quality assurance team tests every batch. | toeic
+specification | n | thông số kỹ thuật | The product meets all customer specifications. | toeic
+calibrate | v | hiệu chỉnh (thiết bị) | Technicians calibrate the scales every morning. | toeic
+component | n | linh kiện, thành phần | A key component arrived two weeks late. | toeic
+manufacture | v | sản xuất | The company manufactures medical devices. | toeic
+shift | n | ca làm việc | The night shift starts at 10 p.m. | toeic
+maintenance | n | bảo trì | Regular maintenance prevents costly breakdowns. | toeic
+malfunction | n/v | trục trặc | A malfunction in the sensor stopped the line. | toeic
+production line | n | dây chuyền sản xuất | The production line runs twenty-four hours a day. | toeic
+capacity | n | công suất; sức chứa | The plant is operating at full capacity. | toeic
+recall | n/v | thu hồi (sản phẩm) | The maker issued a recall of the faulty chargers. | toeic
+batch | n | lô, mẻ | Each batch is tested before shipping. | toeic
+inspection | n | sự kiểm tra | The annual safety inspection is next week. | toeic
+turn out | pv | sản xuất ra; hóa ra là | The factory turns out two thousand units a day. | phrasal
+run out of | pv | cạn kiệt | We've run out of printer ink. | phrasal
+shut down | pv | ngừng hoạt động | The plant shut down for repairs. | phrasal
+phase out | pv | loại bỏ dần | The company will phase out the old model next year. | phrasal
+keep up with | pv | theo kịp | We can't keep up with the rising demand. | phrasal
+ramp up | pv | tăng tốc, đẩy mạnh | The factory will ramp up production before the holidays. | phrasal
+We're behind schedule. | phrase | Chúng ta đang chậm tiến độ. | We're behind schedule because of the parts shortage. | talk
+It's up and running. | phrase | Nó đã hoạt động bình thường rồi. | The new machine is up and running. | talk
+fabricate | v | chế tạo; bịa đặt | The company fabricates steel parts for cars. | toeic
+overhaul | n/v | đại tu | The engine needs a complete overhaul. | toeic
+banquet | n | tiệc chiêu đãi | The awards banquet will be held on Friday evening. | toeic
+caterer | n | đơn vị cung cấp tiệc | We hired a local caterer for the reception. | toeic
+keynote speaker | n | diễn giả chính | The keynote speaker will open the conference. | toeic
+registration | n | sự đăng ký | Online registration closes on May 3. | toeic
+RSVP | v/n | xin hồi đáp (xác nhận tham dự) | Please RSVP by Friday so we can finalize the headcount. | toeic
+exhibit | n/v | triển lãm; trưng bày | The museum's new exhibit opens next week. | toeic
+booth | n | gian hàng | Visit our booth to try the new software. | toeic
+sponsor | n/v | nhà tài trợ; tài trợ | A local bank sponsors the annual marathon. | toeic
+ceremony | n | buổi lễ | The opening ceremony begins at 9 a.m. | toeic
+podium | n | bục phát biểu | The mayor stepped up to the podium. | toeic
+panel discussion | n | tọa đàm | The panel discussion covered trends in remote work. | toeic
+workshop | n | buổi hội thảo thực hành | The workshop teaches basic presentation skills. | toeic
+seminar | n | hội thảo chuyên đề | She attended a seminar on data privacy. | toeic
+name badge | n | thẻ tên | Wear your name badge at all times. | toeic
+dress code | n | quy định trang phục | The dress code for the gala is formal. | toeic
+guest list | n | danh sách khách mời | Your name is not on the guest list. | toeic
+ballroom | n | phòng khiêu vũ, sảnh tiệc | The ballroom can seat four hundred guests. | toeic
+convention | n | đại hội, hội nghị lớn | The technology convention attracts thousands of visitors. | toeic
+unveil | v | công bố, ra mắt | The company will unveil its new logo on Monday. | toeic
+host | v/n | tổ chức; chủ nhà | Our firm will host the annual conference. | toeic
+fundraiser | n | sự kiện gây quỹ | The school held a fundraiser for new computers. | toeic
+turnout | n | lượng người tham dự | The turnout at the job fair was higher than expected. | toeic
+sign-in sheet | n | bảng ký tên tham dự | Please write your name on the sign-in sheet. | toeic
+mingle | v | giao lưu, trò chuyện | Guests mingled over coffee before the talk. | toeic
+kick off | pv | bắt đầu (sự kiện) | We will kick off the conference with a short video. | phrasal
+show up | pv | xuất hiện, có mặt | Only ten people showed up for the workshop. | phrasal
+line up | pv | sắp xếp (diễn giả, kế hoạch) | We lined up three speakers for the morning session. | phrasal
+hand out | pv | phát (tài liệu) | Volunteers will hand out programs at the door. | phrasal
+May I have your attention, please? | phrase | Xin quý vị chú ý một chút. | May I have your attention, please? The session is about to begin. | talk
+Please make yourself at home. | phrase | Cứ tự nhiên như ở nhà nhé. | Please make yourself at home. Coffee is in the kitchen. | talk
+landlord | n | chủ nhà | The landlord agreed to repaint the apartment. | toeic
+tenant | n | người thuê nhà | The tenant must give thirty days' notice before moving out. | toeic
+lease | n/v | hợp đồng thuê; cho thuê | We signed a two-year lease on the new office. | toeic
+occupancy | n | sự sử dụng, tỷ lệ lấp đầy | Hotel occupancy reached ninety percent in July. | toeic
+vacant | adj | còn trống | Two offices on the fourth floor are still vacant. | toeic
+real estate agent | n | nhân viên môi giới bất động sản | A real estate agent showed us three apartments. | toeic
+square footage | n | diện tích (feet vuông) | The square footage of the office is 1,500. | toeic
+zoning | n | quy hoạch sử dụng đất | Local zoning rules limit building height. | toeic
+contractor | n | nhà thầu | The contractor promised to finish the work by June. | toeic
+permit | n | giấy phép | You need a permit to build an extension. | toeic
+insulation | n | vật liệu cách nhiệt | Better insulation will lower our heating bills. | toeic
+utilities | n | tiện ích (điện, nước, gas) | Utilities are included in the monthly rent. | toeic
+listing | n | tin rao bán/cho thuê | The listing includes photos and a floor plan. | toeic
+amenity | n | tiện nghi | The building offers amenities such as a gym and a rooftop garden. | toeic
+furnished | adj | có sẵn nội thất | We rented a furnished apartment near the station. | toeic
+down payment | n | tiền trả trước | They saved for years to make a down payment. | toeic
+open house | n | buổi mở cửa xem nhà | The agent is holding an open house on Sunday. | toeic
+commercial | adj | thương mại | The company leases commercial space downtown. | toeic
+residential | adj | dân cư, để ở | This is a quiet residential neighborhood. | toeic
+demolish | v | phá dỡ | The old factory will be demolished next month. | toeic
+remodel | v | cải tạo lại | They plan to remodel the lobby this summer. | toeic
+sublet | v | cho thuê lại | She sublet her apartment while working abroad. | toeic
+vacate | v | dọn khỏi, trả lại (nhà, phòng) | Tenants must vacate the unit by the end of the month. | toeic
+security deposit | n | tiền đặt cọc thuê nhà | The security deposit will be returned within 30 days. | toeic
+property tax | n | thuế bất động sản | Property tax is due in two installments. | toeic
+move-in date | n | ngày dọn vào | The move-in date is set for August 1. | toeic
+move out | pv | dọn đi | The previous tenants moved out last week. | phrasal
+tear down | pv | phá dỡ | They tore down the old warehouse to build offices. | phrasal
+fix up | pv | sửa sang | He bought the house and fixed it up. | phrasal
+How much is the rent? | phrase | Tiền thuê bao nhiêu vậy? | How much is the rent, and are utilities included? | talk
+checkup | n | khám sức khỏe định kỳ | Employees receive a free annual checkup. | toeic
+prescription | n | đơn thuốc | You need a prescription to buy this medicine. | toeic
+pharmacy | n | hiệu thuốc | The pharmacy closes at nine. | toeic
+symptom | n | triệu chứng | If your symptoms continue, see a doctor. | toeic
+insurance policy | n | hợp đồng bảo hiểm | Read your insurance policy carefully. | toeic
+premium | n | phí bảo hiểm | The monthly premium is shared by the employer and employee. | toeic
+deductible | n | mức khấu trừ bảo hiểm | The plan has a two-hundred-dollar deductible. | toeic
+claim | n/v | yêu cầu bồi thường; tuyên bố | You can file a claim online within thirty days. | toeic
+coverage | n | phạm vi bảo hiểm | The policy provides full coverage for hospital stays. | toeic
+copayment | n | khoản đồng chi trả | There is a ten-dollar copayment for each visit. | toeic
+beneficiary | n | người thụ hưởng | She is the beneficiary of the life insurance policy. | toeic
+clinic | n | phòng khám | The clinic offers evening appointments. | toeic
+physician | n | bác sĩ | The company physician will see employees on Tuesdays. | toeic
+specialist | n | chuyên gia, bác sĩ chuyên khoa | Her doctor referred her to a specialist. | toeic
+referral | n | giấy giới thiệu; sự giới thiệu | You need a referral to see a specialist. | toeic
+vaccination | n | việc tiêm chủng | Vaccination is voluntary but recommended. | toeic
+ergonomic | adj | công thái học | The firm bought ergonomic chairs for all staff. | toeic
+evacuation | n | sự sơ tán | The evacuation took less than five minutes. | toeic
+fire drill | n | diễn tập cứu hỏa | A fire drill will be held on Thursday morning. | toeic
+first aid | n | sơ cứu | Every floor has a first aid kit. | toeic
+hazard | n | mối nguy hiểm | A wet floor is a serious safety hazard. | toeic
+safety regulations | n | quy định an toàn | All workers must follow the safety regulations. | toeic
+injury | n | chấn thương | Report any injury to your supervisor immediately. | toeic
+wellness program | n | chương trình chăm sóc sức khỏe | The wellness program includes free yoga classes. | toeic
+outpatient | n | bệnh nhân ngoại trú | The procedure is performed on an outpatient basis. | toeic
+emergency exit | n | lối thoát hiểm | Keep the emergency exit clear at all times. | toeic
+protective gear | n | đồ bảo hộ | Protective gear is required in the lab. | toeic
+come down with | pv | bị (ốm) | Half the office came down with the flu. | phrasal
+cut back on | pv | cắt giảm | The doctor told him to cut back on salt. | phrasal
+I'm not feeling well. | phrase | Tôi thấy không khỏe. | I'm not feeling well, so I'm going to head home. | talk
+campaign | n | chiến dịch | The advertising campaign boosted sales by twenty percent. | toeic
+target audience | n | đối tượng mục tiêu | Our target audience is young professionals. | toeic
+brand awareness | n | mức độ nhận biết thương hiệu | The campaign raised brand awareness in Asia. | toeic
+market share | n | thị phần | The firm holds a thirty percent market share. | toeic
+slogan | n | khẩu hiệu | The company's slogan is easy to remember. | toeic
+promotional | adj | mang tính quảng bá | Promotional items will be given away at the booth. | toeic
+testimonial | n | lời chứng thực của khách hàng | The website features testimonials from happy customers. | toeic
+demographic | n | nhóm nhân khẩu học | The product appeals to a younger demographic. | toeic
+competitor | n | đối thủ cạnh tranh | A competitor has just lowered its prices. | toeic
+loyalty program | n | chương trình khách hàng thân thiết | Members of the loyalty program earn points on every purchase. | toeic
+newsletter | n | bản tin gửi định kỳ | Subscribe to our newsletter for monthly updates. | toeic
+social media | n | mạng xã hội | The team manages the brand's social media accounts. | toeic
+influencer | n | người có tầm ảnh hưởng | The brand partnered with a popular influencer. | toeic
+telecommute | v | làm việc từ xa | Staff may telecommute up to three days a week. | toeic
+hybrid work | n | làm việc kết hợp | Hybrid work lets employees split time between home and office. | toeic
+flexible hours | n | giờ làm linh hoạt | The company offers flexible hours to all employees. | toeic
+work-life balance | n | cân bằng công việc và cuộc sống | Good work-life balance reduces burnout. | toeic
+sustainability | n | tính bền vững | Sustainability is a priority in our new strategy. | toeic
+carbon footprint | n | lượng phát thải carbon | We aim to cut our carbon footprint by half. | toeic
+renewable energy | n | năng lượng tái tạo | The factory runs entirely on renewable energy. | toeic
+eco-friendly | adj | thân thiện môi trường | The company sells eco-friendly cleaning products. | toeic
+recycle | v | tái chế | Please recycle paper and plastic bottles. | toeic
+word of mouth | n | truyền miệng | Most of our new clients come through word of mouth. | toeic
+go viral | phr | lan truyền chóng mặt | The video went viral within a day. | toeic
+stand out | pv | nổi bật | A clear logo helps a brand stand out. | phrasal
+reach out to | pv | liên hệ với | Please reach out to the help desk if you need access. | phrasal
+catch on | pv | trở nên phổ biến | The idea of a four-day workweek is catching on. | phrasal
+cut down on | pv | giảm bớt | We need to cut down on paper use. | phrasal
+Let's circle back on that. | phrase | Mình quay lại vấn đề đó sau nhé. | We're out of time, so let's circle back on that tomorrow. | talk
+Can you hear me okay? | phrase | Bạn nghe tôi rõ không? | Can you hear me okay? I'm having trouble with my microphone. | talk
