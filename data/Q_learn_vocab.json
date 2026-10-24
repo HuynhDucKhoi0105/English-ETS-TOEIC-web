@@ -1,0 +1,3436 @@
+{
+ "_format": "Gói từ vựng cho tab Học: words = id trong DATA.vocab; passage.text tô [[từ của gói]]; questions có w = id từ được kiểm tra.",
+ "packs": [
+  {
+   "id": "v01",
+   "week": 1,
+   "title": "Gói từ 1 · Từ cốt lõi nơi công sở (1)",
+   "words": [
+    "acquire",
+    "adjust",
+    "agenda",
+    "allocate",
+    "applicant",
+    "approve",
+    "attach",
+    "attend",
+    "authorize",
+    "budget",
+    "candidate",
+    "colleague",
+    "complaint",
+    "confirm",
+    "deadline",
+    "deliver",
+    "department",
+    "discount",
+    "distribute",
+    "efficient"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: All Marketing Staff\nFrom: Linda Park\nSubject: Hiring plan and budget update",
+    "text": "Dear [[colleagues]],\nThank you for your patience while the [[department]] waited for the final [[budget]] decision. Yesterday, the finance team [[approved]] our request to hire two new designers, and they agreed to [[allocate]] extra funds for training. However, we must [[adjust]] our spending on events to stay within the limit.\n\nPlease [[attend]] the planning meeting on Thursday at 10 a.m. I have [[attached]] the [[agenda]], which lists each [[candidate]] we will discuss. Every [[applicant]] has been reviewed, and only three will be invited to interview. Please [[confirm]] your attendance by Wednesday, because the [[deadline]] for sending offers is next Friday.\n\nWe also received one [[complaint]] about late reports. To make our process more [[efficient]], I will [[distribute]] a new template after the meeting.\nBest regards,\nLinda Park",
+    "vi": "Kính gửi các đồng nghiệp,\nCảm ơn mọi người đã kiên nhẫn chờ phòng ban có quyết định ngân sách cuối cùng. Hôm qua, bộ phận tài chính đã phê duyệt đề xuất tuyển thêm hai nhà thiết kế, và họ đồng ý phân bổ thêm kinh phí cho việc đào tạo. Tuy nhiên, chúng ta phải điều chỉnh chi tiêu cho các sự kiện để nằm trong hạn mức.\n\nXin hãy tham dự buổi họp lập kế hoạch vào thứ Năm lúc 10 giờ sáng. Tôi đã đính kèm chương trình họp, trong đó liệt kê từng ứng viên mà chúng ta sẽ thảo luận. Mọi ứng viên nộp đơn đều đã được xem xét, và chỉ ba người sẽ được mời phỏng vấn. Xin hãy xác nhận việc tham dự trước thứ Tư, vì hạn chót gửi thư mời nhận việc là thứ Sáu tuần sau.\n\nChúng ta cũng nhận được một lời phàn nàn về việc báo cáo nộp trễ. Để quy trình hiệu quả hơn, tôi sẽ phát một mẫu báo cáo mới sau cuộc họp.\nTrân trọng,\nLinda Park",
+    "questions": [
+     {
+      "q": "What is the main purpose of the email?",
+      "o": [
+       "To announce a hiring decision and request attendance at a meeting",
+       "To respond to a customer complaint",
+       "To ask the finance team for a larger budget",
+       "To introduce a new member of the design team"
+      ],
+      "a": 0,
+      "e": "Email báo tin tài chính đã duyệt tuyển hai nhà thiết kế (approved our request to hire two new designers) rồi mời dự họp và xác nhận tham dự. Các lựa chọn còn lại không phải mục đích chính.",
+      "w": [
+       "budget",
+       "approve"
+      ]
+     },
+     {
+      "q": "What did the finance team agree to do?",
+      "o": [
+       "Reduce the number of designers",
+       "Provide additional money for training",
+       "Raise the events budget",
+       "Interview the candidates"
+      ],
+      "a": 1,
+      "e": "Đoạn 1 nói họ 'agreed to allocate extra funds for training', tức đồng ý cấp thêm kinh phí đào tạo. Ngân sách sự kiện phải điều chỉnh chứ không được tăng.",
+      "w": [
+       "approve",
+       "allocate"
+      ]
+     },
+     {
+      "q": "What is NOT indicated about the hiring process?",
+      "o": [
+       "Some applicants have already been reviewed.",
+       "Three people will be invited to an interview.",
+       "Offers will be sent by next Friday.",
+       "Candidates must complete a skills test on Thursday."
+      ],
+      "a": 3,
+      "e": "Thư không hề nhắc đến bài kiểm tra kỹ năng vào thứ Năm; thứ Năm chỉ là buổi họp lập kế hoạch. Ba ý còn lại đều có trong đoạn 2 (đã xem xét, ba người phỏng vấn, hạn gửi thư mời là thứ Sáu tuần sau).",
+      "w": [
+       "applicant",
+       "candidate",
+       "deadline"
+      ]
+     },
+     {
+      "q": "What can be inferred about the department's spending on events?",
+      "o": [
+       "It will be lower than before.",
+       "It was increased last year.",
+       "It will stay the same.",
+       "It is paid for by clients."
+      ],
+      "a": 0,
+      "e": "Câu 'we must adjust our spending on events to stay within the limit' cho thấy chi tiêu sự kiện phải được cắt giảm để nằm trong hạn mức, vì tiền đã được dành cho việc tuyển dụng và đào tạo.",
+      "w": [
+       "adjust",
+       "budget"
+      ]
+     },
+     {
+      "q": "The word 'allocate' in paragraph 1 is closest in meaning to",
+      "o": [
+       "take back",
+       "borrow",
+       "set aside",
+       "refuse"
+      ],
+      "a": 2,
+      "e": "'Allocate extra funds for training' nghĩa là dành riêng thêm tiền cho đào tạo, tức 'set aside'. Các từ còn lại có nghĩa trái hoặc không liên quan.",
+      "w": [
+       "allocate"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v02",
+   "week": 1,
+   "title": "Gói từ 2 · Từ cốt lõi nơi công sở (2)",
+   "words": [
+    "estimate",
+    "expand",
+    "expense",
+    "facility",
+    "invoice",
+    "launch",
+    "negotiate",
+    "notify",
+    "on behalf of",
+    "overdue",
+    "postpone",
+    "procedure",
+    "promote",
+    "purchase",
+    "quarterly",
+    "receipt",
+    "reimburse",
+    "renew",
+    "reschedule",
+    "revenue"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Employees\nFrom: Daniel Reyes, Finance Director\nSubject: New expense and invoice procedures",
+    "text": "Harbor Foods' [[revenue]] grew by eight percent this year, and we plan to [[expand]] our main [[facility]] in Cedar Falls. To keep costs under control, the finance office has revised its [[procedure]] for [[quarterly]] [[expense]] reports.\n\nEffective next month, any employee who makes a [[purchase]] [[on behalf of]] the company must submit the original [[receipt]] within ten days. We will then [[reimburse]] the full amount within two weeks. Managers must also check every [[invoice]] before it is sent for payment. An [[overdue]] invoice can harm our relationship with suppliers, and after several late payments we recently had to [[negotiate]] new terms with two of them.\n\nPlease [[notify]] my office if you cannot meet the new schedule. Because of the accounting system upgrade, we will [[postpone]] the October training session and [[reschedule]] it for November. We will [[launch]] a short online form next week and [[promote]] it in the staff newsletter. Finally, all vendor contracts must be [[renewed]] before they expire.\nDaniel Reyes",
+    "vi": "Doanh thu của Harbor Foods đã tăng tám phần trăm trong năm nay, và chúng ta dự định mở rộng cơ sở chính tại Cedar Falls. Để kiểm soát chi phí, phòng tài chính đã sửa đổi quy trình lập báo cáo chi phí theo quý.\n\nBắt đầu từ tháng sau, bất kỳ nhân viên nào mua hàng thay mặt công ty phải nộp biên lai gốc trong vòng mười ngày. Sau đó chúng tôi sẽ hoàn lại toàn bộ số tiền trong vòng hai tuần. Các quản lý cũng phải kiểm tra từng hóa đơn trước khi gửi đi thanh toán. Một hóa đơn quá hạn có thể làm tổn hại quan hệ với nhà cung cấp, và sau nhiều lần thanh toán trễ, gần đây chúng ta đã phải đàm phán lại điều khoản mới với hai trong số họ.\n\nXin hãy thông báo cho văn phòng của tôi nếu bạn không thể theo kịp lịch mới. Do việc nâng cấp hệ thống kế toán, chúng tôi sẽ hoãn buổi đào tạo tháng Mười và dời sang tháng Mười Một. Tuần tới chúng tôi sẽ đưa ra một biểu mẫu trực tuyến ngắn và quảng bá nó trên bản tin nội bộ. Cuối cùng, mọi hợp đồng với nhà cung cấp phải được gia hạn trước khi hết hạn.\nDaniel Reyes",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To announce plans to close the Cedar Falls facility",
+       "To request bids from new vendors",
+       "To explain updated rules for expenses and payments",
+       "To report this year's sales results"
+      ],
+      "a": 2,
+      "e": "Memo giải thích quy trình mới về báo cáo chi phí, biên lai, hoàn tiền và hóa đơn. Doanh thu chỉ được nhắc ở phần mở đầu, còn cơ sở Cedar Falls sẽ được mở rộng chứ không đóng cửa.",
+      "w": [
+       "procedure",
+       "expense"
+      ]
+     },
+     {
+      "q": "According to the memo, what must employees do after buying something for the company?",
+      "o": [
+       "Submit the receipt within ten days",
+       "Ask a manager to pay the invoice",
+       "Wait for the quarterly report",
+       "Notify suppliers of the cost"
+      ],
+      "a": 0,
+      "e": "Đoạn 2 nói nhân viên mua hàng thay mặt công ty 'must submit the original receipt within ten days', sau đó mới được hoàn tiền.",
+      "w": [
+       "purchase",
+       "receipt",
+       "reimburse"
+      ]
+     },
+     {
+      "q": "What can be inferred about Harbor Foods?",
+      "o": [
+       "It is reducing the size of its staff.",
+       "It is growing its business.",
+       "It has stopped working with suppliers.",
+       "It recently changed its name."
+      ],
+      "a": 1,
+      "e": "Doanh thu tăng tám phần trăm và công ty dự định mở rộng cơ sở chính (expand our main facility), cho thấy việc kinh doanh đang phát triển.",
+      "w": [
+       "revenue",
+       "expand"
+      ]
+     },
+     {
+      "q": "Which of the following is NOT part of the new procedure?",
+      "o": [
+       "Managers must review invoices before payment.",
+       "Vendor contracts must be renewed before they expire.",
+       "Receipts must be turned in within ten days.",
+       "Employees must pay for company purchases themselves."
+      ],
+      "a": 3,
+      "e": "Công ty sẽ hoàn lại toàn bộ số tiền (reimburse the full amount), nên nhân viên không phải tự chi trả. Ba ý còn lại đều được nêu trong đoạn 2 và 3.",
+      "w": [
+       "reimburse",
+       "purchase",
+       "invoice"
+      ]
+     },
+     {
+      "q": "The word 'launch' in paragraph 3 is closest in meaning to",
+      "o": [
+       "introduce",
+       "cancel",
+       "review",
+       "sell"
+      ],
+      "a": 0,
+      "e": "'Launch a short online form' nghĩa là đưa ra, bắt đầu sử dụng một biểu mẫu mới, tức gần nghĩa với 'introduce'.",
+      "w": [
+       "launch"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v03",
+   "week": 1,
+   "title": "Gói từ 3 · Đồ dùng & công việc văn phòng",
+   "words": [
+    "stationery",
+    "photocopier",
+    "cubicle",
+    "memo",
+    "minutes",
+    "attendee",
+    "proofread",
+    "correspondence",
+    "draft",
+    "handout",
+    "shred",
+    "workstation",
+    "confidential",
+    "spreadsheet",
+    "prioritize",
+    "forward",
+    "attachment",
+    "bulletin board",
+    "timesheet",
+    "break room"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Third-Floor Staff\nFrom: Office Administration\nSubject: Updated office routines",
+    "text": "This [[memo]] explains a few changes to our third-floor office routines. Starting Monday, extra [[stationery]] will be kept in the supply cabinet next to the [[break room]], and the old [[photocopier]] has been replaced with a faster model.\n\nPlease keep your [[workstation]] and [[cubicle]] tidy at the end of each day. Any [[confidential]] paper must be [[shredded]] before it is thrown away, never placed in the regular recycling bin.\n\nAfter each meeting, the organizer should send a [[draft]] of the [[minutes]] to every [[attendee]] within two days and [[proofread]] it carefully. Please [[prioritize]] urgent [[correspondence]], and [[forward]] client emails with any [[attachments]] to your team lead. Submit your [[timesheet]] by Friday afternoon, and check the [[bulletin board]] near the elevator for the new seating plan.",
+    "vi": "Thông báo nội bộ này giải thích một vài thay đổi trong các quy trình làm việc hằng ngày ở văn phòng tầng ba. Bắt đầu từ thứ Hai, văn phòng phẩm bổ sung sẽ được để trong tủ vật tư cạnh phòng nghỉ giải lao, và chiếc máy photocopy cũ đã được thay bằng một mẫu nhanh hơn.\n\nXin hãy giữ bàn làm việc và ô làm việc của bạn gọn gàng vào cuối mỗi ngày. Mọi giấy tờ mật phải được hủy bằng máy trước khi bỏ đi, tuyệt đối không bỏ vào thùng tái chế thông thường.\n\nSau mỗi cuộc họp, người tổ chức cần gửi bản nháp biên bản cho từng người tham dự trong vòng hai ngày và đọc soát lỗi cẩn thận. Hãy ưu tiên thư từ khẩn, và chuyển tiếp email của khách hàng kèm mọi tệp đính kèm cho trưởng nhóm của bạn. Hãy nộp bảng chấm công trước chiều thứ Sáu, và xem bảng tin gần thang máy để biết sơ đồ chỗ ngồi mới.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To describe changes to daily office routines",
+       "To announce the purchase of new furniture",
+       "To invite staff to a retirement party",
+       "To request volunteers for a committee"
+      ],
+      "a": 0,
+      "e": "Câu đầu nói rõ thông báo 'explains a few changes to our third-floor office routines', sau đó nêu từng thay đổi về văn phòng phẩm, giấy tờ mật, biên bản, bảng chấm công.",
+      "w": [
+       "memo"
+      ]
+     },
+     {
+      "q": "Where will the extra stationery be kept?",
+      "o": [
+       "Near the elevator",
+       "Inside each cubicle",
+       "Beside the break room",
+       "On the bulletin board"
+      ],
+      "a": 2,
+      "e": "Đoạn 1 nói văn phòng phẩm bổ sung để trong tủ vật tư 'next to the break room'. Thang máy chỉ là nơi đặt bảng tin.",
+      "w": [
+       "stationery",
+       "break room"
+      ]
+     },
+     {
+      "q": "What can be inferred about the old photocopier?",
+      "o": [
+       "It was moved to the break room.",
+       "It was slower than the new one.",
+       "It was donated to another office.",
+       "It was shared by two floors."
+      ],
+      "a": 1,
+      "e": "Máy cũ được thay bằng 'a faster model' (mẫu nhanh hơn), nên có thể suy ra máy cũ chậm hơn máy mới. Đoạn văn không nói gì về việc chuyển hay tặng máy cũ.",
+      "w": [
+       "photocopier"
+      ]
+     },
+     {
+      "q": "What are employees NOT asked to do?",
+      "o": [
+       "Repair the photocopier themselves",
+       "Shred confidential papers",
+       "Turn in a timesheet by Friday",
+       "Forward client emails to a team lead"
+      ],
+      "a": 0,
+      "e": "Không có yêu cầu nào về việc tự sửa máy photocopy. Hủy giấy mật, nộp bảng chấm công trước thứ Sáu và chuyển tiếp email khách hàng đều có trong đoạn 2 và 3.",
+      "w": [
+       "confidential",
+       "timesheet",
+       "forward"
+      ]
+     },
+     {
+      "q": "The word 'draft' in paragraph 3 is closest in meaning to",
+      "o": [
+       "final copy",
+       "cold air",
+       "payment",
+       "rough version"
+      ],
+      "a": 3,
+      "e": "'A draft of the minutes' là bản nháp của biên bản, được gửi đi trước khi hoàn thiện, nên gần nghĩa nhất với 'rough version'.",
+      "w": [
+       "draft"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v04",
+   "week": 1,
+   "title": "Gói từ 4 · Tuyển dụng & nhân sự",
+   "words": [
+    "cover letter",
+    "résumé",
+    "reference",
+    "onboarding",
+    "orientation",
+    "turnover",
+    "retirement",
+    "resign",
+    "terminate",
+    "severance",
+    "overtime",
+    "payroll",
+    "performance review",
+    "trainee",
+    "internship",
+    "job opening",
+    "shortlist",
+    "interviewee",
+    "paid leave",
+    "pension"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Department Heads\nFrom: Helen Cho, Human Resources\nSubject: Hiring plan and employment policies",
+    "text": "Dear department heads,\nBecause of two planned [[retirements]] and a rise in staff [[turnover]], we have posted five [[job openings]] this month. Applicants must submit a [[résumé]] and a [[cover letter]] and list two [[references]]. We will [[shortlist]] eight people, and every [[interviewee]] will meet two managers.\n\nNew employees will attend a half-day [[orientation]] on their first Monday, followed by a two-week [[onboarding]] program. Each [[trainee]] will be assigned a mentor, and the strongest may be offered a permanent role after a six-month [[internship]]. A [[performance review]] will take place after ninety days.\n\nPlease also remind your teams of our policies. Staff who wish to [[resign]] must give thirty days' notice, and the company will not [[terminate]] anyone without a written warning. Employees whose positions are cut receive [[severance]] pay. [[Overtime]] must be approved in advance, and [[payroll]] closes on the 25th of every month. Full-time staff receive ten days of [[paid leave]] and join the company [[pension]] plan after one year.\nThank you,\nHelen Cho",
+    "vi": "Kính gửi các trưởng phòng,\nDo có hai trường hợp nghỉ hưu đã lên kế hoạch và tỷ lệ nghỉ việc của nhân viên tăng, chúng tôi đã đăng năm vị trí đang tuyển trong tháng này. Ứng viên phải nộp sơ yếu lý lịch và thư xin việc, đồng thời ghi hai người giới thiệu. Chúng tôi sẽ chọn tám người vào danh sách rút gọn, và mỗi người được phỏng vấn sẽ gặp hai quản lý.\n\nNhân viên mới sẽ tham dự buổi định hướng nửa ngày vào thứ Hai đầu tiên, tiếp theo là chương trình hòa nhập kéo dài hai tuần. Mỗi thực tập sinh sẽ được phân công một người hướng dẫn, và những người xuất sắc nhất có thể được đề nghị một vị trí chính thức sau kỳ thực tập sáu tháng. Buổi đánh giá hiệu suất sẽ diễn ra sau chín mươi ngày.\n\nXin hãy nhắc các nhóm của bạn về những chính sách của chúng ta. Nhân viên muốn từ chức phải báo trước ba mươi ngày, và công ty sẽ không chấm dứt hợp đồng với bất kỳ ai nếu chưa có cảnh cáo bằng văn bản. Những nhân viên bị cắt giảm vị trí sẽ nhận trợ cấp thôi việc. Giờ làm thêm phải được duyệt trước, và bảng lương được chốt vào ngày 25 hằng tháng. Nhân viên toàn thời gian được mười ngày nghỉ phép có lương và tham gia chương trình lương hưu của công ty sau một năm.\nCảm ơn các bạn,\nHelen Cho",
+    "questions": [
+     {
+      "q": "Why did Ms. Cho write the email?",
+      "o": [
+       "To announce her own retirement",
+       "To explain hiring plans and employment policies",
+       "To ask for feedback on a performance review",
+       "To invite staff to a training course"
+      ],
+      "a": 1,
+      "e": "Thư nêu kế hoạch tuyển dụng (vị trí đang tuyển, hồ sơ, phỏng vấn) rồi nhắc các chính sách về nghỉ việc, làm thêm giờ, lương, nghỉ phép. Không có nội dung nào về việc bà Cho nghỉ hưu hay mời dự khóa đào tạo.",
+      "w": [
+       "job opening",
+       "retirement"
+      ]
+     },
+     {
+      "q": "What must applicants provide?",
+      "o": [
+       "A résumé and a work sample",
+       "A cover letter and proof of a pension plan",
+       "A résumé, a cover letter, and two references",
+       "Two references and an interview schedule"
+      ],
+      "a": 2,
+      "e": "Đoạn 1: 'Applicants must submit a résumé and a cover letter and list two references'. Các lựa chọn khác nhắc đến mẫu công việc, lương hưu hay lịch phỏng vấn, đều không có trong thư.",
+      "w": [
+       "résumé",
+       "cover letter",
+       "reference"
+      ]
+     },
+     {
+      "q": "What is suggested about trainees?",
+      "o": [
+       "They are paid more than full-time staff.",
+       "They are not allowed to attend orientation.",
+       "They must resign before their performance review.",
+       "They may be offered a permanent job after their internship."
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nói những thực tập sinh xuất sắc nhất 'may be offered a permanent role after a six-month internship', nghĩa là họ có thể được nhận chính thức sau kỳ thực tập.",
+      "w": [
+       "trainee",
+       "internship"
+      ]
+     },
+     {
+      "q": "Which of the following is NOT mentioned about new employees?",
+      "o": [
+       "They must pass a language test.",
+       "They attend an orientation on their first Monday.",
+       "They take part in a two-week onboarding program.",
+       "They are assigned a mentor."
+      ],
+      "a": 0,
+      "e": "Thư không nhắc đến bài kiểm tra ngôn ngữ. Buổi định hướng ngày thứ Hai đầu tiên, chương trình hòa nhập hai tuần và người hướng dẫn đều được nêu ở đoạn 2.",
+      "w": [
+       "orientation",
+       "onboarding"
+      ]
+     },
+     {
+      "q": "The word 'turnover' in paragraph 1 is closest in meaning to",
+      "o": [
+       "annual sales",
+       "employee departures",
+       "office layout",
+       "job promotions"
+      ],
+      "a": 1,
+      "e": "Trong ngữ cảnh nhân sự, 'a rise in staff turnover' là việc nhiều nhân viên nghỉ việc hơn, dẫn tới cần tuyển người mới, nên gần nghĩa với 'employee departures'.",
+      "w": [
+       "turnover"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v05",
+   "week": 2,
+   "title": "Gói từ 5 · Từ cốt lõi nơi công sở (3)",
+   "words": [
+    "shipment",
+    "supervisor",
+    "supplier",
+    "submit",
+    "temporary",
+    "vacancy",
+    "warranty",
+    "outstanding",
+    "comply with",
+    "mandatory",
+    "accommodate",
+    "accomplish",
+    "accurate",
+    "affordable",
+    "amend",
+    "anticipate",
+    "assess",
+    "assign",
+    "beneficial",
+    "brochure"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Warehouse Team\nFrom: Maria Santos, Operations Manager\nSubject: Preparing for the delayed shipment",
+    "text": "Our largest [[supplier]] has warned us to [[anticipate]] a delay with the next [[shipment]] of patio furniture. To [[accommodate]] the extra stock when it arrives, we will open a [[temporary]] storage area behind Building B. Thanks to your [[outstanding]] effort last season, we [[accomplished]] every delivery goal, and I am confident we can do it again.\n\nSafety training is now [[mandatory]] for everyone who works in the new area, and all staff must [[comply with]] the updated handling rules. Your [[supervisor]] will [[assign]] each person to a shift by Friday, so please [[submit]] any request to [[amend]] your schedule before then. Keep inventory counts [[accurate]], since we need to [[assess]] stock levels every day.\n\nWe also have one [[vacancy]] for a night-shift loader. Meanwhile, a new [[brochure]] showing our [[affordable]] prices and extended [[warranty]] will go to customers next week. Your cooperation will be [[beneficial]] to everyone.",
+    "vi": "Nhà cung cấp lớn nhất của chúng ta đã cảnh báo rằng cần lường trước việc chậm trễ ở lô hàng nội thất sân vườn sắp tới. Để chứa được lượng hàng tăng thêm khi hàng về, chúng ta sẽ mở một khu lưu kho tạm thời phía sau Tòa nhà B. Nhờ nỗ lực xuất sắc của các bạn mùa trước, chúng ta đã hoàn thành mọi mục tiêu giao hàng, và tôi tin rằng chúng ta có thể làm được lần nữa.\n\nĐào tạo an toàn nay là bắt buộc với tất cả những ai làm việc trong khu vực mới, và mọi nhân viên phải tuân thủ các quy định xử lý hàng đã cập nhật. Người giám sát của bạn sẽ phân công từng người vào ca làm trước thứ Sáu, vì vậy hãy nộp mọi yêu cầu sửa đổi lịch làm việc trước thời điểm đó. Hãy giữ số liệu tồn kho chính xác, vì chúng ta cần đánh giá mức tồn hằng ngày.\n\nChúng ta cũng có một vị trí trống cho nhân viên bốc xếp ca đêm. Trong lúc đó, một tờ giới thiệu sản phẩm mới nêu mức giá phải chăng và chế độ bảo hành mở rộng của chúng ta sẽ được gửi đến khách hàng vào tuần tới. Sự hợp tác của các bạn sẽ có lợi cho tất cả mọi người.",
+    "questions": [
+     {
+      "q": "Why did Ms. Santos send the email?",
+      "o": [
+       "To announce a price reduction",
+       "To prepare employees for a delayed delivery and related changes",
+       "To report a safety accident",
+       "To recruit a new supplier"
+      ],
+      "a": 1,
+      "e": "Thư mở đầu bằng việc nhà cung cấp báo lô hàng sẽ chậm, rồi nêu khu lưu kho tạm, đào tạo an toàn và phân ca để chuẩn bị cho tình huống đó. Giảm giá chỉ là thông tin phụ trong đoạn 3.",
+      "w": [
+       "supplier",
+       "shipment"
+      ]
+     },
+     {
+      "q": "Where will the temporary storage area be located?",
+      "o": [
+       "Inside Building A",
+       "Next to the loading dock",
+       "On the second floor",
+       "Behind Building B"
+      ],
+      "a": 3,
+      "e": "Đoạn 1: 'we will open a temporary storage area behind Building B', tức phía sau Tòa nhà B.",
+      "w": [
+       "temporary"
+      ]
+     },
+     {
+      "q": "What can be inferred about the shipment?",
+      "o": [
+       "It contains office supplies.",
+       "It has already been inspected.",
+       "It will arrive later than expected.",
+       "It is smaller than usual."
+      ],
+      "a": 2,
+      "e": "Nhà cung cấp cảnh báo cần 'anticipate a delay', nghĩa là lô hàng sẽ đến muộn hơn dự kiến. Lô hàng là nội thất sân vườn, không phải đồ văn phòng.",
+      "w": [
+       "anticipate",
+       "shipment"
+      ]
+     },
+     {
+      "q": "What are employees NOT required to do?",
+      "o": [
+       "Pay for their own protective equipment",
+       "Complete safety training for the new area",
+       "Follow the updated handling rules",
+       "Send schedule change requests before Friday"
+      ],
+      "a": 0,
+      "e": "Thư không nói nhân viên phải tự trả tiền thiết bị bảo hộ. Đào tạo an toàn bắt buộc, tuân thủ quy định xử lý hàng và gửi yêu cầu đổi lịch trước thứ Sáu đều có trong đoạn 2.",
+      "w": [
+       "mandatory",
+       "comply with",
+       "amend"
+      ]
+     },
+     {
+      "q": "The word 'accommodate' in paragraph 1 is closest in meaning to",
+      "o": [
+       "repair",
+       "hold",
+       "reject",
+       "advertise"
+      ],
+      "a": 1,
+      "e": "'Accommodate the extra stock' nghĩa là có đủ chỗ chứa lượng hàng thêm, nên gần nghĩa với 'hold'.",
+      "w": [
+       "accommodate"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v06",
+   "week": 2,
+   "title": "Gói từ 6 · Từ cốt lõi nơi công sở (4)",
+   "words": [
+    "commute",
+    "compensation",
+    "consecutive",
+    "contract",
+    "convenient",
+    "customize",
+    "enclose",
+    "ensure",
+    "evaluate",
+    "exceed",
+    "feasible",
+    "headquarters",
+    "inquiry",
+    "inventory",
+    "itinerary",
+    "merger",
+    "nominate",
+    "objective",
+    "outline",
+    "participant"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: All Staff\nFrom: Maria Delgado, Human Resources\nSubject: Flexible work pilot program",
+    "text": "Following the [[merger]] with Brightfield Supplies, many of you have asked whether a hybrid schedule is [[feasible]]. A long [[commute]] was the top complaint in our recent survey, so management has approved a pilot program. The main [[objective]] is to [[ensure]] that employees can work from home two days a week without lowering team output. Each department head should [[nominate]] two employees to join.\n\nThe pilot will run for six [[consecutive]] weeks beginning November 3. Every [[participant]] will [[customize]] a weekly schedule with a supervisor, choosing the days most [[convenient]] for the team. Requests that [[exceed]] two remote days per week cannot be approved. We will [[evaluate]] the results in December. Please note that your [[contract]] and [[compensation]] will not change during the pilot.\n\nI have [[enclosed]] an [[outline]] of the rules and a request form. Please send any [[inquiry]] to me by October 31. Meetings at [[headquarters]] will continue to be held in person.",
+    "vi": "Sau vụ sáp nhập với Brightfield Supplies, nhiều bạn đã hỏi liệu lịch làm việc kết hợp có khả thi hay không. Việc đi làm xa là phàn nàn hàng đầu trong khảo sát gần đây của chúng ta, vì vậy ban quản lý đã phê duyệt một chương trình thí điểm. Mục tiêu chính là đảm bảo nhân viên có thể làm việc tại nhà hai ngày mỗi tuần mà không làm giảm hiệu suất của nhóm. Mỗi trưởng bộ phận cần đề cử hai nhân viên tham gia.\n\nChương trình thí điểm sẽ kéo dài sáu tuần liên tiếp, bắt đầu từ ngày 3 tháng 11. Mỗi người tham gia sẽ tùy chỉnh lịch làm việc hằng tuần cùng người quản lý, chọn những ngày thuận tiện nhất cho nhóm. Các yêu cầu vượt quá hai ngày làm việc từ xa mỗi tuần sẽ không được chấp thuận. Chúng tôi sẽ đánh giá kết quả vào tháng 12. Xin lưu ý rằng hợp đồng và lương thưởng của bạn sẽ không thay đổi trong thời gian thí điểm.\n\nTôi đã gửi kèm bản phác thảo các quy định và một mẫu đơn đề nghị. Vui lòng gửi mọi câu hỏi cho tôi trước ngày 31 tháng 10. Các cuộc họp tại trụ sở chính vẫn sẽ được tổ chức trực tiếp.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the email?",
+      "o": [
+       "To announce a merger between two companies",
+       "To introduce a trial program for working from home",
+       "To ask employees to sign new contracts",
+       "To report the results of a staff survey"
+      ],
+      "a": 1,
+      "e": "Email giới thiệu chương trình thí điểm cho phép làm việc tại nhà hai ngày mỗi tuần ('a pilot program', 'work from home two days a week'). Vụ sáp nhập và khảo sát chỉ được nhắc như bối cảnh.",
+      "w": [
+       "objective"
+      ]
+     },
+     {
+      "q": "What are department heads asked to do?",
+      "o": [
+       "Send request forms by October 31",
+       "Evaluate the results in December",
+       "Nominate two employees for the pilot",
+       "Customize their own contracts"
+      ],
+      "a": 2,
+      "e": "Đoạn 1 nêu rõ: 'Each department head should nominate two employees to join.' Các việc khác (đánh giá kết quả, gửi câu hỏi) không phải nhiệm vụ của trưởng bộ phận.",
+      "w": [
+       "nominate"
+      ]
+     },
+     {
+      "q": "What is NOT indicated about the pilot program?",
+      "o": [
+       "Participants' pay will be adjusted.",
+       "It will last six weeks.",
+       "Remote work is limited to two days a week.",
+       "Results will be reviewed in December."
+      ],
+      "a": 0,
+      "e": "Đoạn 2 nói 'your contract and compensation will not change', nghĩa là lương thưởng không bị điều chỉnh nên A là điều KHÔNG được nêu. Ba phương án còn lại đều có trong đoạn.",
+      "w": [
+       "compensation",
+       "contract"
+      ]
+     },
+     {
+      "q": "The word 'exceed' in paragraph 2 is closest in meaning to",
+      "o": [
+       "approach",
+       "avoid",
+       "delay",
+       "go beyond"
+      ],
+      "a": 3,
+      "e": "'Requests that exceed two remote days' là các yêu cầu vượt quá hai ngày, nên 'exceed' gần nghĩa nhất với 'go beyond'.",
+      "w": [
+       "exceed"
+      ]
+     },
+     {
+      "q": "What most likely led management to start the pilot?",
+      "o": [
+       "A drop in team output",
+       "Employee complaints about travel to work",
+       "The closing of headquarters",
+       "A change in company contracts"
+      ],
+      "a": 1,
+      "e": "Đoạn 1 cho biết 'A long commute was the top complaint in our recent survey, so management has approved a pilot program', tức là do nhân viên phàn nàn về việc đi làm xa.",
+      "w": [
+       "commute"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v07",
+   "week": 2,
+   "title": "Gói từ 7 · Tài chính & kế toán",
+   "words": [
+    "accrue",
+    "asset",
+    "balance sheet",
+    "bankruptcy",
+    "capital",
+    "collateral",
+    "creditor",
+    "deposit",
+    "depreciation",
+    "fiscal year",
+    "forecast",
+    "gross",
+    "interest rate",
+    "investment",
+    "loan",
+    "mortgage",
+    "net income",
+    "overdraft",
+    "portfolio",
+    "profit margin"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: Board of Directors\nFrom: Daniel Reyes, Chief Financial Officer\nSubject: Fiscal year results and outlook",
+    "text": "The [[fiscal year]] ended on a positive note for Larkspur Foods. [[Gross]] revenue rose eight percent, and [[net income]] reached 2.4 million dollars. Our [[profit margin]] improved to 11 percent, helped by lower shipping costs. The [[balance sheet]] shows stronger [[assets]], although [[depreciation]] on the new ovens reduced earnings slightly.\n\nTo fund the second factory, we secured a [[loan]] of five million dollars. The bank accepted our equipment as [[collateral]], and the [[interest rate]] is fixed for ten years. Interest will [[accrue]] monthly, but no payment is due until March. We also placed a [[deposit]] on the building site. Because our [[capital]] reserves remain healthy, we did not need to use the [[overdraft]] facility this year.\n\nOur [[forecast]] for next year assumes steady demand. Management is also reviewing our [[investment]] [[portfolio]] and will present recommendations at the March meeting. Please contact me with any questions.",
+    "vi": "Năm tài chính đã khép lại với kết quả tích cực đối với Larkspur Foods. Doanh thu gộp tăng tám phần trăm, và thu nhập ròng đạt 2,4 triệu đô la. Biên lợi nhuận của chúng ta cải thiện lên 11 phần trăm nhờ chi phí vận chuyển thấp hơn. Bảng cân đối kế toán cho thấy tài sản mạnh hơn, mặc dù khoản khấu hao của các lò nướng mới đã làm giảm nhẹ lợi nhuận.\n\nĐể tài trợ cho nhà máy thứ hai, chúng tôi đã có được khoản vay năm triệu đô la. Ngân hàng chấp nhận thiết bị của chúng ta làm tài sản thế chấp, và lãi suất được cố định trong mười năm. Tiền lãi sẽ tích lũy hằng tháng, nhưng đến tháng Ba mới phải thanh toán. Chúng tôi cũng đã đặt cọc cho khu đất xây dựng. Vì nguồn vốn dự trữ vẫn vững, năm nay chúng ta không cần dùng đến hạn mức thấu chi.\n\nDự báo của chúng tôi cho năm tới giả định nhu cầu ổn định. Ban điều hành cũng đang rà soát danh mục đầu tư và sẽ trình các đề xuất tại cuộc họp tháng Ba. Vui lòng liên hệ tôi nếu có bất kỳ câu hỏi nào.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To ask the board to approve a new loan",
+       "To summarize financial results and future plans",
+       "To announce a new chief financial officer",
+       "To warn the board about a cash shortage"
+      ],
+      "a": 1,
+      "e": "Memo tóm tắt kết quả năm tài chính (doanh thu, thu nhập ròng, tài sản), khoản vay đã có và dự báo năm tới. Khoản vay đã được 'secured' nên không phải xin phê duyệt, và không có cảnh báo thiếu tiền.",
+      "w": [
+       "net income"
+      ]
+     },
+     {
+      "q": "What did the bank accept as collateral?",
+      "o": [
+       "The building site",
+       "Next year's revenue",
+       "The company's equipment",
+       "The new ovens' warranty"
+      ],
+      "a": 2,
+      "e": "Đoạn 2: 'The bank accepted our equipment as collateral' nghĩa là ngân hàng chấp nhận thiết bị của công ty làm tài sản thế chấp.",
+      "w": [
+       "collateral"
+      ]
+     },
+     {
+      "q": "What is NOT stated about the loan?",
+      "o": [
+       "The interest rate will stay the same for ten years.",
+       "Interest will build up each month.",
+       "No payment is required before March.",
+       "The money will be used to replace the ovens."
+      ],
+      "a": 3,
+      "e": "Khoản vay dùng 'to fund the second factory' (xây nhà máy thứ hai), không phải thay lò nướng. Ba ý còn lại (lãi suất cố định, lãi tích lũy hằng tháng, đến tháng Ba mới trả) đều có trong đoạn 2.",
+      "w": [
+       "interest rate",
+       "accrue"
+      ]
+     },
+     {
+      "q": "The word 'secured' in paragraph 2 is closest in meaning to",
+      "o": [
+       "obtained",
+       "protected",
+       "locked",
+       "delayed"
+      ],
+      "a": 0,
+      "e": "'We secured a loan' nghĩa là công ty đã có được khoản vay, nên 'secured' gần nghĩa nhất với 'obtained'."
+     },
+     {
+      "q": "What can be inferred about Larkspur Foods?",
+      "o": [
+       "It is close to bankruptcy.",
+       "It plans to sell its factory.",
+       "It is in a stable position to expand.",
+       "It lost money this year."
+      ],
+      "a": 2,
+      "e": "Công ty tăng doanh thu, thu nhập ròng dương, vốn dự trữ vững và đang xây nhà máy thứ hai, nên có thể suy ra vị thế tài chính ổn định để mở rộng. Không có dấu hiệu phá sản hay thua lỗ.",
+      "w": [
+       "capital"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v08",
+   "week": 2,
+   "title": "Gói từ 8 · Kho vận & bán lẻ",
+   "words": [
+    "backorder",
+    "cargo",
+    "checkout",
+    "clearance",
+    "consignment",
+    "customs duty",
+    "defective",
+    "distributor",
+    "freight",
+    "in stock",
+    "merchandise",
+    "out of stock",
+    "packaging",
+    "price tag",
+    "retailer",
+    "return policy",
+    "wholesale",
+    "warehouse",
+    "tracking number",
+    "place an order"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Ellen Park, Store Manager, Greenleaf Home Goods\nFrom: Tomas Weber, Northgate Distribution\nSubject: Your recent order",
+    "text": "Thank you for choosing Northgate as your [[distributor]]. Most items from your [[wholesale]] request are [[in stock]] and will leave our [[warehouse]] on Friday. The [[freight]] charge is already included in the invoice. Your [[tracking number]] is NG-48213, and you can use it to follow the [[cargo]] online.\n\nUnfortunately, the ceramic planters are currently [[out of stock]]. We have recorded them as a [[backorder]], and they should arrive by the end of the month. Meanwhile, the glass vases in this shipment were sent with new [[packaging]] to prevent damage. If any [[merchandise]] arrives [[defective]], please photograph the box and contact us within seven days under our [[return policy]].\n\nAs a valued [[retailer]], you may also want to [[place an order]] for our [[clearance]] items before the holiday season. Each one already carries a discounted [[price tag]], so it can go straight to the sales floor.",
+    "vi": "Cảm ơn bạn đã chọn Northgate làm nhà phân phối. Hầu hết các mặt hàng trong yêu cầu mua sỉ của bạn đều còn hàng và sẽ rời nhà kho của chúng tôi vào thứ Sáu. Cước vận chuyển đã được tính trong hóa đơn. Mã theo dõi đơn hàng của bạn là NG-48213, và bạn có thể dùng mã này để theo dõi lô hàng trực tuyến.\n\nRất tiếc, các chậu gốm hiện đang hết hàng. Chúng tôi đã ghi nhận đây là đơn hàng chờ hàng về, và hàng sẽ về trước cuối tháng. Trong lúc đó, những chiếc bình thủy tinh trong lô hàng này đã được gửi kèm bao bì mới để tránh hư hỏng. Nếu bất kỳ hàng hóa nào đến nơi bị lỗi, vui lòng chụp ảnh thùng hàng và liên hệ với chúng tôi trong vòng bảy ngày theo chính sách đổi trả.\n\nLà một nhà bán lẻ quan trọng, bạn cũng có thể muốn đặt hàng các mặt hàng xả kho của chúng tôi trước mùa lễ. Mỗi món đều đã có nhãn giá giảm, nên có thể đưa thẳng ra khu bán hàng.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the email?",
+      "o": [
+       "To announce a new return policy",
+       "To update a customer on a shipment and a delayed item",
+       "To offer Ms. Park a job at Northgate",
+       "To ask for payment of an overdue invoice"
+      ],
+      "a": 1,
+      "e": "Email xác nhận phần lớn đơn hàng sắp được gửi (kèm mã theo dõi) và báo các chậu gốm bị chậm do hết hàng. Chính sách đổi trả chỉ nhắc ngắn gọn, không có yêu cầu thanh toán.",
+      "w": [
+       "tracking number"
+      ]
+     },
+     {
+      "q": "When are the ceramic planters expected to arrive?",
+      "o": [
+       "On Friday",
+       "Within seven days",
+       "By the end of the month",
+       "Before the holiday season"
+      ],
+      "a": 2,
+      "e": "Đoạn 2: planters được ghi nhận là backorder và 'should arrive by the end of the month', tức là về trước cuối tháng.",
+      "w": [
+       "backorder",
+       "out of stock"
+      ]
+     },
+     {
+      "q": "What is most likely true about Ms. Park's store?",
+      "o": [
+       "It sells goods directly to customers.",
+       "It is a wholesale supplier.",
+       "It is located inside a warehouse.",
+       "It manufactures glass vases."
+      ],
+      "a": 0,
+      "e": "Email gọi bà Park là 'retailer' (nhà bán lẻ), mua sỉ từ nhà phân phối và đưa hàng ra 'sales floor', nên cửa hàng bán trực tiếp cho khách. Northgate mới là bên phân phối.",
+      "w": [
+       "retailer"
+      ]
+     },
+     {
+      "q": "Which of the following is NOT mentioned in the email?",
+      "o": [
+       "A number for following the shipment",
+       "A change in how items are packed",
+       "Items sold at reduced prices",
+       "The deadline for paying the invoice"
+      ],
+      "a": 3,
+      "e": "Email có nhắc mã theo dõi (A), bao bì mới (B) và hàng xả kho giảm giá (C), nhưng không hề nêu hạn thanh toán hóa đơn nên D là đáp án.",
+      "w": [
+       "packaging"
+      ]
+     },
+     {
+      "q": "The word 'carries' in paragraph 3 is closest in meaning to",
+      "o": [
+       "holds up",
+       "delivers",
+       "has",
+       "accepts"
+      ],
+      "a": 2,
+      "e": "'Each one already carries a discounted price tag' nghĩa là mỗi món đã có nhãn giá giảm, nên 'carries' gần nghĩa nhất với 'has'."
+     }
+    ]
+   }
+  },
+  {
+   "id": "v09",
+   "week": 3,
+   "title": "Gói từ 9 · Từ cốt lõi nơi công sở (5)",
+   "words": [
+    "personnel",
+    "preliminary",
+    "proceed",
+    "prospective",
+    "qualified",
+    "refund",
+    "relocate",
+    "representative",
+    "retail",
+    "subsidiary",
+    "substantial",
+    "tentative",
+    "venue",
+    "verify",
+    "abide by",
+    "accessible",
+    "accountable",
+    "adhere to",
+    "advocate",
+    "alleviate"
+   ],
+   "passage": {
+    "type": "Announcement",
+    "title": "Open Hiring Day at Redwood Retail Group",
+    "text": "Redwood [[Retail]] Group is pleased to announce that its [[subsidiary]], Redwood Home Stores, will [[relocate]] its regional office to Eastgate Plaza this spring. To staff the new site, we will hold an open hiring day on Saturday, April 12. The [[tentative]] [[venue]] is the Eastgate Community Center, but the final location will be confirmed next week.\n\nWe are looking for [[qualified]] and [[prospective]] employees for sales, service, and warehouse roles. [[Preliminary]] interviews will be held on site. Our [[personnel]] team will review each application, and a [[representative]] will [[verify]] your references before any offer is made. Candidates who [[proceed]] to the second round will meet department managers. All new staff must [[abide by]] company safety rules and be [[accountable]] for their own work.\n\nThe center is [[accessible]] by bus, and parking is free. To [[alleviate]] long lines, please register online before Friday. If the event is canceled because of weather, applicants who bought a resume-review session will receive a [[refund]].",
+    "vi": "Tập đoàn Redwood Retail vui mừng thông báo rằng công ty con của mình, Redwood Home Stores, sẽ chuyển văn phòng khu vực đến Eastgate Plaza vào mùa xuân này. Để tuyển đủ nhân sự cho địa điểm mới, chúng tôi sẽ tổ chức ngày tuyển dụng mở vào thứ Bảy, ngày 12 tháng 4. Địa điểm dự kiến là Trung tâm Cộng đồng Eastgate, nhưng địa điểm cuối cùng sẽ được xác nhận vào tuần sau.\n\nChúng tôi đang tìm kiếm những ứng viên đủ năng lực và tiềm năng cho các vị trí bán hàng, dịch vụ và kho. Các buổi phỏng vấn sơ bộ sẽ được tổ chức tại chỗ. Nhóm nhân sự của chúng tôi sẽ xem xét từng hồ sơ, và một đại diện sẽ xác minh người tham chiếu của bạn trước khi đưa ra bất kỳ lời mời nhận việc nào. Những ứng viên tiến vào vòng hai sẽ gặp các quản lý bộ phận. Tất cả nhân viên mới phải tuân theo các quy định an toàn của công ty và có trách nhiệm giải trình về công việc của mình.\n\nTrung tâm có thể đến bằng xe buýt, và chỗ đỗ xe miễn phí. Để giảm bớt hàng chờ dài, vui lòng đăng ký trực tuyến trước thứ Sáu. Nếu sự kiện bị hủy vì thời tiết, những ứng viên đã mua buổi góp ý hồ sơ sẽ được hoàn tiền.",
+    "questions": [
+     {
+      "q": "What is the purpose of the announcement?",
+      "o": [
+       "To advertise a sale at retail stores",
+       "To invite job seekers to a hiring event",
+       "To announce that employees will be laid off",
+       "To introduce a new company president"
+      ],
+      "a": 1,
+      "e": "Thông báo mời ứng viên đến 'open hiring day' vào ngày 12 tháng 4 và mô tả quy trình tuyển dụng. Việc chuyển văn phòng chỉ là lý do cần tuyển thêm người.",
+      "w": [
+       "prospective"
+      ]
+     },
+     {
+      "q": "What is indicated about the event location?",
+      "o": [
+       "It is a retail store.",
+       "It is far from public transportation.",
+       "It has not been finalized yet.",
+       "It charges a parking fee."
+      ],
+      "a": 2,
+      "e": "Đoạn 1 gọi địa điểm là 'tentative venue' và nói 'the final location will be confirmed next week', tức là chưa chốt. Đoạn 3 cho biết có xe buýt và chỗ đỗ xe miễn phí.",
+      "w": [
+       "tentative",
+       "venue"
+      ]
+     },
+     {
+      "q": "Which is NOT mentioned as a step in the hiring process?",
+      "o": [
+       "Review of applications",
+       "Checking of references",
+       "Meetings with department managers",
+       "A written exam"
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nêu: xem xét hồ sơ, xác minh người tham chiếu, gặp quản lý bộ phận ở vòng hai. Không có bài thi viết nào được nhắc đến nên D là đáp án.",
+      "w": [
+       "verify",
+       "personnel"
+      ]
+     },
+     {
+      "q": "The word 'staff' in paragraph 1 is closest in meaning to",
+      "o": [
+       "provide employees for",
+       "dismiss workers from",
+       "train managers at",
+       "inspect"
+      ],
+      "a": 0,
+      "e": "'To staff the new site' nghĩa là tuyển nhân sự để vận hành địa điểm mới, nên gần nghĩa nhất với 'provide employees for'."
+     },
+     {
+      "q": "What is suggested about the Eastgate Community Center?",
+      "o": [
+       "It is difficult to reach without a car.",
+       "It can be reached by public transportation.",
+       "It is too small for the event.",
+       "It is owned by Redwood."
+      ],
+      "a": 1,
+      "e": "Đoạn 3: 'The center is accessible by bus', nghĩa là có thể đến bằng phương tiện công cộng. Không có thông tin nào về quyền sở hữu hay kích thước.",
+      "w": [
+       "accessible"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v10",
+   "week": 3,
+   "title": "Gói từ 10 · Từ cốt lõi nơi công sở (6)",
+   "words": [
+    "ample",
+    "appliance",
+    "appraisal",
+    "arrange",
+    "aspire",
+    "assemble",
+    "attain",
+    "audit",
+    "authentic",
+    "bid",
+    "bulk",
+    "cater",
+    "clarify",
+    "collaborate",
+    "commence",
+    "compile",
+    "concise",
+    "conform to",
+    "consolidate",
+    "contingency"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: Department Heads\nFrom: Priya Nair, Facilities Manager\nSubject: Staff cafeteria renovation",
+    "text": "Work on the staff cafeteria will [[commence]] on June 2. After an [[audit]] of last year's facility costs, we chose to [[consolidate]] three separate contracts into one. Several vendors submitted a [[bid]], and the winner will purchase every [[appliance]] in [[bulk]] to lower the price. The new kitchen will have [[ample]] storage and will [[conform to]] all current safety codes.\n\nBecause the cafeteria will be closed for three weeks, we will [[arrange]] for an outside company to [[cater]] lunch in the main lobby. Our caterer, Casa Verde, is known for [[authentic]] regional dishes, and its crew will [[assemble]] tables each morning. To prepare for possible delays, we have created a [[contingency]] plan that includes a temporary seating area on the second floor.\n\nPlease [[collaborate]] with your teams to [[compile]] a [[concise]] list of dietary needs and send it to me by May 20. If any part of this memo needs to be [[clarified]], please call my office. We [[aspire]] to [[attain]] a satisfaction rating above 90 percent.",
+    "vi": "Công việc cải tạo căng-tin nhân viên sẽ bắt đầu vào ngày 2 tháng 6. Sau một cuộc kiểm toán chi phí cơ sở vật chất năm ngoái, chúng tôi quyết định hợp nhất ba hợp đồng riêng lẻ thành một. Nhiều nhà cung cấp đã nộp hồ sơ dự thầu, và đơn vị thắng thầu sẽ mua mọi thiết bị gia dụng với số lượng lớn để giảm giá. Nhà bếp mới sẽ có nhiều không gian chứa đồ và sẽ tuân theo mọi quy chuẩn an toàn hiện hành.\n\nVì căng-tin sẽ đóng cửa trong ba tuần, chúng tôi sẽ sắp xếp để một công ty bên ngoài phục vụ bữa trưa tại sảnh chính. Nhà cung cấp suất ăn là Casa Verde, nổi tiếng với các món ăn địa phương chính gốc, và nhân viên của họ sẽ lắp ráp bàn ghế mỗi sáng. Để chuẩn bị cho những chậm trễ có thể xảy ra, chúng tôi đã lập phương án dự phòng gồm khu vực ngồi tạm trên tầng hai.\n\nVui lòng phối hợp với nhóm của bạn để tổng hợp một danh sách ngắn gọn về nhu cầu ăn uống và gửi cho tôi trước ngày 20 tháng 5. Nếu có phần nào trong bản ghi nhớ này cần làm rõ, vui lòng gọi cho văn phòng của tôi. Chúng tôi hướng tới đạt mức đánh giá hài lòng trên 90 phần trăm.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To announce a cafeteria closure and renovation plans",
+       "To request bids from kitchen vendors",
+       "To hire a new catering company",
+       "To report the results of a cost audit"
+      ],
+      "a": 0,
+      "e": "Memo thông báo căng-tin sẽ đóng cửa ba tuần để cải tạo và nêu kế hoạch thay thế (bữa trưa tại sảnh, phương án dự phòng). Cuộc kiểm toán và việc đấu thầu chỉ là bối cảnh.",
+      "w": [
+       "commence"
+      ]
+     },
+     {
+      "q": "Why will the winning vendor buy the appliances in large quantities?",
+      "o": [
+       "To meet safety codes",
+       "To increase storage space",
+       "To lower the price",
+       "To finish the work sooner"
+      ],
+      "a": 2,
+      "e": "Đoạn 1: 'the winner will purchase every appliance in bulk to lower the price', tức là mua số lượng lớn để giảm giá.",
+      "w": [
+       "bulk",
+       "appliance"
+      ]
+     },
+     {
+      "q": "Which is NOT indicated about the renovation?",
+      "o": [
+       "It will start in June.",
+       "It will last about three weeks.",
+       "Lunch will be catered in the lobby.",
+       "Employees will vote on the new menu."
+      ],
+      "a": 3,
+      "e": "Memo nêu ngày bắt đầu 2 tháng 6, thời gian đóng cửa ba tuần và bữa trưa phục vụ tại sảnh, nhưng không hề nói nhân viên bỏ phiếu chọn thực đơn nên D là đáp án.",
+      "w": [
+       "cater"
+      ]
+     },
+     {
+      "q": "The word 'ample' in paragraph 1 is closest in meaning to",
+      "o": [
+       "limited",
+       "plenty of",
+       "modern",
+       "inexpensive"
+      ],
+      "a": 1,
+      "e": "'The new kitchen will have ample storage' nghĩa là bếp mới có nhiều chỗ chứa, nên 'ample' gần nghĩa nhất với 'plenty of'.",
+      "w": [
+       "ample"
+      ]
+     },
+     {
+      "q": "Why most likely does Ms. Nair ask for a list of dietary needs?",
+      "o": [
+       "To choose which appliances to buy",
+       "To decide the renovation budget",
+       "To help the caterer plan suitable meals",
+       "To schedule staff vacations"
+      ],
+      "a": 2,
+      "e": "Căng-tin đóng cửa và công ty ngoài sẽ phục vụ bữa trưa, nên danh sách nhu cầu ăn uống nhiều khả năng giúp đơn vị cung cấp suất ăn chuẩn bị món phù hợp. Các mục đích khác không liên quan.",
+      "w": [
+       "compile"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v11",
+   "week": 3,
+   "title": "Gói từ 11 · Du lịch & đi lại",
+   "words": [
+    "boarding pass",
+    "baggage claim",
+    "carry-on",
+    "connecting flight",
+    "layover",
+    "destination",
+    "fare",
+    "departure",
+    "concierge",
+    "reservation",
+    "round-trip",
+    "one-way",
+    "shuttle",
+    "luggage",
+    "passport",
+    "upgrade",
+    "peak season",
+    "sightseeing",
+    "excursion",
+    "tourist attraction"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: All Sales Staff\nFrom: Marta Lindqvist, Travel Desk\nSubject: Your trip to Lisbon",
+    "text": "Dear team, your travel arrangements for the Lisbon trade show are now confirmed. Lisbon is a popular [[destination]] with many [[tourist attractions]], and because it is [[peak season]], we booked early. We chose a [[round-trip]] [[fare]] because two [[one-way]] tickets would have cost nearly twice as much. Your [[reservation]] numbers are attached, and everyone must bring a valid [[passport]].\n\nThe [[departure]] is on Tuesday at 7:10 a.m. There is a [[layover]] in Frankfurt, so your [[connecting flight]] leaves two hours after you land. Please keep your [[boarding pass]] handy and limit yourself to one [[carry-on]] bag plus one checked piece of [[luggage]]. After landing, collect your bags at [[baggage claim]] and take the hotel [[shuttle]] outside Terminal 2.\n\nThe hotel [[concierge]] can arrange [[sightseeing]] [[excursions]] for Thursday afternoon, though the show remains our priority. Anyone wishing to [[upgrade]] a seat must pay the difference personally.",
+    "vi": "Kính gửi cả nhóm, kế hoạch đi lại của các bạn cho hội chợ thương mại ở Lisbon đã được xác nhận. Lisbon là một điểm đến nổi tiếng với nhiều điểm thu hút du khách, và vì đang là mùa cao điểm nên chúng tôi đã đặt sớm. Chúng tôi chọn giá vé khứ hồi vì hai vé một chiều sẽ đắt gần gấp đôi. Mã đặt chỗ của các bạn được đính kèm, và mọi người phải mang theo hộ chiếu còn hiệu lực.\n\nChuyến khởi hành vào thứ Ba lúc 7:10 sáng. Có một thời gian quá cảnh ở Frankfurt, nên chuyến bay nối chuyến của các bạn cất cánh hai tiếng sau khi các bạn hạ cánh. Hãy giữ thẻ lên máy bay ở nơi dễ lấy và chỉ mang một túi hành lý xách tay cùng một kiện hành lý ký gửi. Sau khi hạ cánh, hãy nhận hành lý tại khu nhận hành lý và đi xe đưa đón của khách sạn ở bên ngoài Nhà ga số 2.\n\nNhân viên hỗ trợ khách của khách sạn có thể sắp xếp các chuyến đi tham quan ngắn vào chiều thứ Năm, dù hội chợ vẫn là ưu tiên của chúng ta. Ai muốn nâng hạng ghế phải tự trả phần chênh lệch.",
+    "questions": [
+     {
+      "q": "What is the purpose of the email?",
+      "o": [
+       "To announce a change to the trade show dates",
+       "To give employees details about a business trip",
+       "To ask staff to reimburse their airfare",
+       "To recommend hotels in Lisbon"
+      ],
+      "a": 1,
+      "e": "Email thông báo các sắp xếp đi lại đã được xác nhận (đặt chỗ, giờ khởi hành, nối chuyến, hành lý) cho chuyến công tác Lisbon, nên mục đích là cung cấp thông tin chuyến đi.",
+      "w": []
+     },
+     {
+      "q": "What should employees do after they collect their bags?",
+      "o": [
+       "Check in for their next flight",
+       "Visit a nearby tourist attraction",
+       "Take the shuttle outside Terminal 2",
+       "Call the concierge for a taxi"
+      ],
+      "a": 2,
+      "e": "Đoạn 2 viết: sau khi hạ cánh, nhận hành lý tại baggage claim rồi \"take the hotel shuttle outside Terminal 2\", tức đi xe đưa đón của khách sạn.",
+      "w": [
+       "shuttle",
+       "baggage claim"
+      ]
+     },
+     {
+      "q": "What information is NOT provided in the email?",
+      "o": [
+       "The departure time",
+       "The city where the layover takes place",
+       "The location of the hotel shuttle",
+       "The cost of the hotel rooms"
+      ],
+      "a": 3,
+      "e": "Email nêu giờ khởi hành (7:10 a.m.), nơi quá cảnh (Frankfurt) và nơi đón xe đưa đón (Terminal 2), nhưng không nói gì về giá phòng khách sạn.",
+      "w": [
+       "departure",
+       "layover"
+      ]
+     },
+     {
+      "q": "The word \"handy\" in paragraph 2 is closest in meaning to",
+      "o": [
+       "easily accessible",
+       "skillfully made",
+       "useful for repairs",
+       "recently issued"
+      ],
+      "a": 0,
+      "e": "\"Keep your boarding pass handy\" nghĩa là giữ thẻ lên máy bay ở nơi dễ lấy, tức \"easily accessible\".",
+      "w": [
+       "boarding pass"
+      ]
+     },
+     {
+      "q": "What is indicated about the flight to Lisbon?",
+      "o": [
+       "It is a nonstop flight",
+       "It includes a stop in another city",
+       "It leaves on Thursday afternoon",
+       "It is paid for by the employees"
+      ],
+      "a": 1,
+      "e": "Có \"layover in Frankfurt\" và \"connecting flight\", nghĩa là hành trình phải dừng và đổi chuyến ở thành phố khác trước khi tới Lisbon.",
+      "w": [
+       "connecting flight",
+       "layover"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v12",
+   "week": 3,
+   "title": "Gói từ 12 · Sự kiện & hội nghị",
+   "words": [
+    "banquet",
+    "caterer",
+    "keynote speaker",
+    "registration",
+    "rsvp",
+    "exhibit",
+    "booth",
+    "sponsor",
+    "ceremony",
+    "podium",
+    "panel discussion",
+    "workshop",
+    "seminar",
+    "name badge",
+    "dress code",
+    "guest list",
+    "ballroom",
+    "convention",
+    "unveil",
+    "host"
+   ],
+   "passage": {
+    "type": "Announcement",
+    "title": "Harbor Business Convention: Registration Now Open",
+    "text": "[[Registration]] is now open for the Harbor Business [[Convention]], which will be [[hosted]] at the Grand Meridian Hotel on November 14. This year's [[keynote speaker]], economist Dr. Priya Nand, will open the event from the [[podium]] at 9:00 a.m. A [[panel discussion]] on regional trade follows, and afternoon [[workshops]] and [[seminars]] will run in parallel rooms.\n\nMore than forty companies will [[exhibit]] their products, and each [[booth]] will be open until 5:00 p.m. Our lead [[sponsor]], Calder Freight, will [[unveil]] a new delivery service during the opening [[ceremony]].\n\nThe closing [[banquet]] will take place in the [[ballroom]], with meals provided by Olive & Thyme, our [[caterer]]. The [[dress code]] is business attire. Please [[RSVP]] by October 30 so that we can finalize the [[guest list]], and pick up your [[name badge]] at the front desk on arrival.",
+    "vi": "Việc đăng ký cho Đại hội Doanh nghiệp Harbor hiện đã mở. Đại hội sẽ được tổ chức tại khách sạn Grand Meridian vào ngày 14 tháng 11. Diễn giả chính năm nay, nhà kinh tế Tiến sĩ Priya Nand, sẽ khai mạc sự kiện từ bục phát biểu lúc 9:00 sáng. Tiếp theo là buổi tọa đàm về thương mại khu vực, còn các buổi hội thảo thực hành và hội thảo chuyên đề buổi chiều sẽ diễn ra song song ở nhiều phòng.\n\nHơn bốn mươi công ty sẽ trưng bày sản phẩm, và mỗi gian hàng sẽ mở cửa đến 5:00 chiều. Nhà tài trợ chính của chúng tôi, Calder Freight, sẽ công bố một dịch vụ giao hàng mới trong buổi lễ khai mạc.\n\nTiệc chiêu đãi bế mạc sẽ diễn ra tại sảnh tiệc, với các bữa ăn do Olive & Thyme, đơn vị cung cấp tiệc của chúng tôi, phục vụ. Quy định trang phục là trang phục công sở. Vui lòng xác nhận tham dự trước ngày 30 tháng 10 để chúng tôi chốt danh sách khách mời, và nhận thẻ tên tại quầy lễ tân khi đến.",
+    "questions": [
+     {
+      "q": "What is the purpose of the announcement?",
+      "o": [
+       "To invite professionals to register for an event",
+       "To report the results of a trade survey",
+       "To advertise a hotel's banquet services",
+       "To announce a change of venue"
+      ],
+      "a": 0,
+      "e": "Thông báo mở đăng ký cho đại hội, nêu chương trình và yêu cầu xác nhận tham dự, nên mục đích là mời các chuyên gia đăng ký tham dự sự kiện.",
+      "w": [
+       "registration",
+       "convention"
+      ]
+     },
+     {
+      "q": "What will Calder Freight do at the convention?",
+      "o": [
+       "Provide meals for the banquet",
+       "Give the opening speech",
+       "Introduce a new service",
+       "Lead a panel discussion"
+      ],
+      "a": 2,
+      "e": "Calder Freight là nhà tài trợ chính và sẽ \"unveil a new delivery service\" trong lễ khai mạc, tức là giới thiệu một dịch vụ mới. Bữa ăn do Olive & Thyme phục vụ.",
+      "w": [
+       "sponsor",
+       "unveil"
+      ]
+     },
+     {
+      "q": "The word \"run\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "compete",
+       "take place",
+       "operate a business",
+       "flow"
+      ],
+      "a": 1,
+      "e": "\"Workshops and seminars will run in parallel rooms\" nghĩa là các buổi này diễn ra cùng lúc ở nhiều phòng, tương đương \"take place\".",
+      "w": [
+       "workshop",
+       "seminar"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned as part of the convention?",
+      "o": [
+       "A panel discussion",
+       "A closing banquet",
+       "A job fair",
+       "Product exhibits"
+      ],
+      "a": 2,
+      "e": "Đoạn văn nhắc tọa đàm, tiệc bế mạc và việc các công ty trưng bày sản phẩm, nhưng không hề nói đến hội chợ việc làm.",
+      "w": [
+       "panel discussion",
+       "banquet",
+       "exhibit"
+      ]
+     },
+     {
+      "q": "What are attendees asked to do by October 30?",
+      "o": [
+       "Collect their name badges",
+       "Confirm that they will attend",
+       "Choose a meal option",
+       "Pay a registration fee"
+      ],
+      "a": 1,
+      "e": "Đoạn cuối: \"Please RSVP by October 30 so that we can finalize the guest list\", tức là yêu cầu xác nhận tham dự trước ngày 30 tháng 10.",
+      "w": [
+       "rsvp",
+       "guest list"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v13",
+   "week": 4,
+   "title": "Gói từ 13 · Sản xuất & chất lượng",
+   "words": [
+    "assembly line",
+    "blueprint",
+    "defect",
+    "prototype",
+    "raw materials",
+    "output",
+    "machinery",
+    "quality assurance",
+    "specification",
+    "calibrate",
+    "component",
+    "manufacture",
+    "shift",
+    "maintenance",
+    "malfunction",
+    "production line",
+    "capacity",
+    "recall",
+    "batch",
+    "inspection"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: Production Supervisors\nFrom: Hannah Ortiz, Plant Manager\nSubject: Quality review of the Model K blender",
+    "text": "Last week, a routine [[inspection]] found an unusually high number of [[defects]] in the latest [[batch]] of Model K blenders. Most problems involved a faulty motor [[component]] that did not meet the approved [[specification]]. As a precaution, we will [[recall]] the affected units that have already been shipped to retailers.\n\nEffective Monday, the [[quality assurance]] team will review the [[blueprint]] and test a new [[prototype]] before we resume full [[output]]. Technicians will [[calibrate]] the [[machinery]] on the [[assembly line]] at the start of every [[shift]], and scheduled [[maintenance]] will take place twice a week to prevent any [[malfunction]].\n\nBecause the [[production line]] will run below [[capacity]] during the repairs, we will continue to [[manufacture]] only the older Model J blenders, using [[raw materials]] from our current supplier. Please share this information with your teams.",
+    "vi": "Tuần trước, một đợt kiểm tra định kỳ đã phát hiện số lỗi sản phẩm cao bất thường trong lô máy xay Model K mới nhất. Hầu hết các vấn đề liên quan đến một linh kiện động cơ bị lỗi, không đạt thông số kỹ thuật đã được phê duyệt. Để phòng ngừa, chúng ta sẽ thu hồi các sản phẩm bị ảnh hưởng đã được giao cho các nhà bán lẻ.\n\nCó hiệu lực từ thứ Hai, nhóm đảm bảo chất lượng sẽ xem xét lại bản thiết kế chi tiết và thử nghiệm một mẫu thử mới trước khi chúng ta tiếp tục sản lượng đầy đủ. Các kỹ thuật viên sẽ hiệu chỉnh máy móc trên dây chuyền lắp ráp vào đầu mỗi ca làm việc, và việc bảo trì theo lịch sẽ diễn ra hai lần mỗi tuần để ngăn ngừa mọi trục trặc.\n\nVì dây chuyền sản xuất sẽ chạy dưới công suất trong thời gian sửa chữa, chúng ta sẽ chỉ tiếp tục sản xuất dòng máy xay Model J cũ hơn, sử dụng nguyên liệu thô từ nhà cung cấp hiện tại. Vui lòng chia sẻ thông tin này với nhóm của bạn.",
+    "questions": [
+     {
+      "q": "Why was the memo written?",
+      "o": [
+       "To announce the launch of a new blender",
+       "To explain how a product problem will be addressed",
+       "To request additional staff for the night shift",
+       "To report a change in the plant's supplier"
+      ],
+      "a": 1,
+      "e": "Memo nêu nguyên nhân lỗi ở lô Model K và các biện pháp: thu hồi, xem xét thiết kế, thử mẫu mới, hiệu chỉnh máy, nên mục đích là giải thích cách xử lý vấn đề sản phẩm.",
+      "w": []
+     },
+     {
+      "q": "According to the memo, what caused most of the problems?",
+      "o": [
+       "A worn-out assembly line",
+       "A late delivery of raw materials",
+       "A motor part that did not meet standards",
+       "An error by the inspection team"
+      ],
+      "a": 2,
+      "e": "Đoạn 1: hầu hết vấn đề do \"a faulty motor component that did not meet the approved specification\", tức một linh kiện động cơ không đạt thông số.",
+      "w": [
+       "component",
+       "specification",
+       "defect"
+      ]
+     },
+     {
+      "q": "The word \"routine\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "lengthy",
+       "urgent",
+       "regular",
+       "surprising"
+      ],
+      "a": 2,
+      "e": "\"Routine inspection\" là đợt kiểm tra thường lệ, định kỳ, gần nghĩa với \"regular\".",
+      "w": [
+       "inspection"
+      ]
+     },
+     {
+      "q": "What can be inferred about the Model K blenders?",
+      "o": [
+       "They have never been sold to customers",
+       "They are cheaper than the Model J",
+       "They will be tested by retailers",
+       "Some of them are already in stores"
+      ],
+      "a": 3,
+      "e": "Memo nói sẽ thu hồi các sản phẩm \"already been shipped to retailers\", nên có thể suy ra một số máy Model K đã được giao tới cửa hàng.",
+      "w": [
+       "recall"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned as a step the plant will take?",
+      "o": [
+       "Testing a new prototype",
+       "Adjusting the machinery regularly",
+       "Hiring more workers",
+       "Recalling shipped products"
+      ],
+      "a": 2,
+      "e": "Memo đề cập thử mẫu mới, hiệu chỉnh máy móc và thu hồi sản phẩm đã giao, nhưng không hề nói đến việc tuyển thêm công nhân.",
+      "w": [
+       "prototype",
+       "calibrate",
+       "recall"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v14",
+   "week": 4,
+   "title": "Gói từ 14 · Bất động sản & cơ sở vật chất",
+   "words": [
+    "landlord",
+    "tenant",
+    "lease",
+    "occupancy",
+    "vacant",
+    "real estate agent",
+    "square footage",
+    "zoning",
+    "contractor",
+    "permit",
+    "insulation",
+    "utilities",
+    "listing",
+    "amenity",
+    "furnished",
+    "down payment",
+    "open house",
+    "commercial",
+    "residential",
+    "demolish"
+   ],
+   "passage": {
+    "type": "Advertisement",
+    "title": "For Lease: Downtown Office Space at 220 Mercer Street",
+    "text": "Looking for a new home for your business? This [[vacant]] [[commercial]] space at 220 Mercer Street is now available. The [[square footage]] totals 2,400, with floor-to-ceiling windows, new [[insulation]], and a shared lobby. Popular [[amenities]] include a conference room, covered parking, and a rooftop terrace. The unit can be [[furnished]] on request, and basic [[utilities]] are included in the monthly rent.\n\nThe [[landlord]], Brightline Properties, offers a three-year [[lease]] with a flexible renewal option. Each prospective [[tenant]] must submit a [[down payment]] equal to one month's rent. Current [[zoning]] allows both offices and retail shops, and a licensed [[contractor]] has already obtained the building [[permit]] for interior renovations. Early [[occupancy]] is possible in January.\n\nVisit our [[open house]] this Saturday, or contact [[real estate agent]] Daniel Cho to schedule a private tour. The full [[listing]] is available on our website.",
+    "vi": "Bạn đang tìm một nơi làm việc mới cho doanh nghiệp? Mặt bằng thương mại còn trống này tại số 220 phố Mercer hiện đang sẵn sàng. Diện tích tổng cộng 2.400 feet vuông, có cửa sổ kính từ sàn đến trần, lớp cách nhiệt mới và sảnh chung. Các tiện nghi phổ biến gồm phòng họp, bãi đỗ xe có mái che và sân thượng. Căn có thể được trang bị nội thất theo yêu cầu, và các tiện ích cơ bản đã gồm trong tiền thuê hằng tháng.\n\nChủ nhà, Brightline Properties, đưa ra hợp đồng thuê ba năm với tùy chọn gia hạn linh hoạt. Mỗi người thuê tiềm năng phải nộp khoản tiền trả trước bằng một tháng tiền thuê. Quy hoạch sử dụng đất hiện tại cho phép cả văn phòng và cửa hàng bán lẻ, và một nhà thầu có giấy phép đã xin được giấy phép xây dựng cho việc cải tạo nội thất. Có thể vào sử dụng sớm vào tháng Một.\n\nHãy đến buổi mở cửa xem nhà vào thứ Bảy này, hoặc liên hệ nhân viên môi giới bất động sản Daniel Cho để đặt lịch xem riêng. Tin rao đầy đủ có trên trang web của chúng tôi.",
+    "questions": [
+     {
+      "q": "What is being advertised?",
+      "o": [
+       "A residential apartment for sale",
+       "A warehouse that will be demolished",
+       "A furnished hotel suite",
+       "An office space available for rent"
+      ],
+      "a": 3,
+      "e": "Quảng cáo nói về mặt bằng thương mại còn trống ở 220 Mercer Street với hợp đồng thuê ba năm, tức là văn phòng cho thuê.",
+      "w": [
+       "commercial",
+       "lease",
+       "vacant"
+      ]
+     },
+     {
+      "q": "What is included in the monthly rent?",
+      "o": [
+       "Basic utilities",
+       "Office furniture",
+       "Parking for guests",
+       "Renovation costs"
+      ],
+      "a": 0,
+      "e": "Đoạn 1 ghi \"basic utilities are included in the monthly rent\". Nội thất chỉ được cung cấp theo yêu cầu, còn chi phí cải tạo không được nhắc là đã gồm.",
+      "w": [
+       "utilities",
+       "furnished"
+      ]
+     },
+     {
+      "q": "The word \"prospective\" in paragraph 2 is closest in meaning to",
+      "o": [
+       "former",
+       "potential",
+       "reliable",
+       "experienced"
+      ],
+      "a": 1,
+      "e": "\"Prospective tenant\" là người thuê tiềm năng, tức người có thể sẽ thuê, gần nghĩa với \"potential\".",
+      "w": [
+       "tenant"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned about the property?",
+      "o": [
+       "The availability of parking",
+       "A rooftop terrace",
+       "The amount of the monthly rent",
+       "The length of the lease"
+      ],
+      "a": 2,
+      "e": "Quảng cáo nhắc bãi đỗ xe, sân thượng và hợp đồng thuê ba năm, nhưng chỉ nói \"monthly rent\" mà không cho biết số tiền cụ thể.",
+      "w": [
+       "amenity",
+       "lease"
+      ]
+     },
+     {
+      "q": "How can interested companies arrange a viewing?",
+      "o": [
+       "Submit a down payment online",
+       "Attend the open house or contact an agent",
+       "Ask the landlord for a permit",
+       "Wait for the contractor to call"
+      ],
+      "a": 1,
+      "e": "Đoạn cuối mời tới \"open house this Saturday\" hoặc liên hệ nhân viên môi giới Daniel Cho để đặt lịch xem riêng.",
+      "w": [
+       "open house",
+       "real estate agent"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v15",
+   "week": 4,
+   "title": "Gói từ 15 · Sức khoẻ & an toàn lao động",
+   "words": [
+    "checkup",
+    "prescription",
+    "pharmacy",
+    "symptom",
+    "insurance policy",
+    "premium",
+    "deductible",
+    "claim",
+    "coverage",
+    "copayment",
+    "beneficiary",
+    "clinic",
+    "physician",
+    "specialist",
+    "referral",
+    "vaccination",
+    "ergonomic",
+    "evacuation",
+    "fire drill",
+    "first aid"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Employees\nFrom: Human Resources\nSubject: Updated health benefits and safety activities",
+    "text": "Starting January 1, our new [[insurance policy]] will give every employee and [[beneficiary]] broader [[coverage]]. The monthly [[premium]] will stay the same, but the annual [[deductible]] has dropped from $800 to $500. A [[copayment]] of $15 now applies to each visit to a network [[clinic]], and seeing a [[specialist]] requires a [[referral]] from your [[physician]]. Annual [[checkups]] and flu [[vaccination]] are fully covered. To file a [[claim]], upload your receipts to the benefits portal within 60 days. Any [[prescription]] filled at a participating [[pharmacy]] will also qualify.\n\nSafety is part of well-being as well. Next Wednesday, the facilities team will hold a [[fire drill]] followed by an [[evacuation]] practice for each floor. A certified instructor will then demonstrate basic [[first aid]], and employees who request an [[ergonomic]] chair will receive one by the end of the month.",
+    "vi": "Bắt đầu từ ngày 1 tháng 1, hợp đồng bảo hiểm mới của chúng ta sẽ mang lại phạm vi bảo hiểm rộng hơn cho mọi nhân viên và người thụ hưởng. Phí bảo hiểm hằng tháng sẽ giữ nguyên, nhưng mức khấu trừ hằng năm đã giảm từ 800 đô la xuống 500 đô la. Khoản đồng chi trả 15 đô la hiện áp dụng cho mỗi lần khám tại phòng khám trong mạng lưới, và việc gặp bác sĩ chuyên khoa cần có giấy giới thiệu từ bác sĩ của bạn. Khám sức khỏe định kỳ hằng năm và tiêm phòng cúm được chi trả toàn bộ. Để yêu cầu bồi thường, hãy tải hóa đơn lên cổng phúc lợi trong vòng 60 ngày. Mọi đơn thuốc được lấy tại hiệu thuốc tham gia mạng lưới cũng sẽ đủ điều kiện.\n\nAn toàn cũng là một phần của sức khỏe tổng thể. Thứ Tư tuần sau, bộ phận cơ sở vật chất sẽ tổ chức một buổi diễn tập cứu hỏa, tiếp theo là buổi tập sơ tán cho từng tầng. Sau đó, một giảng viên có chứng chỉ sẽ hướng dẫn sơ cứu cơ bản, và nhân viên nào yêu cầu ghế công thái học sẽ nhận được ghế trước cuối tháng.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the memo?",
+      "o": [
+       "To introduce a new medical clinic",
+       "To inform employees of changes to their health benefits",
+       "To ask staff to renew their insurance online",
+       "To announce a new safety manager"
+      ],
+      "a": 1,
+      "e": "Memo mở đầu bằng hợp đồng bảo hiểm mới từ ngày 1 tháng 1 và nêu các thay đổi về phí, mức khấu trừ, chi trả, nên mục đích chính là thông báo thay đổi phúc lợi sức khỏe.",
+      "w": [
+       "insurance policy",
+       "coverage"
+      ]
+     },
+     {
+      "q": "What change will occur in January?",
+      "o": [
+       "The monthly premium will rise",
+       "Employees will pay a lower deductible",
+       "Specialists will no longer require a referral",
+       "The copayment will be eliminated"
+      ],
+      "a": 1,
+      "e": "Memo ghi mức khấu trừ hằng năm giảm từ 800 xuống 500 đô la, còn phí bảo hiểm vẫn giữ nguyên; khoản đồng chi trả và giấy giới thiệu vẫn áp dụng.",
+      "w": [
+       "deductible",
+       "premium"
+      ]
+     },
+     {
+      "q": "The word \"broader\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "cheaper",
+       "simpler",
+       "wider",
+       "older"
+      ],
+      "a": 2,
+      "e": "\"Broader coverage\" là phạm vi bảo hiểm rộng hơn, nên gần nghĩa nhất với \"wider\".",
+      "w": [
+       "coverage"
+      ]
+     },
+     {
+      "q": "What does an employee need in order to see a specialist?",
+      "o": [
+       "A claim form from the insurer",
+       "A prescription from a pharmacy",
+       "Approval from a beneficiary",
+       "A referral from a physician"
+      ],
+      "a": 3,
+      "e": "Đoạn 1 viết rằng gặp bác sĩ chuyên khoa \"requires a referral from your physician\", tức cần giấy giới thiệu từ bác sĩ của mình.",
+      "w": [
+       "referral",
+       "specialist",
+       "physician"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned as happening next Wednesday?",
+      "o": [
+       "A fire drill",
+       "A first aid demonstration",
+       "A flu vaccination session",
+       "An evacuation practice"
+      ],
+      "a": 2,
+      "e": "Thứ Tư tuần sau có diễn tập cứu hỏa, tập sơ tán và hướng dẫn sơ cứu. Tiêm phòng cúm chỉ được nhắc là được bảo hiểm chi trả, không phải hoạt động diễn ra hôm đó.",
+      "w": [
+       "fire drill",
+       "evacuation",
+       "first aid"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v16",
+   "week": 4,
+   "title": "Gói từ 16 · Tiếp thị & quảng cáo",
+   "words": [
+    "campaign",
+    "target audience",
+    "brand awareness",
+    "market share",
+    "slogan",
+    "promotional",
+    "testimonial",
+    "demographic",
+    "competitor",
+    "loyalty program",
+    "newsletter",
+    "social media",
+    "influencer",
+    "telecommute",
+    "hybrid work",
+    "flexible hours",
+    "work-life balance",
+    "sustainability",
+    "carbon footprint",
+    "renewable energy"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Marketing Staff\nFrom: Dana Whitfield, Marketing Director\nSubject: Spring campaign plan",
+    "text": "Our spring [[campaign]] for Brightleaf Tea will launch on April 7. The main goal is to build [[brand awareness]] among young professionals, our new [[target audience]], because our largest [[competitor]] has recently taken a bigger [[market share]] in that [[demographic]]. The new [[slogan]], \"Brewed Kindly,\" will appear in all [[promotional]] materials.\n\nWe will invite three [[influencers]] to share their experiences on [[social media]], and we will add customer [[testimonials]] to our monthly [[newsletter]]. Members of our [[loyalty program]] will receive early access to the new blends.\n\nThe campaign will also highlight our commitment to [[sustainability]]. Our roasting plant now runs on [[renewable energy]], which has reduced our [[carbon footprint]] by 30 percent. To prepare, team members may [[telecommute]] on Wednesdays, and [[flexible hours]] are available during launch week to support [[work-life balance]]. Please send your draft content to Dana by March 20.",
+    "vi": "Chiến dịch mùa xuân cho trà Brightleaf sẽ khởi động vào ngày 7 tháng 4. Mục tiêu chính là xây dựng mức độ nhận biết thương hiệu trong nhóm người trẻ đi làm, đối tượng mục tiêu mới của chúng ta, vì đối thủ cạnh tranh lớn nhất gần đây đã chiếm thị phần lớn hơn trong nhóm nhân khẩu học này. Khẩu hiệu mới, \"Brewed Kindly\", sẽ xuất hiện trên mọi tài liệu quảng bá.\n\nChúng ta sẽ mời ba người có tầm ảnh hưởng chia sẻ trải nghiệm của họ trên mạng xã hội, đồng thời đưa các lời chứng thực của khách hàng vào bản tin hằng tháng. Thành viên của chương trình khách hàng thân thiết sẽ được trải nghiệm sớm các loại trà pha trộn mới.\n\nChiến dịch cũng sẽ nhấn mạnh cam kết của chúng ta về tính bền vững. Nhà máy rang của chúng ta hiện chạy bằng năng lượng tái tạo, nhờ đó đã giảm lượng phát thải carbon 30 phần trăm. Để chuẩn bị, các thành viên trong nhóm có thể làm việc từ xa vào thứ Tư, và giờ làm linh hoạt được áp dụng trong tuần ra mắt nhằm hỗ trợ cân bằng công việc và cuộc sống. Vui lòng gửi bản nháp nội dung cho Dana trước ngày 20 tháng 3.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To announce a new tea flavor",
+       "To describe plans for an upcoming marketing campaign",
+       "To report last quarter's sales results",
+       "To recruit influencers for the company"
+      ],
+      "a": 1,
+      "e": "Bản ghi nhớ mở đầu bằng 'Our spring campaign ... will launch on April 7' rồi nêu mục tiêu, khẩu hiệu và kế hoạch triển khai, nên mục đích là mô tả kế hoạch chiến dịch sắp tới.",
+      "w": [
+       "campaign"
+      ]
+     },
+     {
+      "q": "Why has Brightleaf Tea chosen young professionals as its new target?",
+      "o": [
+       "They asked for a new slogan.",
+       "A competitor has gained market share among them.",
+       "They already belong to the loyalty program.",
+       "They prefer to work flexible hours."
+      ],
+      "a": 1,
+      "e": "Đoạn 1 nói đối thủ lớn nhất 'has recently taken a bigger market share in that demographic', tức là đối thủ chiếm thêm thị phần ở nhóm người trẻ đi làm.",
+      "w": [
+       "target audience",
+       "competitor",
+       "market share",
+       "demographic"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned as part of the campaign?",
+      "o": [
+       "Social media posts by influencers",
+       "Customer testimonials in the newsletter",
+       "Early access for loyalty program members",
+       "Discounts at retail stores"
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nhắc đến người có tầm ảnh hưởng trên mạng xã hội, lời chứng thực trong bản tin và quyền dùng thử sớm cho thành viên; không có chỗ nào nói về giảm giá tại cửa hàng.",
+      "w": [
+       "influencer",
+       "testimonial",
+       "loyalty program"
+      ]
+     },
+     {
+      "q": "The word \"highlight\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "brighten",
+       "replace",
+       "emphasize",
+       "question"
+      ],
+      "a": 2,
+      "e": "'Highlight our commitment to sustainability' nghĩa là nhấn mạnh cam kết về tính bền vững, gần nghĩa nhất với 'emphasize'."
+     },
+     {
+      "q": "What can be inferred about Brightleaf Tea?",
+      "o": [
+       "It recently changed how its roasting plant is powered.",
+       "It plans to close its roasting plant.",
+       "It requires staff to work in the office every day.",
+       "It has stopped selling to young professionals."
+      ],
+      "a": 0,
+      "e": "Đoạn 3 cho biết nhà máy 'now runs on renewable energy' và đã giảm phát thải 30%, suy ra nguồn năng lượng của nhà máy đã được thay đổi gần đây. Nhân viên còn được phép làm việc từ xa nên D sai.",
+      "w": [
+       "renewable energy",
+       "carbon footprint"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v17",
+   "week": 5,
+   "title": "Gói từ 17 · Chăm sóc khách hàng",
+   "words": [
+    "sincere",
+    "dissatisfied",
+    "resolve",
+    "hotline",
+    "call center",
+    "extension",
+    "on hold",
+    "reference number",
+    "confirmation number",
+    "replacement",
+    "feedback form",
+    "comment card",
+    "frustrated",
+    "patience",
+    "assure",
+    "guarantee",
+    "faulty",
+    "technician",
+    "follow-up",
+    "personalized"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Alan Brooks\nFrom: Priya Nair, Customer Care Manager\nSubject: Your blender order and our follow-up",
+    "text": "Dear Mr. Brooks,\n\nPlease accept our [[sincere]] apologies. We understand that you were [[dissatisfied]] with the blender you received and that you felt [[frustrated]] after waiting [[on hold]] for 25 minutes when you called our [[call center]] last Friday. Thank you for your [[patience]].\n\nWe want to [[resolve]] this matter quickly. The unit was [[faulty]], so we are sending a [[replacement]] at no charge. It comes with a two-year [[guarantee]]. Please keep your [[reference number]], 48213, and quote it whenever you contact us.\n\nA [[technician]] will phone you on Monday to confirm that the new blender works well, and we will arrange a [[personalized]] [[follow-up]] check next month. If you have questions, call our [[hotline]] at 555-0142, [[extension]] 7, or complete the enclosed [[feedback form]]. We [[assure]] you that every comment is read.\n\nSincerely,\nPriya Nair",
+    "vi": "Kính gửi ông Brooks,\n\nXin ông nhận lời xin lỗi chân thành của chúng tôi. Chúng tôi hiểu rằng ông không hài lòng với chiếc máy xay sinh tố đã nhận và ông cảm thấy bực bội sau khi phải chờ máy 25 phút khi gọi đến tổng đài của chúng tôi vào thứ Sáu tuần trước. Cảm ơn sự kiên nhẫn của ông.\n\nChúng tôi muốn giải quyết việc này nhanh chóng. Chiếc máy bị lỗi, vì vậy chúng tôi sẽ gửi một chiếc thay thế miễn phí. Sản phẩm đi kèm bảo hành hai năm. Xin ông giữ lại số tham chiếu 48213 và nêu số này mỗi khi liên hệ với chúng tôi.\n\nMột kỹ thuật viên sẽ gọi điện cho ông vào thứ Hai để xác nhận chiếc máy mới hoạt động tốt, và chúng tôi sẽ sắp xếp một buổi liên hệ lại được cá nhân hóa vào tháng sau. Nếu có thắc mắc, xin ông gọi đường dây nóng 555-0142, số máy lẻ 7, hoặc điền vào phiếu góp ý đính kèm. Chúng tôi cam đoan rằng mọi ý kiến đều được đọc.\n\nTrân trọng,\nPriya Nair",
+    "questions": [
+     {
+      "q": "Why did Ms. Nair write the email?",
+      "o": [
+       "To confirm a new order",
+       "To offer Mr. Brooks a job",
+       "To respond to a complaint and explain how it will be handled",
+       "To announce a change in the warranty policy"
+      ],
+      "a": 2,
+      "e": "Email mở đầu bằng lời xin lỗi vì khách không hài lòng, sau đó nêu cách xử lý (gửi hàng thay thế, kỹ thuật viên gọi, liên hệ lại), nên mục đích là phản hồi khiếu nại và giải thích hướng giải quyết."
+     },
+     {
+      "q": "What is NOT mentioned as something the company will do for Mr. Brooks?",
+      "o": [
+       "Send a new blender free of charge",
+       "Have a technician call him",
+       "Return the full purchase price to his credit card",
+       "Contact him again next month"
+      ],
+      "a": 2,
+      "e": "Email nói sẽ gửi máy thay thế miễn phí, kỹ thuật viên gọi vào thứ Hai và liên hệ lại tháng sau; không hề đề cập việc hoàn tiền vào thẻ tín dụng.",
+      "w": [
+       "replacement",
+       "technician",
+       "follow-up"
+      ]
+     },
+     {
+      "q": "What should Mr. Brooks do when he contacts the company again?",
+      "o": [
+       "Give his reference number",
+       "Send back the faulty blender first",
+       "Provide a confirmation number",
+       "Visit the nearest store"
+      ],
+      "a": 0,
+      "e": "Đoạn 2 viết 'Please keep your reference number, 48213, and quote it whenever you contact us', tức là ông cần nêu số tham chiếu khi liên hệ.",
+      "w": [
+       "reference number"
+      ]
+     },
+     {
+      "q": "The word \"quote\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "estimate",
+       "mention",
+       "copy",
+       "price"
+      ],
+      "a": 1,
+      "e": "'Quote it whenever you contact us' nghĩa là nêu/đọc số đó ra mỗi khi liên hệ, gần nghĩa nhất với 'mention'."
+     },
+     {
+      "q": "What can be inferred about Mr. Brooks's call last Friday?",
+      "o": [
+       "It was answered immediately.",
+       "It was made to the wrong number.",
+       "It was about a late delivery.",
+       "It took a long time before he received help."
+      ],
+      "a": 3,
+      "e": "Email nói ông 'felt frustrated after waiting on hold for 25 minutes' khi gọi tổng đài, suy ra ông phải chờ rất lâu mới được hỗ trợ.",
+      "w": [
+       "on hold",
+       "call center"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v18",
+   "week": 5,
+   "title": "Gói từ 18 · Đào tạo & phát triển",
+   "words": [
+    "professional development",
+    "skill set",
+    "refresher course",
+    "instructor",
+    "facilitate",
+    "tutorial",
+    "curriculum",
+    "certification",
+    "licensed",
+    "voluntary",
+    "webinar",
+    "hands-on",
+    "interactive",
+    "simulation",
+    "role-play",
+    "case study",
+    "icebreaker",
+    "instructional",
+    "manual",
+    "guidelines"
+   ],
+   "passage": {
+    "type": "Notice",
+    "title": "Harbor Insurance Group\nNotice: Autumn Professional Development Program",
+    "text": "Harbor Insurance Group is pleased to announce this autumn's [[professional development]] program. Its goal is to strengthen the [[skill set]] of our claims staff. The new [[curriculum]] includes a [[refresher course]] on claims procedures and a [[webinar]] on communicating with clients. Each session will be led by a [[licensed]] [[instructor]].\n\nAll sessions are [[interactive]] and [[hands-on]]. Each one begins with a short [[icebreaker]], and participants will work through a [[case study]], a [[simulation]] of a client phone call, and a [[role-play]] with a partner. A senior trainer will [[facilitate]] every group discussion. Before the first day, please complete the online [[tutorial]] and review the [[guidelines]] in your [[instructional]] [[manual]].\n\nParticipation is [[voluntary]], but employees who attend all four sessions will earn a [[certification]] that counts toward their annual review. Register through the HR portal by September 30.",
+    "vi": "Tập đoàn Bảo hiểm Harbor vui mừng thông báo chương trình phát triển chuyên môn mùa thu năm nay. Mục tiêu là nâng cao bộ kỹ năng của nhân viên xử lý bồi thường. Chương trình học mới gồm một khóa ôn lại về quy trình xử lý bồi thường và một buổi hội thảo trực tuyến về cách giao tiếp với khách hàng. Mỗi buổi học sẽ do một giảng viên có giấy phép hành nghề phụ trách.\n\nTất cả các buổi học đều mang tính tương tác và thực hành. Mỗi buổi bắt đầu bằng một hoạt động làm quen ngắn, và người tham gia sẽ làm một nghiên cứu tình huống, một bài mô phỏng cuộc gọi của khách hàng, và một bài đóng vai cùng bạn học. Một huấn luyện viên cấp cao sẽ điều phối mọi buổi thảo luận nhóm. Trước ngày học đầu tiên, vui lòng hoàn thành bài hướng dẫn trực tuyến và xem lại các nguyên tắc trong sách hướng dẫn giảng dạy của bạn.\n\nViệc tham gia là tự nguyện, nhưng nhân viên tham dự cả bốn buổi sẽ nhận được chứng chỉ được tính vào đánh giá hằng năm. Hãy đăng ký qua cổng thông tin nhân sự trước ngày 30 tháng 9.",
+    "questions": [
+     {
+      "q": "What is the purpose of the notice?",
+      "o": [
+       "To introduce a new insurance product",
+       "To ask staff to volunteer as teachers",
+       "To report on last year's training results",
+       "To announce a training program for claims staff"
+      ],
+      "a": 3,
+      "e": "Thông báo mở đầu bằng 'pleased to announce this autumn's professional development program' dành cho nhân viên xử lý bồi thường, nên mục đích là thông báo chương trình đào tạo.",
+      "w": [
+       "professional development"
+      ]
+     },
+     {
+      "q": "What are participants asked to do before the first day?",
+      "o": [
+       "Pay a registration fee",
+       "Complete a tutorial and review the guidelines",
+       "Attend a webinar",
+       "Prepare a role-play with a partner"
+      ],
+      "a": 1,
+      "e": "Đoạn 2 viết 'Before the first day, please complete the online tutorial and review the guidelines', nên A, C, D không đúng yêu cầu trước ngày học đầu tiên.",
+      "w": [
+       "tutorial",
+       "guidelines"
+      ]
+     },
+     {
+      "q": "Which of the following is NOT part of the sessions?",
+      "o": [
+       "A written examination",
+       "A group discussion",
+       "An icebreaker",
+       "A simulated phone call"
+      ],
+      "a": 0,
+      "e": "Đoạn 2 liệt kê hoạt động làm quen, nghiên cứu tình huống, mô phỏng cuộc gọi, đóng vai và thảo luận nhóm; không có bài kiểm tra viết nào.",
+      "w": [
+       "icebreaker",
+       "simulation"
+      ]
+     },
+     {
+      "q": "The word \"earn\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "spend",
+       "lend",
+       "obtain",
+       "repeat"
+      ],
+      "a": 2,
+      "e": "'Will earn a certification' nghĩa là nhận được/đạt được chứng chỉ, gần nghĩa nhất với 'obtain'."
+     },
+     {
+      "q": "What can be inferred about the program?",
+      "o": [
+       "Only managers may attend.",
+       "Some employees may choose not to attend.",
+       "All staff must receive certification.",
+       "Every instructor is a new employee."
+      ],
+      "a": 1,
+      "e": "Đoạn 3 nói 'Participation is voluntary', suy ra một số nhân viên có thể chọn không tham gia; chứng chỉ chỉ dành cho người dự đủ bốn buổi.",
+      "w": [
+       "voluntary",
+       "certification"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v19",
+   "week": 5,
+   "title": "Gói từ 19 · Quản lý & doanh nghiệp",
+   "words": [
+    "reorganize",
+    "downsize",
+    "outsource",
+    "acquisition",
+    "takeover",
+    "parent company",
+    "division",
+    "board of directors",
+    "annual report",
+    "corporate culture",
+    "mission statement",
+    "strategic",
+    "initiative",
+    "quota",
+    "milestone",
+    "ahead of schedule",
+    "on track",
+    "fall behind",
+    "protocol",
+    "in accordance with"
+   ],
+   "passage": {
+    "type": "Article",
+    "title": "Norvale Foods Reveals Restructuring Plan",
+    "text": "Norvale Foods announced on Tuesday that it will [[reorganize]] its operations following last year's [[acquisition]] of Pelham Snacks. The [[board of directors]] approved the plan, which is described in the company's latest [[annual report]]. Although the deal was friendly rather than a hostile [[takeover]], some analysts expected the [[parent company]] to [[downsize]] the new [[division]]. Chief executive Laura Chen said that will not happen.\n\n\"This is a [[strategic]] [[initiative]], not a cost-cutting exercise,\" Chen said. \"We will [[outsource]] only our delivery services, and every change will be made [[in accordance with]] our [[mission statement]]. We also want to protect our [[corporate culture]].\"\n\nThe first [[milestone]] is the merger of the two sales teams, which is [[on track]] and may finish [[ahead of schedule]]. Each team has a monthly [[quota]], and managers must ensure that no group will [[fall behind]].",
+    "vi": "Hôm thứ Ba, Norvale Foods thông báo sẽ tổ chức lại hoạt động sau vụ mua lại Pelham Snacks vào năm ngoái. Hội đồng quản trị đã thông qua kế hoạch này, được mô tả trong báo cáo thường niên mới nhất của công ty. Dù thương vụ mang tính thân thiện chứ không phải một vụ thâu tóm thù địch, một số nhà phân tích dự đoán công ty mẹ sẽ cắt giảm quy mô của bộ phận mới. Tổng giám đốc Laura Chen cho biết điều đó sẽ không xảy ra.\n\n\"Đây là một sáng kiến mang tính chiến lược, không phải một đợt cắt giảm chi phí\", bà Chen nói. \"Chúng tôi sẽ chỉ thuê ngoài dịch vụ giao hàng, và mọi thay đổi sẽ được thực hiện theo đúng tuyên bố sứ mệnh của chúng tôi. Chúng tôi cũng muốn bảo vệ văn hóa doanh nghiệp của mình.\"\n\nCột mốc đầu tiên là việc hợp nhất hai nhóm bán hàng, vốn đang đúng tiến độ và có thể hoàn thành sớm hơn kế hoạch. Mỗi nhóm có một chỉ tiêu hằng tháng, và các quản lý phải bảo đảm không nhóm nào bị chậm tiến độ.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the article?",
+      "o": [
+       "To announce a new line of snack products",
+       "To explain why a company was sold",
+       "To report on how a company will restructure after buying another firm",
+       "To criticize a hostile takeover"
+      ],
+      "a": 2,
+      "e": "Bài báo tường thuật việc Norvale 'will reorganize its operations following last year's acquisition of Pelham Snacks' và các chi tiết triển khai, nên mục đích là đưa tin về kế hoạch tái cơ cấu sau thương vụ mua lại.",
+      "w": [
+       "reorganize",
+       "acquisition"
+      ]
+     },
+     {
+      "q": "According to Ms. Chen, what will the company outsource?",
+      "o": [
+       "Its sales operations",
+       "Its delivery services",
+       "Its annual report",
+       "Its customer service"
+      ],
+      "a": 1,
+      "e": "Bà Chen nói 'We will outsource only our delivery services', tức chỉ thuê ngoài dịch vụ giao hàng.",
+      "w": [
+       "outsource"
+      ]
+     },
+     {
+      "q": "What can be inferred about Pelham Snacks?",
+      "o": [
+       "It is now a division of Norvale Foods.",
+       "It is the parent company of Norvale Foods.",
+       "It will be closed by the end of the year.",
+       "It has refused Norvale's offer."
+      ],
+      "a": 0,
+      "e": "Bài nói Norvale mua lại Pelham Snacks năm ngoái và một số người dự đoán công ty mẹ sẽ thu hẹp 'the new division', suy ra Pelham nay là một bộ phận của Norvale.",
+      "w": [
+       "division",
+       "parent company"
+      ]
+     },
+     {
+      "q": "The word \"ensure\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "suggest",
+       "allow",
+       "predict",
+       "make sure"
+      ],
+      "a": 3,
+      "e": "'Managers must ensure that no group will fall behind' nghĩa là các quản lý phải bảo đảm/đảm bảo, gần nghĩa nhất với 'make sure'."
+     },
+     {
+      "q": "Which of the following is NOT stated in the article?",
+      "o": [
+       "The board of directors approved the plan.",
+       "The plan is described in the annual report.",
+       "The first milestone is merging two sales teams.",
+       "Chen expects layoffs in the new division."
+      ],
+      "a": 3,
+      "e": "Bà Chen nói việc thu hẹp quy mô 'will not happen' và đây không phải đợt cắt giảm chi phí; còn A, B, C đều được nêu rõ trong bài.",
+      "w": [
+       "board of directors",
+       "annual report",
+       "milestone"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v20",
+   "week": 5,
+   "title": "Gói từ 20 · Trạng từ hay gặp ở Part 5",
+   "words": [
+    "substantially",
+    "exclusively",
+    "considerably",
+    "consistently",
+    "significantly",
+    "sharply",
+    "moderately",
+    "reportedly",
+    "collectively",
+    "separately",
+    "jointly",
+    "routinely",
+    "primarily",
+    "solely",
+    "strictly",
+    "thoroughly",
+    "diligently",
+    "swiftly",
+    "shortly",
+    "formerly"
+   ],
+   "passage": {
+    "type": "Article",
+    "title": "Local Furniture Maker Posts Strong Year",
+    "text": "Hartley Home, [[formerly]] known as Hartley Furniture, reported on Monday that its yearly sales rose [[considerably]] after two slow years. Online orders increased [[sharply]] in spring, while store sales grew only [[moderately]]. Company president Neil Ortega said the results were [[primarily]] due to a [[thoroughly]] redesigned website, which was built [[jointly]] with a local design studio.\n\nOrtega praised the employees who [[diligently]] handled the extra orders. \"Our drivers, assemblers, and customer service staff [[collectively]] made this possible,\" he said. The company [[routinely]] reviews delivery times, and packages now arrive [[swiftly]], [[consistently]] within three days. Quality checks are [[strictly]] followed, and each item is inspected [[separately]] before it leaves the warehouse.\n\nHartley Home is [[reportedly]] planning to open two new stores, which would [[significantly]] expand its presence in the region. Ortega declined to confirm the plan, saying details will be announced [[shortly]].",
+    "vi": "Hartley Home, trước đây có tên là Hartley Furniture, hôm thứ Hai báo cáo rằng doanh số hằng năm của hãng tăng đáng kể sau hai năm ế ẩm. Đơn đặt hàng trực tuyến tăng mạnh vào mùa xuân, trong khi doanh số tại cửa hàng chỉ tăng ở mức vừa phải. Chủ tịch công ty Neil Ortega cho biết kết quả này chủ yếu nhờ một trang web được thiết kế lại kỹ lưỡng, do hãng cùng phối hợp xây dựng với một studio thiết kế địa phương.\n\nÔng Ortega khen ngợi những nhân viên đã chăm chỉ xử lý lượng đơn hàng tăng thêm. \"Các tài xế, thợ lắp ráp và nhân viên chăm sóc khách hàng của chúng tôi cùng nhau làm nên điều này\", ông nói. Công ty thường xuyên rà soát thời gian giao hàng, và các kiện hàng hiện đến nhanh chóng, luôn nằm trong vòng ba ngày. Việc kiểm tra chất lượng được thực hiện nghiêm ngặt, và từng món hàng được kiểm tra riêng trước khi rời kho.\n\nTheo báo cáo, Hartley Home đang lên kế hoạch mở thêm hai cửa hàng mới, điều sẽ mở rộng đáng kể sự hiện diện của hãng trong khu vực. Ông Ortega từ chối xác nhận kế hoạch này và cho biết chi tiết sẽ sớm được công bố.",
+    "questions": [
+     {
+      "q": "What is the main topic of the article?",
+      "o": [
+       "The opening of a new factory",
+       "A change in the company's name",
+       "Plans to hire more drivers",
+       "The yearly results and plans of a furniture company"
+      ],
+      "a": 3,
+      "e": "Bài báo nêu doanh số năm tăng, nguyên nhân, lời khen nhân viên và kế hoạch mở cửa hàng mới, nên chủ đề chính là kết quả và kế hoạch của một công ty nội thất."
+     },
+     {
+      "q": "According to Mr. Ortega, what mainly caused the increase in sales?",
+      "o": [
+       "A redesigned website",
+       "Lower prices in stores",
+       "A new delivery company",
+       "Advertising on television"
+      ],
+      "a": 0,
+      "e": "Ortega nói kết quả 'were primarily due to a thoroughly redesigned website', nghĩa là chủ yếu nhờ trang web được thiết kế lại.",
+      "w": [
+       "primarily",
+       "thoroughly"
+      ]
+     },
+     {
+      "q": "The word \"declined\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "refused",
+       "fell",
+       "delayed",
+       "apologized"
+      ],
+      "a": 0,
+      "e": "'Declined to confirm the plan' nghĩa là từ chối xác nhận kế hoạch, gần nghĩa nhất với 'refused'."
+     },
+     {
+      "q": "What can be inferred about the plan to open two new stores?",
+      "o": [
+       "It has been officially confirmed.",
+       "It has already been completed.",
+       "It has not yet been confirmed by the company.",
+       "It was cancelled last month."
+      ],
+      "a": 2,
+      "e": "Bài viết nói công ty 'reportedly' đang lên kế hoạch và Ortega 'declined to confirm', nên kế hoạch chưa được công ty xác nhận chính thức.",
+      "w": [
+       "reportedly",
+       "shortly"
+      ]
+     },
+     {
+      "q": "Which of the following is NOT mentioned about Hartley Home?",
+      "o": [
+       "It used to have a different name.",
+       "Its website was built together with a design studio.",
+       "Packages are delivered within three days.",
+       "It recently moved its warehouse to another state."
+      ],
+      "a": 3,
+      "e": "Bài nêu tên cũ Hartley Furniture, trang web làm cùng studio địa phương và giao hàng trong ba ngày; không có thông tin nào về việc chuyển kho sang bang khác.",
+      "w": [
+       "formerly",
+       "jointly",
+       "consistently"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v21",
+   "week": 6,
+   "title": "Gói từ 21 · Ngân hàng & đầu tư",
+   "words": [
+    "wire transfer",
+    "credit rating",
+    "line of credit",
+    "principal",
+    "refinance",
+    "foreclosure",
+    "guarantor",
+    "venture capital",
+    "stake",
+    "equity",
+    "securities",
+    "return on investment",
+    "hedge",
+    "speculate",
+    "volatile",
+    "bull market",
+    "bear market",
+    "initial public offering",
+    "go public",
+    "publicly traded"
+   ],
+   "passage": {
+    "type": "Article",
+    "title": "Harbor Dairy Prepares to Go Public",
+    "text": "Harbor Dairy, a regional food producer, announced Monday that it will [[go public]] next spring through an [[initial public offering]]. Once its shares are [[publicly traded]], the company expects to raise enough money to expand into three new cities.\n\nThe founders, who hold a controlling [[stake]], will keep most of the company's [[equity]], while a [[venture capital]] firm will sell part of its holding. Some of the new funds will repay the [[principal]] on a loan used to build the newest plant. Harbor Dairy will also [[refinance]] its remaining debt, since a strong [[credit rating]] should secure a lower rate.\n\nAnalysts say the timing is wise. After a long [[bull market]], prices have become [[volatile]], and some investors fear a coming [[bear market]]. Chief financial officer Dana Ortiz urged buyers not to [[speculate]]. She said the shares suit people seeking a steady [[return on investment]] over several years, and the company will [[hedge]] against rising milk prices.",
+    "vi": "Harbor Dairy, một nhà sản xuất thực phẩm trong vùng, hôm thứ Hai thông báo sẽ lên sàn vào mùa xuân tới thông qua đợt phát hành cổ phiếu lần đầu ra công chúng. Khi cổ phiếu được giao dịch công khai, công ty kỳ vọng huy động đủ tiền để mở rộng sang ba thành phố mới.\n\nNhững người sáng lập, hiện nắm cổ phần chi phối, sẽ giữ phần lớn vốn chủ sở hữu của công ty, trong khi một quỹ đầu tư mạo hiểm sẽ bán bớt phần đang nắm giữ. Một phần nguồn vốn mới sẽ dùng để trả tiền gốc của khoản vay xây nhà máy mới nhất. Harbor Dairy cũng sẽ tái cấp vốn cho phần nợ còn lại, vì xếp hạng tín nhiệm tốt sẽ giúp công ty có mức lãi suất thấp hơn.\n\nCác nhà phân tích cho rằng thời điểm này là khôn ngoan. Sau một thị trường giá lên kéo dài, giá cả đã trở nên biến động mạnh, và một số nhà đầu tư lo sợ thị trường giá xuống sắp đến. Giám đốc tài chính Dana Ortiz kêu gọi người mua không nên đầu cơ. Bà nói cổ phiếu phù hợp với người tìm kiếm tỷ suất hoàn vốn ổn định trong nhiều năm, và công ty sẽ phòng ngừa rủi ro trước việc giá sữa tăng.",
+    "questions": [
+     {
+      "q": "What is the main topic of the article?",
+      "o": [
+       "A merger between two dairy companies",
+       "A decline in milk prices",
+       "A company's plan to sell shares to the public",
+       "The opening of a new factory"
+      ],
+      "a": 2,
+      "e": "Câu đầu bài báo nói Harbor Dairy sẽ 'go public' qua 'an initial public offering', tức bán cổ phiếu ra công chúng. Các phương án còn lại không phải chủ đề chính.",
+      "w": [
+       "go public",
+       "initial public offering"
+      ]
+     },
+     {
+      "q": "What will the company do with part of the new funds?",
+      "o": [
+       "Repay the main amount of a loan",
+       "Buy a competing company",
+       "Pay bonuses to the founders",
+       "Lower the price of its products"
+      ],
+      "a": 0,
+      "e": "Đoạn 2 nêu 'Some of the new funds will repay the principal on a loan', nghĩa là trả tiền gốc khoản vay xây nhà máy. Bài không nhắc mua đối thủ, thưởng cho người sáng lập hay giảm giá.",
+      "w": [
+       "principal"
+      ]
+     },
+     {
+      "q": "The word \"volatile\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "profitable",
+       "stable",
+       "expensive",
+       "unpredictable"
+      ],
+      "a": 3,
+      "e": "Ở đoạn 3, 'volatile' đi với việc nhà đầu tư lo sợ thị trường giá xuống, nên nghĩa gần nhất là 'unpredictable' (khó đoán, biến động). 'Stable' trái nghĩa hoàn toàn.",
+      "w": [
+       "volatile"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned about Harbor Dairy?",
+      "o": [
+       "The founders will keep most of the equity.",
+       "It plans to open a factory in another country.",
+       "It will refinance some of its debt.",
+       "It expects to expand into three new cities."
+      ],
+      "a": 1,
+      "e": "Bài nói người sáng lập giữ phần lớn vốn, sẽ tái cấp vốn khoản nợ còn lại và mở rộng sang ba thành phố mới, nhưng không hề nhắc đến việc mở nhà máy ở nước ngoài.",
+      "w": [
+       "equity",
+       "refinance"
+      ]
+     },
+     {
+      "q": "What does Ms. Ortiz suggest about the shares?",
+      "o": [
+       "They are certain to rise in value quickly.",
+       "They are available only to employees.",
+       "They are better suited to long-term investors.",
+       "They are designed for short-term traders."
+      ],
+      "a": 2,
+      "e": "Bà Ortiz khuyên người mua không đầu cơ và nói cổ phiếu phù hợp với người muốn lợi nhuận ổn định 'over several years', tức nhà đầu tư dài hạn. Bài không hứa giá tăng nhanh.",
+      "w": [
+       "speculate",
+       "return on investment"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v22",
+   "week": 6,
+   "title": "Gói từ 22 · Thuế, bảo hiểm & thanh toán",
+   "words": [
+    "taxable",
+    "exempt",
+    "levy",
+    "value-added tax",
+    "tax credit",
+    "surcharge",
+    "payable",
+    "upfront",
+    "lump sum",
+    "partial payment",
+    "payment terms",
+    "money order",
+    "settlement",
+    "claims adjuster",
+    "lapse",
+    "out-of-pocket",
+    "liable",
+    "damages",
+    "risk management",
+    "fraud"
+   ],
+   "passage": {
+    "type": "Notice",
+    "title": "Dunmore Mutual Insurance: Important Changes for Business Policyholders",
+    "text": "Dear Policyholder,\nStarting January 1, the government will [[levy]] a [[value-added tax]] on commercial insurance premiums. Most premiums will become [[taxable]], although policies held by nonprofit groups remain [[exempt]]. Eligible small businesses may also claim a [[tax credit]].\n\nUnder our revised [[payment terms]], premiums are [[payable]] within 30 days of the invoice date. You may pay as a [[lump sum]] or in two installments. A [[partial payment]] will not be accepted as full payment, and a [[surcharge]] of 2 percent applies to late balances. We accept bank transfers and [[money orders]], but not cash. If a premium remains unpaid for 60 days, your policy may [[lapse]], and you could be [[liable]] for any [[damages]] that occur afterward.\n\nWhen you file a claim, a [[claims adjuster]] will contact you within two days. Any [[settlement]] is paid directly to you, so you will not stay [[out-of-pocket]] for long. Our [[risk management]] team reviews every claim to prevent [[fraud]].",
+    "vi": "Kính gửi quý khách hàng,\nTừ ngày 1 tháng 1, chính phủ sẽ đánh thuế giá trị gia tăng lên phí bảo hiểm thương mại. Hầu hết phí bảo hiểm sẽ chịu thuế, mặc dù các hợp đồng của tổ chức phi lợi nhuận vẫn được miễn. Các doanh nghiệp nhỏ đủ điều kiện cũng có thể xin khoản tín dụng thuế.\n\nTheo điều khoản thanh toán mới của chúng tôi, phí bảo hiểm phải được trả trong vòng 30 ngày kể từ ngày lập hóa đơn. Quý khách có thể trả một lần trọn gói hoặc chia làm hai đợt. Khoản thanh toán một phần sẽ không được chấp nhận là thanh toán đủ, và phụ phí 2 phần trăm được áp dụng cho số dư trả trễ. Chúng tôi nhận chuyển khoản ngân hàng và phiếu chuyển tiền, nhưng không nhận tiền mặt. Nếu phí bảo hiểm chưa được thanh toán sau 60 ngày, hợp đồng của quý khách có thể hết hiệu lực, và quý khách có thể phải chịu trách nhiệm về mọi thiệt hại xảy ra sau đó.\n\nKhi quý khách nộp yêu cầu bồi thường, một chuyên viên giám định bồi thường sẽ liên hệ trong vòng hai ngày. Mọi khoản bồi thường được chi trả trực tiếp cho quý khách, nên quý khách sẽ không phải tự bỏ tiền túi lâu. Nhóm quản lý rủi ro của chúng tôi xem xét mọi yêu cầu để ngăn chặn gian lận.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the notice?",
+      "o": [
+       "To announce a decrease in insurance premiums",
+       "To invite customers to buy a new policy",
+       "To explain how to start a legal case",
+       "To inform customers of tax and payment changes"
+      ],
+      "a": 3,
+      "e": "Thông báo giải thích thuế VAT mới và điều khoản thanh toán sửa đổi (payment terms) cho khách hàng doanh nghiệp. Không có nội dung giảm phí, mời mua hợp đồng mới hay kiện tụng.",
+      "w": [
+       "value-added tax",
+       "payment terms"
+      ]
+     },
+     {
+      "q": "What may happen if a premium is unpaid after 60 days?",
+      "o": [
+       "The policy may stop being valid.",
+       "The customer must use a money order.",
+       "A claims adjuster will visit the business.",
+       "The tax credit will be doubled."
+      ],
+      "a": 0,
+      "e": "Đoạn 2 viết 'If a premium remains unpaid for 60 days, your policy may lapse', nghĩa là hợp đồng có thể hết hiệu lực. Các phương án khác không được nêu như hậu quả.",
+      "w": [
+       "lapse"
+      ]
+     },
+     {
+      "q": "The word \"levy\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "refund",
+       "impose",
+       "estimate",
+       "withdraw"
+      ],
+      "a": 1,
+      "e": "'Levy a value-added tax' nghĩa là đánh/áp một loại thuế, gần nghĩa nhất với 'impose'. 'Refund' (hoàn lại) và 'withdraw' (rút) sai nghĩa.",
+      "w": [
+       "levy"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned in the notice?",
+      "o": [
+       "Policies held by nonprofit groups are exempt from the tax.",
+       "Late balances carry a 2 percent surcharge.",
+       "A premium increase of 5 percent next year.",
+       "A claims adjuster will make contact within two days."
+      ],
+      "a": 2,
+      "e": "Bài nêu miễn thuế cho tổ chức phi lợi nhuận, phụ phí 2 phần trăm cho số dư trả trễ và việc giám định viên liên hệ trong hai ngày. Bài không hề nói phí tăng 5 phần trăm vào năm sau.",
+      "w": [
+       "exempt",
+       "surcharge"
+      ]
+     },
+     {
+      "q": "What can be inferred about a customer who pays a premium on day 45?",
+      "o": [
+       "The policy will already have lapsed.",
+       "The tax credit will be cancelled.",
+       "A surcharge will probably be added.",
+       "The payment will be returned."
+      ],
+      "a": 2,
+      "e": "Phí phải trả trong 30 ngày và số dư trả trễ chịu phụ phí; hợp đồng chỉ có thể hết hiệu lực sau 60 ngày. Vậy trả ở ngày 45 thì trễ hạn, nhiều khả năng bị tính phụ phí nhưng hợp đồng chưa lapse.",
+      "w": [
+       "payable",
+       "surcharge",
+       "lapse"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v23",
+   "week": 6,
+   "title": "Gói từ 23 · Mua sắm & nhà cung cấp",
+   "words": [
+    "procurement",
+    "sole",
+    "subcontractor",
+    "negotiable",
+    "fixed rate",
+    "hike",
+    "economical",
+    "equivalent",
+    "point of contact",
+    "past due",
+    "standing order",
+    "non-disclosure agreement",
+    "ethical",
+    "lead time",
+    "authorized dealer",
+    "bidder",
+    "scorecard",
+    "price freeze",
+    "tiered pricing",
+    "spending limit"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Department Managers\nFrom: Carla Mendes, Director of Procurement\nSubject: New supplier selection procedures",
+    "text": "Effective next month, the [[procurement]] office will change how we select suppliers. After a recent [[hike]] in material costs, we need more [[economical]] options. Each manager now has a [[spending limit]] of $5,000 per order. Larger purchases require a formal review in which every [[bidder]] submits a written proposal, and buying from a [[sole]] supplier needs written justification.\n\nSuppliers must sign a [[non-disclosure agreement]] and follow our [[ethical]] standards. We will rate each one on a [[scorecard]] that measures price, quality, and [[lead time]]. Vendors that use a [[subcontractor]] must tell us in advance. We prefer a [[fixed rate]] for the full contract year, although prices remain [[negotiable]] for orders above 500 units.\n\nFor items such as paper, please set up a [[standing order]] rather than submitting monthly requests. Report any [[past due]] invoices to Jun Takeda, your [[point of contact]] in procurement.",
+    "vi": "Có hiệu lực từ tháng tới, phòng thu mua sẽ thay đổi cách chúng ta chọn nhà cung cấp. Sau đợt tăng mạnh gần đây của chi phí nguyên vật liệu, chúng ta cần những lựa chọn tiết kiệm hơn. Mỗi quản lý hiện có hạn mức chi tiêu 5.000 đô la cho mỗi đơn hàng. Các khoản mua lớn hơn cần qua một vòng xét duyệt chính thức, trong đó mọi nhà thầu dự thầu phải nộp đề xuất bằng văn bản, và việc mua từ một nhà cung cấp duy nhất cần có giải trình bằng văn bản.\n\nNhà cung cấp phải ký thỏa thuận bảo mật thông tin và tuân thủ các tiêu chuẩn đạo đức của chúng ta. Chúng tôi sẽ chấm điểm từng bên trên một bảng đánh giá đo lường giá cả, chất lượng và thời gian chờ hàng. Những nhà cung cấp sử dụng nhà thầu phụ phải báo trước cho chúng tôi. Chúng tôi ưu tiên mức giá cố định cho cả năm hợp đồng, tuy nhiên giá vẫn có thể thương lượng đối với đơn hàng trên 500 đơn vị.\n\nVới các mặt hàng như giấy, xin hãy thiết lập đơn đặt hàng định kỳ thay vì gửi yêu cầu hằng tháng. Hãy báo các hóa đơn quá hạn cho Jun Takeda, đầu mối liên hệ của quý vị tại phòng thu mua.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To request a larger purchasing budget",
+       "To explain new rules for selecting suppliers",
+       "To announce a change of suppliers for paper",
+       "To report on last year's supplier costs"
+      ],
+      "a": 1,
+      "e": "Câu mở đầu nói phòng thu mua sẽ thay đổi cách chọn nhà cung cấp, và cả bản ghi nhớ giải thích các quy định mới về hạn mức, nhà thầu, điều khoản. Các phương án khác không phải mục đích chính.",
+      "w": [
+       "procurement"
+      ]
+     },
+     {
+      "q": "What is required to buy from only one supplier?",
+      "o": [
+       "A signed non-disclosure agreement from the manager",
+       "Written justification",
+       "An order of more than 500 units",
+       "Approval from the Director of Procurement"
+      ],
+      "a": 1,
+      "e": "Đoạn 1 nêu 'buying from a sole supplier needs written justification', tức cần giải trình bằng văn bản. Bài không đề cập chữ ký phê duyệt của giám đốc hay số lượng trên 500 đơn vị cho trường hợp này.",
+      "w": [
+       "sole"
+      ]
+     },
+     {
+      "q": "The word \"hike\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "increase",
+       "delay",
+       "walk",
+       "review"
+      ],
+      "a": 0,
+      "e": "'A recent hike in material costs' là việc chi phí nguyên vật liệu tăng mạnh, nên 'hike' gần nghĩa nhất với 'increase'. Điều này khớp với lý do công ty cần phương án tiết kiệm hơn.",
+      "w": [
+       "hike"
+      ]
+     },
+     {
+      "q": "What is NOT listed as a requirement for suppliers?",
+      "o": [
+       "Signing a non-disclosure agreement",
+       "Following ethical standards",
+       "Informing the company about the use of subcontractors",
+       "Offering free shipping"
+      ],
+      "a": 3,
+      "e": "Đoạn 2 yêu cầu nhà cung cấp ký NDA, tuân thủ tiêu chuẩn đạo đức và báo trước nếu dùng nhà thầu phụ. Giao hàng miễn phí không hề được nhắc đến.",
+      "w": [
+       "non-disclosure agreement",
+       "ethical",
+       "subcontractor"
+      ]
+     },
+     {
+      "q": "What can be inferred about a purchase of $8,000?",
+      "o": [
+       "It will be rejected automatically.",
+       "It must be placed as a standing order.",
+       "It requires only the manager's approval.",
+       "It will go through a formal review with bidders."
+      ],
+      "a": 3,
+      "e": "Mỗi quản lý có hạn mức 5.000 đô la mỗi đơn; các khoản mua lớn hơn cần xét duyệt chính thức, trong đó mọi nhà thầu nộp đề xuất. Vậy khoản 8.000 đô la sẽ đi qua quy trình đó.",
+      "w": [
+       "spending limit",
+       "bidder"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v24",
+   "week": 6,
+   "title": "Gói từ 24 · Tính từ hay gặp ở Part 5",
+   "words": [
+    "adjacent",
+    "imperative",
+    "entitled",
+    "indicative",
+    "conducive",
+    "instrumental",
+    "integral",
+    "indispensable",
+    "prominent",
+    "esteemed",
+    "distinguished",
+    "noteworthy",
+    "respective",
+    "sizable",
+    "extensive",
+    "exhaustive",
+    "versatile",
+    "state-of-the-art",
+    "knowledgeable",
+    "apprehensive"
+   ],
+   "passage": {
+    "type": "Announcement",
+    "title": "Westbridge Business Forum Announces Its Annual Program",
+    "text": "We are pleased to announce the Westbridge Business Forum, to be held October 14-15 at the [[state-of-the-art]] Harmon Convention Center, [[adjacent]] to Central Station. Last year's record attendance was [[indicative]] of strong interest, so this year's program features [[prominent]] speakers, including [[distinguished]] economist Dr. Helen Moss, who was [[instrumental]] in shaping the region's trade policy.\n\nThe program offers an [[extensive]] schedule of workshops. One [[noteworthy]] session, led by [[esteemed]] entrepreneur Paul Okafor, covers starting a company abroad. A [[sizable]] exhibition hall will showcase local firms, each staffing its [[respective]] booth with [[knowledgeable]] representatives. The [[versatile]] main hall can be rearranged for both large talks and small group discussions, which is [[conducive]] to networking.\n\nParticipants who register before September 30 are [[entitled]] to a 15 percent discount. Because seating is limited, it is [[imperative]] to book early. Anyone [[apprehensive]] about travel can contact our help desk.",
+    "vi": "Chúng tôi vui mừng thông báo Diễn đàn Doanh nghiệp Westbridge sẽ diễn ra vào ngày 14-15 tháng 10 tại Trung tâm Hội nghị Harmon hiện đại bậc nhất, liền kề Ga Trung tâm. Lượng người tham dự kỷ lục năm ngoái cho thấy sự quan tâm lớn, vì vậy chương trình năm nay có các diễn giả nổi bật, trong đó có nhà kinh tế xuất sắc, Tiến sĩ Helen Moss, người đã đóng vai trò quan trọng trong việc định hình chính sách thương mại của khu vực.\n\nChương trình có lịch hội thảo phong phú. Một phiên đáng chú ý, do doanh nhân đáng kính Paul Okafor dẫn dắt, nói về việc thành lập công ty ở nước ngoài. Một khu triển lãm khá lớn sẽ giới thiệu các doanh nghiệp địa phương, mỗi đơn vị bố trí những đại diện am hiểu tại gian hàng riêng của mình. Sảnh chính đa năng có thể sắp xếp lại cho cả các buổi nói chuyện lớn lẫn thảo luận nhóm nhỏ, tạo điều kiện thuận lợi cho việc kết nối.\n\nNgười đăng ký trước ngày 30 tháng 9 được hưởng giảm giá 15 phần trăm. Vì chỗ ngồi có hạn, việc đặt chỗ sớm là rất cần thiết. Bất kỳ ai e ngại về việc đi lại có thể liên hệ bàn hỗ trợ của chúng tôi.",
+    "questions": [
+     {
+      "q": "What is the purpose of the announcement?",
+      "o": [
+       "To promote an upcoming business event",
+       "To report the results of last year's forum",
+       "To advertise a convention center",
+       "To recruit new staff for a trade association"
+      ],
+      "a": 0,
+      "e": "Bài thông báo Diễn đàn Doanh nghiệp Westbridge sắp diễn ra, giới thiệu diễn giả, hội thảo và ưu đãi đăng ký, nên mục đích là quảng bá một sự kiện kinh doanh sắp tới.",
+      "w": [
+       "prominent",
+       "extensive"
+      ]
+     },
+     {
+      "q": "Who is entitled to a discount?",
+      "o": [
+       "Exhibitors from local firms",
+       "Speakers at the forum",
+       "People who register before September 30",
+       "Anyone who books a hotel"
+      ],
+      "a": 2,
+      "e": "Đoạn 3 viết 'Participants who register before September 30 are entitled to a 15 percent discount', tức người đăng ký trước ngày 30 tháng 9 được giảm giá.",
+      "w": [
+       "entitled"
+      ]
+     },
+     {
+      "q": "The word \"instrumental\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "reluctant",
+       "musical",
+       "influential",
+       "unaware"
+      ],
+      "a": 2,
+      "e": "'Instrumental in shaping the region's trade policy' nghĩa là có vai trò quan trọng trong việc định hình chính sách, gần nhất với 'influential'. 'Musical' là nghĩa khác, không hợp ngữ cảnh.",
+      "w": [
+       "instrumental"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned about the forum?",
+      "o": [
+       "The venue is next to a train station.",
+       "Local firms will be showcased.",
+       "The main hall can be rearranged.",
+       "Attendees will receive free accommodation."
+      ],
+      "a": 3,
+      "e": "Bài nói địa điểm liền kề ga (adjacent to Central Station), có khu triển lãm doanh nghiệp địa phương và sảnh chính sắp xếp lại được. Chỗ ở miễn phí không hề được nhắc đến.",
+      "w": [
+       "adjacent",
+       "versatile"
+      ]
+     },
+     {
+      "q": "What can be inferred about the forum?",
+      "o": [
+       "It may reach full capacity.",
+       "It is being held for the first time.",
+       "Only local firms may attend.",
+       "Dr. Moss will lead the workshop on starting a company abroad."
+      ],
+      "a": 0,
+      "e": "Năm ngoái lượng người tham dự kỷ lục, chỗ ngồi năm nay có hạn và bài khuyên đặt sớm, nên có thể suy ra sự kiện có khả năng kín chỗ. Phiên về lập công ty ở nước ngoài do ông Okafor dẫn, không phải bà Moss.",
+      "w": [
+       "indicative",
+       "imperative"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v25",
+   "week": 7,
+   "title": "Gói từ 25 · Pháp lý & hợp đồng",
+   "words": [
+    "signatory",
+    "attorney",
+    "lawsuit",
+    "indemnify",
+    "negligence",
+    "infringe",
+    "intellectual property",
+    "copyright",
+    "trademark",
+    "jurisdiction",
+    "legislation",
+    "pursuant to",
+    "hereby",
+    "effective",
+    "consent",
+    "disclaimer",
+    "fine print",
+    "violation",
+    "due diligence",
+    "mutually"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: All Department Managers\nFrom: Rita Alvarez, Legal Affairs\nSubject: New contract review procedure",
+    "text": "[[Effective]] March 1, every vendor agreement must be reviewed by our in-house [[attorney]] before it reaches a [[signatory]]. This change follows a recent [[lawsuit]] in which a supplier claimed that we had ignored the [[fine print]]. The court found no [[negligence]] on our part, but the case showed how costly one missed clause can be.\n\n[[Pursuant to]] the new policy, managers must complete [[due diligence]] on every partner and confirm that no [[trademark]] or [[copyright]] is used without [[consent]]. A single [[violation]] could [[infringe]] another firm's [[intellectual property]] rights. Contracts signed in another [[jurisdiction]] must also follow local [[legislation]], and both parties must [[mutually]] agree on who will [[indemnify]] the other for damages.\n\nA standard [[disclaimer]] has been added to all quotation forms. By submitting a contract to Legal, you [[hereby]] confirm that its details are accurate. Please send documents at least five business days before the signing date.",
+    "vi": "Có hiệu lực từ ngày 1 tháng 3, mọi hợp đồng với nhà cung cấp phải được luật sư nội bộ của chúng ta xem xét trước khi đến tay bên ký kết. Thay đổi này xuất phát từ một vụ kiện gần đây, trong đó một nhà cung cấp cho rằng chúng ta đã bỏ qua phần chữ in nhỏ. Tòa án không tìm thấy sơ suất nào từ phía chúng ta, nhưng vụ việc cho thấy chỉ cần bỏ sót một điều khoản cũng có thể gây tổn thất lớn.\n\nTheo chính sách mới, các quản lý phải thực hiện thẩm định kỹ lưỡng đối với mọi đối tác và xác nhận rằng không có nhãn hiệu hay bản quyền nào được sử dụng khi chưa có sự đồng ý. Chỉ một vi phạm cũng có thể xâm phạm quyền sở hữu trí tuệ của công ty khác. Các hợp đồng ký ở khu vực tài phán khác cũng phải tuân thủ luật pháp địa phương, và hai bên phải cùng thống nhất ai sẽ bồi thường thiệt hại cho bên kia.\n\nMột tuyên bố miễn trừ trách nhiệm tiêu chuẩn đã được thêm vào tất cả biểu mẫu báo giá. Khi gửi hợp đồng cho phòng Pháp chế, bạn bằng văn bản này xác nhận rằng các chi tiết là chính xác. Vui lòng gửi tài liệu ít nhất năm ngày làm việc trước ngày ký.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the memo?",
+      "o": [
+       "To report the outcome of a court case",
+       "To ask managers to register a new trademark",
+       "To announce a new procedure for reviewing contracts",
+       "To introduce a newly hired attorney"
+      ],
+      "a": 2,
+      "e": "Memo mở đầu bằng 'every vendor agreement must be reviewed by our in-house attorney', rồi nêu các bước kiểm tra và biểu mẫu mới, nên mục đích chính là thông báo quy trình xem xét hợp đồng mới. Vụ kiện chỉ là lý do, không phải mục đích.",
+      "w": [
+       "attorney",
+       "signatory"
+      ]
+     },
+     {
+      "q": "According to the memo, why was the procedure changed?",
+      "o": [
+       "A supplier accused the company of overlooking contract terms.",
+       "A court ordered the company to pay damages.",
+       "A new law was passed in the local region.",
+       "An attorney resigned from the Legal department."
+      ],
+      "a": 0,
+      "e": "Đoạn 1 nói gần đây có một vụ kiện trong đó nhà cung cấp cho rằng công ty đã bỏ qua 'fine print'. Tòa không thấy có negligence nên B sai; C và D không được đề cập.",
+      "w": [
+       "lawsuit",
+       "fine print",
+       "negligence"
+      ]
+     },
+     {
+      "q": "The word \"follow\" in paragraph 2 is closest in meaning to",
+      "o": [
+       "come after",
+       "comply with",
+       "search for",
+       "watch closely"
+      ],
+      "a": 1,
+      "e": "'follow local legislation' nghĩa là tuân thủ luật pháp địa phương, tức 'comply with'. 'Come after' chỉ thứ tự thời gian, không hợp ngữ cảnh pháp lý.",
+      "w": [
+       "legislation"
+      ]
+     },
+     {
+      "q": "What is NOT indicated about the new procedure?",
+      "o": [
+       "Managers must perform checks on each business partner.",
+       "Documents should be submitted five business days before signing.",
+       "A standard disclaimer now appears on quotation forms.",
+       "Contracts must be translated into the local language."
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nêu quản lý phải làm due diligence với đối tác (A); đoạn 3 nêu gửi tài liệu trước năm ngày làm việc (B) và thêm disclaimer vào biểu mẫu báo giá (C). Việc dịch hợp đồng sang ngôn ngữ địa phương hoàn toàn không được nhắc đến.",
+      "w": [
+       "due diligence",
+       "disclaimer"
+      ]
+     },
+     {
+      "q": "What can be inferred about the supplier's claim in the lawsuit?",
+      "o": [
+       "It was not supported by the court.",
+       "It was settled with a large payment.",
+       "It concerned a copyrighted design.",
+       "It will be appealed next month."
+      ],
+      "a": 0,
+      "e": "Memo viết 'The court found no negligence on our part', suy ra công ty không bị coi là có lỗi, tức yêu cầu của nhà cung cấp không được tòa ủng hộ. Không có thông tin về khoản thanh toán, bản quyền hay kháng cáo.",
+      "w": [
+       "negligence"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v26",
+   "week": 7,
+   "title": "Gói từ 26 · Bán hàng & đàm phán",
+   "words": [
+    "sales pitch",
+    "clientele",
+    "client base",
+    "counteroffer",
+    "compromise",
+    "obligation",
+    "mutually beneficial",
+    "haggle",
+    "competitively priced",
+    "flat rate",
+    "volume discount",
+    "seal the deal",
+    "counterpart",
+    "deadlock",
+    "impasse",
+    "breakthrough",
+    "non-negotiable",
+    "upsell",
+    "year-over-year",
+    "dealership"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Regional Sales Team\nFrom: Daniel Cho\nSubject: Harbor Motors negotiation update",
+    "text": "Dear team,\nThank you for your hard work on the Harbor Motors account. This [[dealership]] serves a loyal [[clientele]] of fleet buyers, so winning it would expand our [[client base]]. Our first [[sales pitch]] went well, but talks reached a [[deadlock]] last week when our [[counterpart]], Ms. Reyes, rejected our price.\n\nYesterday we sent a [[counteroffer]] with a [[flat rate]] for servicing and a [[volume discount]] on orders above fifty units. Our services are already [[competitively priced]], and delivery times are [[non-negotiable]], so we cannot [[haggle]] on those points. Still, I believe a [[compromise]] is possible on payment terms. If we end this [[impasse]], we may [[seal the deal]] by the end of the month.\n\nA [[breakthrough]] came this morning, when Ms. Reyes agreed to meet on Friday. Please be ready to [[upsell]] our premium maintenance plan then. Sales grew 12 percent [[year-over-year]], which strengthens our hand. We have an [[obligation]] to protect our margins, so aim for a [[mutually beneficial]] agreement.\nBest regards,\nDaniel",
+    "vi": "Kính gửi cả nhóm,\nCảm ơn mọi người đã làm việc chăm chỉ cho khách hàng Harbor Motors. Đại lý này phục vụ một tập khách hàng trung thành là các đơn vị mua xe theo đội, vì vậy giành được họ sẽ mở rộng cơ sở khách hàng của chúng ta. Bài chào hàng đầu tiên của chúng ta diễn ra tốt, nhưng cuộc đàm phán rơi vào bế tắc vào tuần trước khi người đối tác phía họ, bà Reyes, bác bỏ mức giá của chúng ta.\n\nHôm qua chúng ta đã gửi một đề nghị đáp lại, gồm mức giá cố định cho dịch vụ bảo dưỡng và chiết khấu theo số lượng cho các đơn hàng trên năm mươi chiếc. Dịch vụ của chúng ta vốn đã có giá cạnh tranh, và thời gian giao hàng là điều không thể thương lượng, nên chúng ta không thể mặc cả về những điểm đó. Tuy vậy, tôi tin có thể thỏa hiệp về điều khoản thanh toán. Nếu phá được thế bế tắc này, chúng ta có thể chốt giao dịch trước cuối tháng.\n\nSáng nay đã có một bước đột phá, khi bà Reyes đồng ý gặp vào thứ Sáu. Hãy sẵn sàng bán thêm gói bảo dưỡng cao cấp của chúng ta trong buổi đó. Doanh số tăng 12 phần trăm so với cùng kỳ năm trước, điều này củng cố vị thế của chúng ta. Chúng ta có nghĩa vụ bảo vệ biên lợi nhuận, vì vậy hãy hướng tới một thỏa thuận đôi bên cùng có lợi.\nTrân trọng,\nDaniel",
+    "questions": [
+     {
+      "q": "What is the purpose of the email?",
+      "o": [
+       "To congratulate the team on a signed contract",
+       "To update the team on a negotiation and give instructions",
+       "To announce a change in the company's pricing policy",
+       "To request approval for a new service plan"
+      ],
+      "a": 1,
+      "e": "Email báo tiến triển của cuộc đàm phán với Harbor Motors (bế tắc, đề nghị đáp lại, bước đột phá) và dặn nhóm chuẩn bị cho buổi gặp. Hợp đồng chưa được ký nên A sai.",
+      "w": [
+       "dealership",
+       "counteroffer"
+      ]
+     },
+     {
+      "q": "Why did talks stall last week?",
+      "o": [
+       "The dealership closed its fleet department.",
+       "Delivery times could not be met.",
+       "Payment terms were not discussed.",
+       "Ms. Reyes did not accept the proposed price."
+      ],
+      "a": 3,
+      "e": "Đoạn 1 nói cuộc đàm phán rơi vào 'deadlock' khi Ms. Reyes 'rejected our price', tức không chấp nhận mức giá đề xuất. Các lựa chọn khác không có trong đoạn.",
+      "w": [
+       "deadlock",
+       "counterpart"
+      ]
+     },
+     {
+      "q": "The word \"protect\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "safeguard",
+       "announce",
+       "predict",
+       "hide"
+      ],
+      "a": 0,
+      "e": "'protect our margins' nghĩa là bảo vệ biên lợi nhuận, gần nghĩa nhất với 'safeguard'. Các từ còn lại không hợp ngữ cảnh.",
+      "w": [
+       "obligation"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned about the offer sent to Harbor Motors?",
+      "o": [
+       "A fixed price for servicing",
+       "A discount for large orders",
+       "A possible compromise on payment terms",
+       "A free extended warranty"
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nêu mức giá cố định (flat rate) cho bảo dưỡng, chiết khấu theo số lượng (volume discount) và khả năng thỏa hiệp về điều khoản thanh toán. Bảo hành mở rộng miễn phí không hề được nhắc đến.",
+      "w": [
+       "flat rate",
+       "volume discount",
+       "compromise"
+      ]
+     },
+     {
+      "q": "What does Mr. Cho ask the sales team to prepare for?",
+      "o": [
+       "Encouraging the customer to buy a more expensive maintenance plan",
+       "Lowering the price of all fleet services",
+       "Hiring extra staff to handle deliveries",
+       "Presenting last year's sales figures"
+      ],
+      "a": 0,
+      "e": "Đoạn 3: 'Please be ready to upsell our premium maintenance plan' trong buổi gặp thứ Sáu, tức khuyến khích khách mua gói bảo dưỡng cao cấp đắt hơn. Giá dịch vụ không được hạ thêm.",
+      "w": [
+       "upsell"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v27",
+   "week": 7,
+   "title": "Gói từ 27 · Kinh tế & chiến lược",
+   "words": [
+    "recession",
+    "gross domestic product",
+    "consumer confidence",
+    "central bank",
+    "monetary policy",
+    "fiscal policy",
+    "stimulus",
+    "subsidy",
+    "surge",
+    "slump",
+    "stagnant",
+    "sluggish",
+    "robust",
+    "prosperous",
+    "outlook",
+    "divest",
+    "spin off",
+    "niche",
+    "penetrate",
+    "saturated"
+   ],
+   "passage": {
+    "type": "Article",
+    "title": "Eastland Economy Shows Signs of Recovery",
+    "text": "After two years of [[sluggish]] growth, the Eastland economy is finally gaining speed. Following last year's [[recession]], [[gross domestic product]] rose 3.1 percent in the second quarter, and [[consumer confidence]] reached a five-year high. Retail sales, which had been [[stagnant]] since spring, have shown a sharp [[surge]] in recent weeks.\n\nAnalysts credit the [[central bank]], whose cautious [[monetary policy]] kept borrowing costs low, as well as the government's [[fiscal policy]], which included a one-time [[stimulus]] package and a [[subsidy]] for small manufacturers. Still, the housing market remains in a [[slump]], and economists warn that growth will not be [[robust]] unless exports recover.\n\nCompanies are adapting. Tanner Foods plans to [[divest]] its packaging unit and [[spin off]] its beverage division, while smaller firms try to [[penetrate]] overseas markets because the home market is [[saturated]]. Many are choosing a [[niche]], such as organic snacks. The overall [[outlook]] is hopeful, and officials say the region could be [[prosperous]] again by 2028.",
+    "vi": "Sau hai năm tăng trưởng ì ạch, nền kinh tế Eastland cuối cùng cũng đang lấy lại đà. Sau cuộc suy thoái năm ngoái, tổng sản phẩm quốc nội tăng 3,1 phần trăm trong quý hai, và niềm tin người tiêu dùng đạt mức cao nhất trong năm năm. Doanh số bán lẻ, vốn trì trệ từ mùa xuân, đã tăng vọt trong những tuần gần đây.\n\nCác nhà phân tích ghi nhận công lao của ngân hàng trung ương, với chính sách tiền tệ thận trọng giữ chi phí vay ở mức thấp, cũng như chính sách tài khóa của chính phủ, gồm một gói kích thích một lần và khoản trợ cấp cho các nhà sản xuất nhỏ. Tuy vậy, thị trường nhà ở vẫn đang sụt giảm mạnh, và các nhà kinh tế cảnh báo tăng trưởng sẽ không mạnh mẽ nếu xuất khẩu không phục hồi.\n\nCác doanh nghiệp đang thích nghi. Tanner Foods dự định thoái vốn khỏi bộ phận bao bì và tách bộ phận đồ uống thành công ty riêng, trong khi các công ty nhỏ hơn cố gắng thâm nhập thị trường nước ngoài vì thị trường trong nước đã bão hòa. Nhiều công ty chọn một thị trường ngách, chẳng hạn đồ ăn vặt hữu cơ. Triển vọng chung là khả quan, và các quan chức cho biết khu vực này có thể thịnh vượng trở lại vào năm 2028.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the article?",
+      "o": [
+       "To explain how a central bank sets interest rates",
+       "To compare the Eastland economy with its neighbors",
+       "To advise investors on buying shares in food companies",
+       "To report signs of economic recovery and how businesses are responding"
+      ],
+      "a": 3,
+      "e": "Bài mở đầu bằng việc nền kinh tế đang lấy lại đà (GDP tăng, niềm tin người tiêu dùng cao, doanh số tăng vọt) rồi nói về cách các công ty thích nghi. Không có so sánh với khu vực khác hay lời khuyên đầu tư.",
+      "w": [
+       "recession",
+       "gross domestic product"
+      ]
+     },
+     {
+      "q": "What is mentioned as a remaining weakness?",
+      "o": [
+       "Low consumer confidence",
+       "The housing market",
+       "High borrowing costs",
+       "The retail sector"
+      ],
+      "a": 1,
+      "e": "Đoạn 2 nói 'the housing market remains in a slump', tức thị trường nhà ở vẫn đang sụt giảm. Niềm tin người tiêu dùng cao, chi phí vay thấp và bán lẻ đang tăng vọt nên các đáp án khác sai.",
+      "w": [
+       "slump",
+       "consumer confidence"
+      ]
+     },
+     {
+      "q": "The word \"credit\" in paragraph 2 is closest in meaning to",
+      "o": [
+       "lend money to",
+       "borrow from",
+       "give recognition to",
+       "raise doubts about"
+      ],
+      "a": 2,
+      "e": "'Analysts credit the central bank...' nghĩa là các nhà phân tích ghi nhận công lao cho ngân hàng trung ương, gần nghĩa nhất với 'give recognition to'. 'Lend money to' là nghĩa khác, không hợp ngữ cảnh.",
+      "w": [
+       "central bank"
+      ]
+     },
+     {
+      "q": "What is NOT mentioned as a recent economic indicator?",
+      "o": [
+       "Growth in gross domestic product",
+       "The unemployment rate",
+       "Retail sales",
+       "Consumer confidence"
+      ],
+      "a": 1,
+      "e": "Bài nêu GDP tăng 3,1 phần trăm, niềm tin người tiêu dùng đạt đỉnh năm năm và doanh số bán lẻ tăng vọt. Tỷ lệ thất nghiệp hoàn toàn không được nhắc đến.",
+      "w": [
+       "gross domestic product",
+       "consumer confidence"
+      ]
+     },
+     {
+      "q": "What does the article suggest about future growth?",
+      "o": [
+       "It will depend only on government spending.",
+       "It may depend on a recovery in exports.",
+       "It is certain to exceed 3 percent each quarter.",
+       "It will be driven mainly by housing."
+      ],
+      "a": 1,
+      "e": "Đoạn 2 cảnh báo tăng trưởng 'will not be robust unless exports recover', suy ra tăng trưởng mạnh có thể phụ thuộc vào việc xuất khẩu phục hồi. Các lựa chọn khác quá tuyệt đối hoặc trái với bài.",
+      "w": [
+       "robust"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v28",
+   "week": 7,
+   "title": "Gói từ 28 · Động từ hay gặp ở Part 5",
+   "words": [
+    "expedite",
+    "ascertain",
+    "augment",
+    "bolster",
+    "cease",
+    "coincide",
+    "envision",
+    "forfeit",
+    "foster",
+    "relinquish",
+    "reside",
+    "resume",
+    "retrieve",
+    "tailor",
+    "accelerate",
+    "assume",
+    "honor",
+    "obtain",
+    "pursue",
+    "refrain"
+   ],
+   "passage": {
+    "type": "Information",
+    "title": "Brightline Corp. Relocation Assistance Program",
+    "text": "To [[foster]] a strong workplace community and [[bolster]] our regional teams, Brightline Corp. offers help to employees who [[pursue]] an internal transfer. Staff who [[reside]] more than 50 miles from the new office can [[obtain]] up to $5,000 to [[augment]] their moving costs. Each package is [[tailored]] to the employee's family, and we [[envision]] completing most transfers by June.\n\nTo [[expedite]] your request, submit the application form to Human Resources, which will [[ascertain]] your eligibility within five business days. Please [[refrain]] from signing a lease before you receive written approval. Employees who [[relinquish]] a transfer after approval may [[forfeit]] the allowance, so your moving date should [[coincide]] with the start of your new role.\n\nIf an application is paused for missing documents, processing will [[resume]] once they arrive. You can [[retrieve]] any form from the HR office. Housing support at your old location will [[cease]] when you leave. We will [[honor]] every request received before May 31, and a new coordinator will [[assume]] responsibility to [[accelerate]] approvals.",
+    "vi": "Để thúc đẩy một cộng đồng nơi làm việc vững mạnh và củng cố các nhóm khu vực của chúng ta, Brightline Corp. hỗ trợ những nhân viên theo đuổi việc chuyển công tác nội bộ. Nhân viên cư trú cách văn phòng mới hơn 50 dặm có thể nhận tới 5.000 đô la để bổ sung chi phí chuyển nhà. Mỗi gói hỗ trợ được điều chỉnh phù hợp với gia đình của nhân viên, và chúng tôi dự tính hoàn tất hầu hết các đợt chuyển công tác vào tháng Sáu.\n\nĐể đẩy nhanh yêu cầu của bạn, hãy nộp đơn cho phòng Nhân sự, nơi sẽ xác minh tư cách đủ điều kiện của bạn trong vòng năm ngày làm việc. Vui lòng không ký hợp đồng thuê nhà trước khi nhận được văn bản chấp thuận. Nhân viên từ bỏ việc chuyển công tác sau khi đã được duyệt có thể mất khoản trợ cấp, vì vậy ngày chuyển nhà của bạn nên trùng với thời điểm bắt đầu vai trò mới.\n\nNếu đơn bị tạm dừng do thiếu giấy tờ, việc xử lý sẽ tiếp tục lại ngay khi các giấy tờ được bổ sung. Bạn có thể lấy bất kỳ biểu mẫu nào tại văn phòng nhân sự. Hỗ trợ nhà ở tại nơi ở cũ sẽ chấm dứt khi bạn rời đi. Chúng tôi sẽ chấp nhận mọi yêu cầu nhận được trước ngày 31 tháng 5, và một điều phối viên mới sẽ đảm nhận trách nhiệm để đẩy nhanh việc phê duyệt.",
+    "questions": [
+     {
+      "q": "What is the purpose of the information?",
+      "o": [
+       "To describe a program that helps employees who transfer",
+       "To announce the closing of a regional office",
+       "To recruit applicants for a coordinator position",
+       "To explain how to rent company housing"
+      ],
+      "a": 0,
+      "e": "Đoạn 1 nói công ty hỗ trợ nhân viên chuyển công tác nội bộ, kèm khoản tới 5.000 đô la; các đoạn sau nêu thủ tục và điều kiện. Mục đích là giới thiệu chương trình hỗ trợ chuyển chỗ ở.",
+      "w": [
+       "pursue",
+       "obtain"
+      ]
+     },
+     {
+      "q": "Who can receive up to $5,000?",
+      "o": [
+       "Any employee who applies before May 31",
+       "Employees who live more than 50 miles from the new office",
+       "New coordinators in the HR office",
+       "Employees who sign a lease early"
+      ],
+      "a": 1,
+      "e": "Đoạn 1: 'Staff who reside more than 50 miles from the new office can obtain up to $5,000'. Hạn 31/5 chỉ là hạn nộp yêu cầu, còn ký thuê nhà sớm bị khuyên không nên làm.",
+      "w": [
+       "reside",
+       "obtain"
+      ]
+     },
+     {
+      "q": "The word \"assume\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "suppose",
+       "pretend",
+       "take on",
+       "give up"
+      ],
+      "a": 2,
+      "e": "'A new coordinator will assume responsibility' nghĩa là đảm nhận trách nhiệm, gần nghĩa nhất với 'take on'. 'Suppose' là nghĩa 'cho rằng' nên không hợp ngữ cảnh.",
+      "w": [
+       "assume"
+      ]
+     },
+     {
+      "q": "What is NOT stated about the allowance?",
+      "o": [
+       "It may be lost if an approved transfer is given up.",
+       "Written approval is needed before a lease is signed.",
+       "Eligibility will be checked within five business days.",
+       "It is paid in two equal installments."
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nói có thể mất khoản trợ cấp nếu từ bỏ sau khi được duyệt (A), cần văn bản chấp thuận trước khi ký thuê nhà (B) và việc xác minh trong năm ngày làm việc (C). Việc trả làm hai đợt không được nhắc đến.",
+      "w": [
+       "forfeit",
+       "ascertain",
+       "refrain"
+      ]
+     },
+     {
+      "q": "What will most likely happen if an employee gives up a transfer after approval?",
+      "o": [
+       "The employee may lose the allowance.",
+       "The employee must repay the whole salary.",
+       "Housing support will continue for a year.",
+       "A new application will be accepted at once."
+      ],
+      "a": 0,
+      "e": "Đoạn 2 viết 'Employees who relinquish a transfer after approval may forfeit the allowance', nên khả năng cao là nhân viên mất khoản trợ cấp. Không có thông tin về hoàn trả lương hay hỗ trợ kéo dài.",
+      "w": [
+       "relinquish",
+       "forfeit"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v29",
+   "week": 8,
+   "title": "Gói từ 29 · Tài chính & kế toán nâng cao",
+   "words": [
+    "expenditure",
+    "accounts payable",
+    "accounts receivable",
+    "ledger",
+    "income statement",
+    "fiscal",
+    "earnings report",
+    "surplus",
+    "deficit",
+    "shortfall",
+    "discrepancy",
+    "outlay",
+    "disbursement",
+    "per diem",
+    "line item",
+    "budgetary",
+    "write off",
+    "amortization",
+    "valuation",
+    "net loss"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: Department Managers\nFrom: Renata Okafor, Finance Director\nSubject: Fiscal year-end review",
+    "text": "As the [[fiscal]] year closes, the finance office has completed its review of the [[ledger]] and the [[income statement]]. Total [[expenditure]] came in higher than planned, and the company ended the year with a [[net loss]] of $42,000. A [[shortfall]] in sales during the spring was the main cause, although a [[surplus]] in the training budget partly offset it.\n\nOur team also found a [[discrepancy]] of $6,800 between the [[accounts receivable]] records and the bank deposits. We will [[write off]] $3,100 of unpaid invoices that cannot be collected. The remaining amount is still under investigation.\n\nStarting next month, every [[line item]] above $500 must be approved before any [[disbursement]] is made by [[accounts payable]]. Please submit your [[budgetary]] requests for the new year by November 15. The full [[earnings report]] will be presented at the board meeting on December 2.",
+    "vi": "Khi năm tài khóa khép lại, văn phòng tài chính đã hoàn tất việc rà soát sổ cái và báo cáo kết quả kinh doanh. Tổng chi tiêu cao hơn kế hoạch, và công ty kết thúc năm với khoản lỗ ròng 42.000 đô la. Doanh số thiếu hụt vào mùa xuân là nguyên nhân chính, dù khoản thặng dư trong ngân sách đào tạo đã bù đắp một phần.\n\nNhóm của chúng tôi cũng phát hiện chênh lệch 6.800 đô la giữa sổ các khoản phải thu và các khoản tiền gửi ngân hàng. Chúng tôi sẽ xóa sổ 3.100 đô la hóa đơn chưa thanh toán không thể thu hồi. Số tiền còn lại vẫn đang được điều tra.\n\nTừ tháng tới, mọi khoản mục trên 500 đô la phải được phê duyệt trước khi bộ phận công nợ phải trả thực hiện bất kỳ khoản chi trả nào. Vui lòng nộp các yêu cầu ngân sách cho năm mới trước ngày 15 tháng 11. Báo cáo lợi nhuận đầy đủ sẽ được trình bày tại cuộc họp hội đồng quản trị vào ngày 2 tháng 12.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the memo?",
+      "o": [
+       "To summarize year-end financial results and announce new procedures",
+       "To request additional funding for training",
+       "To announce a new sales strategy",
+       "To invite managers to a training session"
+      ],
+      "a": 0,
+      "e": "Memo mở đầu bằng việc rà soát sổ cái và báo cáo kết quả kinh doanh cuối năm, sau đó nêu quy trình mới (phê duyệt khoản mục trên 500 đô la, hạn nộp ngân sách). Vậy mục đích là tóm tắt kết quả tài chính và thông báo quy trình mới.",
+      "w": [
+       "income statement",
+       "ledger"
+      ]
+     },
+     {
+      "q": "According to the memo, what mainly caused the company's net loss?",
+      "o": [
+       "Unpaid taxes",
+       "Higher spending on staff training",
+       "Errors made by the bank",
+       "A drop in sales during the spring"
+      ],
+      "a": 3,
+      "e": "Đoạn 1 nói \"A shortfall in sales during the spring was the main cause\", tức doanh số thiếu hụt vào mùa xuân là nguyên nhân chính. Ngân sách đào tạo thực ra còn thặng dư nên B sai.",
+      "w": [
+       "net loss",
+       "shortfall"
+      ]
+     },
+     {
+      "q": "The word \"offset\" in paragraph 1 is closest in meaning to",
+      "o": [
+       "balanced out",
+       "delayed",
+       "repeated",
+       "explained"
+      ],
+      "a": 0,
+      "e": "\"A surplus ... partly offset it\" nghĩa là khoản thặng dư đã bù đắp một phần cho khoản thiếu hụt, tức \"balanced out\".",
+      "w": []
+     },
+     {
+      "q": "What is NOT mentioned in the memo?",
+      "o": [
+       "The amount of unpaid invoices that will be written off",
+       "A new approval requirement for large line items",
+       "A deadline for budget requests",
+       "A plan to reduce the number of employees"
+      ],
+      "a": 3,
+      "e": "Đoạn 2 nêu 3.100 đô la hóa đơn bị xóa sổ, đoạn 3 nêu yêu cầu phê duyệt khoản mục trên 500 đô la và hạn nộp ngân sách ngày 15/11. Không có chỗ nào nói đến việc cắt giảm nhân sự.",
+      "w": [
+       "write off",
+       "line item"
+      ]
+     },
+     {
+      "q": "What must happen before accounts payable can make a payment on an item over $500?",
+      "o": [
+       "The board must hold a meeting",
+       "The item must be approved",
+       "The ledger must be closed",
+       "Managers must submit a receipt by November 15"
+      ],
+      "a": 1,
+      "e": "Đoạn 3: \"every line item above $500 must be approved before any disbursement is made by accounts payable\" nên khoản mục phải được phê duyệt trước khi chi trả. Cuộc họp hội đồng chỉ để trình báo cáo lợi nhuận.",
+      "w": [
+       "accounts payable",
+       "line item",
+       "disbursement"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v30",
+   "week": 8,
+   "title": "Gói từ 30 · Vận chuyển & giao nhận",
+   "words": [
+    "supply chain",
+    "freight forwarder",
+    "bill of lading",
+    "clear customs",
+    "customs broker",
+    "vessel",
+    "pier",
+    "hand truck",
+    "in transit",
+    "en route",
+    "door-to-door",
+    "packing slip",
+    "consignee",
+    "manifest",
+    "fleet",
+    "trucking",
+    "fulfillment center",
+    "just-in-time",
+    "third-party",
+    "refrigerated"
+   ],
+   "passage": {
+    "type": "Email",
+    "title": "To: Daniel Cho\nFrom: Priya Nair, Harbor Line Logistics\nSubject: Update on your shipment HL-5521",
+    "text": "Dear Mr. Cho,\n\nThank you for choosing Harbor Line as your [[freight forwarder]]. Your order of ceramic tiles left the port aboard the [[vessel]] Marina Star and is now [[in transit]]. The [[bill of lading]] and the [[manifest]] have been sent to your [[customs broker]], who will help the container [[clear customs]] when the ship docks at [[Pier]] 9 on May 14.\n\nAfter release, our [[trucking]] team will collect the container and be [[en route]] to your Denver warehouse the same day. Because your stores follow a [[just-in-time]] schedule, a reliable [[supply chain]] is vital, so we offer [[door-to-door]] service and no extra handling is needed on your side. As the [[consignee]], please check the goods against the [[packing slip]] and sign on delivery.\n\nAny damage must be reported within 48 hours of delivery. Please contact me directly if you have questions.",
+    "vi": "Kính gửi ông Cho,\n\nCảm ơn ông đã chọn Harbor Line làm công ty giao nhận vận tải. Đơn hàng gạch men của ông đã rời cảng trên tàu Marina Star và hiện đang trên đường vận chuyển. Vận đơn và bản kê khai hàng hóa đã được gửi đến đại lý hải quan của ông, người sẽ giúp container thông quan khi tàu cập cầu tàu số 9 vào ngày 14 tháng 5.\n\nSau khi được giải phóng, đội vận tải xe tải của chúng tôi sẽ nhận container và lên đường đến kho ở Denver của ông ngay trong ngày. Vì các cửa hàng của ông theo lịch vừa kịp lúc, một chuỗi cung ứng đáng tin cậy là rất quan trọng, nên chúng tôi cung cấp dịch vụ tận nơi và ông không cần xử lý thêm gì. Với tư cách người nhận hàng, xin ông vui lòng đối chiếu hàng hóa với phiếu đóng gói và ký nhận khi giao.\n\nMọi hư hỏng phải được báo trong vòng 48 giờ sau khi giao hàng. Nếu có thắc mắc, xin ông liên hệ trực tiếp với tôi.",
+    "questions": [
+     {
+      "q": "What is the main purpose of the email?",
+      "o": [
+       "To report a damaged shipment",
+       "To update a customer on the status of a shipment",
+       "To request payment for freight services",
+       "To announce a new shipping route"
+      ],
+      "a": 1,
+      "e": "Email cho biết hàng đã rời cảng, đang vận chuyển, ngày tàu cập bến và cách giao hàng, tức là cập nhật tình trạng lô hàng cho khách. Email không nhắc đến hư hỏng đã xảy ra hay yêu cầu thanh toán.",
+      "w": [
+       "freight forwarder",
+       "in transit"
+      ]
+     },
+     {
+      "q": "What is Mr. Cho asked to do when the goods are delivered?",
+      "o": [
+       "Contact the customs broker",
+       "Pay the delivery fee",
+       "Compare the goods with the packing slip and sign",
+       "Return the bill of lading to Harbor Line"
+      ],
+      "a": 2,
+      "e": "Đoạn 2: \"As the consignee, please check the goods against the packing slip and sign on delivery\" nên ông Cho phải đối chiếu hàng với phiếu đóng gói rồi ký nhận.",
+      "w": [
+       "packing slip",
+       "consignee"
+      ]
+     },
+     {
+      "q": "The word \"handling\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "additional payment",
+       "extra insurance",
+       "more time",
+       "work done with the goods"
+      ],
+      "a": 3,
+      "e": "\"No extra handling is needed\" nghĩa là khách không phải làm thêm công đoạn xử lý, vận chuyển hàng hóa, vì dịch vụ tận nơi đã lo hết. Do đó handling gần nghĩa với việc xử lý hàng hóa.",
+      "w": []
+     },
+     {
+      "q": "What is NOT mentioned in the email?",
+      "o": [
+       "The name of the ship",
+       "The expected arrival date at the port",
+       "The city where the warehouse is located",
+       "The cost of the service"
+      ],
+      "a": 3,
+      "e": "Email nêu tên tàu Marina Star, ngày cập cầu tàu 14/5 và kho ở Denver. Chi phí dịch vụ hoàn toàn không được đề cập.",
+      "w": []
+     },
+     {
+      "q": "Why is on-time delivery especially important to Mr. Cho's company?",
+      "o": [
+       "Its stores depend on goods arriving close to when they are needed",
+       "Its warehouse in Denver is closed on weekends",
+       "The customs broker charges late fees",
+       "The tiles must be kept cold"
+      ],
+      "a": 0,
+      "e": "Email nói các cửa hàng của ông Cho theo lịch just-in-time và cần chuỗi cung ứng đáng tin cậy, suy ra họ ít tồn kho và phụ thuộc vào hàng đến đúng lúc. Các lựa chọn còn lại không có trong email.",
+      "w": [
+       "just-in-time",
+       "supply chain"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v31",
+   "week": 8,
+   "title": "Gói từ 31 · Sản xuất & kiểm soát chất lượng",
+   "words": [
+    "tolerance",
+    "automation",
+    "scrap",
+    "lean manufacturing",
+    "standardize",
+    "consistency",
+    "idle",
+    "patent",
+    "precision",
+    "meticulous",
+    "factory floor",
+    "labor-intensive",
+    "apparatus",
+    "mechanism",
+    "gauge",
+    "custom-made",
+    "synthetic",
+    "trial run",
+    "corrective action",
+    "preventive"
+   ],
+   "passage": {
+    "type": "Memo",
+    "title": "To: Plant Supervisors\nFrom: Hector Alvarez, Operations Manager\nSubject: Results of the Line 3 trial run",
+    "text": "Last week we completed a [[trial run]] of the new [[automation]] system on Line 3. Until now, making our gaskets from [[synthetic]] rubber was [[labor-intensive]], and workers had to [[gauge]] each part by hand. The new [[apparatus]] uses a [[mechanism]] that measures every part with great [[precision]], keeping it within the required [[tolerance]].\n\nThe results were encouraging. [[Scrap]] fell by 18 percent, and the [[consistency]] of the finished gaskets improved. Because the machine was never [[idle]] during shift changes, daily output also rose. These gains support our [[lean manufacturing]] goals. Our engineers were [[meticulous]] throughout the test, and they have applied for a [[patent]] on the new design.\n\nNext, we will [[standardize]] the procedure on all lines. Any defect will require [[corrective action]] within 24 hours, and we will add monthly [[preventive]] maintenance. Please walk the [[factory floor]] with your teams this week and send me your questions.",
+    "vi": "Tuần trước, chúng tôi đã hoàn tất đợt chạy thử hệ thống tự động hóa mới trên Dây chuyền 3. Cho đến nay, việc sản xuất gioăng từ cao su tổng hợp đòi hỏi nhiều lao động, và công nhân phải tự đo từng chi tiết bằng tay. Thiết bị mới sử dụng một cơ cấu đo mọi chi tiết với độ chính xác cao, giữ chúng trong dung sai yêu cầu.\n\nKết quả rất khả quan. Phế liệu giảm 18 phần trăm, và tính nhất quán của gioăng thành phẩm được cải thiện. Vì máy không bao giờ ngừng hoạt động trong các lần đổi ca, sản lượng hằng ngày cũng tăng. Những cải thiện này hỗ trợ mục tiêu sản xuất tinh gọn của chúng ta. Các kỹ sư đã làm việc rất tỉ mỉ trong suốt đợt thử, và họ đã nộp đơn xin cấp bằng sáng chế cho thiết kế mới.\n\nTiếp theo, chúng ta sẽ tiêu chuẩn hóa quy trình trên tất cả các dây chuyền. Mọi lỗi sẽ cần có biện pháp khắc phục trong vòng 24 giờ, và chúng ta sẽ bổ sung bảo trì phòng ngừa hằng tháng. Tuần này, xin hãy cùng đội của mình đi xem khu vực sản xuất và gửi cho tôi các câu hỏi.",
+    "questions": [
+     {
+      "q": "What is the purpose of the memo?",
+      "o": [
+       "To report on a test of new equipment and explain next steps",
+       "To request approval to buy a new machine",
+       "To announce a change in shift schedules",
+       "To introduce a new product line"
+      ],
+      "a": 0,
+      "e": "Memo mở đầu bằng việc hoàn tất chạy thử hệ thống tự động hóa trên Dây chuyền 3, nêu kết quả rồi các bước tiếp theo. Vậy mục đích là báo cáo kết quả thử nghiệm và giải thích bước tiếp theo.",
+      "w": [
+       "trial run",
+       "automation"
+      ]
+     },
+     {
+      "q": "What was one result of the trial run?",
+      "o": [
+       "Worker hours were reduced by 18 percent",
+       "Scrap was reduced",
+       "Maintenance costs fell",
+       "A patent was approved"
+      ],
+      "a": 1,
+      "e": "Đoạn 2: \"Scrap fell by 18 percent\", tức phế liệu giảm. Con số 18 phần trăm áp dụng cho phế liệu chứ không phải giờ công, và bằng sáng chế mới chỉ được nộp đơn xin chứ chưa được cấp.",
+      "w": [
+       "scrap",
+       "patent"
+      ]
+     },
+     {
+      "q": "The word \"encouraging\" in paragraph 2 is closest in meaning to",
+      "o": [
+       "unexpected",
+       "promising",
+       "confusing",
+       "costly"
+      ],
+      "a": 1,
+      "e": "Câu \"The results were encouraging\" được giải thích ngay sau đó bằng các cải thiện (phế liệu giảm, sản lượng tăng), nên encouraging gần nghĩa với \"promising\" (đầy hứa hẹn).",
+      "w": []
+     },
+     {
+      "q": "What is NOT mentioned in the memo?",
+      "o": [
+       "The material used to make the gaskets",
+       "The company has applied for a patent",
+       "Maintenance will be added every month",
+       "The price of the new apparatus"
+      ],
+      "a": 3,
+      "e": "Đoạn 1 nêu cao su tổng hợp, đoạn 2 nêu đơn xin cấp bằng sáng chế, đoạn 3 nêu bảo trì hằng tháng. Giá của thiết bị mới không được nhắc tới.",
+      "w": [
+       "apparatus"
+      ]
+     },
+     {
+      "q": "What will the company most likely do after the trial?",
+      "o": [
+       "Stop using synthetic rubber",
+       "Reduce the number of supervisors",
+       "Extend the new procedure to its other production lines",
+       "Return to manual measuring"
+      ],
+      "a": 2,
+      "e": "Đoạn 3: \"we will standardize the procedure on all lines\" nên công ty nhiều khả năng áp dụng quy trình mới cho các dây chuyền khác, vì kết quả thử nghiệm rất tốt.",
+      "w": [
+       "standardize"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v32",
+   "week": 8,
+   "title": "Gói từ 32 · Cộng đồng & môi trường",
+   "words": [
+    "municipal",
+    "public hearing",
+    "ordinance",
+    "nonprofit",
+    "charitable",
+    "landfill",
+    "compost",
+    "biodegradable",
+    "conservation",
+    "preserve",
+    "habitat",
+    "landscaping",
+    "recreational",
+    "beautification",
+    "revitalize",
+    "public works",
+    "resurface",
+    "civic",
+    "petition",
+    "raise awareness"
+   ],
+   "passage": {
+    "type": "Announcement",
+    "title": "City of Maplewood: Notice of Public Hearing on the Riverside Renewal Plan",
+    "text": "The [[municipal]] government of Maplewood invites residents to a [[public hearing]] on Tuesday, June 10, at 7 p.m. at the [[Civic]] Center. The topic is a proposed [[ordinance]] to [[revitalize]] the Riverside district, which was drafted after residents delivered a [[petition]] with more than 2,000 signatures.\n\nIf approved, the Department of [[Public Works]] will [[resurface]] Riverside Drive, and a [[nonprofit]] group, Green Maplewood, will lead the [[landscaping]] and [[beautification]] of the riverbank. The plan would also [[preserve]] a wetland [[habitat]] and add a [[recreational]] trail. Food waste from the park will be turned into [[compost]], and cups sold there must be [[biodegradable]], reducing the waste sent to the [[landfill]].\n\nLocal businesses are invited to make [[charitable]] donations, and volunteers will help [[raise awareness]] about water [[conservation]]. Speakers must register at the city clerk's office by June 6.",
+    "vi": "Chính quyền thành phố Maplewood mời cư dân tham dự buổi điều trần công khai vào thứ Ba, ngày 10 tháng 6, lúc 7 giờ tối tại Trung tâm Hành chính thành phố. Chủ đề là một quy định đề xuất nhằm hồi sinh khu Riverside, được soạn thảo sau khi cư dân gửi bản kiến nghị với hơn 2.000 chữ ký.\n\nNếu được thông qua, Sở Công chính sẽ trải lại mặt đường Riverside Drive, và một nhóm phi lợi nhuận, Green Maplewood, sẽ dẫn dắt việc tạo cảnh quan và chỉnh trang bờ sông. Kế hoạch cũng sẽ bảo tồn một môi trường sống đất ngập nước và bổ sung một đường mòn giải trí. Rác thực phẩm từ công viên sẽ được ủ thành phân hữu cơ, và các ly bán ở đó phải có thể phân hủy sinh học, giúp giảm lượng rác đưa đến bãi chôn lấp.\n\nCác doanh nghiệp địa phương được mời đóng góp từ thiện, và các tình nguyện viên sẽ giúp nâng cao nhận thức về việc bảo tồn nguồn nước. Người phát biểu phải đăng ký tại văn phòng thư ký thành phố trước ngày 6 tháng 6.",
+    "questions": [
+     {
+      "q": "What is the purpose of the notice?",
+      "o": [
+       "To invite residents to a hearing about a proposed plan",
+       "To announce road closures",
+       "To ask for volunteers to clean a river",
+       "To report the results of a vote"
+      ],
+      "a": 0,
+      "e": "Thông báo mở đầu: chính quyền \"invites residents to a public hearing\" về một quy định đề xuất cho khu Riverside. Vậy mục đích là mời cư dân dự buổi điều trần về kế hoạch.",
+      "w": [
+       "public hearing",
+       "ordinance"
+      ]
+     },
+     {
+      "q": "Who will lead the landscaping of the riverbank?",
+      "o": [
+       "The Department of Public Works",
+       "A nonprofit group",
+       "Local businesses",
+       "The city clerk"
+      ],
+      "a": 1,
+      "e": "Đoạn 2: \"a nonprofit group, Green Maplewood, will lead the landscaping and beautification of the riverbank\". Sở Công chính chỉ lo việc trải lại mặt đường.",
+      "w": [
+       "nonprofit",
+       "landscaping"
+      ]
+     },
+     {
+      "q": "The word \"register\" in paragraph 3 is closest in meaning to",
+      "o": [
+       "vote",
+       "arrive early",
+       "sign up",
+       "pay a fee"
+      ],
+      "a": 2,
+      "e": "\"Speakers must register at the city clerk's office\" nghĩa là người muốn phát biểu phải đăng ký tên trước, tức \"sign up\".",
+      "w": []
+     },
+     {
+      "q": "What is NOT mentioned in the notice?",
+      "o": [
+       "The total cost of the project",
+       "The date of the hearing",
+       "The plan to resurface a road",
+       "The protection of a wetland"
+      ],
+      "a": 0,
+      "e": "Ngày điều trần (10/6), việc trải lại mặt đường Riverside Drive và bảo tồn môi trường sống đất ngập nước đều được nêu. Tổng chi phí dự án không được nhắc đến.",
+      "w": [
+       "resurface",
+       "habitat"
+      ]
+     },
+     {
+      "q": "What can be inferred about the Riverside plan?",
+      "o": [
+       "It has already been approved",
+       "It will be paid for by local businesses",
+       "It will close the Civic Center",
+       "It was proposed partly in response to a request from residents"
+      ],
+      "a": 3,
+      "e": "Đoạn 1 cho biết quy định được soạn thảo \"after residents delivered a petition with more than 2,000 signatures\", suy ra kế hoạch xuất phát một phần từ yêu cầu của cư dân. Kế hoạch chỉ mới đề xuất nên A sai.",
+      "w": [
+       "petition"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

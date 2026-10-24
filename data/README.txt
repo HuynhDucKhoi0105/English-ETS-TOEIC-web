@@ -10,4 +10,6 @@ I–O: dữ liệu nâng cấp 10/2026 (đã nhúng sẵn vào English-Lab.html,
   N_reading_practice_new.json – bài đọc Part 6/7 thêm (có bài 3 đoạn)
   O_mock_tests.json           – 4 đề thi thử đủ 200 câu theo format ETS mới
 Bản sao lưu app trước khi nâng cấp: English-Lab.backup-2026-10-24.html
-  P_learn_grammar.json        – 15 bài ngữ pháp nền cho tab Học (từng bước + 10 câu mức Dễ). Nhúng bằng: node scripts/inject-learn.js
+  P_learn_grammar.json        – 25 bài ngữ pháp cho tab Học (15 nền + 10 nâng cao; từng bước + 10 câu mức Dễ). Nhúng bằng: node scripts/inject-learn.js
+  Q_learn_vocab.json          – 32 gói từ vựng (640 từ, id trỏ vào DATA.vocab) + bài đọc hiểu 5 câu cho từng gói. Nhúng bằng: node scripts/inject-learn.js
+  Q_learn_weekly.json         – 8 đoạn đọc + 3 câu hỏi cho bài kiểm tra cuối tuần. Nhúng bằng: node scripts/inject-learn.js

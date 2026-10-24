@@ -2,7 +2,7 @@
 
 **English Lab — TOEIC 800+ & IT**: web học TOEIC chạy trong một trang HTML (`English-Lab.html`). Có thêm API nhỏ để đồng bộ tiến độ lên MongoDB.
 
-- Tab **🎓 Học**: lộ trình học có hướng dẫn. Mỗi bài ngữ pháp chia từng bước (quy tắc → ví dụ → câu kiểm tra ngay), luyện 3 mức Dễ / Vừa / Thi thật, hoàn thành khi đạt 80% ở mức Vừa. Bỏ qua bài phải nêu lý do và làm 5 câu kiểm tra nhanh
+- Tab **🎓 Học**: lộ trình 8 tuần có hướng dẫn, mỗi tuần xen kẽ gói từ vựng và bài ngữ pháp rồi kết thúc bằng bài kiểm tra tuần. 32 gói từ vựng (640 từ): học thẻ → luyện ngay (chọn nghĩa, nghe, điền từ, gõ lại) → đọc hiểu 5 câu → ôn lặp lại. 25 bài ngữ pháp (15 nền + 10 nâng cao): quy tắc → ví dụ → kiểm tra ngay, luyện 3 mức Dễ / Vừa / Thi thật. Hoàn thành khi đạt 80%. Bỏ qua phải nêu lý do và làm 5 câu kiểm tra nhanh. Kiểm tra tuần (~22 câu, mở khi xong hoặc bỏ qua hết các mục trong tuần) có cả phần đã bỏ qua và nhắc học lại nếu làm sai nhiều
 - Từ vựng TOEIC ~2.270 từ (lặp lại ngắt quãng, paraphrase, collocation) và bộ IT riêng ~1.050 từ
 - Ngữ pháp Part 5 ~630 câu, có lời giải logic và phân tích offline từng bước (không cần AI)
 - Listening Part 1–4 (giọng đọc của trình duyệt), Reading Part 6–7 (có bài 3 đoạn)
@@ -19,7 +19,7 @@
 | `vercel.json` | Trang chủ `/` trỏ tới `English-Lab.html` |
 | `manifest.webmanifest`, `sw.js`, `icon*` | Cài lên điện thoại như app (PWA), mở được khi mất mạng |
 | `data/` | Dữ liệu nguồn dạng txt/json (đã nhúng vào HTML) |
-| `scripts/inject-learn.js` | Nhúng `data/P_learn_grammar.json` (bài học tab 🎓 Học) vào `English-Lab.html`. Sửa bài học xong chạy `node scripts/inject-learn.js` |
+| `scripts/inject-learn.js` | Nhúng `data/P_learn_grammar.json` (bài ngữ pháp), `data/Q_learn_vocab.json` (gói từ vựng + bài đọc) và `data/Q_learn_weekly.json` (đoạn đọc kiểm tra tuần) của tab 🎓 Học vào `English-Lab.html`. Sửa nội dung xong chạy `node scripts/inject-learn.js` |
 
 ## Deploy lên Vercel (miễn phí)
 
