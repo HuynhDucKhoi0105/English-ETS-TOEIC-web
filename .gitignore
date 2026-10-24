@@ -7,3 +7,5 @@ node_modules/
 .DS_Store
 # bản sao lưu cục bộ
 *.backup-*.html
+.vercel
+.env*
