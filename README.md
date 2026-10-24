@@ -21,18 +21,24 @@
 
 ## Deploy lên Vercel (miễn phí)
 
-1. Vào <https://vercel.com>, đăng nhập bằng GitHub, chọn **Add New → Project** rồi **Import** repo này. Framework chọn **Other**, để nguyên các tuỳ chọn build.
-2. Ở **Environment Variables**, thêm:
-   - `MONGODB_URI`: chuỗi kết nối MongoDB Atlas (`mongodb+srv://…`). **Không bao giờ commit chuỗi này vào repo.**
-   - `SYNC_KEY`: mật khẩu đồng bộ tự đặt, tối thiểu 12 ký tự. App sẽ hỏi mã này.
+1. Import repo này vào Vercel (Framework: **Other**) hoặc chạy `vercel --prod` trong thư mục repo.
+2. Thêm Environment Variables:
+   - `MONGODB_URI`: chuỗi kết nối MongoDB Atlas (`mongodb+srv://…`). **Không commit chuỗi này vào repo.**
+   - `AUTH_SECRET` (nên có): chuỗi ngẫu nhiên dài, dùng để ký token đăng nhập.
    - `MONGODB_DB` (tuỳ chọn): tên database, mặc định `english_lab`.
-3. Bấm **Deploy**.
-4. Trên MongoDB Atlas, vào **Network Access** và thêm `0.0.0.0/0`. Vercel không có IP cố định; database vẫn được bảo vệ bằng mật khẩu user và `SYNC_KEY`.
-5. Mở web, vào tab **⚙️ Dữ liệu → ☁️ Đồng bộ đám mây**, nhập `SYNC_KEY`, rồi bấm **Lưu & kết nối**.
+3. Trên MongoDB Atlas, vào **Network Access** và thêm `0.0.0.0/0`, vì Vercel không có IP cố định.
 
-Từ đó tiến độ tự lưu lên MongoDB khoảng 5 giây sau mỗi thay đổi. Mở app ở máy khác sẽ tự tải bản mới nhất. Máy chủ giữ thêm 20 bản lưu cũ trong collection `progress_history`.
+## Tài khoản & đồng bộ
+
+- Mỗi người mở cùng một link, tự **tạo tài khoản** bằng tên và mật khẩu. Tên đã tồn tại thì phải chọn tên khác. Mật khẩu được băm bằng scrypt.
+- Tiến độ lưu riêng theo tài khoản (collection `progress`), tự lưu khoảng 5 giây sau mỗi thay đổi. Mỗi người có 20 bản lưu cũ trong `progress_history`.
+- Đăng nhập ở máy khác sẽ tự tải tiến độ về. Khi 2 máy cùng sửa, app hỏi nên giữ bản nào.
+- Có thể dùng không cần tài khoản; khi đó tiến độ chỉ lưu trong trình duyệt.
 
 ## API
 
-`GET /api/progress` và `PUT /api/progress` với header `x-sync-key: <SYNC_KEY>`.
-Body của PUT có dạng `{ data, base, force }`. Nếu trên mây đã có bản mới hơn `base` từ thiết bị khác, API trả `409`.
+| Route | Mô tả |
+|---|---|
+| `POST /api/auth` | `{action:'register'\|'login'\|'password', user, pass, newPass}` → `{token}` |
+| `GET /api/progress` | Tải tiến độ (header `Authorization: Bearer <token>`) |
+| `PUT /api/progress` | Lưu `{data, base, force}`. Nếu trên mây có bản mới hơn `base` thì trả `409`. |

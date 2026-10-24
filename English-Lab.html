@@ -112,7 +112,9 @@ body.noai .lk{cursor:auto}
 .shr button.on{background:var(--ink);color:var(--card);border-color:var(--ink)}
 details.lg{margin-top:10px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 12px}details.lg summary{cursor:pointer;font-weight:700}
 .vx{font-size:14px;text-align:left;max-width:560px;display:grid;gap:4px}
-.cloud{cursor:pointer;font-size:18px;min-width:22px;text-align:center}
+.cloud{cursor:pointer;font-size:13px;font-weight:700;white-space:nowrap}.cloud:not(:empty){background:var(--pri-l);padding:3px 10px;border-radius:99px}
+#authov{position:fixed;inset:0;background:rgba(10,20,15,.55);z-index:60;display:none;align-items:center;justify-content:center;padding:16px}
+.authbox{width:100%;max-width:520px;margin:0;max-height:92vh;overflow:auto}
 .warnc{background:#fff6e0;border:1px solid #f0c36d;border-radius:12px;padding:10px 12px}
 @media(prefers-color-scheme:dark){.warnc{background:#3a2f12;border-color:#7a5d1c}}
 .pbars{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px 14px;margin:6px 0 4px}
@@ -1855,7 +1857,7 @@ function plantCard(w){const P=plot(),g=P.water+P.sun,st=gStage(g),th=thirst(),nx
 VIEWS.today=function(){const p=planPos(),W=DATA.roadmap[p.week-1],l=L();
   const doneN=BLOCKS.filter(blockDone).length,mins=BLOCKS.filter(blockDone).reduce((a,b)=>a+b.m,0);
   const examDay=addDays(S.start,83),left=dnum(examDay)-dnum(todayS());
-  let h='<h1>Chào Khôi 👋</h1><p class="mut">'+(p.before?'Lộ trình bắt đầu ngày '+S.start:p.after?'Đã qua 12 tuần — chuyển sang kế hoạch nói 100% 🎤':'Ngày '+(p.i+1)+'/84 · Tuần '+p.week+' — <b>'+esc(W.title)+'</b> · còn '+Math.max(0,left)+' ngày tới mốc thi ('+examDay+')')+'</p>';
+  let h='<h1>Chào '+esc(dispName())+' 👋</h1><p class="mut">'+(p.before?'Lộ trình bắt đầu ngày '+S.start:p.after?'Đã qua 12 tuần — chuyển sang kế hoạch nói 100% 🎤':'Ngày '+(p.i+1)+'/84 · Tuần '+p.week+' — <b>'+esc(W.title)+'</b> · còn '+Math.max(0,left)+' ngày tới mốc thi ('+examDay+')')+'</p>';
   h+=backupHTML();
   h+='<div class="grid g2"><div class="card"><h2>Hôm nay: '+doneN+'/5 khối · '+mins+'/120 phút</h2><div class="bar"><i style="width:'+(doneN*20)+'%"></i></div><div style="margin-top:12px">';
   BLOCKS.forEach(b=>{const d=blockDone(b);h+='<div class="chk '+(d?'done':'')+'"><input type="checkbox" '+(d?'checked':'')+' onchange="A.tickBlock(\''+b.id+'\',this.checked)"><div class="sp"><b>'+b.t+'</b> <span class="tag">'+b.m+'′</span><div class="small mut">'+b.hint+'</div></div><button class="b sm" onclick="A.go(\''+b.go+'\')">Bắt đầu →</button></div>'});
@@ -2468,44 +2470,70 @@ A.qConv=()=>{const a=parseInt($('#qL').value),b=parseInt($('#qR').value);if(isNa
   if(r!=null){addTestScore(l,r);save()}};
 
 
-/* =================== ĐỒNG BỘ ĐÁM MÂY (MongoDB qua API /api/progress trên Vercel) =================== */
-// Cấu hình lưu riêng (không nằm trong file sao lưu). Chuỗi kết nối MongoDB chỉ nằm trên máy chủ, KHÔNG bao giờ ở đây.
+/* =================== TÀI KHOẢN & ĐỒNG BỘ ĐÁM MÂY (MongoDB qua /api trên Vercel) =================== */
+// Mỗi người một tài khoản (tên + mật khẩu); tiến độ lưu riêng theo tài khoản. Chỉ token đăng nhập nằm trong trình duyệt.
 var CK='englishlab_cloud'; // var: save() có thể chạy trước dòng này
 function cCfg(){try{return JSON.parse(localStorage.getItem(CK))||{}}catch(e){return {}}}
 function cSet(o){try{localStorage.setItem(CK,JSON.stringify(Object.assign(cCfg(),o)))}catch(e){}}
-const cBase=()=>{const c=cCfg();if(c.url)return c.url.replace(/\/+$/,'');return /^https?:$/.test(location.protocol)?location.origin:''};
-const cOn=()=>!!(cBase()&&cCfg().key);
+const isWeb=()=>/^https?:$/.test(location.protocol);
+const cBase=()=>{const c=cCfg();if(c.url)return c.url.replace(/\/+$/,'');return isWeb()?location.origin:''};
+const cOn=()=>!!(cBase()&&cCfg().token);
 var cTimer=null,cBusy=false,cAgain=false,cMsg='';
-function cBadge(st,msg){cMsg=msg||'';const el=$('#cloud');if(el){el.textContent={ok:'☁️',sync:'⏳',err:'⚠️'}[st]||'';el.title=cMsg}const s=$('#cSt');if(s)s.textContent=cMsg}
-async function cReq(method,body){const r=await fetch(cBase()+'/api/progress',{method,headers:{'Content-Type':'application/json','x-sync-key':cCfg().key},body:body?JSON.stringify(body):undefined});
+const dispName=()=>S.set.name||cCfg().user||'bạn';
+function cBadge(st,msg){cMsg=msg||'';const el=$('#cloud');if(el){el.textContent=cOn()?({ok:'☁️',sync:'⏳',err:'⚠️'}[st]||'☁️')+' '+cCfg().user:'';el.title=cMsg}const s=$('#cSt');if(s)s.textContent=cMsg}
+async function cApi(path,method,body){const t=cCfg().token,r=await fetch(cBase()+path,{method,headers:Object.assign({'Content-Type':'application/json'},t?{Authorization:'Bearer '+t}:{}),body:body?JSON.stringify(body):undefined});
   const j=await r.json().catch(()=>({}));if(!r.ok){const e=new Error(j.error||('HTTP '+r.status));e.status=r.status;throw e}return j}
+const cReq=(method,body)=>cApi('/api/progress',method,body);
 function cMark(){if(!cOn())return;if(!cCfg().dirty)cSet({dirty:true});clearTimeout(cTimer);cTimer=setTimeout(()=>cPush(),5000)}
+function cAuthErr(e){if(e.status===401){cSet({token:''});cBadge('err','Phiên đăng nhập hết hạn — đăng nhập lại');authShow()}}
 async function cPush(force){if(!cOn())return;if(cBusy){cAgain=true;return}cBusy=true;clearTimeout(cTimer);cBadge('sync','Đang lưu lên mây…');
   try{const j=await cReq('PUT',{data:S,base:cCfg().last||0,force:!!force});cSet({last:j.upd,dirty:false});cBadge('ok','Đã lưu lên mây lúc '+new Date().toLocaleTimeString('vi-VN'))}
-  catch(e){cBusy=false;if(e.status===409)return cPull(false);cBadge('err','Lỗi đồng bộ: '+e.message)}
+  catch(e){cBusy=false;if(e.status===409)return cPull(false);cAuthErr(e);cBadge('err','Lỗi đồng bộ: '+e.message)}
   cBusy=false;if(cAgain){cAgain=false;cPush()}}
 function adopt(o){const d=defaults();Object.keys(d).forEach(k=>{if(o[k]===undefined)o[k]=d[k]});o.set=Object.assign(d.set,o.set);o.custom=Object.assign(d.custom,o.custom);
   S=o;try{localStorage.setItem(LS,JSON.stringify(S))}catch(e){}TRM=null;CORP=null;renderStats();draw()}
+const hasProgress=()=>S.xp>0||Object.keys(S.srs).length>0;
 async function cPull(manual){if(!cOn())return;cBadge('sync','Đang kiểm tra dữ liệu trên mây…');
   try{const j=await cReq('GET'),c=cCfg();cSet({pulled:Date.now()});
     if(!j.data){await cPush(true);if(manual)toast('☁️ Đã tạo bản lưu đầu tiên trên mây');return}
     if(j.upd>(c.last||0)){
-      const first=!c.last,useRemote=first?confirm('☁️ Trên mây đã có tiến độ (lưu lúc '+new Date(j.upd).toLocaleString('vi-VN')+').\n\nOK = TẢI tiến độ đó về máy này (khuyên dùng)\nHuỷ = dùng tiến độ đang có ở máy này và GHI ĐÈ lên mây'):
+      const useRemote=!c.last?(!hasProgress()||confirm('☁️ Tài khoản “'+c.user+'” đã có tiến độ trên mây (lưu lúc '+new Date(j.upd).toLocaleString('vi-VN')+').\n\nOK = TẢI tiến độ của tài khoản về máy này (khuyên dùng)\nHuỷ = dùng tiến độ đang có ở máy này và GHI ĐÈ lên tài khoản')):
         (!c.dirty||confirm('☁️ Trên mây có tiến độ mới hơn từ thiết bị khác (lưu lúc '+new Date(j.upd).toLocaleString('vi-VN')+'), trong khi máy này cũng có thay đổi chưa đồng bộ.\n\nOK = dùng bản trên MÂY (bỏ thay đổi ở máy này)\nHuỷ = giữ bản MÁY NÀY và ghi đè lên mây'));
-      if(useRemote){adopt(j.data);cSet({last:j.upd,dirty:false});cBadge('ok','Đã tải tiến độ từ mây lúc '+new Date().toLocaleTimeString('vi-VN'));toast('☁️ Đã tải tiến độ mới nhất từ mây')}
+      if(useRemote){adopt(j.data);cSet({last:j.upd,dirty:false});cBadge('ok','Đã tải tiến độ từ mây lúc '+new Date().toLocaleTimeString('vi-VN'));toast('☁️ Đã tải tiến độ của '+c.user)}
       else await cPush(true)}
     else if(c.dirty)await cPush();
     else{cBadge('ok','Đã đồng bộ lúc '+new Date().toLocaleTimeString('vi-VN'));if(manual)toast('☁️ Đã đồng bộ — không có gì mới')}}
-  catch(e){cBadge('err','Lỗi đồng bộ: '+e.message);if(manual)toast('⚠️ Đồng bộ lỗi: '+e.message)}}
+  catch(e){cAuthErr(e);cBadge('err','Lỗi đồng bộ: '+e.message);if(manual)toast('⚠️ Đồng bộ lỗi: '+e.message)}}
 document.addEventListener('visibilitychange',()=>{if(!cOn())return;if(document.hidden){if(cCfg().dirty)cPush()}else if(Date.now()-(cCfg().pulled||0)>120000&&!cBusy)cPull()});
-function cloudCard(){const c=cCfg(),web=/^https?:$/.test(location.protocol);
-  return '<div class="card"><h2>☁️ Đồng bộ đám mây (MongoDB)</h2><p class="small mut">Lưu tiến độ lên máy chủ để không mất khi xoá trình duyệt và để học trên nhiều thiết bị (máy tính + điện thoại). Tự lưu khoảng 5 giây sau mỗi thay đổi; mở app ở máy khác sẽ tự tải bản mới nhất. Máy chủ giữ thêm 20 bản lưu gần nhất để phòng ghi đè nhầm.</p>'+
-  '<div class="grid g2"><div><label>Địa chỉ web app '+(web?'(để trống = dùng trang đang mở)':'(bắt buộc khi mở file trên máy)')+'</label><input id="cUrl" placeholder="'+(web?esc(location.origin):'https://ten-app.vercel.app')+'" value="'+esc(c.url||'')+'"></div><div><label>Mã đồng bộ (= biến SYNC_KEY trên Vercel)</label><input id="cKey" type="password" autocomplete="off" value="'+esc(c.key||'')+'"></div></div>'+
-  '<div class="row" style="margin-top:10px"><button class="b pri" onclick="A.cSave()">Lưu & kết nối</button><button class="b" onclick="A.cPushNow()" '+(cOn()?'':'disabled')+'>⬆ Đẩy lên ngay</button><button class="b" onclick="A.cPullNow()" '+(cOn()?'':'disabled')+'>⬇ Tải về / kiểm tra</button>'+(c.key?'<button class="b bad" onclick="A.cOff()">Ngắt đồng bộ</button>':'')+'</div>'+
-  '<p class="small" id="cSt">'+esc(cOn()?(cMsg||'Đã bật'):'Chưa bật đồng bộ.')+'</p></div>'}
-A.cSave=()=>{cSet({url:$('#cUrl').value.trim(),key:$('#cKey').value.trim()});if(!cOn()){toast(cCfg().key?'Nhập địa chỉ web app':'Nhập mã đồng bộ');return}cPull(true).then(()=>{if(cur==='data')draw()})};
+
+/* ---- Đăng nhập / tạo tài khoản ---- */
+function authForm(id){return '<div class="grid g2"><div><label>Tên đăng nhập</label><input id="'+id+'U" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="vd: khoi, lan_anh" value="'+esc(cCfg().user||'')+'"></div><div><label>Mật khẩu</label><input id="'+id+'P" type="password" autocomplete="current-password" onkeydown="if(event.key===\'Enter\')A.auth(\'login\',\''+id+'\')"></div></div>'+
+  (isWeb()?'':'<label>Địa chỉ web app (bắt buộc khi mở file trên máy)</label><input id="'+id+'L" placeholder="https://ten-app.vercel.app" value="'+esc(cCfg().url||'')+'">')+
+  '<div class="row" style="margin-top:12px"><button class="b pri" onclick="A.auth(\'login\',\''+id+'\')">Đăng nhập</button><button class="b" onclick="A.auth(\'register\',\''+id+'\')">✨ Tạo tài khoản mới</button></div><p class="small mut" id="'+id+'M">Tên: 3–24 ký tự, chữ không dấu / số / _ . - (không phân biệt hoa thường). Mật khẩu ≥ 4 ký tự. Tên đã có người dùng thì phải chọn tên khác.</p>'}
+A.auth=async(action,id)=>{const u=($('#'+id+'U')||{}).value||'',p=($('#'+id+'P')||{}).value||'',L=$('#'+id+'L'),m=$('#'+id+'M');
+  if(L)cSet({url:L.value.trim()});if(!cBase()){toast('Nhập địa chỉ web app');return}
+  if(action==='register'&&hasProgress()&&!confirm('Tạo tài khoản mới “'+u.trim().toLowerCase()+'” và đưa TIẾN ĐỘ ĐANG CÓ trên máy này vào tài khoản đó?\n\n(Nếu đây là máy của người khác, bấm Huỷ → Đăng xuất / dùng trình duyệt riêng.)'))return;
+  if(m)m.textContent='⏳ Đang xử lý…';
+  try{const j=await cApi('/api/auth','POST',{action,user:u,pass:p});const prev=cCfg().user;
+    cSet({user:j.user,token:j.token,last:prev===j.user?cCfg().last:0,dirty:true});authHide();toast(j.isNew?'🎉 Đã tạo tài khoản “'+j.user+'”':'👋 Chào '+j.user);
+    await cPull(true);renderStats();draw()}
+  catch(e){if(m){m.textContent='⚠️ '+e.message;m.className='small bad-t'}else toast('⚠️ '+e.message)}};
+function authShow(force){if(!isWeb()&&!cCfg().url)return;let el=$('#authov');if(!el){el=document.createElement('div');el.id='authov';document.body.appendChild(el)}
+  el.innerHTML='<div class="card authbox"><div style="font-size:40px;text-align:center">🌱</div><h2 style="text-align:center">English Lab · TOEIC 800+</h2><p class="small mut" style="text-align:center">Đăng nhập để lưu tiến độ lên mây — học trên máy nào cũng tiếp tục được. Mỗi người một tài khoản riêng.</p>'+authForm('av')+'<div class="row" style="justify-content:center;margin-top:6px"><button class="b sm" onclick="A.authSkip()">Dùng không cần tài khoản (chỉ lưu trên máy này)</button></div></div>';
+  el.style.display='flex';setTimeout(()=>{const i=$('#avU');if(i)i.focus()},50)}
+function authHide(){const el=$('#authov');if(el)el.style.display='none'}
+A.authSkip=()=>{cSet({skip:true});authHide()};
+A.cLogout=async()=>{if(cCfg().dirty)await cPush();const wipe=confirm('Đăng xuất “'+cCfg().user+'”.\n\nOK = xoá luôn tiến độ trên MÁY NÀY (dùng khi máy dùng chung; tiến độ trên mây vẫn còn)\nHuỷ = giữ tiến độ trên máy này');
+  const url=cCfg().url;try{localStorage.removeItem(CK);if(url)cSet({url})}catch(e){}
+  if(wipe){try{localStorage.removeItem(LS)}catch(e){}location.reload();return}cBadge('','');renderStats();draw();authShow()};
+A.cPass=async()=>{const p=prompt('Mật khẩu hiện tại:');if(p==null)return;const np=prompt('Mật khẩu mới (≥ 4 ký tự):');if(!np)return;
+  try{const j=await cApi('/api/auth','POST',{action:'password',user:cCfg().user,pass:p,newPass:np});cSet({token:j.token});toast('✅ Đã đổi mật khẩu')}catch(e){toast('⚠️ '+e.message)}};
+function cloudCard(){const c=cCfg();
+  if(!cOn())return '<div class="card"><h2>👤 Tài khoản & đồng bộ đám mây</h2><p class="small mut">Đăng nhập để lưu tiến độ lên mây (MongoDB): không mất khi xoá trình duyệt, học trên máy tính + điện thoại cùng một tiến độ. Bạn bè dùng chung link thì mỗi người tạo tài khoản riêng.</p>'+authForm('dc')+'</div>';
+  return '<div class="card"><h2>👤 Tài khoản: '+esc(c.user)+'</h2><p class="small mut">Tiến độ tự lưu lên mây khoảng 5 giây sau mỗi thay đổi; đăng nhập ở máy khác sẽ tự tải bản mới nhất. Máy chủ giữ 20 bản lưu gần nhất.</p>'+
+  '<div class="row"><button class="b" onclick="A.cPushNow()">⬆ Lưu lên mây ngay</button><button class="b" onclick="A.cPullNow()">⬇ Tải về / kiểm tra</button><button class="b" onclick="A.cPass()">🔑 Đổi mật khẩu</button><button class="b bad" onclick="A.cLogout()">Đăng xuất</button></div>'+
+  '<p class="small" id="cSt">'+esc(cMsg||'Đã đăng nhập.')+'</p></div>'}
 A.cPushNow=()=>cPush(false);A.cPullNow=()=>cPull(true);
-A.cOff=()=>{if(confirm('Ngắt đồng bộ trên máy này? (Dữ liệu trên mây vẫn còn.)')){try{localStorage.removeItem(CK)}catch(e){}cBadge('','');draw()}};
 
 /* =================== ƯU TIÊN THEO ĐIỂM YẾU (kế hoạch tự động) =================== */
 function partStats(){const P={},add=(p,c,t)=>{const x=P[p]||(P[p]={c:0,t:0});x.c+=c;x.t+=t};
@@ -2904,7 +2932,7 @@ const BULK={
    p:a=>a[0]&&a[1]?{id:'c'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),title:a[0],prompt:a[1],chunks:(a[2]||'').split(';').map(s=>s.trim()).filter(Boolean),time:+a[3]||60}:null}
 };
 VIEWS.data=function(){let h='<h1>Dữ liệu & Cài đặt</h1>';
-  h+='<div class="card"><h2>Cài đặt</h2><div class="grid g2"><div><label>Ngày bắt đầu lộ trình</label><input type="date" value="'+S.start+'" onchange="A.setV(\'start\',this.value)"></div><div><label>Số từ mới mỗi ngày — tab Từ vựng</label><input type="number" min="0" max="50" value="'+S.set.newPerDay+'" onchange="A.setS(\'newPerDay\',+this.value)"></div><div><label>Số từ mới mỗi ngày — tab IT</label><input type="number" min="0" max="50" value="'+S.set.newPerDayIT+'" onchange="A.setS(\'newPerDayIT\',+this.value)"></div><div></div>';
+  h+='<div class="card"><h2>Cài đặt</h2><div class="grid g2"><div><label>Ngày bắt đầu lộ trình</label><input type="date" value="'+S.start+'" onchange="A.setV(\'start\',this.value)"></div><div><label>Số từ mới mỗi ngày — tab Từ vựng</label><input type="number" min="0" max="50" value="'+S.set.newPerDay+'" onchange="A.setS(\'newPerDay\',+this.value)"></div><div><label>Số từ mới mỗi ngày — tab IT</label><input type="number" min="0" max="50" value="'+S.set.newPerDayIT+'" onchange="A.setS(\'newPerDayIT\',+this.value)"></div><div><label>Tên hiển thị (lời chào)</label><input value="'+esc(S.set.name||'')+'" placeholder="'+esc(cCfg().user||'bạn')+'" onchange="A.setS(\'name\',this.value.trim())"></div>';
   h+='<div><label>Tốc độ đọc mặc định</label><select onchange="A.setS(\'rate\',+this.value)">'+[0.75,0.85,0.9,1,1.1].map(r=>'<option '+(r===S.set.rate?'selected':'')+'>'+r+'</option>').join('')+'</select></div><div><label>Giọng đọc</label><select onchange="A.setS(\'voice\',this.value)"><option value="">Tự chọn (en-US)</option>'+voices.map(v=>'<option value="'+esc(v.name)+'" '+(v.name===S.set.voice?'selected':'')+'>'+esc(v.name)+' ('+v.lang+')</option>').join('')+'</select></div></div><label class="row" style="margin:12px 0 0;font-weight:400;color:var(--ink);font-size:15px"><input type="checkbox" style="width:18px" '+(S.set.coach?'checked':'')+' onchange="A.setS(\'coach\',this.checked)"> 🧭 Gợi ý tân thủ khi làm quiz (cách nhận dạng + các bước giải, không lộ đáp án)</label><div class="row" style="margin-top:10px"><button class="b" onclick="A.say(\'Hello! This is how I sound. Let\\\'s practice English together.\')">🔊 Thử giọng</button></div></div>';
   h+='<div class="card"><h2>🤖 AI Mini</h2><p class="small mut">Bấm hoặc bôi đen chữ trong câu hỏi, bài đọc, ví dụ… để xem giải thích. Từ điển offline: '+Object.keys(lex().by).length+' mục + '+Object.keys(lex().fw).length+' từ ngữ pháp.</p><label class="row" style="margin:0;font-weight:400;color:var(--ink);font-size:15px"><input type="checkbox" style="width:18px" '+(S.set.aiClick?'checked':'')+' onchange="A.setS(\'aiClick\',this.checked);aiBody()"> Bấm 1 lần vào từ để giải thích (tắt thì chỉ dùng bôi đen)</label><h3>API key miễn phí (tuỳ chọn)</h3>'+aiSetHTML()+'</div>';
   h+='<div class="card"><h2>Thêm dữ liệu</h2><p class="small mut">Dán nhiều dòng, mỗi dòng một mục, các cột cách nhau bằng dấu <b>|</b>. Dữ liệu bạn thêm được lưu riêng, không ghi đè kho có sẵn.</p><div class="row"><select id="bT" style="width:auto" onchange="A.bHelp()">'+Object.keys(BULK).map(k=>'<option value="'+k+'">'+BULK[k].n+'</option>').join('')+'</select></div><p class="small" id="bF"></p><textarea id="bX" style="min-height:130px"></textarea><div class="row" style="margin-top:10px"><button class="b pri" onclick="A.bAdd()">Thêm</button></div></div>';
@@ -2936,7 +2964,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#ai').classList.
 /* =================== KHỞI ĐỘNG =================== */
 window.addEventListener('hashchange',route);
 aiBody();renderStats();route();
-if(cOn())cPull();
+if(cOn()){cBadge('ok','');cPull()}else if(isWeb()&&!cCfg().skip)authShow();
 if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register('sw.js').catch(()=>{});
 setInterval(()=>{if(!T)renderStats()},60000);
 })();
