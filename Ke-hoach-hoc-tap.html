@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kế hoạch tab Học</title>
+<style>
+:root{--bg:#f7f7f4;--card:#fff;--ink:#1d2321;--mut:#5f6b66;--line:#e2e4df;--pri:#2f7d5b;--pri-l:#e6f2ec;--warn:#9a5b00;--warn-l:#fdf3e1;--bad:#a8322d;--bad-l:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--card:#1c211f;--ink:#e6ebe8;--mut:#9aa6a0;--line:#2c3330;--pri:#5fbf92;--pri-l:#1f3229;--warn:#e0a84a;--warn-l:#33291a;--bad:#e67b74;--bad-l:#3a2120}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:28px;margin:0 0 4px}
+header p{margin:0;color:var(--mut)}
+nav.toc{margin:20px 0 8px;display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font-size:14px;text-decoration:none;color:var(--pri);background:var(--pri-l);padding:4px 10px;border-radius:999px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:18px 0}
+h2{font-size:20px;margin:0 0 12px}
+h2 .n{display:inline-block;min-width:28px;color:var(--pri)}
+h3{font-size:16px;margin:16px 0 6px}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600;white-space:nowrap}
+.note{background:var(--warn-l);border-left:4px solid var(--warn);padding:10px 14px;border-radius:6px;margin:12px 0}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--pri-l);color:var(--pri);font-weight:600}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.flow span{background:var(--pri-l);color:var(--pri);padding:6px 12px;border-radius:8px;font-weight:600;font-size:15px}
+.flow i{color:var(--mut);font-style:normal}
+.mock{border:1px dashed var(--line);border-radius:10px;padding:14px 16px;margin:10px 0;font-size:15px}
+.mock .row{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px solid var(--line)}
+.mock .row:last-child{border-bottom:0}
+.mut{color:var(--mut)}
+ul,ol{padding-left:22px;margin:8px 0}
+li{margin:6px 0}
+.dec li{margin:10px 0}
+footer{color:var(--mut);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Kế hoạch tab 🎓 Học</h1>
+  <p>Biến English Lab từ "chỗ luyện" thành "chỗ dạy" · Bản nháp chờ duyệt · 24/10/2026</p>
+</header>
+
+<nav class="toc">
+  <a href="#van-de">1. Vấn đề</a>
+  <a href="#lo-trinh">2. Lộ trình</a>
+  <a href="#tu-vung">3. Gói từ vựng</a>
+  <a href="#ngu-phap">4. Bài ngữ pháp</a>
+  <a href="#skip">5. Bỏ qua có lý do</a>
+  <a href="#kiem-tra">6. Kiểm tra tuần</a>
+  <a href="#giai-doan">7. Các giai đoạn</a>
+  <a href="#chot">8. Cần bạn chốt</a>
+</nav>
+
+<section id="van-de">
+  <h2><span class="n">1</span>Vấn đề bạn của bạn gặp</h2>
+  <ul>
+    <li><b>Từ vựng:</b> chỉ có thẻ lật rồi tự chấm Nhớ/Quên. Trắc nghiệm bốc ngẫu nhiên từ mọi từ đã học, không phải nhóm vừa học. Chưa có bài đọc dùng lại các từ đó.</li>
+    <li><b>Ngữ pháp:</b> 25 bài, mỗi bài là một khối chữ dài trong ô gập. Đọc xong vào thẳng câu Part 5 mức thi thật.</li>
+    <li>Từ vựng, Ngữ pháp và Reading là ba tab rời nhau. Không có lộ trình "học → luyện → kiểm tra → ôn".</li>
+  </ul>
+  <p>Người dùng: bạn và bạn của bạn, mỗi người một tài khoản, trình độ khác nhau. Ai cũng đi từ đầu, phần nào đã chắc thì được bỏ qua nhưng phải nêu lý do (mục 5).</p>
+</section>
+
+<section id="lo-trinh">
+  <h2><span class="n">2</span>Lộ trình trong tab 🎓 Học</h2>
+  <p>Thêm tab <b>🎓 Học</b> đứng đầu thanh menu. Tab này là một danh sách bài theo tuần, xen kẽ từ vựng và ngữ pháp, đi từ nền tảng lên nâng cao. Các tab cũ giữ nguyên để luyện tự do.</p>
+  <div class="mock">
+    <div class="row"><span><b>Tuần 1</b></span><span class="mut">3/5 bài</span></div>
+    <div class="row"><span>✅ Gói từ 1 · Văn phòng (20 từ)</span><span class="mut">Đạt 90%</span></div>
+    <div class="row"><span>✅ Ngữ pháp · Từ loại (Word form)</span><span class="mut">Đạt 85%</span></div>
+    <div class="row"><span>⏭ Ngữ pháp · Thì (Tenses)</span><span class="mut">Bỏ qua · "Đã học ở trung tâm" · kiểm tra 5/5</span></div>
+    <div class="row"><span>▶ Gói từ 2 · Tuyển dụng (20 từ)</span><span class="mut">Bài tiếp theo</span></div>
+    <div class="row"><span>🔒 Kiểm tra tuần 1</span><span class="mut">Mở khi xong 4 bài trên</span></div>
+  </div>
+  <ul>
+    <li>Không khoá bài: muốn học bài nào cũng được, app chỉ gợi ý "Bài tiếp theo". Riêng <b>kiểm tra tuần</b> chỉ mở khi các bài trong tuần đã xong hoặc đã bỏ qua.</li>
+    <li>Thứ tự ngữ pháp: 15 bài nền (Từ loại, Thì, Giới từ, Liên từ, Bị động…) rồi mới tới 10 bài nâng cao (Đảo ngữ, Giả định, Rút gọn mệnh đề…).</li>
+    <li>Chỉ dùng từ vựng TOEIC. Bộ IT vẫn tách riêng như hiện nay.</li>
+    <li>Tiến độ lưu theo tài khoản và đồng bộ lên MongoDB như các phần khác.</li>
+  </ul>
+</section>
+
+<section id="tu-vung">
+  <h2><span class="n">3</span>Gói từ vựng: học → luyện → đọc → ôn</h2>
+  <p>Mỗi gói 15–20 từ cùng chủ đề, đi qua 4 bước liền nhau:</p>
+  <div class="flow"><span>① Học thẻ</span><i>→</i><span>② Luyện ngay</span><i>→</i><span>③ Đọc hiểu</span><i>→</i><span>④ Ôn 1–3–7 ngày</span></div>
+  <div class="tw"><table>
+    <tr><th>Bước</th><th>Nội dung</th></tr>
+    <tr><td>① Học thẻ</td><td>Thẻ lật như hiện nay: từ, phát âm, nghĩa, ví dụ, paraphrase.</td></tr>
+    <tr><td>② Luyện ngay</td><td>Chỉ dùng các từ trong gói, 4 dạng trộn lẫn:<br>• Nhìn từ, chọn nghĩa<br>• Nghe phát âm, chọn từ<br>• Điền từ vào câu ví dụ (tạo tự động từ câu ví dụ có sẵn)<br>• Nhìn nghĩa, gõ lại từ<br>Câu sai được hỏi lại cuối lượt cho tới khi đúng.</td></tr>
+    <tr><td>③ Đọc hiểu</td><td>Một đoạn ngắn (email, thông báo, quảng cáo…) theo kiểu TOEIC, chứa phần lớn từ trong gói, in đậm khi xem lại. Kèm 3–5 câu hỏi đọc hiểu. Đoạn văn tự soạn, không chép sách ETS.</td></tr>
+    <tr><td>④ Ôn</td><td>Từ của gói vào hệ thống lặp lại ngắt quãng có sẵn. Từ sai ở bước ② hoặc ③ được hẹn ôn sớm hơn.</td></tr>
+  </table></div>
+  <p><b>Hoàn thành gói</b> khi bước ② và ③ đạt từ 80% trở lên.</p>
+  <div class="note">Đợt đầu soạn <b>20 gói (~400 từ hay gặp nhất)</b> kèm 20 đoạn đọc. Các gói sau làm dần, vì soạn đoạn đọc cho cả 2.270 từ một lúc là quá lớn.</div>
+</section>
+
+<section id="ngu-phap">
+  <h2><span class="n">4</span>Bài ngữ pháp: dạy từng bước, luyện 3 mức</h2>
+  <p>Tách khối chữ dài của mỗi bài thành 3–5 bước nhỏ. Mỗi bước gồm:</p>
+  <ul>
+    <li>1 quy tắc ngắn bằng tiếng Việt</li>
+    <li>2–3 câu ví dụ có dịch, phần quan trọng được tô màu</li>
+    <li>1–2 câu hỏi kiểm tra ngay. Sai thì hiện giải thích, làm lại câu đó rồi mới qua bước sau.</li>
+  </ul>
+  <p>Học xong các bước thì luyện theo 3 mức:</p>
+  <div class="tw"><table>
+    <tr><th>Mức</th><th>Dạng câu</th><th>Nguồn</th></tr>
+    <tr><td>🟢 Dễ</td><td>Nhận dạng: câu ngắn, 2–3 lựa chọn, chỉ hỏi đúng điểm vừa học</td><td>Soạn mới (~10 câu/bài)</td></tr>
+    <tr><td>🟡 Vừa</td><td>Câu Part 5 thật, bật sẵn gợi ý tân thủ</td><td>Ngân hàng ~630 câu có sẵn</td></tr>
+    <tr><td>🔴 Thi thật</td><td>Câu Part 5 không gợi ý, bấm giờ 20 giây/câu</td><td>Ngân hàng có sẵn</td></tr>
+  </table></div>
+  <p><b>Hoàn thành bài</b> khi mức 🟡 đạt từ 80% trở lên. Mức 🔴 là tuỳ chọn.</p>
+</section>
+
+<section id="skip">
+  <h2><span class="n">5</span>Bỏ qua có lý do</h2>
+  <p>Mục đích: cho người học tự hỏi lại xem mình đã chắc thật chưa, chứ không phải bấm bỏ qua cho nhanh.</p>
+  <ol>
+    <li>Bấm <b>⏭ Mình đã nắm phần này</b> trên bài hoặc gói.</li>
+    <li><b>Bắt buộc chọn lý do:</b> Đã học kỹ ở chỗ khác · Đã dùng thành thạo khi làm đề · Phần này dễ với mình · Khác (tự ghi).</li>
+    <li><b>Kiểm tra nhanh 5 câu</b> lấy từ mức 🟡 (với gói từ vựng thì là dạng "điền từ vào câu").
+      <ul>
+        <li>Đúng 4–5 câu: bỏ qua, ghi "⏭ Bỏ qua · đã kiểm tra 5/5".</li>
+        <li>Đúng 3 câu trở xuống: app hiện các câu sai và hỏi "Có vẻ chưa chắc lắm. Học bài này không?". Người học vẫn có quyền bỏ qua, nhưng lộ trình ghi rõ "bỏ qua · kiểm tra 2/5".</li>
+      </ul>
+    </li>
+    <li>Lý do và điểm kiểm tra hiện trên lộ trình. Muốn học lại thì bấm <b>Học lại</b> bất cứ lúc nào.</li>
+    <li>Từ trong gói bị bỏ qua vẫn vào lịch ôn, chỉ giãn lịch hơn. Nếu sau này trả lời sai thì từ đó quay lại lịch ôn bình thường.</li>
+  </ol>
+</section>
+
+<section id="kiem-tra">
+  <h2><span class="n">6</span>Kiểm tra cuối tuần</h2>
+  <ul>
+    <li>Khoảng 20 câu trộn: từ vựng của các gói trong tuần, ngữ pháp của các bài trong tuần, và 1 đoạn đọc ngắn.</li>
+    <li><b>Có cả câu từ phần đã bỏ qua.</b> Nếu sai ở đó, app nhắc: "Bạn đã bỏ qua bài Thì, nhưng sai 2/3 câu. Nên học lại."</li>
+    <li>Câu sai tự vào sổ lỗi sai (ngữ pháp) hoặc lịch ôn (từ vựng).</li>
+    <li>Kết quả tuần hiện trên lộ trình và tính vào khu vườn như các hoạt động khác.</li>
+  </ul>
+</section>
+
+<section id="giai-doan">
+  <h2><span class="n">7</span>Làm theo 3 giai đoạn</h2>
+  <div class="tw"><table>
+    <tr><th>Giai đoạn</th><th>Nội dung</th><th>Dùng được ngay</th></tr>
+    <tr><td>GĐ 1</td><td>Tab 🎓 Học và lộ trình · Bỏ qua có lý do và kiểm tra nhanh · 15 bài ngữ pháp nền chia bước, kèm câu mức 🟢</td><td>Học ngữ pháp nền theo từng bước</td></tr>
+    <tr><td>GĐ 2</td><td>20 gói từ vựng đầu tiên · 4 dạng luyện ngay · 20 đoạn đọc hiểu</td><td>Học từ vựng có luyện và đọc</td></tr>
+    <tr><td>GĐ 3</td><td>Kiểm tra cuối tuần · 10 bài ngữ pháp nâng cao chia bước · thêm gói từ vựng</td><td>Lộ trình đủ vòng học → kiểm tra → ôn</td></tr>
+  </table></div>
+  <p>Xong mỗi giai đoạn: mình tự kiểm tra trên trình duyệt, gửi bạn xem, rồi mới commit và deploy lên Vercel.</p>
+</section>
+
+<section id="chot">
+  <h2><span class="n">8</span>Cần bạn chốt</h2>
+  <ol class="dec">
+    <li>Cách <b>bỏ qua có lý do</b> ở mục 5 đã đúng ý bạn chưa? Nhất là việc vẫn cho bỏ qua khi kiểm tra nhanh chỉ đạt 3/5 trở xuống.</li>
+    <li>Thứ tự <b>GĐ 1 → 2 → 3</b> được không, hay bạn muốn làm từ vựng (GĐ 2) trước?</li>
+    <li>Ngưỡng <b>hoàn thành 80%</b> có hợp lý không?</li>
+  </ol>
+</section>
+
+<footer>English Lab · kế hoạch tab Học · chờ duyệt</footer>
+</div>
+</body>
+</html>

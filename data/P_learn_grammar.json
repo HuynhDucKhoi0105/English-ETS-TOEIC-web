@@ -1,0 +1,4239 @@
+{
+  "_format": "Mỗi bài: steps (3-5 bước: rule + examples + checks) và easy (10 câu mức Dễ). Đánh dấu: **đậm**, [[tô sáng]] trong ví dụ, \\n xuống dòng. Ô trống trong câu hỏi là ___ . Đáp án a là chỉ số (0-based) trong o.",
+  "lessons": [
+    {
+      "id": "wordform",
+      "k": "wordform",
+      "week": 1,
+      "title": "Từ loại (Word form)",
+      "intro": "Part 5 hay cho 4 đáp án cùng gốc từ nhưng khác đuôi (-tion, -ive, -ly…). Chỉ cần nhìn VỊ TRÍ chỗ trống là biết cần từ loại nào, không cần dịch cả câu.",
+      "steps": [
+        {
+          "title": "Danh từ: sau mạo từ, tính từ sở hữu, tính từ",
+          "rule": "Chỗ trống đứng **sau a / an / the**, **sau tính từ sở hữu** (my, our, their…) hoặc **sau một tính từ** thì thường cần **DANH TỪ**.\nĐuôi hay gặp của danh từ: **-tion, -ment, -ness, -ity, -ance/-ence, -er/-or** (người làm).",
+          "examples": [
+            {
+              "en": "The [[decision]] was announced on Monday.",
+              "vi": "Quyết định được công bố vào thứ Hai."
+            },
+            {
+              "en": "Our [[performance]] improved this quarter.",
+              "vi": "Hiệu suất của chúng tôi đã cải thiện trong quý này."
+            },
+            {
+              "en": "She gave a clear [[explanation]] of the policy.",
+              "vi": "Cô ấy đưa ra lời giải thích rõ ràng về chính sách."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The ___ of the new software starts next week.",
+              "o": [
+                "install",
+                "installation",
+                "installed"
+              ],
+              "a": 1,
+              "e": "Sau mạo từ 'The' và trước 'of' cần một danh từ. 'installation' (sự cài đặt) là danh từ; 'install' là động từ, 'installed' là V3."
+            }
+          ]
+        },
+        {
+          "title": "Tính từ: trước danh từ, sau be",
+          "rule": "**Tính từ** đứng **trước danh từ** (a *reliable* supplier) hoặc **sau động từ be / become / seem / remain** (The offer is *attractive*).\nĐuôi hay gặp: **-ive, -ful, -able/-ible, -al, -ous, -ic**.",
+          "examples": [
+            {
+              "en": "We need a [[reliable]] supplier.",
+              "vi": "Chúng tôi cần một nhà cung cấp đáng tin cậy."
+            },
+            {
+              "en": "The new design is very [[attractive]].",
+              "vi": "Thiết kế mới rất hấp dẫn."
+            },
+            {
+              "en": "The results were [[successful]].",
+              "vi": "Kết quả đã thành công."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The manager gave us ___ advice about the contract.",
+              "o": [
+                "use",
+                "useful",
+                "usefully"
+              ],
+              "a": 1,
+              "e": "Chỗ trống đứng trước danh từ 'advice' nên cần tính từ: 'useful'. 'use' là danh từ/động từ, 'usefully' là trạng từ."
+            },
+            {
+              "q": "The hotel's location is extremely ___.",
+              "o": [
+                "convenience",
+                "conveniently",
+                "convenient"
+              ],
+              "a": 2,
+              "e": "Sau 'is extremely' (be + trạng từ) cần tính từ: 'convenient'. Trạng từ 'extremely' bổ nghĩa cho tính từ này."
+            }
+          ]
+        },
+        {
+          "title": "Trạng từ: bổ nghĩa cho động từ, tính từ, cả câu",
+          "rule": "**Trạng từ** (thường có đuôi **-ly**) đứng:\n• **giữa trợ động từ và V3/V-ing**: has *recently* moved\n• **trước tính từ**: *highly* competitive\n• **cuối câu** hoặc **đầu câu + dấu phẩy**: *Unfortunately,* the flight was cancelled.\nTrạng từ có thể bị lược bỏ mà câu vẫn đủ nghĩa.",
+          "examples": [
+            {
+              "en": "The company has [[recently]] opened a branch in Da Nang.",
+              "vi": "Công ty vừa mở một chi nhánh tại Đà Nẵng."
+            },
+            {
+              "en": "It is a [[highly]] competitive market.",
+              "vi": "Đây là thị trường có tính cạnh tranh rất cao."
+            },
+            {
+              "en": "[[Unfortunately]], the shipment arrived late.",
+              "vi": "Thật không may, lô hàng đã đến muộn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The new policy has been ___ implemented across all offices.",
+              "o": [
+                "success",
+                "successful",
+                "successfully"
+              ],
+              "a": 2,
+              "e": "Giữa 'has been' và V3 'implemented' cần trạng từ: 'successfully'."
+            },
+            {
+              "q": "Mr. Kim ___ explained the schedule change to the staff.",
+              "o": [
+                "clear",
+                "clearly",
+                "clarity"
+              ],
+              "a": 1,
+              "e": "Giữa chủ ngữ và động từ 'explained' cần trạng từ bổ nghĩa cho động từ: 'clearly'."
+            }
+          ]
+        },
+        {
+          "title": "Động từ và bẫy hay gặp",
+          "rule": "**Động từ** đứng sau chủ ngữ, hoặc sau **to** / **modal** (will, can, must…).\nBẫy hay gặp:\n• Hai từ cùng gốc nhưng khác nghĩa: **economic** (thuộc kinh tế) / **economical** (tiết kiệm), **considerable** (đáng kể) / **considerate** (chu đáo).\n• Danh từ chỉ NGƯỜI và VIỆC: **applicant** (người nộp đơn) / **application** (đơn).\nCách làm: xác định vị trí chỗ trống → chọn từ loại → rồi mới phân biệt nghĩa.",
+          "examples": [
+            {
+              "en": "All staff must [[submit]] the report by Friday.",
+              "vi": "Toàn bộ nhân viên phải nộp báo cáo trước thứ Sáu."
+            },
+            {
+              "en": "Each [[applicant]] will receive an email.",
+              "vi": "Mỗi ứng viên sẽ nhận được một email."
+            },
+            {
+              "en": "The [[application]] must be completed online.",
+              "vi": "Đơn đăng ký phải được điền trực tuyến."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Every ___ must attach a copy of their resume.",
+              "o": [
+                "applicant",
+                "application",
+                "apply"
+              ],
+              "a": 0,
+              "e": "Sau 'Every' cần danh từ, và 'must attach ... their resume' cho thấy chủ ngữ là NGƯỜI: 'applicant'. 'application' là danh từ nhưng chỉ cái đơn."
+            },
+            {
+              "q": "The firm hopes to ___ its operating costs by 10 percent.",
+              "o": [
+                "reduction",
+                "reducing",
+                "reduce"
+              ],
+              "a": 2,
+              "e": "Sau 'to' cần động từ nguyên mẫu: 'reduce'. 'reduction' là danh từ."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The company is known for its ___ customer service.",
+          "o": [
+            "excellent",
+            "excellence",
+            "excellently"
+          ],
+          "a": 0,
+          "e": "Trước danh từ 'customer service' cần tính từ: 'excellent'."
+        },
+        {
+          "q": "Please read the ___ carefully before signing.",
+          "o": [
+            "instruct",
+            "instructions",
+            "instructive"
+          ],
+          "a": 1,
+          "e": "Sau 'the' cần danh từ: 'instructions'."
+        },
+        {
+          "q": "The train arrived ___ at the station.",
+          "o": [
+            "safe",
+            "safely",
+            "safety"
+          ],
+          "a": 1,
+          "e": "Sau động từ 'arrived' cần trạng từ bổ nghĩa cách thức: 'safely'."
+        },
+        {
+          "q": "Her ___ to the team was greatly appreciated.",
+          "o": [
+            "contribute",
+            "contribution",
+            "contributive"
+          ],
+          "a": 1,
+          "e": "Sau tính từ sở hữu 'Her' cần danh từ: 'contribution'."
+        },
+        {
+          "q": "The new model is more ___ than the old one.",
+          "o": [
+            "efficiency",
+            "efficient",
+            "efficiently"
+          ],
+          "a": 1,
+          "e": "Sau 'is more' + chỗ trống + 'than' cần tính từ: 'efficient'."
+        },
+        {
+          "q": "We ___ expect the delivery on Tuesday.",
+          "o": [
+            "current",
+            "currently",
+            "currency"
+          ],
+          "a": 1,
+          "e": "Giữa chủ ngữ 'We' và động từ 'expect' cần trạng từ: 'currently'."
+        },
+        {
+          "q": "The ___ of the project depends on teamwork.",
+          "o": [
+            "succeed",
+            "success",
+            "successful"
+          ],
+          "a": 1,
+          "e": "Sau 'The' và trước 'of' cần danh từ: 'success'."
+        },
+        {
+          "q": "It is ___ that all employees attend the training.",
+          "o": [
+            "important",
+            "importance",
+            "importantly"
+          ],
+          "a": 0,
+          "e": "Sau 'It is' cần tính từ: 'important'."
+        },
+        {
+          "q": "Prices have risen ___ over the past year.",
+          "o": [
+            "sharp",
+            "sharply",
+            "sharpness"
+          ],
+          "a": 1,
+          "e": "Sau động từ 'risen', cần trạng từ bổ nghĩa: 'sharply'."
+        },
+        {
+          "q": "The ___ of the contest will be announced on Friday.",
+          "o": [
+            "winner",
+            "won",
+            "winning"
+          ],
+          "a": 0,
+          "e": "Sau 'The' và trước 'of' cần danh từ chỉ người: 'winner'. 'won' là động từ, 'winning' là tính từ/V-ing."
+        }
+      ]
+    },
+    {
+      "id": "tense",
+      "k": "tense",
+      "week": 1,
+      "title": "Thì (Tenses)",
+      "intro": "Câu hỏi về thì ở Part 5 gần như luôn có một dấu hiệu thời gian ngay trong câu (every Monday, last week, since 2020, as soon as…). Nhận ra dấu hiệu là chọn đúng thì trong vài giây.",
+      "steps": [
+        {
+          "title": "Hiện tại đơn: thói quen, lịch trình, sự thật",
+          "rule": "Dùng **hiện tại đơn** cho thói quen, lịch trình cố định và sự thật hiển nhiên.\nDấu hiệu: **always, usually, often, rarely, every day/week, on Mondays**.\n• Chủ ngữ số ít (he, she, it, danh từ số ít): động từ thêm **-s/-es** (opens, has, does).\n• Chủ ngữ số nhiều và I/you/we/they: dùng động từ **nguyên mẫu**.",
+          "examples": [
+            {
+              "en": "The office [[opens]] at 8:30 every morning.",
+              "vi": "Văn phòng mở cửa lúc 8:30 mỗi sáng."
+            },
+            {
+              "en": "Our manager [[reviews]] the reports on Fridays.",
+              "vi": "Quản lý của chúng tôi xem xét các báo cáo vào các ngày thứ Sáu."
+            },
+            {
+              "en": "The shuttle bus [[leaves]] the hotel at 7 a.m. each day.",
+              "vi": "Xe đưa đón rời khách sạn lúc 7 giờ sáng mỗi ngày."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our store always ___ at 9 p.m., so please come before then.",
+              "o": [
+                "closes",
+                "closing",
+                "closed"
+              ],
+              "a": 0,
+              "e": "'always' là dấu hiệu của hiện tại đơn, chủ ngữ 'Our store' là số ít nên động từ thêm -s: 'closes'. 'closed' là quá khứ, 'closing' không phải động từ chia thì."
+            }
+          ]
+        },
+        {
+          "title": "Quá khứ đơn: việc đã xong ở mốc thời gian rõ ràng",
+          "rule": "Dùng **quá khứ đơn** (V2/V-ed) cho hành động đã kết thúc ở một mốc quá khứ **xác định**.\nDấu hiệu: **yesterday, last week/month/year, two days ago, in 2022, when + quá khứ**.\nKhi câu có mốc thời gian quá khứ cụ thể thì **không** dùng hiện tại hoàn thành.",
+          "examples": [
+            {
+              "en": "We [[moved]] to the new office in 2022.",
+              "vi": "Chúng tôi đã chuyển đến văn phòng mới vào năm 2022."
+            },
+            {
+              "en": "The manager [[called]] me two hours ago.",
+              "vi": "Quản lý đã gọi cho tôi cách đây hai giờ."
+            },
+            {
+              "en": "The CEO [[announced]] the merger yesterday.",
+              "vi": "Tổng giám đốc đã công bố vụ sáp nhập vào hôm qua."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The board ___ the budget last Friday.",
+              "o": [
+                "approves",
+                "approved",
+                "has approved"
+              ],
+              "a": 1,
+              "e": "'last Friday' là mốc quá khứ xác định nên dùng quá khứ đơn: 'approved'. 'has approved' không đi với mốc quá khứ cụ thể; 'approves' là hiện tại."
+            },
+            {
+              "q": "Ms. Ortiz ___ the new client two days ago.",
+              "o": [
+                "meets",
+                "met",
+                "has met"
+              ],
+              "a": 1,
+              "e": "'two days ago' chỉ mốc quá khứ nên dùng 'met' (quá khứ đơn). 'has met' không đi với 'ago'; 'meets' là hiện tại."
+            }
+          ]
+        },
+        {
+          "title": "Hiện tại hoàn thành: nối quá khứ với hiện tại",
+          "rule": "**Hiện tại hoàn thành** = **have/has + V3**. Dùng khi việc bắt đầu trong quá khứ và còn liên quan hoặc kéo dài đến hiện tại, hoặc khi **không nói rõ thời điểm**.\nDấu hiệu: **since + mốc, for + khoảng, already, yet, just, recently, so far, over the past…**\n• Phủ định/nghi vấn với **yet**: has **not** + V3.\n• Không dùng với mốc quá khứ xác định (yesterday, last week, ago).",
+          "examples": [
+            {
+              "en": "The company [[has grown]] steadily over the past five years.",
+              "vi": "Công ty đã phát triển đều đặn trong năm năm qua."
+            },
+            {
+              "en": "I [[have already sent]] the invoice.",
+              "vi": "Tôi đã gửi hóa đơn rồi."
+            },
+            {
+              "en": "They [[haven't received]] the shipment yet.",
+              "vi": "Họ vẫn chưa nhận được lô hàng."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The company ___ three new stores since January.",
+              "o": [
+                "opened",
+                "has opened",
+                "opens"
+              ],
+              "a": 1,
+              "e": "'since January' (mốc bắt đầu, còn liên quan đến hiện tại) đi với hiện tại hoàn thành: 'has opened'. 'opened' và 'opens' không đi với 'since'."
+            },
+            {
+              "q": "Mr. Lee ___ not submitted his expense report yet.",
+              "o": [
+                "did",
+                "has",
+                "is"
+              ],
+              "a": 1,
+              "e": "'yet' đi với hiện tại hoàn thành, và cấu trúc là has + not + V3 (submitted). 'did not submitted' sai vì sau did phải là động từ nguyên mẫu; 'is not submitted' là thể bị động sai nghĩa."
+            }
+          ]
+        },
+        {
+          "title": "Tương lai và mệnh đề thời gian / điều kiện",
+          "rule": "Tương lai thường dùng **will + V** (quyết định, dự đoán) hoặc **be going to + V** (kế hoạch đã có).\nQuy tắc hay thi: trong mệnh đề bắt đầu bằng **when, if, as soon as, before, after, once, until, unless**, nói về tương lai nhưng vẫn dùng **HIỆN TẠI ĐƠN**, **không** dùng will.\n• Mệnh đề chính vẫn dùng **will + V**.",
+          "examples": [
+            {
+              "en": "We will call you as soon as the shipment [[arrives]].",
+              "vi": "Chúng tôi sẽ gọi cho bạn ngay khi lô hàng đến."
+            },
+            {
+              "en": "If the weather [[is]] bad, the outdoor event will be moved indoors.",
+              "vi": "Nếu thời tiết xấu, sự kiện ngoài trời sẽ được chuyển vào trong nhà."
+            },
+            {
+              "en": "I will send the file after I [[finish]] the report.",
+              "vi": "Tôi sẽ gửi tập tin sau khi tôi hoàn thành báo cáo."
+            }
+          ],
+          "checks": [
+            {
+              "q": "We will start the inspection as soon as the supplier ___ the goods.",
+              "o": [
+                "will deliver",
+                "delivers",
+                "delivered"
+              ],
+              "a": 1,
+              "e": "Sau 'as soon as' (mệnh đề thời gian chỉ tương lai) dùng hiện tại đơn: 'delivers'. 'will deliver' bị cấm trong mệnh đề này; 'delivered' là quá khứ nên không hợp với mệnh đề chính dùng will."
+            },
+            {
+              "q": "If the client ___ the proposal, we will begin the project next month.",
+              "o": [
+                "will accept",
+                "accepts",
+                "accepted"
+              ],
+              "a": 1,
+              "e": "Mệnh đề 'If' chỉ điều kiện có thể xảy ra ở tương lai dùng hiện tại đơn: 'accepts'. 'will accept' sai quy tắc; 'accepted' không khớp với mệnh đề chính dùng will."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "Ms. Tanaka usually ___ to work by train, but today she is driving.",
+          "o": [
+            "goes",
+            "went",
+            "has gone"
+          ],
+          "a": 0,
+          "e": "'usually' là dấu hiệu hiện tại đơn, chủ ngữ số ít nên dùng 'goes'. 'went' là quá khứ, 'has gone' là hiện tại hoàn thành, đều không hợp với thói quen hiện tại."
+        },
+        {
+          "q": "The company ___ its annual report last month.",
+          "o": [
+            "publishes",
+            "published",
+            "has published"
+          ],
+          "a": 1,
+          "e": "'last month' là mốc quá khứ xác định nên dùng quá khứ đơn: 'published'. 'has published' không đi với mốc quá khứ cụ thể."
+        },
+        {
+          "q": "We have worked with this supplier ___ 2019.",
+          "o": [
+            "since",
+            "for",
+            "ago"
+          ],
+          "a": 0,
+          "e": "'2019' là một mốc thời gian nên dùng 'since'. 'for' phải đi với khoảng thời gian (for five years); 'ago' không đi với have worked."
+        },
+        {
+          "q": "The new manager ___ our team yesterday afternoon.",
+          "o": [
+            "meets",
+            "met",
+            "has met"
+          ],
+          "a": 1,
+          "e": "'yesterday afternoon' là mốc quá khứ xác định nên dùng 'met'. 'meets' là hiện tại; 'has met' không đi với 'yesterday'."
+        },
+        {
+          "q": "The firm ___ two new products since last spring.",
+          "o": [
+            "launched",
+            "has launched",
+            "launches"
+          ],
+          "a": 1,
+          "e": "'since last spring' đi với hiện tại hoàn thành: 'has launched'. 'launched' và 'launches' không đi với 'since'."
+        },
+        {
+          "q": "We will let you know as soon as the results ___ available.",
+          "o": [
+            "are",
+            "will be",
+            "were"
+          ],
+          "a": 0,
+          "e": "Sau 'as soon as' dùng hiện tại đơn dù nói về tương lai: 'are'. 'will be' bị cấm trong mệnh đề thời gian; 'were' là quá khứ."
+        },
+        {
+          "q": "The director ___ the Hanoi branch next week.",
+          "o": [
+            "will visit",
+            "visited",
+            "has visited"
+          ],
+          "a": 0,
+          "e": "'next week' chỉ tương lai nên dùng 'will visit'. 'visited' là quá khứ và 'has visited' là hiện tại hoàn thành, đều không đi với 'next week'."
+        },
+        {
+          "q": "If the printer ___ again, please call the technician.",
+          "o": [
+            "break",
+            "breaks",
+            "will break"
+          ],
+          "a": 1,
+          "e": "Mệnh đề 'If' dùng hiện tại đơn, chủ ngữ 'the printer' là số ít nên thêm -s: 'breaks'. 'break' sai hòa hợp chủ vị; 'will break' sai quy tắc mệnh đề điều kiện."
+        },
+        {
+          "q": "Mr. Park ___ just returned from his business trip.",
+          "o": [
+            "is",
+            "has",
+            "did"
+          ],
+          "a": 1,
+          "e": "'just returned' (V3) cần trợ động từ 'has' để tạo hiện tại hoàn thành. 'is returned' là bị động sai nghĩa; 'did returned' sai vì sau did phải là động từ nguyên mẫu."
+        },
+        {
+          "q": "Our staff always ___ the lobby before customers arrive.",
+          "o": [
+            "cleans",
+            "cleaned",
+            "has cleaned"
+          ],
+          "a": 0,
+          "e": "'always' và mệnh đề 'before customers arrive' (hiện tại đơn) cho thấy thói quen ở hiện tại nên dùng 'cleans'. 'cleaned' là quá khứ nên không khớp; 'has cleaned' không dùng với 'always' để chỉ thói quen."
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "k": "art",
+      "week": 1,
+      "title": "Mạo từ & Lượng từ",
+      "intro": "Mạo từ và lượng từ xuất hiện đều đặn ở Part 5 vì chúng phụ thuộc vào danh từ đi sau. Chỉ cần xác định danh từ đếm được hay không đếm được, số ít hay số nhiều là chọn được đáp án.",
+      "steps": [
+        {
+          "title": "A / an / the",
+          "rule": "• **a / an** đi với danh từ **đếm được số ít**, chưa xác định (nhắc lần đầu). Dùng **an** trước **âm** nguyên âm (an hour, an interview), **a** trước âm phụ âm (a university).\n• **the** dùng khi người nghe đã biết là cái nào: **đã nhắc trước đó**, duy nhất, hoặc có từ giới hạn (the report **of** last year).\n• Danh từ số nhiều và không đếm được **không** dùng a/an.",
+          "examples": [
+            {
+              "en": "We need [[an]] additional chair for the meeting room.",
+              "vi": "Chúng tôi cần thêm một chiếc ghế cho phòng họp."
+            },
+            {
+              "en": "He works for [[a]] university in Hue.",
+              "vi": "Anh ấy làm việc cho một trường đại học ở Huế."
+            },
+            {
+              "en": "We hired a designer last week. [[The]] designer starts on Monday.",
+              "vi": "Tuần trước chúng tôi đã thuê một nhà thiết kế. Nhà thiết kế đó bắt đầu làm vào thứ Hai."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Ms. Lan wants to schedule ___ interview for Tuesday.",
+              "o": [
+                "a",
+                "an",
+                "many"
+              ],
+              "a": 1,
+              "e": "'interview' bắt đầu bằng âm nguyên âm nên dùng 'an'. 'a' dùng trước âm phụ âm; 'many' đi với danh từ số nhiều."
+            },
+            {
+              "q": "We hired a consultant last month. ___ consultant will present the plan today.",
+              "o": [
+                "An",
+                "The",
+                "Few"
+              ],
+              "a": 1,
+              "e": "Nhà tư vấn này đã được nhắc ở câu trước nên dùng 'The'. 'An' sai vì 'consultant' bắt đầu bằng phụ âm; 'Few' đi với danh từ số nhiều."
+            }
+          ]
+        },
+        {
+          "title": "Danh từ đếm được và không đếm được",
+          "rule": "• **Đếm được**: có số nhiều (-s), dùng được a/an và số đếm (one report, two reports).\n• **Không đếm được**: **không** thêm -s, **không** dùng a/an. Hay gặp: **information, advice, equipment, furniture, luggage, news, mail, feedback**.\n• Muốn đếm: dùng **a piece of / an item of** (a piece of advice).",
+          "examples": [
+            {
+              "en": "Please send me [[some information]] about the course.",
+              "vi": "Vui lòng gửi cho tôi một số thông tin về khóa học."
+            },
+            {
+              "en": "The office bought new [[equipment]] last month.",
+              "vi": "Văn phòng đã mua thiết bị mới vào tháng trước."
+            },
+            {
+              "en": "She gave us [[a piece of advice]] before the interview.",
+              "vi": "Cô ấy cho chúng tôi một lời khuyên trước buổi phỏng vấn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The manager gave the interns useful ___ about the project.",
+              "o": [
+                "advice",
+                "advices",
+                "an advice"
+              ],
+              "a": 0,
+              "e": "'advice' là danh từ không đếm được nên không thêm -s và không dùng 'an'. 'advices' và 'an advice' đều sai."
+            },
+            {
+              "q": "We need to buy some new office ___.",
+              "o": [
+                "equipments",
+                "equipment",
+                "an equipment"
+              ],
+              "a": 1,
+              "e": "'equipment' không đếm được: không có dạng số nhiều và không dùng 'an'. Vì vậy 'equipments' và 'an equipment' đều sai."
+            }
+          ]
+        },
+        {
+          "title": "Many / much / a few / a little / some / any",
+          "rule": "• **many, a few, few** + danh từ **đếm được số nhiều**.\n• **much, a little, little** + danh từ **không đếm được**.\n• **a few / a little** = một ít (đủ dùng); **few / little** = rất ít (gần như không có).\n• **some** dùng trong câu khẳng định; **any** dùng trong câu **phủ định, nghi vấn** và mệnh đề if.\n• **a lot of** dùng được với cả hai loại danh từ.",
+          "examples": [
+            {
+              "en": "There are [[many]] candidates for the position.",
+              "vi": "Có nhiều ứng viên cho vị trí này."
+            },
+            {
+              "en": "We don't have [[much]] time before the deadline.",
+              "vi": "Chúng ta không còn nhiều thời gian trước hạn chót."
+            },
+            {
+              "en": "Only [[a few]] seats are still available.",
+              "vi": "Chỉ còn một vài chỗ ngồi trống."
+            }
+          ],
+          "checks": [
+            {
+              "q": "There is only ___ time left before the presentation.",
+              "o": [
+                "a few",
+                "a little",
+                "many"
+              ],
+              "a": 1,
+              "e": "'time' là danh từ không đếm được nên dùng 'a little'. 'a few' và 'many' chỉ đi với danh từ đếm được số nhiều."
+            },
+            {
+              "q": "We didn't receive ___ complaints about the new schedule.",
+              "o": [
+                "any",
+                "a little",
+                "much"
+              ],
+              "a": 0,
+              "e": "Câu phủ định với 'complaints' (đếm được số nhiều) dùng 'any'. 'a little' và 'much' chỉ đi với danh từ không đếm được."
+            }
+          ]
+        },
+        {
+          "title": "Each / every / all / most / either / neither",
+          "rule": "• **each, every** + danh từ **số ít** + động từ số ít (each employee **has**). **each of the** + danh từ số nhiều.\n• **all, most** + danh từ số nhiều hoặc không đếm được. Khi có mạo từ thì thêm **of**: **most of the** employees, **all of the** staff.\n• **either / neither** chỉ nói về **hai** đối tượng: either = một trong hai, neither = không cái nào trong hai. Hay gặp **either of / neither of** + danh từ số nhiều.",
+          "examples": [
+            {
+              "en": "[[Each]] employee receives a security badge.",
+              "vi": "Mỗi nhân viên nhận được một thẻ an ninh."
+            },
+            {
+              "en": "[[Most of]] the employees work from the main office.",
+              "vi": "Hầu hết nhân viên làm việc tại văn phòng chính."
+            },
+            {
+              "en": "[[Neither]] proposal was accepted by the committee.",
+              "vi": "Không đề xuất nào trong hai đề xuất được ủy ban chấp nhận."
+            }
+          ],
+          "checks": [
+            {
+              "q": "___ employee must wear an ID badge in the building.",
+              "o": [
+                "Every",
+                "All",
+                "Most"
+              ],
+              "a": 0,
+              "e": "Sau chỗ trống là danh từ số ít 'employee' nên dùng 'Every'. 'All' và 'Most' phải đi với danh từ số nhiều (employees) hoặc không đếm được."
+            },
+            {
+              "q": "Two candidates applied, but ___ of them has enough experience.",
+              "o": [
+                "neither",
+                "both",
+                "every"
+              ],
+              "a": 0,
+              "e": "Chỉ có hai ứng viên và nghĩa phủ định nên dùng 'neither of them'. 'both' đi với động từ số nhiều (have); 'every' không đi với 'of them'."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "She is looking for ___ apartment near the office.",
+          "o": [
+            "a",
+            "an",
+            "much"
+          ],
+          "a": 1,
+          "e": "'apartment' bắt đầu bằng âm nguyên âm nên dùng 'an'. 'a' đi trước âm phụ âm; 'much' đi với danh từ không đếm được."
+        },
+        {
+          "q": "We bought a printer and a scanner. ___ printer works well, but the scanner is slow.",
+          "o": [
+            "The",
+            "An",
+            "Much"
+          ],
+          "a": 0,
+          "e": "Chiếc máy in đã được nhắc ở câu trước nên dùng 'The'. 'An' sai vì 'printer' bắt đầu bằng phụ âm; 'Much' không đi với danh từ đếm được số ít."
+        },
+        {
+          "q": "We need more ___ to finish the project.",
+          "o": [
+            "informations",
+            "information",
+            "an information"
+          ],
+          "a": 1,
+          "e": "'information' là danh từ không đếm được, không thêm -s và không dùng 'an'."
+        },
+        {
+          "q": "How ___ employees work in the Seoul office?",
+          "o": [
+            "much",
+            "many",
+            "a little"
+          ],
+          "a": 1,
+          "e": "'employees' là danh từ đếm được số nhiều nên dùng 'many'. 'much' và 'a little' đi với danh từ không đếm được."
+        },
+        {
+          "q": "There isn't ___ coffee left in the pantry.",
+          "o": [
+            "many",
+            "a few",
+            "much"
+          ],
+          "a": 2,
+          "e": "'coffee' là danh từ không đếm được, câu phủ định nên dùng 'much'. 'many' và 'a few' chỉ đi với danh từ đếm được số nhiều."
+        },
+        {
+          "q": "___ of the customers enjoyed the new menu.",
+          "o": [
+            "Most",
+            "Every",
+            "Much"
+          ],
+          "a": 0,
+          "e": "'Most of the' + danh từ số nhiều là cấu trúc đúng. 'Every' không đi với 'of the'; 'Much' đi với danh từ không đếm được, còn 'customers' là đếm được."
+        },
+        {
+          "q": "___ team member has to complete the safety course.",
+          "o": [
+            "Each",
+            "Many",
+            "Several"
+          ],
+          "a": 0,
+          "e": "Danh từ 'member' ở dạng số ít nên dùng 'Each'. 'Many' và 'Several' đòi hỏi danh từ số nhiều (members)."
+        },
+        {
+          "q": "We have ___ furniture in the storage room.",
+          "o": [
+            "a few",
+            "some",
+            "many"
+          ],
+          "a": 1,
+          "e": "'furniture' là danh từ không đếm được, câu khẳng định nên dùng 'some'. 'a few' và 'many' chỉ đi với danh từ đếm được số nhiều."
+        },
+        {
+          "q": "I'd like to ask you ___ questions about the contract.",
+          "o": [
+            "a few",
+            "a little",
+            "much"
+          ],
+          "a": 0,
+          "e": "'questions' là danh từ đếm được số nhiều nên dùng 'a few'. 'a little' và 'much' đi với danh từ không đếm được."
+        },
+        {
+          "q": "You may use ___ the front entrance or the back entrance.",
+          "o": [
+            "neither",
+            "either",
+            "every"
+          ],
+          "a": 1,
+          "e": "Cấu trúc 'either ... or ...' diễn tả sự lựa chọn một trong hai nên dùng 'either'. 'neither' mang nghĩa phủ định và đi với 'nor'; 'every' không đi với cấu trúc này."
+        }
+      ]
+    },
+    {
+      "id": "prep",
+      "k": "prep",
+      "week": 2,
+      "title": "Giới từ (Prepositions)",
+      "intro": "Giới từ là dạng câu 'ăn chắc' ở Part 5: phần lớn dựa vào thói quen đi cặp, không dựa vào dịch nghĩa. Nắm vài quy tắc nền và các cụm hay gặp là đủ lấy điểm.",
+      "steps": [
+        {
+          "title": "In / on / at chỉ thời gian",
+          "rule": "• **at** + giờ, thời điểm: **at 9 a.m., at noon, at night**.\n• **on** + ngày, thứ, ngày tháng: **on Monday, on May 5, on Tuesday morning**.\n• **in** + tháng, năm, mùa, khoảng thời gian dài hoặc buổi trong ngày: **in March, in 2025, in the summer, in the afternoon**.\nThứ tự từ nhỏ đến lớn: at (điểm) → on (ngày) → in (khoảng dài).",
+          "examples": [
+            {
+              "en": "The meeting starts [[at]] 3 p.m.",
+              "vi": "Cuộc họp bắt đầu lúc 3 giờ chiều."
+            },
+            {
+              "en": "Our new store opens [[on]] March 3.",
+              "vi": "Cửa hàng mới của chúng tôi khai trương vào ngày 3 tháng 3."
+            },
+            {
+              "en": "The report is due [[in]] October.",
+              "vi": "Báo cáo đến hạn vào tháng Mười."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The training session will begin ___ Wednesday.",
+              "o": [
+                "in",
+                "on",
+                "at"
+              ],
+              "a": 1,
+              "e": "Trước một thứ trong tuần dùng 'on' (on Wednesday). 'in' dùng cho tháng, năm; 'at' dùng cho giờ giấc."
+            },
+            {
+              "q": "The company was founded ___ 1998.",
+              "o": [
+                "in",
+                "on",
+                "at"
+              ],
+              "a": 0,
+              "e": "Trước năm dùng 'in' (in 1998). 'on' dùng cho ngày cụ thể; 'at' dùng cho giờ giấc."
+            }
+          ]
+        },
+        {
+          "title": "In / on / at chỉ nơi chốn",
+          "rule": "• **at** + địa điểm cụ thể như một điểm: **at the airport, at the front desk, at the conference**.\n• **on** + bề mặt, **tầng** và tên đường: **on the table, on the fifth floor**.\n• **in** + không gian bao quanh, thành phố, quốc gia: **in the office, in the building, in Singapore**.",
+          "examples": [
+            {
+              "en": "Please wait [[at]] the front desk.",
+              "vi": "Vui lòng đợi ở quầy lễ tân."
+            },
+            {
+              "en": "The cafeteria is [[on]] the second floor.",
+              "vi": "Căn tin ở tầng hai."
+            },
+            {
+              "en": "Our headquarters are [[in]] Singapore.",
+              "vi": "Trụ sở chính của chúng tôi ở Singapore."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The accounting department is ___ the fourth floor.",
+              "o": [
+                "in",
+                "on",
+                "at"
+              ],
+              "a": 1,
+              "e": "Trước tầng của tòa nhà dùng 'on' (on the fourth floor). 'in' và 'at' không dùng cho tầng."
+            },
+            {
+              "q": "Mr. Kim will meet the clients ___ the airport.",
+              "o": [
+                "at",
+                "on",
+                "among"
+              ],
+              "a": 0,
+              "e": "'at the airport' là địa điểm cụ thể nên dùng 'at'. 'on' dùng cho bề mặt, tầng; 'among' dùng với nhiều người hoặc vật, không dùng cho địa điểm."
+            }
+          ]
+        },
+        {
+          "title": "For / during / since",
+          "rule": "• **for** + **khoảng thời gian**: for two weeks, for ten years.\n• **during** + **danh từ chỉ sự kiện hoặc giai đoạn**: during the meeting, during the summer.\n• **since** + **mốc thời gian** (hoặc một mệnh đề): since 2020, since the manager joined. Thường đi với **hiện tại hoàn thành**.",
+          "examples": [
+            {
+              "en": "She has worked here [[for]] six years.",
+              "vi": "Cô ấy đã làm việc ở đây sáu năm."
+            },
+            {
+              "en": "Please turn off your phone [[during]] the presentation.",
+              "vi": "Vui lòng tắt điện thoại trong lúc thuyết trình."
+            },
+            {
+              "en": "Sales have risen [[since]] the new campaign began.",
+              "vi": "Doanh số đã tăng kể từ khi chiến dịch mới bắt đầu."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The factory was closed ___ two weeks for repairs.",
+              "o": [
+                "during",
+                "for",
+                "since"
+              ],
+              "a": 1,
+              "e": "'two weeks' là một khoảng thời gian nên dùng 'for'. 'during' đi với sự kiện hoặc giai đoạn xác định; 'since' đi với mốc thời gian."
+            },
+            {
+              "q": "Our profits have grown steadily ___ the new manager joined the company.",
+              "o": [
+                "during",
+                "for",
+                "since"
+              ],
+              "a": 2,
+              "e": "Sau chỗ trống là một mệnh đề (the new manager joined) chỉ mốc bắt đầu, đi với hiện tại hoàn thành nên dùng 'since'. 'during' và 'for' không đi trực tiếp với mệnh đề."
+            }
+          ]
+        },
+        {
+          "title": "By / until và between / among",
+          "rule": "• **by** + mốc: hành động phải **xong trước hoặc đúng lúc** mốc đó (hạn chót): by Friday.\n• **until** + mốc: tình trạng **kéo dài liên tục đến** mốc đó: until 10 p.m.\n• **between** + **hai** đối tượng (between A and B).\n• **among** + **ba trở lên** hoặc một nhóm: among the employees.",
+          "examples": [
+            {
+              "en": "All applications must reach us [[by]] June 30.",
+              "vi": "Tất cả đơn đăng ký phải đến chỗ chúng tôi chậm nhất vào ngày 30 tháng 6."
+            },
+            {
+              "en": "The shop stays open [[until]] 10 p.m.",
+              "vi": "Cửa hàng mở cửa cho đến 10 giờ tối."
+            },
+            {
+              "en": "The work was shared [[among]] the whole team, but the final decision was made [[between]] the two directors.",
+              "vi": "Công việc được chia cho cả nhóm, nhưng quyết định cuối cùng được đưa ra giữa hai giám đốc."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The sale will continue ___ the end of the month.",
+              "o": [
+                "by",
+                "until",
+                "among"
+              ],
+              "a": 1,
+              "e": "Đợt giảm giá kéo dài liên tục đến cuối tháng nên dùng 'until'. 'by' chỉ hạn chót của một hành động; 'among' không chỉ thời gian."
+            },
+            {
+              "q": "The contract was signed ___ the two companies last week.",
+              "o": [
+                "between",
+                "among",
+                "during"
+              ],
+              "a": 0,
+              "e": "Có hai bên (the two companies) nên dùng 'between'. 'among' dùng cho ba đối tượng trở lên; 'during' chỉ thời gian."
+            }
+          ]
+        },
+        {
+          "title": "Giới từ đi cặp với danh từ, tính từ, động từ",
+          "rule": "Nhiều từ luôn đi với một giới từ cố định, cần học thuộc cả cụm:\n• Tính từ: **responsible for, interested in, familiar with, capable of, different from**.\n• Động từ: **depend on, result in, comply with, participate in, apologize for**.\n• Danh từ: **increase in, reason for, access to, demand for, in charge of**.\nTrong Part 5, nhìn từ đứng ngay trước chỗ trống để nhận ra cụm.",
+          "examples": [
+            {
+              "en": "She is responsible [[for]] the department budget.",
+              "vi": "Cô ấy chịu trách nhiệm về ngân sách của phòng."
+            },
+            {
+              "en": "The delay resulted [[in]] extra costs.",
+              "vi": "Sự chậm trễ dẫn đến chi phí phát sinh."
+            },
+            {
+              "en": "All employees must comply [[with]] the safety rules.",
+              "vi": "Tất cả nhân viên phải tuân thủ các quy tắc an toàn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our team is responsible ___ preparing the monthly report.",
+              "o": [
+                "of",
+                "for",
+                "to"
+              ],
+              "a": 1,
+              "e": "Cụm cố định là 'responsible for'. 'responsible of' và 'responsible to + V-ing' không đúng trong trường hợp này."
+            },
+            {
+              "q": "Please be sure to comply ___ the new regulations.",
+              "o": [
+                "to",
+                "with",
+                "for"
+              ],
+              "a": 1,
+              "e": "Cụm cố định là 'comply with'. 'comply to' và 'comply for' đều sai."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The seminar will take place ___ Tuesday morning.",
+          "o": [
+            "in",
+            "on",
+            "at"
+          ],
+          "a": 1,
+          "e": "Trước một buổi trong ngày cụ thể (Tuesday morning) dùng 'on'. 'in Tuesday morning' sai; 'at' dùng cho giờ giấc."
+        },
+        {
+          "q": "Our flight leaves ___ 6:45 a.m.",
+          "o": [
+            "at",
+            "on",
+            "in"
+          ],
+          "a": 0,
+          "e": "Trước giờ giấc cụ thể dùng 'at'. 'on' dùng cho ngày; 'in' dùng cho tháng, năm, buổi."
+        },
+        {
+          "q": "The company's headquarters is ___ Seoul.",
+          "o": [
+            "at",
+            "on",
+            "in"
+          ],
+          "a": 2,
+          "e": "Trước tên thành phố dùng 'in'. 'at' dùng cho điểm cụ thể; 'on' dùng cho bề mặt hoặc tầng."
+        },
+        {
+          "q": "The new manager is very popular ___ the employees.",
+          "o": [
+            "between",
+            "among",
+            "by"
+          ],
+          "a": 1,
+          "e": "'the employees' là cả một nhóm nhiều người nên dùng 'among'. 'between' chỉ dùng cho hai đối tượng; 'by' không hợp nghĩa."
+        },
+        {
+          "q": "He has lived in Busan ___ ten years.",
+          "o": [
+            "for",
+            "since",
+            "during"
+          ],
+          "a": 0,
+          "e": "'ten years' là khoảng thời gian nên dùng 'for'. 'since' cần mốc thời gian; 'during' không đi với số đo thời gian."
+        },
+        {
+          "q": "Employees may not use personal phones ___ working hours.",
+          "o": [
+            "during",
+            "for",
+            "since"
+          ],
+          "a": 0,
+          "e": "'working hours' là một giai đoạn xác định nên dùng 'during'. 'since' cần mốc bắt đầu và không hợp nghĩa; 'for' đi với số đo thời gian."
+        },
+        {
+          "q": "The shipment will arrive ___ Friday, so please be ready.",
+          "o": [
+            "by",
+            "until",
+            "between"
+          ],
+          "a": 0,
+          "e": "Hàng sẽ đến chậm nhất vào thứ Sáu (hạn chót) nên dùng 'by'. 'until' diễn tả sự kéo dài liên tục, không hợp với 'arrive'; 'between' phải đi với 'and'."
+        },
+        {
+          "q": "The parking lot is closed ___ 8 a.m. for cleaning.",
+          "o": [
+            "by",
+            "until",
+            "between"
+          ],
+          "a": 1,
+          "e": "Bãi đỗ xe đóng cửa liên tục đến 8 giờ sáng nên dùng 'until'. 'by' chỉ hạn chót; 'between' phải đi với 'and'."
+        },
+        {
+          "q": "There is a short break ___ the two sessions.",
+          "o": [
+            "between",
+            "among",
+            "since"
+          ],
+          "a": 0,
+          "e": "Có hai phiên (the two sessions) nên dùng 'between'. 'among' dùng cho ba đối tượng trở lên; 'since' chỉ mốc thời gian."
+        },
+        {
+          "q": "We are very interested ___ your proposal.",
+          "o": [
+            "on",
+            "in",
+            "at"
+          ],
+          "a": 1,
+          "e": "Cụm cố định là 'interested in'. 'interested on' và 'interested at' đều sai."
+        }
+      ]
+    },
+    {
+      "id": "conj",
+      "k": "conj",
+      "week": 2,
+      "title": "Liên từ (Conjunctions)",
+      "intro": "Cặp bẫy kinh điển của Part 5 là although và despite, because và because of. Chỉ cần nhìn sau chỗ trống là một mệnh đề (có chủ ngữ + động từ) hay một cụm danh từ là chọn đúng.",
+      "steps": [
+        {
+          "title": "And / but / or / so",
+          "rule": "Bốn liên từ đẳng lập nối hai từ hoặc hai mệnh đề:\n• **and**: thêm ý.\n• **but**: đối lập.\n• **or**: lựa chọn.\n• **so**: kết quả (nguyên nhân trước, **so** + kết quả).\nKhi nối hai mệnh đề, thường có **dấu phẩy** trước and/but/or/so.",
+          "examples": [
+            {
+              "en": "We wanted to attend, [[but]] the schedule was full.",
+              "vi": "Chúng tôi muốn tham dự, nhưng lịch đã kín."
+            },
+            {
+              "en": "You can pay by card [[or]] in cash.",
+              "vi": "Bạn có thể thanh toán bằng thẻ hoặc tiền mặt."
+            },
+            {
+              "en": "The copier broke down, [[so]] we sent the files to a print shop.",
+              "vi": "Máy photocopy bị hỏng, vì vậy chúng tôi gửi tập tin đến tiệm in."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The train was delayed, ___ we arrived at the meeting late.",
+              "o": [
+                "but",
+                "so",
+                "or"
+              ],
+              "a": 1,
+              "e": "Vế sau là kết quả của vế trước nên dùng 'so'. 'but' diễn tả đối lập; 'or' diễn tả lựa chọn."
+            },
+            {
+              "q": "Would you like to pay in cash ___ by credit card?",
+              "o": [
+                "so",
+                "or",
+                "but"
+              ],
+              "a": 1,
+              "e": "Câu hỏi đưa ra hai lựa chọn nên dùng 'or'. 'so' chỉ kết quả; 'but' chỉ đối lập."
+            }
+          ]
+        },
+        {
+          "title": "Although / even though và despite / in spite of",
+          "rule": "Cùng nghĩa **mặc dù**, nhưng khác cấu trúc:\n• **although / though / even though** + **mệnh đề** (S + V).\n• **despite / in spite of** + **cụm danh từ hoặc V-ing**.\n• **despite the fact that** + mệnh đề.\nKhông dùng cùng lúc although và but trong một câu.",
+          "examples": [
+            {
+              "en": "[[Although]] the weather was bad, the event went ahead.",
+              "vi": "Mặc dù thời tiết xấu, sự kiện vẫn diễn ra."
+            },
+            {
+              "en": "[[Despite]] the heavy traffic, he arrived on time.",
+              "vi": "Mặc dù kẹt xe nặng, anh ấy vẫn đến đúng giờ."
+            },
+            {
+              "en": "The staff stayed late [[even though]] it was a holiday.",
+              "vi": "Nhân viên vẫn ở lại muộn dù hôm đó là ngày lễ."
+            }
+          ],
+          "checks": [
+            {
+              "q": "___ the high price, many customers bought the product.",
+              "o": [
+                "Although",
+                "Despite",
+                "Because"
+              ],
+              "a": 1,
+              "e": "Sau chỗ trống là cụm danh từ 'the high price' nên dùng giới từ 'Despite'. 'Although' và 'Because' phải đi với mệnh đề."
+            },
+            {
+              "q": "The meeting continued ___ some members had left early.",
+              "o": [
+                "despite",
+                "although",
+                "because of"
+              ],
+              "a": 1,
+              "e": "Sau chỗ trống là một mệnh đề (some members had left) nên dùng 'although'. 'despite' và 'because of' phải đi với cụm danh từ."
+            }
+          ]
+        },
+        {
+          "title": "Because / since / as và because of / due to",
+          "rule": "Cùng chỉ **nguyên nhân**:\n• **because / since / as** + **mệnh đề** (S + V).\n• **because of / due to / owing to / thanks to** + **cụm danh từ**.\nCách làm nhanh: sau chỗ trống có động từ chia thì thì chọn because; chỉ có danh từ thì chọn because of.",
+          "examples": [
+            {
+              "en": "The flight was cancelled [[because]] the weather was bad.",
+              "vi": "Chuyến bay bị hủy vì thời tiết xấu."
+            },
+            {
+              "en": "The flight was cancelled [[because of]] the bad weather.",
+              "vi": "Chuyến bay bị hủy vì thời tiết xấu."
+            },
+            {
+              "en": "[[Due to]] a power outage, the office closed early.",
+              "vi": "Do mất điện, văn phòng đóng cửa sớm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The conference was postponed ___ the lack of available rooms.",
+              "o": [
+                "because",
+                "because of",
+                "so"
+              ],
+              "a": 1,
+              "e": "Sau chỗ trống là cụm danh từ 'the lack of available rooms' nên dùng 'because of'. 'because' cần mệnh đề; 'so' chỉ kết quả."
+            },
+            {
+              "q": "We moved the meeting to Thursday ___ the director will be traveling on Wednesday.",
+              "o": [
+                "because of",
+                "because",
+                "despite"
+              ],
+              "a": 1,
+              "e": "Sau chỗ trống là một mệnh đề (the director will be traveling) nên dùng 'because'. 'because of' và 'despite' phải đi với cụm danh từ."
+            }
+          ]
+        },
+        {
+          "title": "While / whereas",
+          "rule": "• **while** + mệnh đề có hai nghĩa: **trong khi** (hai việc cùng lúc) và **trong khi đó, còn** (đối lập).\n• **whereas** + mệnh đề: chỉ nghĩa đối lập (trong khi đó).\n• **during** là **giới từ**, đi với **cụm danh từ** (during the meeting). Còn **while** đi với **mệnh đề** (while the meeting is going on).",
+          "examples": [
+            {
+              "en": "Mr. Hong prefers email, [[whereas]] Ms. Vu prefers phone calls.",
+              "vi": "Ông Hồng thích email, trong khi bà Vũ thích gọi điện."
+            },
+            {
+              "en": "Please silence your phones [[while]] the presentation is in progress.",
+              "vi": "Vui lòng để điện thoại ở chế độ im lặng trong khi buổi thuyết trình đang diễn ra."
+            },
+            {
+              "en": "Please silence your phones [[during]] the presentation.",
+              "vi": "Vui lòng để điện thoại ở chế độ im lặng trong suốt buổi thuyết trình."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Sales rose in the north, ___ they fell in the south.",
+              "o": [
+                "while",
+                "during",
+                "despite"
+              ],
+              "a": 0,
+              "e": "Hai vế đối lập và sau chỗ trống là một mệnh đề nên dùng 'while'. 'during' và 'despite' là giới từ, phải đi với cụm danh từ."
+            },
+            {
+              "q": "Please do not use your phone ___ the training session.",
+              "o": [
+                "while",
+                "during",
+                "whereas"
+              ],
+              "a": 1,
+              "e": "Sau chỗ trống chỉ có cụm danh từ 'the training session' nên dùng giới từ 'during'. 'while' và 'whereas' cần một mệnh đề đầy đủ."
+            }
+          ]
+        },
+        {
+          "title": "Liên từ phụ thuộc hay giới từ: nhìn vào phần đi sau",
+          "rule": "• **Liên từ phụ thuộc** + **mệnh đề (S + V)**: although, because, while, when, if, unless, as soon as, before, after, until, since.\n• **Giới từ** + **cụm danh từ / V-ing**: despite, in spite of, because of, due to, during, without.\n• Một số từ làm được cả hai việc (**before, after, until, since**): nhìn phần đi sau để biết nó đang là loại nào.",
+          "examples": [
+            {
+              "en": "We will start [[after]] the manager arrives.",
+              "vi": "Chúng tôi sẽ bắt đầu sau khi quản lý đến."
+            },
+            {
+              "en": "We will start [[after]] the lunch break.",
+              "vi": "Chúng tôi sẽ bắt đầu sau giờ nghỉ trưa."
+            },
+            {
+              "en": "[[Unless]] the client objects, we will proceed with the plan.",
+              "vi": "Trừ khi khách hàng phản đối, chúng tôi sẽ tiến hành kế hoạch."
+            }
+          ],
+          "checks": [
+            {
+              "q": "___ you have any questions, please contact the HR department.",
+              "o": [
+                "Unless",
+                "If",
+                "Despite"
+              ],
+              "a": 1,
+              "e": "Nghĩa là 'nếu bạn có thắc mắc thì hãy liên hệ' nên dùng 'If'. 'Unless' (trừ khi) làm câu sai nghĩa; 'Despite' đi với cụm danh từ."
+            },
+            {
+              "q": "The store will remain closed ___ the renovation is complete.",
+              "o": [
+                "until",
+                "during",
+                "despite"
+              ],
+              "a": 0,
+              "e": "Sau chỗ trống là một mệnh đề (the renovation is complete) nên dùng liên từ 'until'. 'during' và 'despite' là giới từ, không đi với mệnh đề."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "We offer free delivery, ___ the customer must pay for installation.",
+          "o": [
+            "but",
+            "so",
+            "or"
+          ],
+          "a": 0,
+          "e": "Hai vế đối lập (miễn phí giao hàng, nhưng phải trả phí lắp đặt) nên dùng 'but'. 'so' và 'or' không hợp nghĩa."
+        },
+        {
+          "q": "Please call me ___ send me an email if you have questions.",
+          "o": [
+            "or",
+            "but",
+            "so"
+          ],
+          "a": 0,
+          "e": "Câu đưa ra hai cách liên hệ để lựa chọn nên dùng 'or'. 'but' và 'so' làm câu sai nghĩa."
+        },
+        {
+          "q": "The printer was out of paper, ___ the report could not be printed.",
+          "o": [
+            "so",
+            "or",
+            "although"
+          ],
+          "a": 0,
+          "e": "Vế sau là kết quả của vế trước nên dùng 'so'. 'or' diễn tả lựa chọn; 'although' chỉ sự nhượng bộ và làm câu sai nghĩa."
+        },
+        {
+          "q": "___ he was tired, Mr. Wong finished the presentation.",
+          "o": [
+            "Although",
+            "Despite",
+            "Because of"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống là mệnh đề (he was tired) nên dùng liên từ 'Although'. 'Despite' và 'Because of' phải đi với cụm danh từ."
+        },
+        {
+          "q": "___ the rain, the outdoor concert started on time.",
+          "o": [
+            "Although",
+            "Despite",
+            "Even though"
+          ],
+          "a": 1,
+          "e": "Sau chỗ trống chỉ có cụm danh từ 'the rain' nên dùng giới từ 'Despite'. 'Although' và 'Even though' phải đi với mệnh đề."
+        },
+        {
+          "q": "The seminar was cancelled ___ a lack of interest.",
+          "o": [
+            "because",
+            "because of",
+            "although"
+          ],
+          "a": 1,
+          "e": "Sau chỗ trống là cụm danh từ 'a lack of interest' nên dùng 'because of'. 'because' và 'although' cần mệnh đề."
+        },
+        {
+          "q": "We chose this supplier ___ its prices are the lowest.",
+          "o": [
+            "because",
+            "because of",
+            "despite"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống là mệnh đề (its prices are the lowest) nên dùng 'because'. 'because of' và 'despite' phải đi với cụm danh từ."
+        },
+        {
+          "q": "Ms. Gomez works in finance, ___ her brother works in marketing.",
+          "o": [
+            "whereas",
+            "during",
+            "despite"
+          ],
+          "a": 0,
+          "e": "Hai vế đối lập, sau chỗ trống là mệnh đề nên dùng 'whereas'. 'during' và 'despite' là giới từ, không đi với mệnh đề."
+        },
+        {
+          "q": "___ the meeting was going on, the fire alarm sounded.",
+          "o": [
+            "While",
+            "During",
+            "Despite"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống là mệnh đề (the meeting was going on) nên dùng 'While'. 'During' và 'Despite' phải đi với cụm danh từ."
+        },
+        {
+          "q": "Please finish the report ___ the deadline passes.",
+          "o": [
+            "before",
+            "during",
+            "because of"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống là mệnh đề (the deadline passes) và nghĩa là 'trước khi' nên dùng 'before'. 'during' và 'because of' phải đi với cụm danh từ."
+        }
+      ]
+    },
+    {
+      "id": "agree",
+      "k": "agree",
+      "week": 2,
+      "title": "Hòa hợp chủ vị",
+      "intro": "Part 5 thường cho 4 dạng chia của cùng một động từ (is/are/has/have…). Chỉ cần tìm đúng chủ ngữ chính, bỏ qua cụm chen giữa, là chọn được dạng đúng.",
+      "steps": [
+        {
+          "title": "Chủ ngữ số ít và số nhiều",
+          "rule": "• Chủ ngữ **số ít** (danh từ số ít, danh từ không đếm được như **information, equipment, news**, V-ing, tên công ty) + động từ số ít: **is, has, does, V-s/es**.\n• Chủ ngữ **số nhiều** + động từ số nhiều: **are, have, do, V nguyên mẫu**.\n• Bước đầu tiên: tìm **danh từ chính** của chủ ngữ, rồi mới chọn động từ.",
+          "examples": [
+            {
+              "en": "The new manager [[has]] a lot of experience.",
+              "vi": "Người quản lý mới có rất nhiều kinh nghiệm."
+            },
+            {
+              "en": "Our products [[are]] sold worldwide.",
+              "vi": "Sản phẩm của chúng tôi được bán trên toàn thế giới."
+            },
+            {
+              "en": "Reviewing the contracts [[takes]] several hours.",
+              "vi": "Việc xem xét các hợp đồng mất vài giờ."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The information in these files ___ confidential.",
+              "o": [
+                "is",
+                "are",
+                "have been"
+              ],
+              "a": 0,
+              "e": "'information' là danh từ không đếm được nên là chủ ngữ số ít, đi với 'is'. 'are' và 'have been' là dạng số nhiều."
+            },
+            {
+              "q": "Our sales representatives ___ visit clients every week.",
+              "o": [
+                "visits",
+                "visit",
+                "is visiting"
+              ],
+              "a": 1,
+              "e": "'representatives' là chủ ngữ số nhiều nên động từ giữ nguyên mẫu: 'visit'. 'visits' và 'is visiting' là dạng số ít."
+            }
+          ]
+        },
+        {
+          "title": "Cụm chen giữa chủ ngữ và động từ",
+          "rule": "Động từ hòa hợp với **chủ ngữ chính**, **không** hòa hợp với cụm chen giữa.\nCụm hay chen: **of / in / for + danh từ**, **with, together with, along with, as well as, in addition to, accompanied by**.\n• The **price** of these laptops **is** reasonable (chủ ngữ chính: price).\n• Cụm đi với **with / as well as** không làm chủ ngữ thành số nhiều.",
+          "examples": [
+            {
+              "en": "The list of new clients [[is]] on your desk.",
+              "vi": "Danh sách khách hàng mới ở trên bàn của bạn."
+            },
+            {
+              "en": "The director, as well as two assistants, [[has]] arrived.",
+              "vi": "Giám đốc, cùng với hai trợ lý, đã đến."
+            },
+            {
+              "en": "The employees in the Hanoi office [[work]] longer hours.",
+              "vi": "Các nhân viên ở văn phòng Hà Nội làm việc nhiều giờ hơn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The cost of the repairs ___ higher than expected.",
+              "o": [
+                "is",
+                "are",
+                "have been"
+              ],
+              "a": 0,
+              "e": "Chủ ngữ chính là 'cost' (số ít), 'of the repairs' chỉ là cụm chen giữa. Vì vậy dùng 'is'; 'are' và 'have been' là dạng số nhiều."
+            },
+            {
+              "q": "The CEO, along with three directors, ___ going to attend the ceremony.",
+              "o": [
+                "are",
+                "is",
+                "were"
+              ],
+              "a": 1,
+              "e": "Chủ ngữ chính là 'The CEO' (số ít), 'along with three directors' chỉ là cụm chen giữa nên dùng 'is'. 'are' và 'were' là dạng số nhiều."
+            }
+          ]
+        },
+        {
+          "title": "Each / every / one of / neither of",
+          "rule": "Các cấu trúc sau luôn đi với **động từ số ít**:\n• **each / every** + danh từ số ít.\n• **each of / one of / neither of / either of** + **danh từ số nhiều**: động từ vẫn chia **số ít**.\nHãy chú ý: danh từ sau 'of' ở dạng số nhiều nhưng không phải là chủ ngữ chính.",
+          "examples": [
+            {
+              "en": "Each of the managers [[has]] a private office.",
+              "vi": "Mỗi người trong số các quản lý đều có một văn phòng riêng."
+            },
+            {
+              "en": "One of our clients [[wants]] to extend the contract.",
+              "vi": "Một trong những khách hàng của chúng tôi muốn gia hạn hợp đồng."
+            },
+            {
+              "en": "Neither of the offers [[is]] acceptable.",
+              "vi": "Không đề nghị nào trong hai đề nghị này được chấp nhận."
+            }
+          ],
+          "checks": [
+            {
+              "q": "One of the printers on this floor ___ out of order.",
+              "o": [
+                "are",
+                "is",
+                "have been"
+              ],
+              "a": 1,
+              "e": "'One of' + danh từ số nhiều vẫn đi với động từ số ít: 'is'. 'are' và 'have been' là dạng số nhiều."
+            },
+            {
+              "q": "Each of the new employees ___ a welcome packet.",
+              "o": [
+                "receive",
+                "receives",
+                "are receiving"
+              ],
+              "a": 1,
+              "e": "'Each of' + danh từ số nhiều đi với động từ số ít: 'receives'. 'receive' và 'are receiving' là dạng số nhiều."
+            }
+          ]
+        },
+        {
+          "title": "Either…or / neither…nor / both…and",
+          "rule": "• **either … or** và **neither … nor**: động từ hòa hợp với **chủ ngữ gần động từ nhất**.\n• **both … and**: luôn là chủ ngữ **số nhiều**, động từ số nhiều.\n• **not only … but also** cũng theo chủ ngữ gần động từ nhất.",
+          "examples": [
+            {
+              "en": "Either the manager or the assistants [[are]] attending the workshop.",
+              "vi": "Hoặc quản lý hoặc các trợ lý sẽ tham dự hội thảo."
+            },
+            {
+              "en": "Neither the assistants nor the manager [[is]] available today.",
+              "vi": "Cả các trợ lý lẫn quản lý đều không rảnh hôm nay."
+            },
+            {
+              "en": "Both the manager and the assistant [[are]] ready to begin.",
+              "vi": "Cả quản lý và trợ lý đều sẵn sàng bắt đầu."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Either the supervisor or the technicians ___ responsible for the repair.",
+              "o": [
+                "is",
+                "are",
+                "was"
+              ],
+              "a": 1,
+              "e": "Chủ ngữ gần động từ nhất là 'the technicians' (số nhiều) nên dùng 'are'. 'is' và 'was' là dạng số ít."
+            },
+            {
+              "q": "Neither the interns nor the director ___ attending the workshop.",
+              "o": [
+                "are",
+                "is",
+                "were"
+              ],
+              "a": 1,
+              "e": "Chủ ngữ gần động từ nhất là 'the director' (số ít) nên dùng 'is'. 'are' và 'were' là dạng số nhiều."
+            }
+          ]
+        },
+        {
+          "title": "A number of và the number of",
+          "rule": "• **a number of** + danh từ số nhiều = **nhiều**: động từ **số nhiều** (a number of employees **are**).\n• **the number of** + danh từ số nhiều = **số lượng**: động từ **số ít** (the number of employees **is**).\nMẹo: 'the number' là một con số (số ít); 'a number of' chỉ là cách nói 'nhiều'.",
+          "examples": [
+            {
+              "en": "A number of employees [[are]] working from home today.",
+              "vi": "Nhiều nhân viên đang làm việc tại nhà hôm nay."
+            },
+            {
+              "en": "The number of applicants [[has]] increased this year.",
+              "vi": "Số lượng ứng viên đã tăng trong năm nay."
+            },
+            {
+              "en": "The number of errors in the report [[is]] surprisingly small.",
+              "vi": "Số lỗi trong báo cáo nhỏ một cách đáng ngạc nhiên."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The number of visitors to our website ___ risen sharply.",
+              "o": [
+                "have",
+                "has",
+                "are"
+              ],
+              "a": 1,
+              "e": "'The number of' đi với động từ số ít: 'has risen'. 'have' sai về hòa hợp; 'are risen' không đúng cấu trúc hiện tại hoàn thành."
+            },
+            {
+              "q": "A number of seats ___ still available for the workshop.",
+              "o": [
+                "is",
+                "are",
+                "has"
+              ],
+              "a": 1,
+              "e": "'A number of' + danh từ số nhiều đi với động từ số nhiều: 'are'. 'is' và 'has' là dạng số ít."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The report on last year's sales ___ ready for review.",
+          "o": [
+            "is",
+            "are",
+            "were"
+          ],
+          "a": 0,
+          "e": "Chủ ngữ chính là 'report' (số ít), 'on last year's sales' chỉ là cụm chen giữa nên dùng 'is'. 'are' và 'were' là dạng số nhiều."
+        },
+        {
+          "q": "The managers ___ a meeting every Monday.",
+          "o": [
+            "holds",
+            "hold",
+            "is holding"
+          ],
+          "a": 1,
+          "e": "'managers' là chủ ngữ số nhiều và 'every Monday' chỉ thói quen nên động từ ở dạng nguyên mẫu: 'hold'. 'holds' và 'is holding' là dạng số ít."
+        },
+        {
+          "q": "Every new hire ___ training in the first week.",
+          "o": [
+            "attend",
+            "attends",
+            "attending"
+          ],
+          "a": 1,
+          "e": "'Every' + danh từ số ít đi với động từ số ít: 'attends'. 'attend' là dạng số nhiều; 'attending' không phải động từ chia thì."
+        },
+        {
+          "q": "Neither of the two contracts ___ been signed yet.",
+          "o": [
+            "has",
+            "are",
+            "were"
+          ],
+          "a": 0,
+          "e": "'Neither of' đi với động từ số ít nên dùng 'has' (has been signed). 'are been' và 'were been' không đúng cấu trúc."
+        },
+        {
+          "q": "Either Ms. Reyes or Mr. Shah ___ going to open the store.",
+          "o": [
+            "are",
+            "is",
+            "have"
+          ],
+          "a": 1,
+          "e": "Chủ ngữ gần động từ nhất là 'Mr. Shah' (số ít) nên dùng 'is'. 'are' là dạng số nhiều; 'have going' sai cấu trúc."
+        },
+        {
+          "q": "Neither Ms. Park nor her colleagues ___ aware of the change.",
+          "o": [
+            "was",
+            "were",
+            "is"
+          ],
+          "a": 1,
+          "e": "Chủ ngữ gần động từ nhất là 'her colleagues' (số nhiều) nên dùng 'were'. 'was' và 'is' là dạng số ít."
+        },
+        {
+          "q": "A number of tickets ___ been sold already.",
+          "o": [
+            "has",
+            "have",
+            "is"
+          ],
+          "a": 1,
+          "e": "'A number of' + danh từ số nhiều đi với động từ số nhiều: 'have been sold'. 'has' và 'is' là dạng số ít."
+        },
+        {
+          "q": "The number of staff members in our team ___ five.",
+          "o": [
+            "is",
+            "are",
+            "have"
+          ],
+          "a": 0,
+          "e": "'The number of' đi với động từ số ít nên dùng 'is'. 'are' là dạng số nhiều; 'have five' không hợp nghĩa."
+        },
+        {
+          "q": "Mr. Alvarez, together with his team, ___ preparing the proposal.",
+          "o": [
+            "are",
+            "is",
+            "have"
+          ],
+          "a": 1,
+          "e": "Chủ ngữ chính là 'Mr. Alvarez' (số ít), 'together with his team' chỉ là cụm chen giữa nên dùng 'is'. 'are' là dạng số nhiều; 'have preparing' sai cấu trúc."
+        },
+        {
+          "q": "Good news ___ always welcome in the office.",
+          "o": [
+            "is",
+            "are",
+            "were"
+          ],
+          "a": 0,
+          "e": "'news' là danh từ không đếm được, chủ ngữ số ít nên dùng 'is'. 'are' và 'were' là dạng số nhiều."
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "k": "passive",
+      "week": 3,
+      "title": "Bị động (Passive)",
+      "intro": "Part 5 thường cho chỗ trống là một động từ và buộc bạn chọn giữa chủ động và bị động. Chỉ cần nhìn chủ ngữ và xem sau chỗ trống có tân ngữ hay không là chọn đúng, không cần dịch cả câu.",
+      "steps": [
+        {
+          "title": "Cấu trúc bị động: be + V3",
+          "rule": "Câu bị động có dạng **S + be + V3 (+ by + người làm)**. Tân ngữ của câu chủ động trở thành chủ ngữ của câu bị động.\n• Chủ động: The manager signed the contract.\n• Bị động: The contract **was signed** by the manager.\nDấu hiệu: chủ ngữ là VẬT/VIỆC chịu tác động và sau chỗ trống KHÔNG có tân ngữ → chọn **be + V3**.",
+          "examples": [
+            {
+              "en": "The report [[was written]] by Ms. Lee.",
+              "vi": "Bản báo cáo do cô Lee viết."
+            },
+            {
+              "en": "Invoices [[are checked]] by the accounting team.",
+              "vi": "Hóa đơn được bộ phận kế toán kiểm tra."
+            },
+            {
+              "en": "The conference room [[is cleaned]] every evening.",
+              "vi": "Phòng họp được dọn mỗi buổi tối."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The new menu ___ by the chef last week.",
+              "o": [
+                "created",
+                "was created",
+                "has created"
+              ],
+              "a": 1,
+              "e": "Chủ ngữ 'The new menu' là vật được tạo ra và sau chỗ trống không có tân ngữ nên cần bị động quá khứ: 'was created'. 'created' và 'has created' là dạng chủ động."
+            },
+            {
+              "q": "Invoices ___ to our clients at the end of each month.",
+              "o": [
+                "send",
+                "are sent",
+                "sending"
+              ],
+              "a": 1,
+              "e": "'Invoices' là vật được gửi đi, không có tân ngữ phía sau nên dùng bị động hiện tại: 'are sent'. 'send' và 'sending' không tạo thành động từ chia đúng cho câu này."
+            }
+          ]
+        },
+        {
+          "title": "Bị động ở các thì",
+          "rule": "Chỉ cần đổi **be** theo thì, phần sau luôn là **V3**:\n• Hiện tại đơn: **am/is/are + V3**\n• Quá khứ đơn: **was/were + V3**\n• Hiện tại hoàn thành: **has/have been + V3**\n• Tương lai: **will be + V3**\n• Đang diễn ra: **is/are being + V3**\n• Có modal: **can/must/should + be + V3**",
+          "examples": [
+            {
+              "en": "The contract [[will be signed]] tomorrow.",
+              "vi": "Hợp đồng sẽ được ký vào ngày mai."
+            },
+            {
+              "en": "Several new rules [[have been introduced]] this year.",
+              "vi": "Một số quy định mới đã được đưa ra trong năm nay."
+            },
+            {
+              "en": "The lobby [[is being repainted]] this week.",
+              "vi": "Sảnh đang được sơn lại trong tuần này."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The contract will ___ by the director tomorrow.",
+              "o": [
+                "sign",
+                "be signed",
+                "be signing"
+              ],
+              "a": 1,
+              "e": "Sau 'will' ở dạng bị động cần 'be + V3': 'be signed'. 'sign' là chủ động, còn 'be signing' là tiếp diễn chủ động, không hợp vì hợp đồng không tự ký."
+            },
+            {
+              "q": "Several new rules have been ___ this year.",
+              "o": [
+                "introduce",
+                "introduced",
+                "introducing"
+              ],
+              "a": 1,
+              "e": "Cấu trúc hiện tại hoàn thành bị động là 'have been + V3': 'introduced'. 'introduce' là nguyên mẫu và 'introducing' là V-ing nên không đúng sau 'have been' ở nghĩa bị động."
+            }
+          ]
+        },
+        {
+          "title": "Khi nào dùng bị động? by + tác nhân",
+          "rule": "Dùng bị động khi:\n• **không biết** hoặc **không cần nói** ai làm: The windows were cleaned yesterday.\n• muốn nhấn mạnh **việc/vật** hơn người làm.\nChỉ thêm **by + người làm** khi thông tin đó quan trọng.\nMẹo: nếu NGAY SAU chỗ trống đã có tân ngữ (the report, the staff…) thì dùng **chủ động**.",
+          "examples": [
+            {
+              "en": "The windows [[were cleaned]] yesterday.",
+              "vi": "Cửa sổ đã được lau hôm qua."
+            },
+            {
+              "en": "The award [[was presented by]] the company president.",
+              "vi": "Giải thưởng do chủ tịch công ty trao."
+            },
+            {
+              "en": "The manager [[approved]] the budget on Monday.",
+              "vi": "Quản lý đã phê duyệt ngân sách vào thứ Hai."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our team ___ the survey results yesterday.",
+              "o": [
+                "analyzed",
+                "was analyzed",
+                "were analyzed"
+              ],
+              "a": 0,
+              "e": "Sau chỗ trống đã có tân ngữ 'the survey results' và chủ ngữ 'Our team' là người làm, nên dùng chủ động: 'analyzed'. Hai đáp án còn lại là bị động và không hợp với tân ngữ phía sau."
+            },
+            {
+              "q": "The annual report was prepared ___ the finance team.",
+              "o": [
+                "by",
+                "at",
+                "of"
+              ],
+              "a": 0,
+              "e": "Sau động từ bị động, người thực hiện hành động được nêu bằng 'by'. 'at' và 'of' không chỉ tác nhân làm ra bản báo cáo."
+            }
+          ]
+        },
+        {
+          "title": "Động từ không có bị động",
+          "rule": "**Nội động từ** (không có tân ngữ) KHÔNG dùng được ở bị động, dù chủ ngữ là vật.\nHay gặp: **happen, occur, arrive, appear, rise, remain, depart, take place**.\n• SAI: The meeting was taken place in Room 4.\n• ĐÚNG: The meeting **took place** in Room 4.\nThấy các động từ này thì chọn dạng chủ động, không có be + V3.",
+          "examples": [
+            {
+              "en": "The meeting [[took place]] in Room 4.",
+              "vi": "Cuộc họp đã diễn ra ở phòng 4."
+            },
+            {
+              "en": "A problem [[occurred]] during the test.",
+              "vi": "Một vấn đề đã xảy ra trong lúc kiểm tra."
+            },
+            {
+              "en": "The visitors [[arrived]] at noon.",
+              "vi": "Các vị khách đã đến vào buổi trưa."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The guests ___ at the hotel at noon.",
+              "o": [
+                "were arrived",
+                "arrived",
+                "have been arrived"
+              ],
+              "a": 1,
+              "e": "'arrive' là nội động từ nên không có bị động. Dạng đúng là chủ động quá khứ: 'arrived'. 'were arrived' và 'have been arrived' đều sai."
+            },
+            {
+              "q": "A technical problem ___ during the live broadcast.",
+              "o": [
+                "was occurred",
+                "occurred",
+                "has been occurred"
+              ],
+              "a": 1,
+              "e": "'occur' không có tân ngữ nên không dùng bị động. Chọn chủ động quá khứ 'occurred'; hai đáp án còn lại ghép be + V3 với nội động từ nên sai."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The monthly newsletter ___ to all staff every Friday.",
+          "o": [
+            "sends",
+            "is sent",
+            "is sending"
+          ],
+          "a": 1,
+          "e": "Chủ ngữ 'newsletter' là vật được gửi và không có tân ngữ phía sau, nên dùng bị động hiện tại: 'is sent'. 'sends' và 'is sending' là chủ động, cần có tân ngữ."
+        },
+        {
+          "q": "The office supplies ___ yesterday afternoon.",
+          "o": [
+            "delivered",
+            "were delivered",
+            "delivering"
+          ],
+          "a": 1,
+          "e": "'The office supplies' là vật được giao, chia số nhiều ở quá khứ: 'were delivered'. 'delivered' và 'delivering' đứng một mình không tạo thành động từ chính hoàn chỉnh cho câu."
+        },
+        {
+          "q": "The new branch will ___ by the mayor next week.",
+          "o": [
+            "open",
+            "be opened",
+            "be opening"
+          ],
+          "a": 1,
+          "e": "Có 'by the mayor' là người làm, nên cần bị động tương lai 'will be opened'. 'open' và 'be opening' là chủ động, không hợp với 'by + người làm'."
+        },
+        {
+          "q": "All applications must ___ before the deadline.",
+          "o": [
+            "submit",
+            "be submitted",
+            "be submitting"
+          ],
+          "a": 1,
+          "e": "'Applications' là vật được nộp, sau modal 'must' dùng 'be + V3': 'be submitted'. 'submit' và 'be submitting' là chủ động."
+        },
+        {
+          "q": "The conference ___ in Singapore last June.",
+          "o": [
+            "was held",
+            "held",
+            "was holding"
+          ],
+          "a": 0,
+          "e": "Hội nghị 'được tổ chức', không có tân ngữ phía sau, nên dùng bị động quá khứ: 'was held'. 'held' đứng một mình không có trợ động từ thì không đúng; 'was holding' là chủ động tiếp diễn."
+        },
+        {
+          "q": "The invoice has already ___ to the client.",
+          "o": [
+            "been sent",
+            "sent",
+            "being sent"
+          ],
+          "a": 0,
+          "e": "Hiện tại hoàn thành bị động là 'has been + V3': 'been sent'. 'sent' thiếu 'been' nên thành chủ động không có tân ngữ, còn 'being sent' không đi với 'has'."
+        },
+        {
+          "q": "The proposal is being ___ by the committee.",
+          "o": [
+            "review",
+            "reviewed",
+            "reviewing"
+          ],
+          "a": 1,
+          "e": "Cấu trúc bị động tiếp diễn là 'is being + V3': 'reviewed'. 'review' là nguyên mẫu và 'reviewing' là V-ing nên không đúng sau 'being' ở nghĩa bị động."
+        },
+        {
+          "q": "The seminar ___ in the main hall at 10 a.m.",
+          "o": [
+            "takes place",
+            "is taken place",
+            "was taken place"
+          ],
+          "a": 0,
+          "e": "'take place' (diễn ra) là cụm nội động từ nên không có bị động. Chỉ 'takes place' đúng; 'is taken place' và 'was taken place' đều sai cấu trúc."
+        },
+        {
+          "q": "A delivery error ___ last week, so the order was late.",
+          "o": [
+            "occurred",
+            "was occurred",
+            "is occurred"
+          ],
+          "a": 0,
+          "e": "'occur' (xảy ra) không có bị động, và 'last week' cần quá khứ đơn chủ động: 'occurred'. 'was occurred' và 'is occurred' sai vì ghép be + V3 với nội động từ."
+        },
+        {
+          "q": "The manager ___ the new schedule to the staff this morning.",
+          "o": [
+            "announced",
+            "was announced",
+            "has been announced"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống có tân ngữ 'the new schedule' và chủ ngữ 'The manager' là người làm, nên dùng chủ động: 'announced'. Hai đáp án kia là bị động nên không đi với tân ngữ."
+        }
+      ]
+    },
+    {
+      "id": "cond",
+      "k": "cond",
+      "week": 3,
+      "title": "Câu điều kiện",
+      "intro": "Part 5 hay cho chỗ trống ở mệnh đề if hoặc mệnh đề chính, và đáp án khác nhau ở thì động từ. Nhìn một vế là biết vế còn lại cần dạng nào, nên đây là dạng câu làm rất nhanh khi nắm công thức.",
+      "steps": [
+        {
+          "title": "Loại 0 và loại 1: điều có thật",
+          "rule": "**Loại 0** (sự thật, quy tắc): **If + hiện tại đơn, hiện tại đơn**.\n**Loại 1** (khả năng có thể xảy ra ở tương lai): **If + hiện tại đơn, will + V**.\nLưu ý: KHÔNG dùng **will** trong mệnh đề if.\n• SAI: If it will rain, we will stay home.\n• ĐÚNG: If it **rains**, we **will stay** home.",
+          "examples": [
+            {
+              "en": "If the alarm [[sounds]], everyone [[leaves]] the building.",
+              "vi": "Nếu chuông báo động reo, mọi người rời khỏi tòa nhà."
+            },
+            {
+              "en": "If the weather [[is]] bad, the picnic [[will be cancelled]].",
+              "vi": "Nếu thời tiết xấu, buổi dã ngoại sẽ bị hủy."
+            }
+          ],
+          "checks": [
+            {
+              "q": "If the client ___ the offer, we will sign the contract.",
+              "o": [
+                "accepts",
+                "will accept",
+                "would accept"
+              ],
+              "a": 0,
+              "e": "Mệnh đề chính dùng 'will sign' (loại 1) nên mệnh đề if dùng hiện tại đơn: 'accepts'. Không dùng 'will' hay 'would' trong mệnh đề if ở loại này."
+            },
+            {
+              "q": "If you call before noon, the technician ___ you today.",
+              "o": [
+                "will visit",
+                "would visit",
+                "has visited"
+              ],
+              "a": 0,
+              "e": "Mệnh đề if ở hiện tại đơn ('call') là loại 1 nên mệnh đề chính dùng 'will + V': 'will visit'. 'would visit' dành cho loại 2 và 'has visited' không hợp với mốc 'today' ở tương lai."
+            }
+          ]
+        },
+        {
+          "title": "Loại 2: giả định không có thật ở hiện tại",
+          "rule": "Loại 2 nói về điều **không có thật hoặc khó xảy ra** ở hiện tại/tương lai:\n**If + quá khứ đơn, would + V**.\nVới động từ **be**, dùng **were** cho mọi ngôi: If I **were** you…\nQuá khứ ở đây chỉ là cách chia, không phải nói chuyện đã qua.",
+          "examples": [
+            {
+              "en": "If she [[were]] the manager, she [[would change]] the policy.",
+              "vi": "Nếu cô ấy là quản lý, cô ấy sẽ thay đổi chính sách."
+            },
+            {
+              "en": "If we [[offered]] free shipping, more customers [[would order]] online.",
+              "vi": "Nếu chúng tôi miễn phí vận chuyển, sẽ có nhiều khách đặt hàng trực tuyến hơn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "If we had a larger budget, we ___ more staff.",
+              "o": [
+                "will hire",
+                "would hire",
+                "would have hired"
+              ],
+              "a": 1,
+              "e": "Mệnh đề if dùng quá khứ đơn ('had') là loại 2 nên vế chính cần 'would + V': 'would hire'. 'will hire' là loại 1 còn 'would have hired' là loại 3."
+            },
+            {
+              "q": "If I ___ you, I would accept the job offer.",
+              "o": [
+                "were",
+                "am",
+                "will be"
+              ],
+              "a": 0,
+              "e": "Vế chính có 'would accept' nên là loại 2, mệnh đề if dùng quá khứ, với 'be' dùng 'were': 'were'. 'am' và 'will be' không dùng trong mệnh đề if loại 2."
+            }
+          ]
+        },
+        {
+          "title": "Loại 3: giả định trái với quá khứ",
+          "rule": "Loại 3 nói về điều **đã không xảy ra** trong quá khứ:\n**If + had + V3, would have + V3**.\nĐây là dạng để tiếc nuối hoặc nói về hậu quả giả định của việc đã qua.\n• If we **had left** earlier, we **would have caught** the train.",
+          "examples": [
+            {
+              "en": "If we [[had left]] earlier, we [[would have caught]] the train.",
+              "vi": "Nếu chúng tôi đi sớm hơn, chúng tôi đã kịp chuyến tàu."
+            },
+            {
+              "en": "If he [[had checked]] the figures, he [[would have found]] the error.",
+              "vi": "Nếu anh ấy đã kiểm tra các con số, anh ấy đã phát hiện ra lỗi."
+            }
+          ],
+          "checks": [
+            {
+              "q": "If she ___ the email earlier, she would have avoided the mistake.",
+              "o": [
+                "had read",
+                "read",
+                "would read",
+                "has read"
+              ],
+              "a": 0,
+              "e": "Vế chính 'would have avoided' là loại 3 nên mệnh đề if cần 'had + V3': 'had read'. 'read' là loại 2, 'would read' không dùng trong mệnh đề if và 'has read' không đúng cấu trúc."
+            }
+          ]
+        },
+        {
+          "title": "Nhận dạng loại câu từ mệnh đề if",
+          "rule": "Nhìn thì của mệnh đề **if** hoặc của vế chính để suy ra vế còn lại:\n• if + **hiện tại** → vế chính **will + V** (loại 1)\n• if + **quá khứ đơn** → vế chính **would + V** (loại 2)\n• if + **had + V3** → vế chính **would have + V3** (loại 3)\nĐọc ngược lại cũng được: thấy **would + V** thì mệnh đề if dùng quá khứ đơn.",
+          "examples": [
+            {
+              "en": "If prices [[rise]], demand [[will fall]].",
+              "vi": "Nếu giá tăng, nhu cầu sẽ giảm."
+            },
+            {
+              "en": "If we [[had]] a bigger office, we [[would hire]] more people.",
+              "vi": "Nếu chúng tôi có văn phòng lớn hơn, chúng tôi sẽ tuyển thêm người."
+            }
+          ],
+          "checks": [
+            {
+              "q": "If I ___ the lottery, I would travel around the world.",
+              "o": [
+                "won",
+                "win",
+                "had won"
+              ],
+              "a": 0,
+              "e": "Vế chính 'would travel' là loại 2 nên mệnh đề if dùng quá khứ đơn: 'won'. 'win' là loại 1 và 'had won' là loại 3, đều không đi với 'would + V'."
+            },
+            {
+              "q": "If the supplier ___ the order today, we will receive it on Friday.",
+              "o": [
+                "confirms",
+                "would confirm",
+                "had confirmed"
+              ],
+              "a": 0,
+              "e": "Vế chính 'will receive' là loại 1 nên mệnh đề if dùng hiện tại đơn: 'confirms'. 'would confirm' không dùng trong mệnh đề if và 'had confirmed' là loại 3."
+            }
+          ]
+        },
+        {
+          "title": "Unless, provided that, as long as",
+          "rule": "• **Unless** = **if … not** (trừ khi). Sau unless dùng động từ ở dạng KHẲNG ĐỊNH, không thêm not.\n• **Provided that / as long as** = **miễn là, với điều kiện là**, đi với điều kiện tích cực.\nChọn theo nghĩa: điều kiện tiêu cực/ngoại lệ → **unless**; điều kiện cần có → **as long as / provided that**.",
+          "examples": [
+            {
+              "en": "We will cancel the event [[unless]] more people register.",
+              "vi": "Chúng tôi sẽ hủy sự kiện trừ khi có thêm người đăng ký."
+            },
+            {
+              "en": "[[Provided that]] you pay on time, you will get a discount.",
+              "vi": "Miễn là bạn thanh toán đúng hạn, bạn sẽ được giảm giá."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The meeting will start at nine ___ the director arrives late.",
+              "o": [
+                "unless",
+                "provided that",
+                "as long as"
+              ],
+              "a": 0,
+              "e": "Nghĩa là 'bắt đầu lúc 9 giờ, trừ khi giám đốc đến muộn' nên dùng 'unless'. 'provided that' và 'as long as' diễn tả điều kiện cần có, không hợp nghĩa với việc đến muộn."
+            },
+            {
+              "q": "Unless you ___ the form, we cannot process your request.",
+              "o": [
+                "don't submit",
+                "submit",
+                "will submit"
+              ],
+              "a": 1,
+              "e": "'Unless' đã mang nghĩa phủ định nên động từ ở khẳng định, hiện tại đơn: 'submit'. 'don't submit' thành phủ định kép và 'will submit' không dùng trong mệnh đề điều kiện."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "If you ___ the button, the machine turns off.",
+          "o": [
+            "press",
+            "pressed",
+            "will press"
+          ],
+          "a": 0,
+          "e": "Vế chính 'turns off' ở hiện tại đơn (loại 0, quy tắc), nên mệnh đề if dùng hiện tại đơn: 'press'. 'will press' không dùng trong mệnh đề if."
+        },
+        {
+          "q": "If it rains tomorrow, the outdoor event ___ postponed.",
+          "o": [
+            "will be",
+            "would be",
+            "would have been"
+          ],
+          "a": 0,
+          "e": "Mệnh đề if ở hiện tại đơn ('rains') là loại 1 nên vế chính dùng 'will + V': 'will be'. 'would be' là loại 2 và 'would have been' là loại 3."
+        },
+        {
+          "q": "If I had more free time, I ___ a language course.",
+          "o": [
+            "will take",
+            "would take",
+            "would have taken"
+          ],
+          "a": 1,
+          "e": "Mệnh đề if dùng quá khứ đơn ('had') là loại 2, vế chính cần 'would + V': 'would take'. 'will take' là loại 1 và 'would have taken' là loại 3."
+        },
+        {
+          "q": "If the manager had approved the budget, we ___ the project last month.",
+          "o": [
+            "would have started",
+            "will start",
+            "would start"
+          ],
+          "a": 0,
+          "e": "Mệnh đề if dùng 'had + V3' là loại 3, vế chính cần 'would have + V3': 'would have started'. 'will start' và 'would start' không hợp với mốc 'last month' đã qua."
+        },
+        {
+          "q": "You may use the conference room ___ you book it in advance.",
+          "o": [
+            "as long as",
+            "unless",
+            "otherwise"
+          ],
+          "a": 0,
+          "e": "Nghĩa là 'được dùng phòng miễn là bạn đặt trước' nên dùng 'as long as'. 'unless' đảo nghĩa thành 'trừ khi bạn đặt trước' và 'otherwise' không nối được hai mệnh đề như vậy."
+        },
+        {
+          "q": "The flight will leave on time ___ the weather gets worse.",
+          "o": [
+            "unless",
+            "as long as",
+            "provided that"
+          ],
+          "a": 0,
+          "e": "Nghĩa là 'cất cánh đúng giờ, trừ khi thời tiết xấu đi' nên dùng 'unless'. 'as long as' và 'provided that' mang nghĩa điều kiện cần có, không hợp với việc thời tiết xấu đi."
+        },
+        {
+          "q": "If she were the CEO, she ___ the dress code.",
+          "o": [
+            "would change",
+            "will change",
+            "would have changed"
+          ],
+          "a": 0,
+          "e": "'were' trong mệnh đề if cho thấy đây là loại 2, vế chính cần 'would + V': 'would change'. 'will change' là loại 1 và 'would have changed' là loại 3."
+        },
+        {
+          "q": "If the customer ___ the invoice earlier, we would have shipped the goods sooner.",
+          "o": [
+            "had paid",
+            "paid",
+            "pays"
+          ],
+          "a": 0,
+          "e": "Vế chính 'would have shipped' là loại 3 nên mệnh đề if cần 'had + V3': 'had paid'. 'paid' là loại 2 và 'pays' là loại 1."
+        },
+        {
+          "q": "If we ___ the shipment today, it will arrive on Monday.",
+          "o": [
+            "send",
+            "would send",
+            "had sent"
+          ],
+          "a": 0,
+          "e": "Vế chính 'will arrive' là loại 1 nên mệnh đề if dùng hiện tại đơn: 'send'. 'would send' không dùng trong mệnh đề if và 'had sent' là loại 3."
+        },
+        {
+          "q": "If employees ___ late, they must inform their supervisor.",
+          "o": [
+            "are",
+            "will be",
+            "would be"
+          ],
+          "a": 0,
+          "e": "Đây là quy tắc chung (loại 0/1) với 'must' ở vế chính nên mệnh đề if dùng hiện tại đơn: 'are'. 'will be' và 'would be' không dùng trong mệnh đề if ở câu này."
+        }
+      ]
+    },
+    {
+      "id": "rel",
+      "k": "rel",
+      "week": 3,
+      "title": "Mệnh đề quan hệ",
+      "intro": "Part 5 thường cho chỗ trống là đại từ quan hệ (who, which, whose, whom…). Chọn đúng nhờ hai câu hỏi: danh từ đứng trước là người hay vật, và đại từ làm chủ ngữ, tân ngữ hay chỉ sở hữu.",
+      "steps": [
+        {
+          "title": "Who, which, that: chọn theo danh từ đứng trước",
+          "rule": "Đại từ quan hệ thay cho danh từ đứng trước nó:\n• Danh từ chỉ **NGƯỜI** → **who**\n• Danh từ chỉ **VẬT/VIỆC** → **which**\n• **that** có thể thay cho who hoặc which trong mệnh đề không có dấu phẩy.\nKhi đại từ làm **chủ ngữ**, ngay sau nó là động từ.",
+          "examples": [
+            {
+              "en": "The employee [[who]] won the award is my colleague.",
+              "vi": "Nhân viên đã đoạt giải là đồng nghiệp của tôi."
+            },
+            {
+              "en": "The report [[which]] describes the plan is attached.",
+              "vi": "Bản báo cáo mô tả kế hoạch được đính kèm."
+            },
+            {
+              "en": "We hired a consultant [[that]] has ten years of experience.",
+              "vi": "Chúng tôi thuê một nhà tư vấn có mười năm kinh nghiệm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The woman ___ manages our Hanoi office is visiting today.",
+              "o": [
+                "who",
+                "which",
+                "whose"
+              ],
+              "a": 0,
+              "e": "'The woman' chỉ người và ngay sau chỗ trống là động từ 'manages' nên cần 'who'. 'which' dùng cho vật, còn 'whose' phải đi kèm một danh từ."
+            },
+            {
+              "q": "We have a policy ___ protects customer data.",
+              "o": [
+                "who",
+                "which",
+                "whom"
+              ],
+              "a": 1,
+              "e": "'a policy' chỉ vật và đại từ làm chủ ngữ của 'protects', nên cần 'which'. 'who' và 'whom' chỉ dùng cho người."
+            }
+          ]
+        },
+        {
+          "title": "Vai trò: chủ ngữ hay tân ngữ? whom",
+          "rule": "Xem **sau chỗ trống** có gì:\n• Có **động từ** ngay sau → đại từ là **chủ ngữ** (who / which / that).\n• Có **chủ ngữ mới (S + V)** → đại từ là **tân ngữ** (**whom** cho người, **which** cho vật, hoặc that).\nSau **giới từ** dùng **whom / which**, không dùng who hay that: the person **to whom** I wrote.",
+          "examples": [
+            {
+              "en": "The candidate [[whom]] we interviewed was excellent.",
+              "vi": "Ứng viên mà chúng tôi phỏng vấn rất xuất sắc."
+            },
+            {
+              "en": "The book [[which]] I borrowed is very useful.",
+              "vi": "Cuốn sách tôi mượn rất hữu ích."
+            },
+            {
+              "en": "The director to [[whom]] I sent the proposal is away.",
+              "vi": "Giám đốc mà tôi gửi đề xuất đến hiện đang đi vắng."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The client ___ we met yesterday wants to sign the contract.",
+              "o": [
+                "whom",
+                "whose",
+                "which"
+              ],
+              "a": 0,
+              "e": "'The client' là người, sau chỗ trống là chủ ngữ mới 'we' nên đại từ làm tân ngữ: 'whom'. 'whose' cần danh từ theo sau và 'which' không dùng cho người."
+            }
+          ]
+        },
+        {
+          "title": "Whose: chỉ sở hữu",
+          "rule": "**Whose + danh từ** chỉ sự sở hữu, dùng cho cả người và vật, thay cho his/her/its/their.\nDấu hiệu: sau chỗ trống là một **danh từ** (whose **team**, whose **headquarters**) rồi mới đến động từ.\n• The manager **whose** team won the prize…",
+          "examples": [
+            {
+              "en": "The manager [[whose]] team won the prize will speak first.",
+              "vi": "Người quản lý có đội giành giải sẽ phát biểu đầu tiên."
+            },
+            {
+              "en": "We work with a company [[whose]] headquarters are in Busan.",
+              "vi": "Chúng tôi làm việc với một công ty có trụ sở chính ở Busan."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The company ___ headquarters are in Busan is hiring.",
+              "o": [
+                "whose",
+                "who",
+                "which"
+              ],
+              "a": 0,
+              "e": "Sau chỗ trống là danh từ 'headquarters' mang nghĩa 'trụ sở của công ty', nên cần 'whose'. 'who' và 'which' không đứng trước danh từ để chỉ sở hữu."
+            },
+            {
+              "q": "I met a designer ___ work is famous worldwide.",
+              "o": [
+                "whose",
+                "who",
+                "whom"
+              ],
+              "a": 0,
+              "e": "'work' là tác phẩm của nhà thiết kế nên cần 'whose' để chỉ sở hữu. 'who' hay 'whom' không thể đứng ngay trước danh từ 'work' trong nghĩa này."
+            }
+          ]
+        },
+        {
+          "title": "Lược bỏ đại từ và dấu phẩy",
+          "rule": "• Được **lược bỏ** đại từ khi nó là **tân ngữ** (sau nó có S + V): The proposal (that) she wrote was approved.\n• KHÔNG lược khi đại từ là **chủ ngữ**.\n• **Mệnh đề không xác định** bổ sung thêm thông tin (đứng sau tên riêng hoặc danh từ đã rõ) được ngăn bằng **dấu phẩy** và KHÔNG dùng **that**: dùng **who / which / whose**.",
+          "examples": [
+            {
+              "en": "The proposal [[she wrote]] was approved.",
+              "vi": "Đề xuất cô ấy viết đã được phê duyệt."
+            },
+            {
+              "en": "Mr. Park, [[who]] founded the firm, will retire next year.",
+              "vi": "Ông Park, người sáng lập công ty, sẽ nghỉ hưu vào năm tới."
+            },
+            {
+              "en": "Our Seoul office, [[which]] opened in 2020, is growing fast.",
+              "vi": "Văn phòng Seoul của chúng tôi, mở cửa từ năm 2020, đang phát triển nhanh."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Mr. Davis, ___ leads the sales team, will present today.",
+              "o": [
+                "that",
+                "who",
+                "whom"
+              ],
+              "a": 1,
+              "e": "Sau dấu phẩy không dùng 'that'. Đại từ làm chủ ngữ của 'leads' và chỉ người nên chọn 'who'. 'whom' chỉ dùng cho tân ngữ."
+            },
+            {
+              "q": "The hotel, ___ is near the airport, offers free shuttles.",
+              "o": [
+                "that",
+                "which",
+                "whose"
+              ],
+              "a": 1,
+              "e": "Có dấu phẩy nên không dùng 'that'. 'The hotel' là vật và đại từ làm chủ ngữ của 'is', nên chọn 'which'. 'whose' cần danh từ theo sau."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The employee ___ answered the phone was very polite.",
+          "o": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "a": 0,
+          "e": "'The employee' là người và đại từ làm chủ ngữ của 'answered', nên cần 'who'. 'which' dùng cho vật và 'whose' cần danh từ theo sau."
+        },
+        {
+          "q": "This is the printer ___ is out of order.",
+          "o": [
+            "who",
+            "which",
+            "whom"
+          ],
+          "a": 1,
+          "e": "'the printer' là vật và đại từ làm chủ ngữ của 'is', nên dùng 'which'. 'who' và 'whom' chỉ dùng cho người."
+        },
+        {
+          "q": "The candidate ___ resume impressed us has been hired.",
+          "o": [
+            "whose",
+            "who",
+            "whom"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống là danh từ 'resume' (hồ sơ của ứng viên) nên cần 'whose' chỉ sở hữu. 'who' và 'whom' không đứng trước danh từ theo nghĩa này."
+        },
+        {
+          "q": "The colleague ___ I admire most is Ms. Ito.",
+          "o": [
+            "whom",
+            "whose",
+            "which"
+          ],
+          "a": 0,
+          "e": "'The colleague' là người, sau chỗ trống là chủ ngữ mới 'I' nên đại từ làm tân ngữ: 'whom'. 'whose' cần danh từ theo sau và 'which' không dùng cho người."
+        },
+        {
+          "q": "The brochure ___ you requested is attached.",
+          "o": [
+            "which",
+            "who",
+            "whose"
+          ],
+          "a": 0,
+          "e": "'The brochure' là vật và đại từ làm tân ngữ của 'requested', nên chọn 'which'. 'who' dùng cho người còn 'whose' cần danh từ theo sau."
+        },
+        {
+          "q": "Ms. Tran, ___ joined us in May, handles all our accounts.",
+          "o": [
+            "who",
+            "that",
+            "whom"
+          ],
+          "a": 0,
+          "e": "Có dấu phẩy nên không dùng 'that'. Đại từ chỉ người và làm chủ ngữ của 'joined' nên chọn 'who'; 'whom' chỉ dùng cho tân ngữ."
+        },
+        {
+          "q": "We need a supplier ___ deliveries are always on time.",
+          "o": [
+            "whose",
+            "who",
+            "which"
+          ],
+          "a": 0,
+          "e": "'deliveries' là hàng giao của nhà cung cấp nên cần 'whose' chỉ sở hữu. 'who' và 'which' không đứng trực tiếp trước danh từ để chỉ sở hữu."
+        },
+        {
+          "q": "The conference, ___ was held in Osaka, attracted 500 guests.",
+          "o": [
+            "which",
+            "who",
+            "whom"
+          ],
+          "a": 0,
+          "e": "'The conference' là vật, có dấu phẩy và đại từ làm chủ ngữ của 'was held', nên chọn 'which'. 'who' và 'whom' chỉ dùng cho người."
+        },
+        {
+          "q": "Customers ___ order online receive free shipping.",
+          "o": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "a": 0,
+          "e": "'Customers' là người và đại từ làm chủ ngữ của 'order', nên cần 'who'. 'which' dùng cho vật và 'whose' cần danh từ theo sau."
+        },
+        {
+          "q": "The woman to ___ I sent the email is the new director.",
+          "o": [
+            "whom",
+            "who",
+            "which"
+          ],
+          "a": 0,
+          "e": "Sau giới từ 'to' chỉ dùng 'whom' (cho người) hoặc 'which' (cho vật). 'The woman' là người nên chọn 'whom'; 'who' không đứng sau giới từ và 'which' không dùng cho người."
+        }
+      ]
+    },
+    {
+      "id": "ger",
+      "k": "ger",
+      "week": 4,
+      "title": "V-ing hay to V?",
+      "intro": "Part 5 hay hỏi dạng động từ đứng sau một động từ hoặc giới từ khác. Mỗi động từ 'đi' với V-ing hoặc to V theo thói quen cố định, nên cần học theo nhóm và ghi nhớ.",
+      "steps": [
+        {
+          "title": "Động từ + V-ing",
+          "rule": "Một số động từ luôn đi với **V-ing**:\n**enjoy, avoid, consider, finish, suggest, mind, postpone, delay, keep, practice, recommend, admit**.\n• She **avoids** making personal calls at work.\n• They **postponed** launching the product.\nMẹo nhớ: các động từ này thường mang nghĩa dừng, tránh, trì hoãn, cân nhắc hoặc gợi ý.",
+          "examples": [
+            {
+              "en": "We enjoy [[working]] with international clients.",
+              "vi": "Chúng tôi thích làm việc với khách hàng quốc tế."
+            },
+            {
+              "en": "The board is considering [[hiring]] more staff.",
+              "vi": "Hội đồng quản trị đang cân nhắc tuyển thêm nhân viên."
+            },
+            {
+              "en": "Please finish [[reviewing]] the contract by noon.",
+              "vi": "Vui lòng xem xong hợp đồng trước buổi trưa."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The manager suggested ___ the meeting to Thursday.",
+              "o": [
+                "to move",
+                "moving",
+                "move"
+              ],
+              "a": 1,
+              "e": "'suggest' đi với V-ing nên chọn 'moving'. 'to move' sai vì suggest không đi với to V, còn 'move' (nguyên mẫu) cũng sai trong cấu trúc này."
+            },
+            {
+              "q": "They have postponed ___ the new product.",
+              "o": [
+                "to launch",
+                "launching",
+                "launch"
+              ],
+              "a": 1,
+              "e": "'postpone' (hoãn) đi với V-ing nên chọn 'launching'. 'to launch' và 'launch' không đúng sau postpone."
+            }
+          ]
+        },
+        {
+          "title": "Động từ + to V",
+          "rule": "Một số động từ luôn đi với **to V**:\n**decide, plan, hope, agree, afford, expect, manage, refuse, offer, promise, want, need, intend, fail**.\n• The company **plans to open** a new branch.\n• We **can't afford to hire** more staff.\nMẹo nhớ: nhiều động từ trong nhóm này mang ý hướng tới tương lai (quyết định, dự định, hy vọng, hứa).",
+          "examples": [
+            {
+              "en": "The director decided [[to cancel]] the event.",
+              "vi": "Giám đốc đã quyết định hủy sự kiện."
+            },
+            {
+              "en": "The supplier agreed [[to reduce]] the price.",
+              "vi": "Nhà cung cấp đã đồng ý giảm giá."
+            },
+            {
+              "en": "She hopes [[to receive]] a promotion this year.",
+              "vi": "Cô ấy hy vọng được thăng chức trong năm nay."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The company plans ___ a new branch next year.",
+              "o": [
+                "opening",
+                "to open",
+                "open"
+              ],
+              "a": 1,
+              "e": "'plan' đi với to V nên chọn 'to open'. 'opening' là V-ing và 'open' là nguyên mẫu không có 'to', đều không đúng sau plan."
+            },
+            {
+              "q": "We can't afford ___ any more staff right now.",
+              "o": [
+                "to hire",
+                "hiring",
+                "hire"
+              ],
+              "a": 0,
+              "e": "'afford' đi với to V nên chọn 'to hire'. 'hiring' sai vì afford không đi với V-ing và 'hire' thiếu 'to'."
+            }
+          ]
+        },
+        {
+          "title": "Giới từ + V-ing, look forward to",
+          "rule": "Sau **giới từ** (in, on, by, for, without, after, before, about, of…) luôn dùng **V-ing**, không dùng to V.\n• He improved sales **by offering** discounts.\nĐặc biệt: trong **look forward to**, từ **to** là giới từ nên theo sau là **V-ing**: We look forward to **meeting** you.",
+          "examples": [
+            {
+              "en": "He improved sales by [[offering]] discounts.",
+              "vi": "Anh ấy cải thiện doanh số bằng cách đưa ra giảm giá."
+            },
+            {
+              "en": "We look forward to [[meeting]] you next week.",
+              "vi": "Chúng tôi mong được gặp bạn vào tuần tới."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Thank you for ___ us with the arrangements.",
+              "o": [
+                "help",
+                "helping",
+                "to help"
+              ],
+              "a": 1,
+              "e": "Sau giới từ 'for' dùng V-ing: 'helping'. 'help' và 'to help' không đúng sau giới từ."
+            },
+            {
+              "q": "We look forward to ___ you at the event.",
+              "o": [
+                "see",
+                "seeing",
+                "to see"
+              ],
+              "a": 1,
+              "e": "Trong 'look forward to', 'to' là giới từ nên theo sau là V-ing: 'seeing'. 'see' và 'to see' đều sai."
+            }
+          ]
+        },
+        {
+          "title": "Used to và be used to",
+          "rule": "• **used to + V**: thói quen hoặc trạng thái trong QUÁ KHỨ (nay không còn).\n• **be used to / get used to + V-ing**: QUEN VỚI việc gì.\nPhân biệt: **to** của 'used to + V' là một phần của to V, còn **to** của 'be used to' là giới từ nên theo sau là V-ing.",
+          "examples": [
+            {
+              "en": "Our office [[used to]] be on Main Street.",
+              "vi": "Văn phòng của chúng tôi từng nằm trên phố Main."
+            },
+            {
+              "en": "I am used to [[working]] long hours.",
+              "vi": "Tôi đã quen với việc làm việc nhiều giờ."
+            }
+          ],
+          "checks": [
+            {
+              "q": "She is used to ___ with large teams.",
+              "o": [
+                "work",
+                "working",
+                "worked"
+              ],
+              "a": 1,
+              "e": "'be used to' (quen với) có 'to' là giới từ nên theo sau là V-ing: 'working'. 'work' và 'worked' không đúng sau giới từ."
+            },
+            {
+              "q": "We ___ meet every Monday, but now we meet on Fridays.",
+              "o": [
+                "used to",
+                "are used to",
+                "get used to"
+              ],
+              "a": 0,
+              "e": "Nghĩa là thói quen trong quá khứ nay đã đổi, nên dùng 'used to + V': 'used to'. 'are used to' và 'get used to' phải đi với V-ing."
+            }
+          ]
+        },
+        {
+          "title": "Stop, remember, forget: V-ing hay to V",
+          "rule": "• **remember / forget + to V**: nhớ/quên phải làm (việc CHƯA làm). Don't forget **to lock** the door.\n• **remember / forget + V-ing**: nhớ/quên chuyện ĐÃ làm. I remember **meeting** him in 2019.\n• **stop + V-ing**: ngừng hẳn việc đó. **stop + to V**: dừng lại để làm việc khác.\nHãy dựa vào ngữ cảnh: việc ở tương lai/cần làm → to V; việc đã qua → V-ing.",
+          "examples": [
+            {
+              "en": "Please remember [[to lock]] the door.",
+              "vi": "Hãy nhớ khóa cửa."
+            },
+            {
+              "en": "I remember [[meeting]] him at the 2019 conference.",
+              "vi": "Tôi nhớ đã gặp anh ấy tại hội nghị năm 2019."
+            },
+            {
+              "en": "She stopped [[to buy]] coffee on her way to work.",
+              "vi": "Cô ấy dừng lại để mua cà phê trên đường đi làm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Don't forget ___ the lights before you leave.",
+              "o": [
+                "to turn off",
+                "turning off",
+                "turned off"
+              ],
+              "a": 0,
+              "e": "'before you leave' cho thấy việc cần làm trong tương lai, nên 'forget + to V': 'to turn off'. 'turning off' chỉ chuyện đã làm và 'turned off' không đúng cấu trúc."
+            },
+            {
+              "q": "The company stopped ___ paper cups to protect the environment.",
+              "o": [
+                "to use",
+                "using",
+                "use"
+              ],
+              "a": 1,
+              "e": "Nghĩa là công ty ngừng hẳn việc dùng cốc giấy nên cần 'stop + V-ing': 'using'. 'to use' có nghĩa dừng lại để dùng, không hợp nghĩa; 'use' sai cấu trúc."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "We are considering ___ our office to a larger building.",
+          "o": [
+            "to move",
+            "moving",
+            "move"
+          ],
+          "a": 1,
+          "e": "'consider' đi với V-ing nên chọn 'moving'. 'to move' và 'move' không đúng sau consider."
+        },
+        {
+          "q": "The director decided ___ the training program.",
+          "o": [
+            "to cancel",
+            "cancelling",
+            "cancel"
+          ],
+          "a": 0,
+          "e": "'decide' đi với to V nên chọn 'to cancel'. 'cancelling' sai vì decide không đi với V-ing và 'cancel' thiếu 'to'."
+        },
+        {
+          "q": "Please avoid ___ personal calls during work hours.",
+          "o": [
+            "to make",
+            "making",
+            "make"
+          ],
+          "a": 1,
+          "e": "'avoid' đi với V-ing nên chọn 'making'. 'to make' và 'make' không đúng sau avoid."
+        },
+        {
+          "q": "Ms. Nguyen hopes ___ the project by December.",
+          "o": [
+            "finishing",
+            "to finish",
+            "finish"
+          ],
+          "a": 1,
+          "e": "'hope' đi với to V nên chọn 'to finish'. 'finishing' và 'finish' không đúng sau hope."
+        },
+        {
+          "q": "He improved his English by ___ business emails every day.",
+          "o": [
+            "write",
+            "writing",
+            "to write"
+          ],
+          "a": 1,
+          "e": "Sau giới từ 'by' dùng V-ing: 'writing'. 'write' và 'to write' không đúng sau giới từ."
+        },
+        {
+          "q": "Our team has finished ___ the quarterly report.",
+          "o": [
+            "to prepare",
+            "preparing",
+            "prepare"
+          ],
+          "a": 1,
+          "e": "'finish' đi với V-ing nên chọn 'preparing'. 'to prepare' và 'prepare' không đúng sau finish."
+        },
+        {
+          "q": "The shop cannot afford ___ its prices any lower.",
+          "o": [
+            "to cut",
+            "cutting",
+            "cut"
+          ],
+          "a": 0,
+          "e": "'afford' đi với to V nên chọn 'to cut'. 'cutting' và 'cut' không đúng sau afford."
+        },
+        {
+          "q": "I look forward to ___ from you soon.",
+          "o": [
+            "hear",
+            "hearing",
+            "to hear"
+          ],
+          "a": 1,
+          "e": "Trong 'look forward to', 'to' là giới từ nên theo sau là V-ing: 'hearing'. 'hear' và 'to hear' đều sai."
+        },
+        {
+          "q": "Please remember ___ the report to the director by five o'clock.",
+          "o": [
+            "to send",
+            "sending",
+            "send"
+          ],
+          "a": 0,
+          "e": "Mốc 'by five o'clock' là việc cần làm sắp tới, nên 'remember + to V': 'to send'. 'sending' chỉ việc đã làm và 'send' sai cấu trúc."
+        },
+        {
+          "q": "He is used to ___ up early, so he is never late.",
+          "o": [
+            "get",
+            "getting",
+            "got"
+          ],
+          "a": 1,
+          "e": "'be used to' (quen với) có 'to' là giới từ nên theo sau là V-ing: 'getting'. 'get' và 'got' không đúng sau giới từ."
+        }
+      ]
+    },
+    {
+      "id": "comp",
+      "k": "comp",
+      "week": 4,
+      "title": "So sánh",
+      "intro": "Part 5 thường cho chỗ trống ở câu so sánh và 4 đáp án là các dạng khác nhau của một tính từ. Các từ nhận biết như than, the, as… as, much cho biết ngay cần dạng nào.",
+      "steps": [
+        {
+          "title": "So sánh hơn",
+          "rule": "• Tính từ **ngắn** (1 âm tiết): **adj + -er + than**: fast → **faster than**.\n• Tính từ **dài** (2 âm tiết trở lên): **more + adj + than**: reliable → **more reliable than**.\nThấy **than** sau chỗ trống thì cần **so sánh hơn**. Không dùng cùng lúc cả -er và more.",
+          "examples": [
+            {
+              "en": "Our new office is [[larger than]] the old one.",
+              "vi": "Văn phòng mới của chúng tôi rộng hơn văn phòng cũ."
+            },
+            {
+              "en": "This model is [[more reliable than]] the previous one.",
+              "vi": "Mẫu này đáng tin cậy hơn mẫu trước."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The new printer is ___ than the old one.",
+              "o": [
+                "fast",
+                "faster",
+                "more fast"
+              ],
+              "a": 1,
+              "e": "'than' cho thấy cần so sánh hơn, và 'fast' là tính từ ngắn nên dùng 'faster'. 'fast' là nguyên dạng, còn 'more fast' sai vì tính từ ngắn dùng -er."
+            },
+            {
+              "q": "This route is ___ than the highway.",
+              "o": [
+                "more convenient",
+                "convenienter",
+                "most convenient"
+              ],
+              "a": 0,
+              "e": "'convenient' là tính từ dài nên so sánh hơn là 'more convenient' đi với 'than'. 'convenienter' sai dạng và 'most convenient' là so sánh nhất."
+            }
+          ]
+        },
+        {
+          "title": "So sánh nhất",
+          "rule": "• Tính từ ngắn: **the + adj + -est**: cheap → **the cheapest**.\n• Tính từ dài: **the most + adj**: experienced → **the most experienced**.\nThường đi với nhóm để so sánh: **in** the team, **of** all, **among**…\nSo sánh nhất luôn có **the**.",
+          "examples": [
+            {
+              "en": "This is [[the cheapest]] option we have.",
+              "vi": "Đây là lựa chọn rẻ nhất mà chúng tôi có."
+            },
+            {
+              "en": "She is [[the most experienced]] member of the team.",
+              "vi": "Cô ấy là thành viên giàu kinh nghiệm nhất trong nhóm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Of all the candidates, Ms. Cho is ___ qualified.",
+              "o": [
+                "the most",
+                "more",
+                "as"
+              ],
+              "a": 0,
+              "e": "'Of all the candidates' cho thấy so sánh nhất với tính từ dài: 'the most qualified'. 'more' cần 'than' và 'as' cần 'as' phía sau."
+            },
+            {
+              "q": "This is the ___ day of the year for our store.",
+              "o": [
+                "busier",
+                "busiest",
+                "most busy"
+              ],
+              "a": 1,
+              "e": "Có 'the' và 'of the year' nên cần so sánh nhất. 'busy' là tính từ ngắn nên dạng đúng là 'busiest'. 'busier' là so sánh hơn và 'most busy' sai dạng."
+            }
+          ]
+        },
+        {
+          "title": "As … as và so sánh kép",
+          "rule": "• **as + adj + as** = bằng nhau. Giữa hai chữ **as** dùng tính từ nguyên dạng: as **good** as.\n• Phủ định: **not as/so + adj + as** (không bằng).\n• **So sánh kép**: **The + so sánh hơn, the + so sánh hơn** = càng… càng…: The **more** you practice, the **better** you become.",
+          "examples": [
+            {
+              "en": "Our service is [[as good as]] theirs.",
+              "vi": "Dịch vụ của chúng tôi tốt không kém của họ."
+            },
+            {
+              "en": "[[The more]] you practice, [[the better]] you become.",
+              "vi": "Bạn càng luyện tập nhiều thì càng giỏi hơn."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our prices are as ___ as those of our competitors.",
+              "o": [
+                "low",
+                "lower",
+                "lowest"
+              ],
+              "a": 0,
+              "e": "Giữa 'as … as' dùng tính từ nguyên dạng: 'low'. 'lower' là so sánh hơn và 'lowest' là so sánh nhất, đều không dùng giữa hai chữ as."
+            },
+            {
+              "q": "The more you practice, the ___ you become.",
+              "o": [
+                "good",
+                "better",
+                "best"
+              ],
+              "a": 1,
+              "e": "Cấu trúc 'The + so sánh hơn, the + so sánh hơn' nên cần 'better'. 'good' là nguyên dạng và 'best' là so sánh nhất."
+            }
+          ]
+        },
+        {
+          "title": "Much, far, even + so sánh hơn",
+          "rule": "Để nhấn mạnh mức độ hơn kém, đặt **much / far / even / a lot / significantly** trước dạng **so sánh hơn**.\n• The new model is **much cheaper** than the old one.\nKHÔNG dùng **very** hoặc **so** trước so sánh hơn: very cheaper là sai.",
+          "examples": [
+            {
+              "en": "The new model is [[much cheaper]] than the old one.",
+              "vi": "Mẫu mới rẻ hơn nhiều so với mẫu cũ."
+            },
+            {
+              "en": "Sales were [[far higher]] than we expected.",
+              "vi": "Doanh số cao hơn hẳn so với dự kiến của chúng tôi."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Online sales were ___ higher than last year's.",
+              "o": [
+                "very",
+                "much",
+                "most"
+              ],
+              "a": 1,
+              "e": "Trước so sánh hơn 'higher' dùng 'much' để nhấn mạnh. 'very' không đứng trước so sánh hơn và 'most' dành cho so sánh nhất."
+            },
+            {
+              "q": "The second proposal is even ___ than the first.",
+              "o": [
+                "more detailed",
+                "most detailed",
+                "detailed"
+              ],
+              "a": 0,
+              "e": "'even' đi với so sánh hơn và có 'than', nên chọn 'more detailed'. 'most detailed' là so sánh nhất còn 'detailed' là nguyên dạng."
+            }
+          ]
+        },
+        {
+          "title": "Tính từ bất quy tắc",
+          "rule": "Một số tính từ có dạng so sánh riêng:\n• **good → better → the best**\n• **bad → worse → the worst**\n• **many/much → more → the most**\n• **little → less → the least**\n• **far → farther/further → the farthest/furthest**\nKhông thêm -er hoặc more vào các từ này.",
+          "examples": [
+            {
+              "en": "This year's results are [[better]] than last year's.",
+              "vi": "Kết quả năm nay tốt hơn năm ngoái."
+            },
+            {
+              "en": "That was [[the worst]] storm in decades.",
+              "vi": "Đó là cơn bão tồi tệ nhất trong nhiều thập kỷ."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our customer service is ___ than that of our competitors.",
+              "o": [
+                "gooder",
+                "better",
+                "best"
+              ],
+              "a": 1,
+              "e": "'good' có dạng so sánh hơn bất quy tắc là 'better', đi với 'than'. 'gooder' không tồn tại và 'best' là so sánh nhất."
+            },
+            {
+              "q": "The delay made the situation ___ than before.",
+              "o": [
+                "badder",
+                "worse",
+                "worst"
+              ],
+              "a": 1,
+              "e": "'bad' có dạng so sánh hơn bất quy tắc là 'worse', đi với 'than'. 'badder' không tồn tại và 'worst' là so sánh nhất."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "This briefcase is ___ than my old one.",
+          "o": [
+            "lighter",
+            "light",
+            "lightest"
+          ],
+          "a": 0,
+          "e": "'than' cho thấy cần so sánh hơn, 'light' là tính từ ngắn nên dùng 'lighter'. 'light' là nguyên dạng và 'lightest' là so sánh nhất."
+        },
+        {
+          "q": "Mr. Lee is the ___ manager in our company.",
+          "o": [
+            "youngest",
+            "more young",
+            "most young"
+          ],
+          "a": 0,
+          "e": "Có 'the' và so sánh trong cả công ty nên cần so sánh nhất của tính từ ngắn: 'youngest'. 'more young' và 'most young' sai dạng với tính từ ngắn."
+        },
+        {
+          "q": "The new schedule is ___ than the old one.",
+          "o": [
+            "more flexible",
+            "flexible",
+            "most flexible"
+          ],
+          "a": 0,
+          "e": "'than' cho thấy cần so sánh hơn, 'flexible' là tính từ dài nên dùng 'more flexible'. 'flexible' là nguyên dạng và 'most flexible' là so sánh nhất."
+        },
+        {
+          "q": "Our hotel is as ___ as the one across the street.",
+          "o": [
+            "expensive",
+            "more expensive",
+            "most expensive"
+          ],
+          "a": 0,
+          "e": "Giữa 'as … as' dùng tính từ nguyên dạng: 'expensive'. 'more expensive' và 'most expensive' không dùng giữa hai chữ as."
+        },
+        {
+          "q": "The ___ you work, the more you earn.",
+          "o": [
+            "harder",
+            "hard",
+            "hardest"
+          ],
+          "a": 0,
+          "e": "Cấu trúc so sánh kép 'The + so sánh hơn, the + so sánh hơn' nên cần 'harder'. 'hard' là nguyên dạng và 'hardest' là so sánh nhất."
+        },
+        {
+          "q": "Today's meeting was ___ longer than usual.",
+          "o": [
+            "much",
+            "very",
+            "most"
+          ],
+          "a": 0,
+          "e": "Trước so sánh hơn 'longer' dùng 'much' để nhấn mạnh. 'very' không đứng trước so sánh hơn và 'most' dành cho so sánh nhất."
+        },
+        {
+          "q": "This is the ___ proposal we have received this year.",
+          "o": [
+            "best",
+            "most good",
+            "gooder"
+          ],
+          "a": 0,
+          "e": "Có 'the' và 'this year' nên cần so sánh nhất của 'good', là 'best' (bất quy tắc). 'most good' và 'gooder' đều không đúng."
+        },
+        {
+          "q": "Sales this month are ___ than last month's.",
+          "o": [
+            "worse",
+            "worst",
+            "more bad"
+          ],
+          "a": 0,
+          "e": "'than' cho thấy cần so sánh hơn và 'bad' có dạng bất quy tắc là 'worse'. 'worst' là so sánh nhất và 'more bad' sai dạng."
+        },
+        {
+          "q": "The Tokyo office is ___ of all our branches.",
+          "o": [
+            "the largest",
+            "larger",
+            "as large"
+          ],
+          "a": 0,
+          "e": "'of all our branches' cho thấy so sánh nhất: 'the largest'. 'larger' cần 'than' và 'as large' cần 'as' phía sau."
+        },
+        {
+          "q": "Express delivery is ___ expensive than regular delivery.",
+          "o": [
+            "more",
+            "most",
+            "very"
+          ],
+          "a": 0,
+          "e": "'than' cho thấy cần so sánh hơn của tính từ dài: 'more expensive'. 'most' là so sánh nhất và 'very' không đi với 'than'."
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "k": "modal",
+      "week": 4,
+      "title": "Động từ khuyết thiếu",
+      "intro": "Part 5 thường bẫy bằng cách chia sai động từ sau modal hoặc chọn sai dạng 'modal + have + V3'. Nắm chắc công thức và nghĩa của từng modal là chọn đúng trong vài giây.",
+      "steps": [
+        {
+          "title": "Modal + V nguyên mẫu (không chia modal)",
+          "rule": "Các modal: **can, could, may, might, will, would, shall, should, must**.\n• Sau modal luôn là **V nguyên mẫu KHÔNG 'to'**: must *wear*, can *speak*.\n• Modal **không chia**: không thêm -s ở ngôi thứ ba (He **can**, không phải 'cans'), không có -ing hay -ed đi sau.\n• Phủ định: **modal + not + V**: cannot / can't, should not, must not.",
+          "examples": [
+            {
+              "en": "The manager can [[approve]] the request today.",
+              "vi": "Quản lý có thể phê duyệt yêu cầu ngay hôm nay."
+            },
+            {
+              "en": "Visitors must [[wear]] a badge inside the building.",
+              "vi": "Khách phải đeo thẻ bên trong tòa nhà."
+            },
+            {
+              "en": "Ms. Lee should not [[send]] the invoice before Monday.",
+              "vi": "Cô Lee không nên gửi hóa đơn trước thứ Hai."
+            }
+          ],
+          "checks": [
+            {
+              "q": "All employees must ___ their ID badges at the entrance.",
+              "o": [
+                "wear",
+                "wearing",
+                "to wear"
+              ],
+              "a": 0,
+              "e": "Sau modal 'must' dùng V nguyên mẫu không 'to': 'wear'. 'wearing' và 'to wear' đều sai cấu trúc."
+            },
+            {
+              "q": "The new assistant can ___ three languages.",
+              "o": [
+                "speaks",
+                "speak",
+                "speaking"
+              ],
+              "a": 1,
+              "e": "Modal 'can' không chia theo ngôi và theo sau là V nguyên mẫu: 'speak'. 'speaks' (thêm -s) và 'speaking' đều sai."
+            }
+          ]
+        },
+        {
+          "title": "Nghĩa của từng modal",
+          "rule": "• **can / could**: khả năng; xin phép hoặc nhờ vả (**Could you...?** lịch sự hơn Can you...?).\n• **may / might**: khả năng có thể xảy ra (**might** yếu hơn may); **May I...?** xin phép lịch sự.\n• **will / would**: dự đoán tương lai, hứa hẹn; **would** dùng cho lời đề nghị lịch sự và câu điều kiện.\n• **should**: lời khuyên, điều nên làm. **Shall I / Shall we...?** dùng để đề nghị hoặc rủ rê.\nKhi câu có ý 'không chắc chắn' thì dùng **may / might**, không dùng must.",
+          "examples": [
+            {
+              "en": "[[Could]] you send me the meeting agenda?",
+              "vi": "Bạn có thể gửi cho tôi chương trình cuộc họp được không?"
+            },
+            {
+              "en": "[[Shall]] we begin the presentation now?",
+              "vi": "Chúng ta bắt đầu bài thuyết trình bây giờ nhé?"
+            },
+            {
+              "en": "You [[should]] book your flight early to save money.",
+              "vi": "Bạn nên đặt vé máy bay sớm để tiết kiệm tiền."
+            }
+          ],
+          "checks": [
+            {
+              "q": "We are not sure yet, but the client ___ accept our new proposal.",
+              "o": [
+                "might",
+                "must",
+                "shall"
+              ],
+              "a": 0,
+              "e": "'We are not sure yet' diễn tả khả năng không chắc chắn nên dùng 'might'. 'must' mang nghĩa chắc chắn hoặc bắt buộc; 'shall' không hợp ngữ cảnh."
+            }
+          ]
+        },
+        {
+          "title": "must / have to / should và phủ định",
+          "rule": "• **must**: bắt buộc (do người nói hoặc quy định nội bộ). **have to**: bắt buộc, có chia theo ngôi và thì (**has to**, **had to**).\n• **should**: nên (không bắt buộc).\n• Phủ định khác nghĩa hoàn toàn: **must not** = CẤM; **don't / doesn't have to** = KHÔNG CẦN (không bắt buộc).\n• Sau **has to / have to** cũng là V nguyên mẫu; không dùng 'must to'.",
+          "examples": [
+            {
+              "en": "Visitors [[must not]] enter the laboratory.",
+              "vi": "Khách không được vào phòng thí nghiệm."
+            },
+            {
+              "en": "Employees [[don't have to]] work on public holidays.",
+              "vi": "Nhân viên không cần phải làm việc vào các ngày lễ."
+            },
+            {
+              "en": "Mr. Park [[has to]] renew his license every year.",
+              "vi": "Ông Park phải gia hạn giấy phép mỗi năm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Staff ___ attend the workshop; it is optional.",
+              "o": [
+                "must",
+                "don't have to",
+                "must not"
+              ],
+              "a": 1,
+              "e": "Workshop là 'optional' (không bắt buộc) nên dùng 'don't have to' (không cần). 'must' là bắt buộc, 'must not' là cấm, đều trái với ngữ cảnh."
+            },
+            {
+              "q": "Ms. Cho ___ submit the form by Friday.",
+              "o": [
+                "have to",
+                "has to",
+                "having to"
+              ],
+              "a": 1,
+              "e": "Chủ ngữ ngôi thứ ba số ít 'Ms. Cho' nên dùng 'has to' + V nguyên mẫu. 'have to' sai ngôi, 'having to' không đứng một mình làm động từ chính."
+            }
+          ]
+        },
+        {
+          "title": "Modal + have + V3",
+          "rule": "Dùng để nói về **quá khứ**: **modal + have + V3** (have giữ nguyên, không chia).\n• **should have done**: đáng lẽ đã nên làm (nhưng đã không làm).\n• **must have been**: chắc hẳn đã (suy đoán chắc chắn về quá khứ).\n• **may / might have done**: có lẽ đã.\n• **could have done**: đã có thể làm (nhưng không làm).\n• **can't have done**: chắc chắn đã không.\nDấu hiệu: có từ chỉ quá khứ (yesterday, last night, already) hoặc bằng chứng ở hiện tại cho một việc đã xảy ra.",
+          "examples": [
+            {
+              "en": "You [[should have called]] the client before the deadline.",
+              "vi": "Lẽ ra bạn nên gọi cho khách hàng trước hạn chót."
+            },
+            {
+              "en": "The package [[must have arrived]] yesterday; the receipt is signed.",
+              "vi": "Kiện hàng chắc hẳn đã đến hôm qua; biên nhận đã được ký."
+            },
+            {
+              "en": "The meeting [[might have been]] cancelled because of the storm.",
+              "vi": "Cuộc họp có lẽ đã bị hủy vì cơn bão."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The lights are still on, so someone ___ in the office late last night.",
+              "o": [
+                "must stay",
+                "must have stayed",
+                "must stayed"
+              ],
+              "a": 1,
+              "e": "'late last night' là quá khứ và có bằng chứng (đèn còn sáng) nên dùng 'must have stayed'. 'must stay' là hiện tại; 'must stayed' sai vì sau modal không dùng V2."
+            },
+            {
+              "q": "We should have ___ the contract carefully before signing it.",
+              "o": [
+                "review",
+                "reviewed",
+                "reviewing"
+              ],
+              "a": 1,
+              "e": "Cấu trúc 'should have + V3': 'reviewed'. 'review' (nguyên mẫu) và 'reviewing' (V-ing) không đứng sau 'have' trong cấu trúc này."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "Customers can ___ their orders on our website.",
+          "o": [
+            "track",
+            "tracks",
+            "tracking"
+          ],
+          "a": 0,
+          "e": "Sau modal 'can' dùng V nguyên mẫu: 'track'. Không thêm -s hay -ing."
+        },
+        {
+          "q": "All visitors must ___ at the front desk.",
+          "o": [
+            "register",
+            "registering",
+            "registered"
+          ],
+          "a": 0,
+          "e": "Sau modal 'must' dùng V nguyên mẫu: 'register'. 'registering' và 'registered' đều sai."
+        },
+        {
+          "q": "You should have ___ us about the schedule change.",
+          "o": [
+            "told",
+            "tell",
+            "telling"
+          ],
+          "a": 0,
+          "e": "Cấu trúc 'should have + V3': 'told' (V3 của tell). 'tell' và 'telling' không đứng sau 'have' ở cấu trúc này."
+        },
+        {
+          "q": "Employees ___ park in the visitor lot; it is reserved for guests.",
+          "o": [
+            "must not",
+            "don't have to",
+            "may to"
+          ],
+          "a": 0,
+          "e": "Bãi đỗ xe dành riêng cho khách nên nhân viên bị CẤM đỗ: 'must not'. 'don't have to' (không cần) sai nghĩa; 'may to' sai cấu trúc."
+        },
+        {
+          "q": "Mr. Evans ___ to work overtime this week because of the audit.",
+          "o": [
+            "have",
+            "has",
+            "must"
+          ],
+          "a": 1,
+          "e": "Chủ ngữ ngôi thứ ba số ít nên dùng 'has to'. 'have' sai ngôi; 'must to' sai vì sau must không có 'to'."
+        },
+        {
+          "q": "The door was locked, so the cleaners ___ gone home already.",
+          "o": [
+            "must have",
+            "must",
+            "can"
+          ],
+          "a": 0,
+          "e": "'already' và 'was locked' cho thấy suy đoán chắc chắn về quá khứ: 'must have gone'. 'must gone' và 'can gone' đều sai cấu trúc."
+        },
+        {
+          "q": "___ I help you carry those boxes?",
+          "o": [
+            "Shall",
+            "Does",
+            "Am"
+          ],
+          "a": 0,
+          "e": "'Shall I...?' dùng để đề nghị giúp đỡ. 'Does I' và 'Am I help' đều sai ngữ pháp."
+        },
+        {
+          "q": "The conference room is small, so it ___ hold more than twenty people.",
+          "o": [
+            "can't",
+            "can",
+            "will"
+          ],
+          "a": 0,
+          "e": "'is small, so...' cho biết phòng không đủ chỗ nên dùng phủ định 'can't'. 'can' và 'will' khẳng định, trái với ý của câu."
+        },
+        {
+          "q": "Passengers should ___ their boarding passes ready at the gate.",
+          "o": [
+            "have",
+            "has",
+            "having"
+          ],
+          "a": 0,
+          "e": "Sau modal 'should' dùng V nguyên mẫu: 'have'. 'has' (chia ngôi) và 'having' (V-ing) đều sai."
+        },
+        {
+          "q": "We might ___ the launch date if the supplier is late.",
+          "o": [
+            "postpone",
+            "to postpone",
+            "postponing"
+          ],
+          "a": 0,
+          "e": "Sau modal 'might' dùng V nguyên mẫu không 'to': 'postpone'. 'to postpone' và 'postponing' sai cấu trúc."
+        }
+      ]
+    },
+    {
+      "id": "np",
+      "k": "np",
+      "week": 5,
+      "title": "Cụm danh từ — bẫy 'the + tính từ'",
+      "intro": "Chỗ trống trong Part 5 thường nằm giữa một cụm danh từ dài, và đề hay bẫy ở danh từ ghép, danh từ không đếm được hoặc 'the + tính từ'. Hiểu cấu trúc cụm danh từ giúp bạn chọn đúng từ loại mà không cần dịch cả câu.",
+      "steps": [
+        {
+          "title": "Cấu trúc cụm danh từ",
+          "rule": "Cụm danh từ có dạng: **hạn định từ + (trạng từ) + tính từ + DANH TỪ CHÍNH**.\n• Hạn định từ: **a / an / the, this / that, my / their, some / many / two**…\n• **Danh từ chính luôn đứng cuối** cụm; mọi từ phía trước chỉ bổ nghĩa cho nó.\n• Vì vậy ngay sau một mạo từ hoặc tính từ mà chưa có danh từ thì chỗ trống thường cần **danh từ**.",
+          "examples": [
+            {
+              "en": "We hired [[an experienced accountant]] last month.",
+              "vi": "Chúng tôi đã thuê một kế toán giàu kinh nghiệm vào tháng trước."
+            },
+            {
+              "en": "Their [[new marketing strategy]] attracted many clients.",
+              "vi": "Chiến lược tiếp thị mới của họ đã thu hút nhiều khách hàng."
+            },
+            {
+              "en": "She presented [[the quarterly sales report]] to the board.",
+              "vi": "Cô ấy trình bày báo cáo doanh số quý cho hội đồng quản trị."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Our newly hired ___ will start on Monday.",
+              "o": [
+                "employ",
+                "employee",
+                "employing"
+              ],
+              "a": 1,
+              "e": "Sau 'Our newly hired' (tính từ sở hữu + trạng từ + tính từ) cần danh từ chính làm chủ ngữ: 'employee'. 'employ' là động từ, 'employing' là V-ing."
+            }
+          ]
+        },
+        {
+          "title": "Danh từ ghép (noun + noun)",
+          "rule": "Hai danh từ đứng cạnh nhau tạo thành **danh từ ghép**; **danh từ đầu bổ nghĩa**, **danh từ cuối là danh từ chính** (quyết định động từ và số ít / số nhiều).\n• Danh từ đứng đầu thường ở dạng **số ít**: a *job* application, a *travel* expense.\n• Một số cụm cố định có -s: **sales figures, savings account, customs office**.\n• Cụm quen thuộc: **customer service, safety regulations, employee benefits, job application**.",
+          "examples": [
+            {
+              "en": "The [[sales figures]] improved in March.",
+              "vi": "Số liệu doanh số đã cải thiện vào tháng Ba."
+            },
+            {
+              "en": "Please submit your [[travel expense report]] by Friday.",
+              "vi": "Vui lòng nộp báo cáo chi phí đi lại trước thứ Sáu."
+            },
+            {
+              "en": "The [[safety regulations]] apply to every worker.",
+              "vi": "Các quy định an toàn áp dụng cho mọi công nhân."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The customer service department ___ open from nine to five.",
+              "o": [
+                "is",
+                "are",
+                "be"
+              ],
+              "a": 0,
+              "e": "Danh từ chính của cụm là 'department' (số ít) nên động từ là 'is'. 'customer service' chỉ bổ nghĩa cho 'department'. 'are' sai số, 'be' không chia."
+            },
+            {
+              "q": "The ___ figures for May exceeded our forecast.",
+              "o": [
+                "sales",
+                "sold",
+                "selling"
+              ],
+              "a": 0,
+              "e": "'sales figures' là danh từ ghép cố định (số liệu doanh số). 'sold' là V3 và 'selling' là V-ing, không tạo cụm này."
+            }
+          ]
+        },
+        {
+          "title": "Đếm được và không đếm được trong cụm",
+          "rule": "• **Không đếm được** (không có -s, không dùng a/an): **information, advice, equipment, furniture, luggage, feedback, news, traffic, research, progress**. Đi với **much, little, a great deal of, some**; đếm bằng 'a piece of'.\n• **Đếm được số nhiều** đi với **many, several, a few, fewer, a number of**.\n• **a / an** chỉ đi với danh từ đếm được **số ít**.\n• Bẫy: **staff** là không đếm được (staff members mới đếm được).",
+          "examples": [
+            {
+              "en": "We received [[useful information]] from the survey.",
+              "vi": "Chúng tôi nhận được thông tin hữu ích từ cuộc khảo sát."
+            },
+            {
+              "en": "The company bought [[new equipment]] for the factory.",
+              "vi": "Công ty đã mua thiết bị mới cho nhà máy."
+            },
+            {
+              "en": "[[Many applicants]] attended the job fair.",
+              "vi": "Nhiều ứng viên đã tham dự hội chợ việc làm."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The consultant gave us several pieces of ___.",
+              "o": [
+                "advice",
+                "advices",
+                "an advice"
+              ],
+              "a": 0,
+              "e": "'advice' là danh từ không đếm được, không thêm -s và không dùng 'an'. Muốn đếm thì dùng 'pieces of advice'."
+            },
+            {
+              "q": "We have received ___ feedback from customers so far.",
+              "o": [
+                "a few",
+                "many",
+                "little"
+              ],
+              "a": 2,
+              "e": "'feedback' không đếm được nên đi với 'little'. 'a few' và 'many' chỉ đi với danh từ đếm được số nhiều."
+            }
+          ]
+        },
+        {
+          "title": "The + tính từ chỉ nhóm người",
+          "rule": "**the + tính từ** có thể chỉ **cả một nhóm người**: **the unemployed** (người thất nghiệp), **the elderly** (người cao tuổi), **the wealthy, the injured, the disabled, the young**.\n• Nghĩa là **số nhiều**, nên động từ chia số nhiều: The elderly **are**…\n• **Không thêm -s** vào tính từ (không nói 'the unemployeds').\n• Cụm này chỉ cả nhóm người, không dùng cho một người cụ thể.",
+          "examples": [
+            {
+              "en": "[[The unemployed]] are eligible for free training.",
+              "vi": "Người thất nghiệp đủ điều kiện nhận khóa đào tạo miễn phí."
+            },
+            {
+              "en": "The program provides housing for [[the elderly]].",
+              "vi": "Chương trình cung cấp nhà ở cho người cao tuổi."
+            },
+            {
+              "en": "[[The injured]] were taken to the nearest hospital.",
+              "vi": "Những người bị thương được đưa đến bệnh viện gần nhất."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The government has created new jobs for the ___.",
+              "o": [
+                "unemployed",
+                "unemployment",
+                "unemploy"
+              ],
+              "a": 0,
+              "e": "Cần một nhóm người sau 'the': 'the unemployed' (người thất nghiệp). 'unemployment' là tình trạng thất nghiệp, không hợp 'jobs for'; 'unemploy' không phải từ đúng."
+            },
+            {
+              "q": "The elderly ___ entitled to a discount on public transport.",
+              "o": [
+                "is",
+                "are",
+                "was"
+              ],
+              "a": 1,
+              "e": "'the elderly' mang nghĩa số nhiều (những người cao tuổi) nên dùng 'are'. 'is' và 'was' là động từ số ít."
+            }
+          ]
+        },
+        {
+          "title": "Vị trí của tính từ và trạng từ bổ nghĩa tính từ",
+          "rule": "• **Tính từ đứng trước danh từ**, không đứng sau (trừ something / someone + tính từ: something *new*).\n• Muốn nhấn mạnh tính từ thì dùng **trạng từ (-ly) đứng TRƯỚC tính từ**: **highly qualified, newly renovated, recently appointed, extremely useful**.\n• Sau trạng từ + tính từ vẫn cần một danh từ chính: a *recently appointed* manager.\n• Không dùng tính từ để bổ nghĩa tính từ: nói **extremely** useful, không nói 'extreme useful'.",
+          "examples": [
+            {
+              "en": "We are looking for a [[highly qualified]] candidate.",
+              "vi": "Chúng tôi đang tìm một ứng viên có trình độ cao."
+            },
+            {
+              "en": "The [[newly renovated]] lobby opened yesterday.",
+              "vi": "Sảnh được cải tạo mới đã mở cửa hôm qua."
+            },
+            {
+              "en": "It was a [[remarkably successful]] campaign.",
+              "vi": "Đó là một chiến dịch thành công vượt trội."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The ___ appointed manager will introduce herself tomorrow.",
+              "o": [
+                "recent",
+                "recently",
+                "recency"
+              ],
+              "a": 1,
+              "e": "Trước tính từ/phân từ 'appointed' cần trạng từ bổ nghĩa: 'recently'. 'recent' là tính từ nên không bổ nghĩa cho tính từ khác; 'recency' là danh từ."
+            },
+            {
+              "q": "The workshop was ___ useful for new employees.",
+              "o": [
+                "extreme",
+                "extremely",
+                "extremity"
+              ],
+              "a": 1,
+              "e": "Trước tính từ 'useful' cần trạng từ: 'extremely'. 'extreme' là tính từ, 'extremity' là danh từ."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "Please submit your ___ application online.",
+          "o": [
+            "job",
+            "jobs",
+            "jobless"
+          ],
+          "a": 0,
+          "e": "Trong danh từ ghép, danh từ đứng đầu thường ở dạng số ít: 'job application'. 'jobs' sai dạng, 'jobless' là tính từ nghĩa thất nghiệp."
+        },
+        {
+          "q": "We have not received any ___ about the delay.",
+          "o": [
+            "information",
+            "informations",
+            "an information"
+          ],
+          "a": 0,
+          "e": "'information' là danh từ không đếm được, không thêm -s và không dùng 'an'."
+        },
+        {
+          "q": "The community center offers free classes for the ___.",
+          "o": [
+            "elderly",
+            "elderlies",
+            "elderliness"
+          ],
+          "a": 0,
+          "e": "'the elderly' chỉ nhóm người cao tuổi, không thêm -s. 'elderlies' là dạng sai; 'elderliness' là danh từ trừu tượng, không chỉ nhóm người."
+        },
+        {
+          "q": "The cafeteria is ___ popular among the staff.",
+          "o": [
+            "incredible",
+            "incredibly",
+            "incredibility"
+          ],
+          "a": 1,
+          "e": "Trước tính từ 'popular' cần trạng từ: 'incredibly'. 'incredible' là tính từ, 'incredibility' là danh từ."
+        },
+        {
+          "q": "We need to buy some new office ___.",
+          "o": [
+            "furniture",
+            "furnitures",
+            "furnishes"
+          ],
+          "a": 0,
+          "e": "'furniture' là danh từ không đếm được nên không thêm -s. 'furnishes' là động từ chia ngôi thứ ba."
+        },
+        {
+          "q": "The ___ benefits include health insurance and paid leave.",
+          "o": [
+            "employee",
+            "employees",
+            "employed"
+          ],
+          "a": 0,
+          "e": "'employee benefits' là danh từ ghép, danh từ đứng đầu ở dạng số ít. 'employees' sai dạng, 'employed' là V3/tính từ nên không hợp."
+        },
+        {
+          "q": "Several ___ have expressed interest in the position.",
+          "o": [
+            "candidates",
+            "candidate",
+            "candidacy"
+          ],
+          "a": 0,
+          "e": "'Several' đi với danh từ đếm được số nhiều: 'candidates'. 'candidate' là số ít, 'candidacy' là danh từ trừu tượng."
+        },
+        {
+          "q": "There is too ___ traffic on Main Street in the morning.",
+          "o": [
+            "much",
+            "many",
+            "few"
+          ],
+          "a": 0,
+          "e": "'traffic' không đếm được nên đi với 'much'. 'many' và 'few' chỉ đi với danh từ đếm được số nhiều."
+        },
+        {
+          "q": "We are looking for an experienced ___ to lead the design team.",
+          "o": [
+            "engineer",
+            "engineering",
+            "engineered"
+          ],
+          "a": 0,
+          "e": "Sau 'an experienced' cần danh từ chỉ người làm chủ thể dẫn dắt đội: 'engineer'. 'engineering' chỉ ngành kỹ thuật, 'engineered' là V3."
+        },
+        {
+          "q": "The ___ regulations apply to all factory workers.",
+          "o": [
+            "safety",
+            "safely",
+            "save"
+          ],
+          "a": 0,
+          "e": "'safety regulations' là danh từ ghép (quy định an toàn). 'safely' là trạng từ, 'save' là động từ, đều không đứng trước danh từ như thế."
+        }
+      ]
+    },
+    {
+      "id": "colloc",
+      "k": "colloc",
+      "week": 5,
+      "title": "Collocation hay bẫy",
+      "intro": "Nhiều câu Part 5 không hỏi ngữ pháp mà hỏi xem từ nào 'đi cùng' từ nào. Học theo cụm sẽ giúp bạn chọn đúng nhanh, vì các cụm như make a decision hay meet a deadline lặp đi lặp lại trong đề.",
+      "steps": [
+        {
+          "title": "Động từ + danh từ thường gặp",
+          "rule": "Mỗi danh từ chỉ đi với một vài động từ nhất định, nên cần học **cả cụm**:\n• **make** a decision / an effort / an offer / progress\n• **hold** a meeting / a conference / an event\n• **meet** a deadline / requirements / expectations\n• **raise** concerns / funds / awareness / prices\n• **place** an order\n• **reach** an agreement / a decision / a conclusion\n• **conduct** a survey, **submit** a report, **file** a complaint",
+          "examples": [
+            {
+              "en": "The board will [[make a decision]] next week.",
+              "vi": "Hội đồng quản trị sẽ đưa ra quyết định vào tuần sau."
+            },
+            {
+              "en": "The team worked overtime to [[meet the deadline]].",
+              "vi": "Cả nhóm làm thêm giờ để kịp hạn chót."
+            },
+            {
+              "en": "Several customers [[raised concerns]] about the delay.",
+              "vi": "Một vài khách hàng đã nêu lo ngại về sự chậm trễ."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The two companies finally ___ an agreement after long talks.",
+              "o": [
+                "reached",
+                "took",
+                "held"
+              ],
+              "a": 0,
+              "e": "Cụm cố định là 'reach an agreement' (đạt được thỏa thuận). 'take' và 'hold' không đi với 'agreement' theo nghĩa này."
+            },
+            {
+              "q": "Customers can ___ an order by phone or online.",
+              "o": [
+                "place",
+                "raise",
+                "reach"
+              ],
+              "a": 0,
+              "e": "Cụm cố định là 'place an order' (đặt hàng). 'raise an order' và 'reach an order' không tồn tại."
+            }
+          ]
+        },
+        {
+          "title": "Phân biệt make và do",
+          "rule": "• **make** (tạo ra một kết quả cụ thể): **make** a decision, a mistake, a profit, an appointment, a reservation, a suggestion, an effort, a phone call.\n• **do** (thực hiện một công việc hoặc hoạt động): **do** business, **do** research, **do** the paperwork, **do** a favor, **do** the cleaning.\nMẹo: nếu nói đến thứ được TẠO RA thì thường là make; nếu nói đến VIỆC phải làm thì thường là do. Tốt nhất vẫn là học thuộc theo cụm.",
+          "examples": [
+            {
+              "en": "We [[did research]] before choosing a supplier.",
+              "vi": "Chúng tôi đã nghiên cứu trước khi chọn nhà cung cấp."
+            },
+            {
+              "en": "Please [[make an appointment]] with Dr. Kim in advance.",
+              "vi": "Vui lòng đặt lịch hẹn trước với bác sĩ Kim."
+            },
+            {
+              "en": "The firm [[does business]] in twelve countries.",
+              "vi": "Công ty kinh doanh tại mười hai quốc gia."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Employees must ___ the paperwork before leaving.",
+              "o": [
+                "do",
+                "make",
+                "hold"
+              ],
+              "a": 0,
+              "e": "Cụm cố định là 'do the paperwork' (làm giấy tờ). 'make' và 'hold' không đi với 'paperwork'."
+            },
+            {
+              "q": "The client wants to ___ a reservation for twelve people.",
+              "o": [
+                "make",
+                "do",
+                "reach"
+              ],
+              "a": 0,
+              "e": "Cụm cố định là 'make a reservation' (đặt chỗ). 'do a reservation' sai cụm; 'reach a reservation' không tồn tại."
+            }
+          ]
+        },
+        {
+          "title": "Tính từ + danh từ",
+          "rule": "Tính từ cũng 'kén' danh từ, không thay thế tùy ý:\n• **significant / sharp / steady** increase, **sharp** decline, **steady** growth\n• **considerable** amount / effort / experience\n• **heavy** traffic, **tight** schedule / budget, **strong** demand\n• **valuable** experience / feedback, **a wide range of**, **a large number of**\nBẫy: nói **heavy traffic** (không phải 'strong traffic'), **a considerable amount** (không phải 'numerous amount').",
+          "examples": [
+            {
+              "en": "Sales showed a [[significant increase]] in May.",
+              "vi": "Doanh số tăng đáng kể vào tháng Năm."
+            },
+            {
+              "en": "We have a [[tight schedule]] this week.",
+              "vi": "Tuần này lịch trình của chúng tôi rất sít sao."
+            },
+            {
+              "en": "The new hire has [[considerable experience]] in sales.",
+              "vi": "Nhân viên mới có kinh nghiệm đáng kể về bán hàng."
+            }
+          ],
+          "checks": [
+            {
+              "q": "Because of ___ traffic, the shipment arrived late.",
+              "o": [
+                "heavy",
+                "strong",
+                "deep"
+              ],
+              "a": 0,
+              "e": "Cụm cố định là 'heavy traffic' (giao thông đông đúc). 'strong' và 'deep' không đi với 'traffic'."
+            },
+            {
+              "q": "The new hire has a ___ amount of experience in sales.",
+              "o": [
+                "considerable",
+                "numerous",
+                "many"
+              ],
+              "a": 0,
+              "e": "'amount' đi với 'considerable' (đáng kể). 'numerous' và 'many' dùng cho danh từ đếm được số nhiều, không đi với 'amount'."
+            }
+          ]
+        },
+        {
+          "title": "Từ gần nghĩa: raise / rise, lend / borrow",
+          "rule": "• **raise** (raise – raised – raised): **ngoại động từ**, cần có tân ngữ: raise prices, raise funds, raise concerns.\n• **rise** (rise – rose – risen): **nội động từ**, KHÔNG có tân ngữ: Prices **rise**. Sales have **risen**.\n• **lend** (lend – lent – lent): cho ai mượn. **borrow**: mượn của ai (borrow ... **from**).\nMẹo: có tân ngữ đi sau thì chọn raise / lend; không có tân ngữ và vật tự tăng thì chọn rise.",
+          "examples": [
+            {
+              "en": "The company plans to [[raise]] prices in June.",
+              "vi": "Công ty dự định tăng giá vào tháng Sáu."
+            },
+            {
+              "en": "Prices are expected to [[rise]] in June.",
+              "vi": "Giá dự kiến sẽ tăng vào tháng Sáu."
+            },
+            {
+              "en": "Could you [[lend]] me your stapler?",
+              "vi": "Bạn cho tôi mượn cái dập ghim của bạn được không?"
+            }
+          ],
+          "checks": [
+            {
+              "q": "Fuel costs have ___ sharply this year.",
+              "o": [
+                "risen",
+                "raised",
+                "rised"
+              ],
+              "a": 0,
+              "e": "Sau chỗ trống không có tân ngữ nên cần nội động từ 'rise' ở dạng V3: 'risen'. 'raised' cần tân ngữ; 'rised' không phải dạng đúng."
+            },
+            {
+              "q": "Ms. Han asked if she could ___ a projector from the office.",
+              "o": [
+                "borrow",
+                "lend",
+                "give"
+              ],
+              "a": 0,
+              "e": "'from the office' cho thấy cô ấy đi mượn nên dùng 'borrow'. 'lend' là cho mượn, 'give' không có ý mượn."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The committee will ___ a final decision on Friday.",
+          "o": [
+            "make",
+            "do",
+            "hold"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'make a decision'. 'do a decision' và 'hold a decision' không đúng."
+        },
+        {
+          "q": "Our manager will ___ a meeting at 10 a.m. tomorrow.",
+          "o": [
+            "hold",
+            "do",
+            "raise"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'hold a meeting' (tổ chức cuộc họp). 'do a meeting' và 'raise a meeting' không tồn tại."
+        },
+        {
+          "q": "Several shareholders ___ concerns about the merger.",
+          "o": [
+            "raised",
+            "rose",
+            "arose"
+          ],
+          "a": 0,
+          "e": "'raise concerns' (nêu lo ngại) cần tân ngữ 'concerns' nên dùng ngoại động từ 'raised'. 'rose' và 'arose' là nội động từ, không có tân ngữ."
+        },
+        {
+          "q": "We must ___ the requirements to qualify for the grant.",
+          "o": [
+            "meet",
+            "reach",
+            "hold"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'meet the requirements' (đáp ứng yêu cầu). 'reach' và 'hold' không đi với 'requirements'."
+        },
+        {
+          "q": "The bank agreed to ___ the company a large sum of money.",
+          "o": [
+            "lend",
+            "borrow",
+            "rent"
+          ],
+          "a": 0,
+          "e": "Ngân hàng là bên cho vay nên dùng 'lend' + người + vật. 'borrow' là đi mượn; 'rent' không đi với cấu trúc này."
+        },
+        {
+          "q": "Employees should ___ an effort to arrive on time.",
+          "o": [
+            "make",
+            "do",
+            "take"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'make an effort' (nỗ lực). 'do an effort' và 'take an effort' không đúng."
+        },
+        {
+          "q": "Online sales showed a ___ rise last quarter.",
+          "o": [
+            "sharp",
+            "tall",
+            "heavy"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'sharp rise' (tăng mạnh). 'tall' chỉ chiều cao và 'heavy' chỉ trọng lượng hoặc mức độ nặng, không đi với 'rise'."
+        },
+        {
+          "q": "The factory has a ___ schedule this month, so overtime is likely.",
+          "o": [
+            "tight",
+            "narrow",
+            "weak"
+          ],
+          "a": 0,
+          "e": "Cụm cố định là 'tight schedule' (lịch trình sít sao), hợp với 'overtime is likely'. 'narrow' và 'weak' không đi với 'schedule'."
+        },
+        {
+          "q": "The sales director will ___ a presentation to the board on Monday.",
+          "o": [
+            "give",
+            "tell",
+            "speak"
+          ],
+          "a": 0,
+          "e": "Collocation: give a presentation (trình bày). 'tell' và 'speak' không đi với 'a presentation'."
+        },
+        {
+          "q": "The price of raw materials is expected to ___ next month.",
+          "o": [
+            "rise",
+            "raise",
+            "lift"
+          ],
+          "a": 0,
+          "e": "Sau chỗ trống không có tân ngữ và giá tự tăng nên dùng nội động từ 'rise'. 'raise' và 'lift' cần tân ngữ."
+        }
+      ]
+    },
+    {
+      "id": "part",
+      "k": "part",
+      "week": 5,
+      "title": "Tính từ -ing / -ed",
+      "intro": "Cặp như interesting / interested hay confusing / confused xuất hiện rất thường trong Part 5. Chỉ cần xác định danh từ là thứ GÂY RA hay NGƯỜI/VẬT BỊ TÁC ĐỘNG là chọn được đáp án đúng.",
+      "steps": [
+        {
+          "title": "V-ing và V-ed làm tính từ",
+          "rule": "• **V-ing**: mang nghĩa **chủ động**, chỉ thứ **gây ra** cảm giác hoặc hành động: an *interesting* offer (lời đề nghị làm người ta thấy thú vị).\n• **V-ed**: mang nghĩa **bị động**, chỉ người hoặc vật **bị tác động / cảm thấy**: *interested* customers (khách hàng cảm thấy thú vị).\nSau **be** hoặc trước **danh từ** đều có thể dùng. Câu hỏi nên đặt ra: danh từ này GÂY RA hay BỊ TÁC ĐỘNG?",
+          "examples": [
+            {
+              "en": "The presentation was [[interesting]].",
+              "vi": "Bài thuyết trình rất thú vị."
+            },
+            {
+              "en": "The audience was [[interested]] in the proposal.",
+              "vi": "Khán giả quan tâm đến đề xuất."
+            },
+            {
+              "en": "The [[surprising]] results changed our plan.",
+              "vi": "Kết quả bất ngờ đã thay đổi kế hoạch của chúng tôi."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The staff were ___ by the sudden announcement.",
+              "o": [
+                "surprising",
+                "surprised",
+                "surprise"
+              ],
+              "a": 1,
+              "e": "'The staff' là người cảm thấy bất ngờ (bị tác động) và có 'by' nên dùng V-ed: 'surprised'. 'surprising' chỉ vật gây ra bất ngờ; 'surprise' là danh từ/động từ nguyên mẫu."
+            },
+            {
+              "q": "The results of the survey were ___.",
+              "o": [
+                "disappointing",
+                "disappointed",
+                "disappoint"
+              ],
+              "a": 0,
+              "e": "'The results' là thứ gây ra sự thất vọng nên dùng V-ing: 'disappointing'. 'disappointed' dùng cho người cảm thấy thất vọng."
+            }
+          ]
+        },
+        {
+          "title": "Cặp tính từ chỉ cảm xúc",
+          "rule": "Hay gặp: **confusing / confused, exciting / excited, boring / bored, tiring / tired, satisfying / satisfied, annoying / annoyed**.\n• Chủ ngữ là **NGƯỜI cảm thấy** thì dùng **-ed**: Customers are *confused*.\n• Chủ ngữ là **VẬT / VIỆC gây ra** cảm giác thì dùng **-ing**: The schedule is *confusing*.\n• Lưu ý: dùng -ing với người khi nói người đó khiến người khác có cảm giác (He is boring = ông ấy khiến người khác chán).",
+          "examples": [
+            {
+              "en": "The new schedule is [[confusing]].",
+              "vi": "Lịch trình mới gây khó hiểu."
+            },
+            {
+              "en": "Many customers are [[confused]] by the new schedule.",
+              "vi": "Nhiều khách hàng thấy bối rối vì lịch trình mới."
+            },
+            {
+              "en": "We are [[excited]] about the new product line.",
+              "vi": "Chúng tôi rất hào hứng về dòng sản phẩm mới."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The sales team was ___ about the record profits.",
+              "o": [
+                "exciting",
+                "excited",
+                "excite"
+              ],
+              "a": 1,
+              "e": "'The sales team' là người cảm thấy hào hứng nên dùng V-ed: 'excited'. 'exciting' chỉ thứ gây hào hứng; 'excite' là động từ nguyên mẫu."
+            },
+            {
+              "q": "The training session was long and ___.",
+              "o": [
+                "tiring",
+                "tired",
+                "tire"
+              ],
+              "a": 0,
+              "e": "'The training session' là việc gây ra sự mệt mỏi nên dùng V-ing: 'tiring'. 'tired' dùng cho người cảm thấy mệt; 'tire' không đúng vị trí."
+            }
+          ]
+        },
+        {
+          "title": "Phân từ làm tính từ trước danh từ",
+          "rule": "Đứng trước danh từ, chọn theo quan hệ giữa phân từ và danh từ:\n• Danh từ **bị tác động** thì dùng **V-ed**: a *revised* schedule (lịch được sửa), *damaged* goods (hàng bị hỏng), a *signed* contract.\n• Danh từ **tự thực hiện / gây ra** thì dùng **V-ing**: a *growing* number of, an *interesting* offer, the *remaining* tickets, *existing* customers.\nCách thử: ghép 'danh từ + bị + động từ' được không? Nếu được thì dùng V-ed; nếu không thì dùng V-ing.",
+          "examples": [
+            {
+              "en": "Please check the [[revised]] schedule.",
+              "vi": "Vui lòng xem lịch trình đã sửa đổi."
+            },
+            {
+              "en": "We received an [[interesting]] offer from a new supplier.",
+              "vi": "Chúng tôi nhận được một lời đề nghị thú vị từ nhà cung cấp mới."
+            },
+            {
+              "en": "The [[damaged]] goods will be replaced free of charge.",
+              "vi": "Hàng bị hư hỏng sẽ được đổi miễn phí."
+            }
+          ],
+          "checks": [
+            {
+              "q": "The warehouse returned all ___ items to the supplier.",
+              "o": [
+                "damaging",
+                "damaged",
+                "damages"
+              ],
+              "a": 1,
+              "e": "Món hàng BỊ làm hỏng nên dùng V-ed: 'damaged items'. 'damaging' nghĩa là gây hại; 'damages' là danh từ (tiền bồi thường) hoặc động từ chia ngôi."
+            },
+            {
+              "q": "A ___ number of customers prefer to shop online.",
+              "o": [
+                "growing",
+                "grown",
+                "grow"
+              ],
+              "a": 0,
+              "e": "'number' tự tăng lên (chủ động) nên dùng V-ing: 'a growing number of'. 'grown' và 'grow' không dùng làm tính từ trong cụm này."
+            }
+          ]
+        },
+        {
+          "title": "Rút gọn mệnh đề quan hệ bằng V-ing / V-ed",
+          "rule": "Phân từ có thể đứng **sau danh từ** để rút gọn mệnh đề quan hệ (bỏ who / which + be):\n• **danh từ + V-ing** (chủ động): the employees **attending** the seminar = the employees who attend the seminar.\n• **danh từ + V-ed** (bị động): the report **submitted** yesterday = the report which was submitted yesterday.\nDấu hiệu: có **by + người** hoặc mốc thời gian quá khứ thì thường là V-ed; có tân ngữ theo sau thì thường là V-ing.",
+          "examples": [
+            {
+              "en": "The employees [[attending]] the workshop will receive a certificate.",
+              "vi": "Những nhân viên tham dự hội thảo sẽ nhận được chứng chỉ."
+            },
+            {
+              "en": "The report [[submitted]] last week contains several errors.",
+              "vi": "Báo cáo được nộp tuần trước có một vài lỗi."
+            },
+            {
+              "en": "Customers [[wishing]] to return items should keep their receipts.",
+              "vi": "Khách hàng muốn trả hàng nên giữ lại biên lai."
+            }
+          ],
+          "checks": [
+            {
+              "q": "All applicants ___ for the position must send a resume.",
+              "o": [
+                "applying",
+                "applied",
+                "apply"
+              ],
+              "a": 0,
+              "e": "Ứng viên chủ động nộp đơn (= who apply) nên dùng V-ing: 'applying'. 'applied' mang nghĩa bị động nên sai; 'apply' không thể đứng sau danh từ để rút gọn."
+            },
+            {
+              "q": "The documents ___ by the manager are on your desk.",
+              "o": [
+                "signing",
+                "signed",
+                "sign"
+              ],
+              "a": 1,
+              "e": "Tài liệu bị ký, có 'by the manager' nên dùng V-ed: 'signed' (= which were signed). 'signing' mang nghĩa chủ động nên sai; 'sign' không đúng vị trí."
+            }
+          ]
+        }
+      ],
+      "easy": [
+        {
+          "q": "The ___ news about the merger worried many employees.",
+          "o": [
+            "worrying",
+            "worried",
+            "worry"
+          ],
+          "a": 0,
+          "e": "'news' là thứ gây ra sự lo lắng nên dùng V-ing: 'worrying news'. 'worried' dùng cho người; 'worry' không đứng trước danh từ theo nghĩa này."
+        },
+        {
+          "q": "Customers were ___ with the quick service.",
+          "o": [
+            "satisfying",
+            "satisfied",
+            "satisfy"
+          ],
+          "a": 1,
+          "e": "'Customers' là người cảm thấy hài lòng nên dùng V-ed: 'satisfied'. 'satisfying' chỉ thứ làm hài lòng; 'satisfy' là động từ nguyên mẫu."
+        },
+        {
+          "q": "Please send the ___ contract back by Monday.",
+          "o": [
+            "signed",
+            "signing",
+            "sign"
+          ],
+          "a": 0,
+          "e": "Hợp đồng BỊ ký nên dùng V-ed: 'signed contract'. 'signing' mang nghĩa chủ động và 'sign' không đứng trước danh từ theo nghĩa này."
+        },
+        {
+          "q": "The ___ employees will receive extra training.",
+          "o": [
+            "remaining",
+            "remained",
+            "remain"
+          ],
+          "a": 0,
+          "e": "'remaining employees' (những nhân viên còn lại): 'remain' là nội động từ nên dùng V-ing làm tính từ. 'remained' và 'remain' không đúng."
+        },
+        {
+          "q": "Staff members ___ in the event should sign up by Friday.",
+          "o": [
+            "participating",
+            "participated",
+            "participate"
+          ],
+          "a": 0,
+          "e": "Rút gọn mệnh đề quan hệ chủ động (= who participate): 'participating'. 'participated' mang nghĩa bị động; 'participate' không đứng được sau danh từ."
+        },
+        {
+          "q": "I was ___ by the complicated tax form.",
+          "o": [
+            "confusing",
+            "confused",
+            "confuse"
+          ],
+          "a": 1,
+          "e": "'I' là người cảm thấy bối rối (bị tác động), có 'by' nên dùng V-ed: 'confused'. 'confusing' chỉ thứ gây bối rối; 'confuse' là nguyên mẫu."
+        },
+        {
+          "q": "The invoice ___ yesterday has not been paid.",
+          "o": [
+            "sent",
+            "sending",
+            "send"
+          ],
+          "a": 0,
+          "e": "Hóa đơn BỊ gửi đi nên rút gọn bị động bằng V-ed: 'sent' (= which was sent yesterday). 'sending' chủ động nên sai; 'send' sai dạng."
+        },
+        {
+          "q": "The ___ sales figures made the whole team optimistic.",
+          "o": [
+            "encouraging",
+            "encouraged",
+            "encourage"
+          ],
+          "a": 0,
+          "e": "Trước danh từ 'sales figures' cần tính từ mang nghĩa \"gây ra cảm giác\" (chủ động): encouraging (đáng khích lệ). 'encouraged' chỉ người cảm thấy được khích lệ, 'encourage' là động từ."
+        },
+        {
+          "q": "It was a very ___ meeting, so many people fell asleep.",
+          "o": [
+            "bored",
+            "boring",
+            "bore"
+          ],
+          "a": 1,
+          "e": "'meeting' là thứ gây ra sự chán nên dùng V-ing: 'boring'. 'bored' dùng cho người cảm thấy chán; 'bore' không đứng trước danh từ theo nghĩa này."
+        },
+        {
+          "q": "Our ___ clients receive a special discount.",
+          "o": [
+            "existing",
+            "existed",
+            "exist"
+          ],
+          "a": 0,
+          "e": "'existing clients' (khách hàng hiện tại): 'exist' là nội động từ nên dùng V-ing làm tính từ. 'existed' và 'exist' không dùng được ở đây."
+        }
+      ]
+    }
+  ]
+}
